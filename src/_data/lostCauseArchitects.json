@@ -1,0 +1,179 @@
+[
+  {
+    "name": "Edward A. Pollard",
+    "role": "Editor, Richmond Examiner; Author",
+    "years": "1831-1872",
+    "description": "The man who literally named the mythology. Pollard was a Confederate newspaper editor who published 'The Lost Cause: A New Southern History of the War of the Confederates' in 1866, just one year after the war ended. He invented the framework that would dominate Southern memory for 150 years.",
+    "contribution": "Created the 'Lost Cause' term and narrative framework",
+    "keyWorks": [
+      {
+        "title": "The Lost Cause: A New Southern History of the War of the Confederates",
+        "year": 1866,
+        "impact": "Established the template: the war was about states' rights, not slavery; the South was noble and outnumbered; defeat was inevitable but honorable"
+      },
+      {
+        "title": "The Lost Cause Regained",
+        "year": 1868,
+        "impact": "Argued the South could still 'win' through politics and controlling the narrative"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "The Confederates have gone out of this war... with the proud, secret, dangerous consciousness that they are THE BETTER MEN, and that there was nothing wanting but a change of circumstances to make them the victors.",
+        "source": "The Lost Cause (1866)",
+        "significance": "Shows the mythology was designed from the start to preserve Southern identity and prepare for a 'rematch'"
+      }
+    ],
+    "legacy": "Pollard died in 1872, but his narrative outlived him by generations. Every 'states' rights' argument, every 'War of Northern Aggression' claim, every 'heritage not hate' bumper sticker traces back to his 1866 book."
+  },
+  {
+    "name": "Jubal Early",
+    "role": "Confederate General; First President, Southern Historical Society",
+    "years": "1816-1894",
+    "description": "A Confederate general who never surrendered mentally. Early fled to Mexico rather than face capture, then returned to lead the Southern Historical Society, the organization that manufactured Confederate mythology as 'history.' He spent 30 years ensuring the South's version of events became the accepted narrative.",
+    "contribution": "Institutionalized Lost Cause mythology through the Southern Historical Society",
+    "keyWorks": [
+      {
+        "title": "Southern Historical Society Papers",
+        "year": "1876-1959",
+        "impact": "52 volumes of Confederate apologetics presented as 'scholarship,' still cited by Lost Cause believers today"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "Our Southern people have generally been willing to accord to the North the preëminence in letters and science... But in the art of war... we think we may safely claim the superiority.",
+        "source": "Southern Historical Society Papers, Vol. 1",
+        "significance": "Shows Lost Cause was about preserving Southern superiority narrative"
+      }
+    ],
+    "tactics": [
+      "Collected and published Confederate officers' memoirs as 'primary sources'",
+      "Attacked any historian who attributed the war to slavery",
+      "Built the Robert E. Lee cult of personality",
+      "Blamed defeat on Longstreet (a convenient scapegoat who later became Republican)"
+    ],
+    "legacy": "Early built the infrastructure. The Southern Historical Society gave Lost Cause mythology the veneer of academic respectability. Its papers are still cited by Confederate apologists who don't mention they were propaganda, not scholarship."
+  },
+  {
+    "name": "Mildred Lewis Rutherford",
+    "role": "Historian General, United Daughters of the Confederacy",
+    "years": "1851-1928",
+    "description": "The woman who put Lost Cause mythology into schoolchildren's heads. As Historian General of the United Daughters of the Confederacy (1911-1916), Rutherford led the campaign to control Southern textbooks. She published guidelines for 'acceptable' history and led boycotts against books that told the truth about slavery and the war.",
+    "contribution": "Weaponized education to spread Lost Cause mythology to generations of children",
+    "keyWorks": [
+      {
+        "title": "A Measuring Rod to Test Text Books and Reference Books in Schools, Colleges and Libraries",
+        "year": 1919,
+        "impact": "A checklist for censoring any textbook that portrayed slavery negatively or attributed secession to slavery"
+      },
+      {
+        "title": "Truths of History",
+        "year": 1920,
+        "impact": "A compendium of Lost Cause talking points presented as 'facts' for teachers to use"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "Reject a book that speaks of the Constitution as a compact between the States... Reject a text-book that... does not clearly outline the policy of the North in Reconstruction legislation and administration.",
+        "source": "A Measuring Rod (1919)",
+        "significance": "Explicit instructions to censor books that told the truth"
+      },
+      {
+        "text": "Reject a book that says the South fought to hold her slaves.",
+        "source": "A Measuring Rod (1919)",
+        "significance": "Direct command to suppress the documented cause of secession"
+      }
+    ],
+    "tactics": [
+      "Published 'approved' textbook lists distributed to schools across the South",
+      "Organized boycotts of publishers who printed accurate history",
+      "Pressured state legislatures to mandate Confederate-friendly curricula",
+      "Trained teachers in how to present Lost Cause as fact"
+    ],
+    "legacy": "Rutherford won. For generations, Southern children learned that the war was about states' rights, slavery was benevolent, and Reconstruction was 'tyranny.' The textbooks have changed, but the beliefs she planted are still being harvested."
+  },
+  {
+    "name": "United Daughters of the Confederacy",
+    "role": "Organization (founded 1894)",
+    "years": "1894-present",
+    "description": "The organization that built the physical and intellectual infrastructure of Lost Cause mythology. The UDC placed over 700 Confederate monuments, controlled Southern textbooks for decades, and created the rituals of Confederate memory. They didn't hide their purpose; they stated it openly.",
+    "contribution": "Monuments, textbooks, and cultural institutions spreading Lost Cause mythology",
+    "scale": {
+      "monumentsPlaced": "Over 700 Confederate monuments, primarily 1890s-1920s and 1950s-1960s",
+      "textbooksInfluenced": "Controlled Southern textbook selection for decades",
+      "chaptersNationwide": "Over 800 chapters at peak membership",
+      "childrenIndoctrinated": "Founded 'Children of the Confederacy' to train the next generation"
+    },
+    "quotes": [
+      {
+        "text": "To instill into the descendants of the people of the South a proper respect for and pride in the glorious war history.",
+        "source": "UDC founding charter, 1894",
+        "significance": "The explicit mission: make people proud of the Confederacy"
+      }
+    ],
+    "tactics": [
+      "Monument placement at courthouses, schools, and public squares, locations chosen for maximum visibility",
+      "Timing of monuments: during Jim Crow (1890s-1920s) and Civil Rights era (1950s-1960s), not memorials, but intimidation",
+      "Textbook campaigns using Rutherford's 'Measuring Rod'",
+      "Scholarships for students who wrote essays praising the Confederacy",
+      "'Confederate catechisms' teaching children Lost Cause as fact"
+    ],
+    "legacy": "The UDC built the monuments we're still fighting about. They wrote the textbooks that taught generations of Americans lies. They're still active today, defending their 'heritage.' The infrastructure they built is the reason Lost Cause mythology persists."
+  },
+  {
+    "name": "William Archibald Dunning",
+    "role": "Professor of History, Columbia University",
+    "years": "1857-1922",
+    "description": "The academic who made Lost Cause mythology respectable in the North. Dunning trained a generation of historians, the 'Dunning School,' who portrayed Reconstruction as a tragic era of 'negro rule' and corruption. His students wrote the textbooks used nationwide, spreading Southern mythology into Northern classrooms.",
+    "contribution": "Academic legitimization of Lost Cause; trained historians who dominated the field for 50 years",
+    "keyWorks": [
+      {
+        "title": "Reconstruction, Political and Economic, 1865-1877",
+        "year": 1907,
+        "impact": "Standard textbook for decades; portrayed Reconstruction as a disaster caused by giving Black people rights"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "The negro had no pride of race and no aspirations or ideals save to be like the whites.",
+        "source": "Reconstruction, Political and Economic (1907)",
+        "significance": "Dunning's racism was explicit, and it shaped 'mainstream' history for generations"
+      }
+    ],
+    "dunningSchool": [
+      "James Ford Rhodes - multivolume history portraying slavery as benevolent",
+      "Walter Lynwood Fleming - portrayed Klan as heroes protecting civilization",
+      "Claude Bowers - 'The Tragic Era' (1929) was a bestseller spreading Lost Cause nationally",
+      "E. Merton Coulter - wrote textbooks used into the 1970s"
+    ],
+    "legacy": "Dunning proved you don't need to be Southern to spread Southern mythology. His school dominated American history for half a century. 'Birth of a Nation' drew from their 'scholarship.' The 'Reconstruction was bad' narrative that persists today came from Columbia University, not just the UDC."
+  },
+  {
+    "name": "D.W. Griffith",
+    "role": "Film Director",
+    "years": "1875-1948",
+    "description": "The filmmaker who brought Lost Cause mythology to mass audiences. 'The Birth of a Nation' (1915) portrayed the Klan as heroes, Black people as threats, and Reconstruction as a nightmare. It was the highest-grossing film of its era, screened at the White House, and directly led to the Klan's 20th-century revival.",
+    "contribution": "Mass media dissemination of Lost Cause mythology",
+    "keyWorks": [
+      {
+        "title": "The Birth of a Nation",
+        "year": 1915,
+        "impact": "Portrayed Klan as saviors of white civilization; directly sparked Klan revival; seen by millions"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "The white men were roused by a mere instinct of self-preservation... until at last there had sprung into existence a great Ku Klux Klan, a veritable empire of the South, to protect the Southern country.",
+        "source": "Title card from 'The Birth of a Nation'",
+        "significance": "The Klan presented as heroes, and millions of Americans believed it"
+      }
+    ],
+    "impact": [
+      "President Woodrow Wilson screened it at the White House",
+      "Directly inspired the 1915 revival of the Ku Klux Klan",
+      "Highest-grossing film until 'Gone with the Wind'",
+      "Normalized Lost Cause mythology for Northern audiences"
+    ],
+    "legacy": "Griffith proved that Lost Cause mythology could be mass-produced. Every Confederate-sympathetic movie, TV show, and novel since owes something to 'Birth of a Nation.' The film was propaganda, and it worked."
+  }
+]

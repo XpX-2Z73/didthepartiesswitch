@@ -1,0 +1,175 @@
+{
+  "questions": [
+    {
+      "question": "What event started the shooting war in 1861?",
+      "options": ["A. Boston Tea Party", "B. Attack on Fort Sumter", "C. Battle of Gettysburg", "D. Missouri Compromise"],
+      "answer": "B",
+      "explanation": "Confederate forces opened fire on the federal garrison at Fort Sumter in Charleston Harbor at 4:30 AM on April 12, 1861. After 34 hours of bombardment, Major Robert Anderson surrendered. No one was killed in the battle itself, but it ignited the bloodiest war in American history.",
+      "quote": "The Confederacy fired on the US garrison of Fort Sumter on April 12, 1861 opening the Civil War, which redefined American freedom.",
+      "source": "National Park Service, Fort Sumter",
+      "sourceUrl": "https://www.nps.gov/fosu/index.htm",
+      "archiveUrl": "https://web.archive.org/web/20231202001631/https://www.nps.gov/fosu/index.htm"
+    },
+    {
+      "question": "Why did most seceding states say they left the Union?",
+      "options": ["A. Tariff disputes", "B. Slavery", "C. Postal rates", "D. Gold vs silver money"],
+      "answer": "B",
+      "explanation": "Every seceding state issued a declaration explaining why they left. These documents mention slavery dozens of times and tariffs rarely or never. Mississippi's declaration begins: 'Our position is thoroughly identified with the institution of slavery.' They weren't hiding it.",
+      "quote": "Our position is thoroughly identified with the institution of slavery—the greatest material interest of the world.",
+      "source": "Mississippi Declaration of Secession, January 1861",
+      "sourceUrl": "https://avalon.law.yale.edu/19th_century/csa_missec.asp",
+      "archiveUrl": "https://web.archive.org/web/20240603041132/https://avalon.law.yale.edu/19th_century/csa_missec.asp"
+    },
+    {
+      "question": "Who fired first?",
+      "options": ["A. Union at Charleston", "B. Confederacy at Fort Sumter", "C. Britain", "D. Mexico"],
+      "answer": "B",
+      "explanation": "Confederate batteries under General P.G.T. Beauregard fired the first shots at 4:30 AM on April 12, 1861. The Union garrison under Major Anderson had not fired a shot. Edmund Ruffin, a pro-slavery advocate, claimed to have fired one of the first shots and later killed himself after the Confederacy lost.",
+      "quote": "Confederate forces fired the first shots of the Civil War upon Federal troops at Fort Sumter at 4:30 a.m. on April 12, 1861.",
+      "source": "National Park Service, Fort Sumter History",
+      "sourceUrl": "https://www.nps.gov/fosu/learn/historyculture/index.htm",
+      "archiveUrl": "https://web.archive.org/web/20240526234432/https://www.nps.gov/fosu/learn/historyculture/index.htm"
+    },
+    {
+      "question": "How does Mississippi's secession declaration compare on slavery vs. tariffs?",
+      "options": ["A. Mostly tariffs", "B. Slavery throughout, tariffs never", "C. Equal mentions", "D. Neither mentioned"],
+      "answer": "B",
+      "explanation": "Mississippi's Declaration of Secession centers entirely on slavery and mentions tariffs zero times. The very second sentence identifies their position as 'thoroughly identified with the institution of slavery.' Georgia's declaration mentions slavery-related terms over 80 times. These aren't interpretations; they're documented word counts.",
+      "quote": "It has grown until it denies the right of property in slaves, and refuses protection to that right on the high seas, in the Territories, and wherever the government of the United States had jurisdiction.",
+      "source": "Mississippi Declaration of Secession",
+      "sourceUrl": "https://avalon.law.yale.edu/19th_century/csa_missec.asp",
+      "archiveUrl": "https://web.archive.org/web/20240603041132/https://avalon.law.yale.edu/19th_century/csa_missec.asp"
+    },
+    {
+      "question": "Who became president after Lincoln was assassinated?",
+      "options": ["A. Ulysses Grant", "B. Andrew Johnson", "C. Jefferson Davis", "D. Frederick Douglass"],
+      "answer": "B",
+      "explanation": "Andrew Johnson, Lincoln's Vice President, became the 17th President after Lincoln's assassination on April 15, 1865. Johnson, a Tennessee Democrat who had remained loyal to the Union, proved disastrous for Reconstruction. He pardoned Confederate leaders, opposed civil rights for freed slaves, and was impeached (though not removed) by Congress.",
+      "quote": "This is a country for white men, and by God, as long as I am President, it shall be a government for white men.",
+      "source": "Andrew Johnson, 1866",
+      "sourceUrl": "https://www.whitehouse.gov/about-the-white-house/presidents/andrew-johnson/",
+      "archiveUrl": "https://web.archive.org/web/20240602085704/https://www.whitehouse.gov/about-the-white-house/presidents/andrew-johnson/"
+    },
+    {
+      "question": "Why did the 'Lost Cause' mythology survive?",
+      "options": ["A. It was historically accurate", "B. Andrew Johnson pardoned Confederate leaders who then rewrote history", "C. Lincoln endorsed it", "D. It was taught only in the North"],
+      "answer": "B",
+      "explanation": "Andrew Johnson pardoned over 13,000 Confederate officials instead of prosecuting them for treason. These men returned to power, founded organizations like the United Daughters of the Confederacy, placed monuments, and controlled textbooks for generations. The 'Lost Cause' (the lie that the war was about states' rights, not slavery) was invented by the very men who should have faced justice. Johnson's leniency let the losers write the history.",
+      "quote": "This is a country for white men, and by God, as long as I am President, it shall be a government for white men.",
+      "source": "Andrew Johnson, 1866",
+      "sourceUrl": "https://www.whitehouse.gov/about-the-white-house/presidents/andrew-johnson/",
+      "archiveUrl": "https://web.archive.org/web/20240602085704/https://www.whitehouse.gov/about-the-white-house/presidents/andrew-johnson/"
+    },
+    {
+      "question": "What happened in Wilmington, North Carolina in 1898?",
+      "options": ["A. First civil rights march", "B. Armed coup overthrew elected biracial government", "C. Lincoln gave a speech", "D. Fort Sumter was rebuilt"],
+      "answer": "B",
+      "explanation": "The Wilmington Insurrection of 1898 was the only successful coup d'etat in American history. A white supremacist mob overthrew the legitimately elected biracial city government, murdered an estimated 60-300 Black residents, and drove thousands more from the city. It marked the violent end of Black political power in North Carolina for generations.",
+      "quote": "We will not live under these intolerable conditions. We will never surrender to a ragged raffle of negroes.",
+      "source": "Wilmington Declaration of White Independence, 1898",
+      "sourceUrl": "https://www.nps.gov/articles/wilmingtoncoup.htm",
+      "archiveUrl": "https://web.archive.org/web/20240601000000/https://www.nps.gov/articles/wilmingtoncoup.htm"
+    },
+    {
+      "question": "Why did Strom Thurmond switch from Democrat to Republican in 1964?",
+      "options": ["A. Tax policy", "B. Opposition to Civil Rights Act", "C. Foreign policy", "D. He didn't switch parties"],
+      "answer": "B",
+      "explanation": "Strom Thurmond switched parties on September 16, 1964, specifically because the Democratic Party had passed the Civil Rights Act. Thurmond had run for president in 1948 as a segregationist Dixiecrat. His switch to the GOP signaled that the party of Lincoln was now the home for those opposing civil rights.",
+      "quote": "The Democratic Party has abandoned the people... It has repudiated the Constitution of the United States. It is leading the evolution of our nation to a socialistic dictatorship.",
+      "source": "Strom Thurmond, announcing party switch, September 16, 1964",
+      "sourceUrl": "https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Thurmond.htm",
+      "archiveUrl": "https://web.archive.org/web/20240622133927/https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Thurmond.htm"
+    },
+    {
+      "question": "What was the 'Southern Strategy'?",
+      "options": ["A. Confederate war plan", "B. GOP strategy using coded racial appeals to win white Southern voters", "C. Democratic plan to win the South", "D. Reconstruction policy"],
+      "answer": "B",
+      "explanation": "The Southern Strategy was a Republican electoral strategy to win white Southern voters by appealing to racism against African Americans. Nixon adviser Kevin Phillips outlined it in 1970. Lee Atwater later explained how it evolved from explicit racism to coded language. In 2005, RNC Chairman Ken Mehlman formally apologized for it.",
+      "quote": "You start out in 1954 by saying, 'N----r, n----r, n----r.' By 1968 you can't say 'n----r'—that hurts you, backfires. So you say stuff like, uh, forced busing, states' rights, and all that stuff.",
+      "source": "Lee Atwater, Republican strategist, 1981 interview",
+      "sourceUrl": "https://www.thenation.com/article/archive/exclusive-lee-atwaters-infamous-1981-interview-southern-strategy/",
+      "archiveUrl": "https://web.archive.org/web/20240602213342/https://www.thenation.com/article/archive/exclusive-lee-atwaters-infamous-1981-interview-southern-strategy/",
+      "contentWarning": true,
+      "warningText": "Quote contains a racial slur (censored)"
+    },
+    {
+      "question": "What happened to Southern white voters between 1860 and today?",
+      "options": ["A. They always voted Republican", "B. They switched from Democratic to Republican", "C. They always voted Democratic", "D. They stopped voting"],
+      "answer": "B",
+      "explanation": "In 1860, the white South voted Democratic and remained solidly Democratic for nearly 100 years. The shift began in 1948 with the Dixiecrat revolt, accelerated after the Civil Rights Act of 1964, and was complete by the 1980s. Today, the former Confederate states are the most reliably Republican region in the country.",
+      "quote": "From now on, the Republicans are never going to get more than 10 to 20 percent of the Negro vote and they don't need any more than that... The more Negroes who register as Democrats in the South, the sooner the Negrophobe whites will quit the Democrats and become Republicans.",
+      "source": "Kevin Phillips, Nixon strategist, New York Times, May 17, 1970",
+      "sourceUrl": "https://www.nytimes.com/1970/05/17/archives/nixons-southern-strategy-its-all-in-the-charts.html",
+      "archiveUrl": "https://web.archive.org/web/20230922143827/https://www.nytimes.com/1970/05/17/archives/nixons-southern-strategy-its-all-in-the-charts.html"
+    },
+    {
+      "question": "How long did this shift take?",
+      "options": ["A. It happened overnight in 1964", "B. Decades, from 1948 through the 1980s", "C. It never happened", "D. One week in 1972"],
+      "answer": "B",
+      "explanation": "The party realignment was gradual. It began with Thurmond's 1948 Dixiecrat campaign, gained momentum when Goldwater opposed the Civil Rights Act in 1964, was exploited by Nixon's Southern Strategy in 1968, and was solidified by Reagan in 1980. By the 1990s, the transformation was complete. It wasn't a single event; it was a generation of political change.",
+      "quote": "Some Republicans gave up on winning the African American vote, looking the other way or trying to benefit politically from racial polarization. I am here today as the Republican chairman to tell you we were wrong.",
+      "source": "Ken Mehlman, RNC Chairman, NAACP Speech, 2005",
+      "sourceUrl": "https://www.washingtonpost.com/archive/politics/2005/07/14/rnc-chief-to-say-it-was-wrong-to-exploit-racial-conflict-for-votes/"
+    },
+    {
+      "question": "What did the Supreme Court's Shelby County decision (2013) do?",
+      "options": ["A. Strengthened voting rights", "B. Gutted Voting Rights Act preclearance", "C. Banned voter ID laws", "D. Required automatic registration"],
+      "answer": "B",
+      "explanation": "In Shelby County v. Holder (2013), the Supreme Court struck down the formula used to determine which states needed federal approval before changing voting laws. Within hours of the decision, Texas announced a strict voter ID law. Within months, states across the former Confederacy enacted new voting restrictions. The decision effectively ended federal oversight of voting in states with histories of discrimination.",
+      "quote": "Our country has changed, and while any racial discrimination in voting is too much, Congress must ensure that the legislation it passes to remedy that problem speaks to current conditions.",
+      "source": "Chief Justice John Roberts, Shelby County v. Holder majority opinion, 2013",
+      "sourceUrl": "https://www.supremecourt.gov/opinions/12pdf/12-96_6k47.pdf",
+      "archiveUrl": "https://web.archive.org/web/20240603123438/https://www.supremecourt.gov/opinions/12pdf/12-96_6k47.pdf"
+    },
+    {
+      "question": "What happened at the Colfax Massacre in 1873?",
+      "options": ["A. Lincoln was assassinated", "B. Black militia members were executed after surrendering", "C. The Emancipation Proclamation was signed", "D. Confederate forces won a major battle"],
+      "answer": "B",
+      "explanation": "On Easter Sunday 1873, white paramilitaries attacked Black militia defending the Grant Parish courthouse in Louisiana. After the Black defenders surrendered, 60-150 men were pulled from the group and executed. The Supreme Court case that followed, U.S. v. Cruikshank (1876), ruled the 14th Amendment didn't apply to private violence, effectively making it legal for the Klan to murder Black citizens.",
+      "quote": "The half of them was killed after the surrender... They were shot down like dogs.",
+      "source": "Survivor testimony to Congress",
+      "sourceUrl": "https://www.nps.gov/cari/learn/historyculture/the-colfax-riot.htm",
+      "archiveUrl": "https://web.archive.org/web/20240601000000/https://www.nps.gov/cari/learn/historyculture/the-colfax-riot.htm"
+    },
+    {
+      "question": "What did Thaddeus Stevens demand for Confederate leaders?",
+      "options": ["A. Immediate pardons", "B. Treason trials and land confiscation", "C. Cabinet positions", "D. Voting rights"],
+      "answer": "B",
+      "explanation": "Thaddeus Stevens, the Radical Republican leader, demanded that Confederate leaders be tried for treason and their land confiscated and redistributed to freed people ('40 acres and a mule'). He was ignored. Andrew Johnson instead pardoned over 13,000 Confederate officials, who returned to power and spent the next century building Jim Crow.",
+      "quote": "Strip a proud nobility of their bloated estates, reduce them to a level with plain republicans, send them forth to labor and teach their children to enter the workshops or handle the plow, and you will thus humble the proud traitors.",
+      "source": "Thaddeus Stevens, Speech on Reconstruction, 1865",
+      "sourceUrl": "https://teachingamericanhistory.org/document/reconstruction-speech/",
+      "archiveUrl": "https://web.archive.org/web/20240101000000/https://teachingamericanhistory.org/document/reconstruction-speech/"
+    },
+    {
+      "question": "Who named the 'Lost Cause' mythology?",
+      "options": ["A. Abraham Lincoln", "B. Edward Pollard in 1866", "C. Martin Luther King Jr.", "D. Robert E. Lee"],
+      "answer": "B",
+      "explanation": "Edward Pollard, a Confederate newspaper editor, published 'The Lost Cause: A New Southern History of the War of the Confederates' in 1866, just one year after the war ended. He literally invented the name and the framework. The myth that the war was about 'states' rights' was manufactured propaganda, and we know exactly who started it.",
+      "quote": "The Confederates have gone out of this war... with the proud, secret, dangerous consciousness that they are THE BETTER MEN.",
+      "source": "Edward Pollard, The Lost Cause (1866)",
+      "sourceUrl": "https://archive.org/details/lostcausenewsout00poll",
+      "archiveUrl": "https://web.archive.org/web/20240101000000/https://archive.org/details/lostcausenewsout00poll"
+    },
+    {
+      "question": "What happened to General Sherman's '40 acres and a mule' land grants?",
+      "options": ["A. They became permanent law", "B. Andrew Johnson reversed them and returned land to slaveholders", "C. They were expanded nationwide", "D. They were never actually issued"],
+      "answer": "B",
+      "explanation": "In January 1865, General Sherman's Special Field Order No. 15 granted 400,000 acres of confiscated Confederate land to freed people along the Atlantic coast. Freed families began farming this land immediately. But Andrew Johnson reversed the order after Lincoln's assassination, evicted the freed people, and returned the land to the former slaveholders. The racial wealth gap that began with this betrayal persists today.",
+      "quote": "Each family shall have a plot of not more than forty acres of tillable ground.",
+      "source": "Sherman's Special Field Order No. 15, January 1865",
+      "sourceUrl": "https://www.archives.gov/exhibits/featured-documents/13th-amendment",
+      "archiveUrl": "https://web.archive.org/web/20240601000000/https://www.archives.gov/exhibits/featured-documents/13th-amendment"
+    },
+    {
+      "question": "What pattern connects 1861 to 2024?",
+      "options": ["A. Nothing - the regions are completely different", "B. The same 11 states that seceded are the same 11 with the most voting restrictions today", "C. The North became more conservative", "D. All 50 states followed the same path"],
+      "answer": "B",
+      "explanation": "The 11 states that seceded in 1861 are the same 11 states that opposed civil rights in 1964, the same 11 states that flipped Republican via the Southern Strategy, and the same 11 states that enacted the most voting restrictions after Shelby County (2013). This isn't coincidence; it's inheritance. The ideology changed parties, but the geography stayed the same.",
+      "quote": "When Reconstruction failed, it failed specifically in these states, and the failure was never corrected.",
+      "source": "Geographic voting pattern analysis",
+      "sourceUrl": "https://www.brennancenter.org/our-work/research-reports/voting-laws-roundup-2023",
+      "archiveUrl": "https://web.archive.org/web/20240601000000/https://www.brennancenter.org/our-work/research-reports/voting-laws-roundup-2023"
+    }
+  ]
+}

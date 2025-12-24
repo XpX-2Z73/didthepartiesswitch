@@ -1,0 +1,341 @@
+---
+layout: layouts/base.njk
+title: The Evidence
+description: Election data, primary sources, and documented party switches. Exposed to scrutiny.
+permalink: /party-realignment/
+---
+
+<section class="hero hero--short" id="chapter-intro">
+  <div class="hero__content">
+    <span class="eyebrow">Primary Sources & Data</span>
+    <h1 class="headline-hero hero__title">The Evidence</h1>
+    <p class="subheadline hero__subtitle">
+      Election results. Platform quotes. Documented switches. All sourced.
+    </p>
+  </div>
+</section>
+
+{# Coalition Data #}
+<section class="chapter" id="chapter-coalition">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <h2 class="headline-section">Republican Vote Share in Former Confederate States</h2>
+      <p class="text-muted">Percentage of the 11 seceding states carried by the Republican presidential nominee.</p>
+    </div>
+    <div class="chapter__content chapter__content--wide reveal">
+      {% include "components/coalition-chart.njk" %}
+      <p class="caption" style="text-align: center; margin-top: 1rem;">
+        Source: National Archives, Dave Leip's U.S. Election Atlas
+      </p>
+    </div>
+  </div>
+</section>
+
+{# Understanding the Shift - Nuanced Analysis #}
+<section class="chapter" id="chapter-factors">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Full Picture</span>
+      <h2 class="headline-section">{{ realignmentFactors.headline }}</h2>
+      <p class="subheadline">{{ realignmentFactors.introduction }}</p>
+    </div>
+    <div class="chapter__content chapter__content--wide reveal">
+      <div class="factors-grid">
+        {% for factor in realignmentFactors.factors %}
+        <article class="factor-card{% if factor.isPrimary %} factor-card--primary{% endif %}">
+          <header class="factor-card__header">
+            <h3 class="factor-card__name">{{ factor.name }}</h3>
+            <span class="factor-card__role{% if factor.isPrimary %} factor-card__role--primary{% endif %}">{{ factor.role }}</span>
+          </header>
+          <p class="factor-card__description">{{ factor.description }}</p>
+          <p class="factor-card__evidence"><strong>The evidence:</strong> {{ factor.evidence }}</p>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="chapter__content chapter__content--center reveal">
+      <div class="why-primary">
+        <h3 class="headline-section" style="font-size: 1.5rem;">{{ realignmentFactors.whyRaceWasPrimary.headline }}</h3>
+        <div class="why-primary__points">
+          {% for item in realignmentFactors.whyRaceWasPrimary.points %}
+          <div class="why-primary__point">
+            <strong>{{ item.point }}:</strong> {{ item.detail }}
+          </div>
+          {% endfor %}
+        </div>
+        <p class="why-primary__conclusion">{{ realignmentFactors.conclusion }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# Primary Source Quotes #}
+<section class="chapter chapter--muted" id="chapter-sources">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <h2 class="headline-section">Primary Sources</h2>
+      <p class="text-muted">In their own words. Click to read the full documents.</p>
+    </div>
+    <div class="chapter__content">
+      <div class="source-list">
+        {% for source in primarySources %}
+        <article class="source-item">
+          <div class="source-meta">
+            <span class="source-date">{{ source.date }}</span>
+            <span class="source-title">{{ source.title }}</span>
+          </div>
+          <blockquote>
+            "{{ source.quote }}"
+          </blockquote>
+          <footer>
+            <span>- {{ source.attribution }}</span>
+            {% if source.link %}
+              <a href="{{ source.link }}" target="_blank" rel="noopener noreferrer">{{ source.linkText }} →</a>
+            {% endif %}
+          </footer>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# In Their Own Words - Direct Admissions #}
+<section class="chapter chapter--dark" id="chapter-admissions">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Direct Admissions</span>
+      <h2 class="headline-section">In Their Own Words</h2>
+      <p class="subheadline">
+        The architects of the Southern Strategy explaining what they were doing and why.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--wide reveal">
+      {% include "components/in-their-own-words.njk" %}
+    </div>
+  </div>
+</section>
+
+{# Republican Civil Rights Legacy #}
+<section class="chapter chapter--muted" id="chapter-gop-legacy">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Historical Context</span>
+      <h2 class="headline-section">{{ republicanModerates.headline }}</h2>
+      <p class="subheadline">{{ republicanModerates.introduction }}</p>
+    </div>
+    <div class="chapter__content chapter__content--wide reveal">
+      <div class="vote-comparison">
+        <h3 class="vote-comparison__title">{{ republicanModerates.civilRightsActVote.headline }}</h3>
+        <p class="vote-comparison__desc">{{ republicanModerates.civilRightsActVote.description }}</p>
+        <div class="vote-comparison__grid">
+          <div class="vote-comparison__chamber">
+            <h4>Senate</h4>
+            <div class="vote-bar">
+              <div class="vote-bar__party vote-bar__party--gop">
+                <span class="vote-bar__label">Republican</span>
+                <span class="vote-bar__stat">{{ republicanModerates.civilRightsActVote.senate.republican.percent }}% Yes</span>
+                <span class="vote-bar__detail">({{ republicanModerates.civilRightsActVote.senate.republican.yes }}-{{ republicanModerates.civilRightsActVote.senate.republican.no }})</span>
+              </div>
+              <div class="vote-bar__party vote-bar__party--dem">
+                <span class="vote-bar__label">Democratic</span>
+                <span class="vote-bar__stat">{{ republicanModerates.civilRightsActVote.senate.democratic.percent }}% Yes</span>
+                <span class="vote-bar__detail">({{ republicanModerates.civilRightsActVote.senate.democratic.yes }}-{{ republicanModerates.civilRightsActVote.senate.democratic.no }})</span>
+              </div>
+            </div>
+          </div>
+          <div class="vote-comparison__chamber">
+            <h4>House</h4>
+            <div class="vote-bar">
+              <div class="vote-bar__party vote-bar__party--gop">
+                <span class="vote-bar__label">Republican</span>
+                <span class="vote-bar__stat">{{ republicanModerates.civilRightsActVote.house.republican.percent }}% Yes</span>
+                <span class="vote-bar__detail">({{ republicanModerates.civilRightsActVote.house.republican.yes }}-{{ republicanModerates.civilRightsActVote.house.republican.no }})</span>
+              </div>
+              <div class="vote-bar__party vote-bar__party--dem">
+                <span class="vote-bar__label">Democratic</span>
+                <span class="vote-bar__stat">{{ republicanModerates.civilRightsActVote.house.democratic.percent }}% Yes</span>
+                <span class="vote-bar__detail">({{ republicanModerates.civilRightsActVote.house.democratic.yes }}-{{ republicanModerates.civilRightsActVote.house.democratic.no }})</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="vote-comparison__note">{{ republicanModerates.civilRightsActVote.note }}</p>
+        <a href="{{ republicanModerates.civilRightsActVote.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="vote-comparison__source">{{ republicanModerates.civilRightsActVote.source }} →</a>
+      </div>
+    </div>
+    <div class="chapter__content chapter__content--center reveal">
+      <div class="legacy-choice">
+        <h3>{{ republicanModerates.theChoice.headline }}</h3>
+        <p>{{ republicanModerates.theChoice.explanation }}</p>
+        <p class="legacy-conclusion">{{ republicanModerates.conclusion }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# Coded Language Decoder #}
+<section class="chapter" id="chapter-decoder">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Dictionary</span>
+      <h2 class="headline-section">Decoding the Language</h2>
+      <p class="subheadline">
+        What they said publicly vs. what they meant. As Lee Atwater explained:
+        when you can't say it directly, you say it abstractly.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--wide reveal">
+      {% include "components/coded-language.njk" %}
+    </div>
+  </div>
+</section>
+
+{# Party Platforms - Expanded #}
+<section class="chapter chapter--muted" id="chapter-platforms">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Official Positions</span>
+      <h2 class="headline-section">The Transformation in Writing</h2>
+      <p class="subheadline">
+        Watch the Republican platform change from "equal suffrage" (1868) to "oppose busing" (1980).
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--wide reveal">
+      <div class="platform-timeline">
+        {% for platform in platforms %}
+        <article class="platform-card platform-card--{{ platform.era }}">
+          <header class="platform-card__header">
+            <span class="platform-card__year">{{ platform.year }}</span>
+            <span class="platform-card__party platform-card__party--{{ platform.party | lower | replace(' ', '-') }}">
+              {{ platform.party }}
+            </span>
+          </header>
+          <blockquote class="platform-card__quote">
+            "{{ platform.quote }}"
+          </blockquote>
+          <footer class="platform-card__footer">
+            <span class="platform-card__translation">
+              <strong>Translation:</strong> {{ platform.translation }}
+            </span>
+            <a href="{{ platform.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="platform-card__source">
+              Read full platform →
+            </a>
+          </footer>
+        </article>
+        {% endfor %}
+      </div>
+      <p class="caption" style="text-align: center; margin-top: 2rem;">
+        Source: <a href="https://www.presidency.ucsb.edu/" target="_blank" rel="noopener noreferrer">American Presidency Project</a>, UC Santa Barbara
+      </p>
+    </div>
+  </div>
+</section>
+
+{# Politicians Who Switched #}
+<section class="chapter chapter--muted" id="chapter-defections">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <h2 class="headline-section">Documented Party Switches</h2>
+      <p class="text-muted">Politicians who switched from Democratic to Republican.</p>
+    </div>
+    <div class="chapter__content chapter__content--wide reveal">
+      {% include "components/defection-grid.njk" %}
+    </div>
+  </div>
+</section>
+
+{# Timeline #}
+<section class="chapter" id="chapter-timeline">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <h2 class="headline-section">Timeline: 1861–Present</h2>
+      <p class="text-muted">Key events in the realignment.</p>
+    </div>
+    <div class="chapter__content">
+      {% set items = realignmentTimeline %}
+      {% include "components/timeline.njk" %}
+    </div>
+  </div>
+</section>
+
+{# Election Results #}
+<section class="chapter chapter--muted" id="chapter-elections">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <h2 class="headline-section">Election Results by State</h2>
+      <p class="text-muted">Presidential winners in each seceding state, 1860–2024.</p>
+    </div>
+    <div class="chapter__content chapter__content--wide reveal">
+      {% include "components/flip-table.njk" %}
+      <p class="caption" style="text-align: center; margin-top: 1rem;">
+        Source: National Archives, Dave Leip's Atlas, Associated Press
+      </p>
+    </div>
+  </div>
+</section>
+
+{# All Sources #}
+<section class="chapter" id="chapter-bibliography">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <h2 class="headline-section">Sources & Further Reading</h2>
+      <p class="text-muted">Every claim on this page links to a primary source.</p>
+    </div>
+    <div class="chapter__content chapter__content--wide reveal">
+      {% include "components/source-verification-status.njk" %}
+    </div>
+    <div class="chapter__content chapter__content--wide reveal">
+      <div class="bibliography-grid">
+        <div class="bibliography-section">
+          <h3>Primary Documents</h3>
+          <ul class="bibliography">
+            <li><a href="https://avalon.law.yale.edu/19th_century/csa_missec.asp" target="_blank">Mississippi Declaration of Secession</a> - Yale Law School</li>
+            <li><a href="https://teachingamericanhistory.org/document/cornerstone-speech/" target="_blank">Stephens' Cornerstone Speech</a> - Teaching American History</li>
+            <li><a href="https://www.presidency.ucsb.edu/documents/platform-the-states-rights-democratic-party" target="_blank">Dixiecrat Platform, 1948</a> - American Presidency Project</li>
+          </ul>
+        </div>
+        <div class="bibliography-section">
+          <h3>Party Platforms</h3>
+          <ul class="bibliography">
+            <li><a href="https://www.presidency.ucsb.edu/documents/republican-party-platform-1860" target="_blank">Republican Platform, 1860</a></li>
+            <li><a href="https://www.presidency.ucsb.edu/documents/republican-party-platform-1868" target="_blank">Republican Platform, 1868</a></li>
+            <li><a href="https://www.presidency.ucsb.edu/documents/republican-party-platform-1956" target="_blank">Republican Platform, 1956</a></li>
+            <li><a href="https://www.presidency.ucsb.edu/documents/republican-party-platform-1964" target="_blank">Republican Platform, 1964</a></li>
+            <li><a href="https://www.presidency.ucsb.edu/documents/republican-party-platform-1968" target="_blank">Republican Platform, 1968</a></li>
+            <li><a href="https://www.presidency.ucsb.edu/documents/republican-party-platform-1980" target="_blank">Republican Platform, 1980</a></li>
+          </ul>
+        </div>
+        <div class="bibliography-section">
+          <h3>Strategist Admissions</h3>
+          <ul class="bibliography">
+            <li><a href="https://www.thenation.com/article/archive/exclusive-lee-atwaters-infamous-1981-interview-southern-strategy/" target="_blank">Lee Atwater Interview, 1981</a> - The Nation (full audio)</li>
+            <li><a href="https://www.tampabay.com/archive/1994/05/17/haldeman-diaries-reveal-nixon-raging-against-jews-blacks/" target="_blank">Haldeman Diaries</a> - Tampa Bay Times</li>
+            <li><a href="https://www.washingtonpost.com/archive/politics/2005/07/14/rnc-chief-to-say-it-was-wrong-to-exploit-racial-conflict-for-votes/" target="_blank">Ken Mehlman NAACP Apology, 2005</a> - Washington Post</li>
+            <li><a href="https://en.wikipedia.org/wiki/Kevin_Phillips_(political_commentator)" target="_blank">Kevin Phillips and the Southern Strategy</a> - Wikipedia (with NYT sources)</li>
+          </ul>
+        </div>
+        <div class="bibliography-section">
+          <h3>Election Data</h3>
+          <ul class="bibliography">
+            <li><a href="https://www.archives.gov/electoral-college/results" target="_blank">Electoral College Results</a> - National Archives</li>
+            <li><a href="https://uselectionatlas.org/" target="_blank">Dave Leip's U.S. Election Atlas</a></li>
+            <li><a href="https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Thurmond.htm" target="_blank">Strom Thurmond Biography</a> - U.S. Senate</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--muted">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="/" class="btn btn--primary">← Back to Overview</a>
+        <a href="/voting-access/" class="btn btn--secondary">Voting Access Today</a>
+        <a href="/quiz/" class="btn btn--secondary">Test Your Knowledge</a>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,58 @@
+[
+  {
+    "state": "Mississippi",
+    "abbr": "MS",
+    "date": "January 9, 1861",
+    "keyQuote": "Our position is thoroughly identified with the institution of slavery—the greatest material interest of the world.",
+    "additionalQuotes": [
+      "A blow at slavery is a blow at commerce and civilization.",
+      "We must either submit to degradation, and to the loss of property worth four billions of money, or we must secede."
+    ],
+    "slaveryMentions": 7,
+    "tariffMentions": 0,
+    "sourceUrl": "https://avalon.law.yale.edu/19th_century/csa_missec.asp",
+    "archiveUrl": "https://web.archive.org/web/20240603041132/https://avalon.law.yale.edu/19th_century/csa_missec.asp"
+  },
+  {
+    "state": "South Carolina",
+    "abbr": "SC",
+    "date": "December 24, 1860",
+    "keyQuote": "An increasing hostility on the part of the non-slaveholding States to the institution of slavery, has led to a disregard of their obligations.",
+    "additionalQuotes": [
+      "The non-slaveholding states... have denounced as sinful the institution of slavery.",
+      "They have encouraged and assisted thousands of our slaves to leave their homes."
+    ],
+    "slaveryMentions": 18,
+    "tariffMentions": 0,
+    "sourceUrl": "https://avalon.law.yale.edu/19th_century/csa_scarsec.asp",
+    "archiveUrl": "https://web.archive.org/web/20240603041200/https://avalon.law.yale.edu/19th_century/csa_scarsec.asp"
+  },
+  {
+    "state": "Georgia",
+    "abbr": "GA",
+    "date": "January 29, 1861",
+    "keyQuote": "For the last ten years we have had numerous and serious causes of complaint against our non-slave-holding confederate States with reference to the subject of African slavery.",
+    "additionalQuotes": [
+      "The party of Lincoln... combats all the principles of the Constitution and their avowed purpose is the abolition of slavery.",
+      "The prohibition of slavery in the Territories... is the great central idea of the policy."
+    ],
+    "slaveryMentions": 35,
+    "tariffMentions": 0,
+    "sourceUrl": "https://avalon.law.yale.edu/19th_century/csa_geosec.asp",
+    "archiveUrl": "https://web.archive.org/web/20240603041230/https://avalon.law.yale.edu/19th_century/csa_geosec.asp"
+  },
+  {
+    "state": "Texas",
+    "abbr": "TX",
+    "date": "February 2, 1861",
+    "keyQuote": "She was received as a commonwealth holding, maintaining and protecting the institution known as negro slavery—the servitude of the African to the white race.",
+    "additionalQuotes": [
+      "In all the non-slave-holding States... the people have formed themselves into a great sectional party... based upon an unnatural feeling of hostility to these Southern States and their beneficent and patriarchal system of African slavery.",
+      "We hold as undeniable truths that the governments of the various States, and of the confederacy itself, were established exclusively by the white race, for themselves and their posterity."
+    ],
+    "slaveryMentions": 21,
+    "tariffMentions": 0,
+    "sourceUrl": "https://avalon.law.yale.edu/19th_century/csa_texsec.asp",
+    "archiveUrl": "https://web.archive.org/web/20240603041300/https://avalon.law.yale.edu/19th_century/csa_texsec.asp"
+  }
+]

@@ -1,0 +1,10 @@
+{# Card component - renders a content card #}
+{# Usage: {% set cardTitle = "Title" %}{% set cardContent = "Content" %}{% include "components/card.njk" %} #}
+<article class="card">
+  {% if cardTitle %}
+    <h3>{{ cardTitle }}</h3>
+  {% endif %}
+  {% if cardContent %}
+    <p>{{ cardContent | safe }}</p>
+  {% endif %}
+</article>

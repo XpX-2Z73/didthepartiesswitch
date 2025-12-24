@@ -1,0 +1,66 @@
+{# Sources Section - Redesigned #}
+<div class="sources-grid">
+  {% for source in sources.list %}
+    <article class="source-tile">
+      <div class="source-tile__icon">
+        {% if "Court" in source.title or "legislation" in source.title or "Texas v" in source.title %}
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M3 21h18M3 10h18M12 3l9 7H3l9-7zM5 10v11M19 10v11M9 14v3M15 14v3"/>
+          </svg>
+        {% elif "election" in source.title or "Voting" in source.title or "disenfranchisement" in source.title %}
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M9 11l3 3L22 4M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>
+          </svg>
+        {% elif "speech" in source.title or "admissions" in source.title or "Diaries" in source.title or "Davis" in source.title %}
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+          </svg>
+        {% elif "documents" in source.title or "Platform" in source.title or "Constitution" in source.title or "Dixiecrat" in source.title %}
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/>
+            <polyline points="14 2 14 8 20 8"/>
+            <line x1="16" y1="13" x2="8" y2="13"/>
+            <line x1="16" y1="17" x2="8" y2="17"/>
+          </svg>
+        {% elif "scholarship" in source.title or "Historical" in source.title %}
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M4 19.5A2.5 2.5 0 016.5 17H20"/>
+            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/>
+          </svg>
+        {% elif "Census" in source.title or "records" in source.title %}
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M3 3h18v18H3zM3 9h18M9 21V9"/>
+          </svg>
+        {% elif "Coup" in source.title or "Sumter" in source.title or "chronology" in source.title %}
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="10"/>
+            <polyline points="12 6 12 12 16 14"/>
+          </svg>
+        {% else %}
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/>
+            <path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/>
+          </svg>
+        {% endif %}
+      </div>
+      <h4 class="source-tile__title">{{ source.title }}</h4>
+      <div class="source-tile__links">
+        {{ source.description | safe }}
+      </div>
+    </article>
+  {% endfor %}
+</div>
+
+{% if sources.gallery and sources.gallery.length > 0 %}
+<div class="source-excerpts">
+  <h3 class="source-excerpts__heading">Key Excerpts</h3>
+  <div class="source-excerpts__grid">
+    {% for item in sources.gallery %}
+      <article class="source-excerpt">
+        <h4 class="source-excerpt__title">{{ item.title }}</h4>
+        <blockquote class="source-excerpt__content">{{ item.content }}</blockquote>
+      </article>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

@@ -1,0 +1,45 @@
+{# Election Results Timeline Table - pre-rendered #}
+{# Uses timelineResults data #}
+<div class="flip-table-wrapper">
+  <table class="flip-table" aria-describedby="flip-table-note">
+    <thead>
+      <tr>
+        <th scope="col">State</th>
+        {% for year in timelineResults.years %}
+          <th scope="col">{{ year }}</th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for entry in timelineResults.results %}
+        <tr>
+          <th scope="row">{{ entry.state }}</th>
+          {% for year in timelineResults.years %}
+            {% set result = null %}
+            {% for val in entry.values %}
+              {% if val.year == year %}
+                {% set result = val %}
+              {% endif %}
+            {% endfor %}
+            <td>
+              {% if result %}
+                {% set badgeClass = "badge-third" %}
+                {% if result.party == "Republican" or result.party == "Republican Ticket" %}
+                  {% set badgeClass = "badge-rep" %}
+                {% elif result.party == "Democrat" or result.party == "Democratic Ticket" or result.party == "Southern Democrat" %}
+                  {% set badgeClass = "badge-dem" %}
+                {% endif %}
+                <span class="result-badge {{ badgeClass }}"{% if result.note %} title="{{ result.note }}"{% endif %}>
+                  <span>{{ result.winner }}</span>
+                  <span class="party">{{ result.party }}</span>
+                </span>
+              {% else %}
+                N/A
+              {% endif %}
+            </td>
+          {% endfor %}
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

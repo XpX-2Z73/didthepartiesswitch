@@ -1,0 +1,378 @@
+---
+layout: layouts/base.njk
+title: Reconstruction
+description: What should have happened after the Civil War, who tried to make it happen, who stopped it, and the violence that followed.
+permalink: /reconstruction/
+---
+
+<section class="hero hero--short" id="chapter-intro" data-chapter="Reconstruction">
+  <div class="hero__content">
+    <span class="eyebrow">1865-1877</span>
+    <h1 class="headline-hero hero__title">The Betrayal of Reconstruction</h1>
+    <p class="subheadline hero__subtitle">
+      What should have happened. Who tried to make it happen. Who stopped it. And the violence that followed.
+    </p>
+  </div>
+</section>
+
+{# Mission Statement #}
+<section class="chapter chapter--muted" id="chapter-mission">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <div class="callout callout--highlight">
+        <p style="font-size: 1.1rem; line-height: 1.8;">{{ whatShouldHaveHappened.introduction }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   SECTION 1: THE HEROES - RADICAL REPUBLICANS
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-heroes" data-chapter="The Heroes">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Men Who Tried</span>
+      <h2 class="headline-chapter">The Radical Republicans</h2>
+      <p class="subheadline">
+        They demanded accountability. They were ignored. History proved them right.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--muted">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--wide">
+      <div class="hero-grid">
+        {% for person in radicalRepublicans %}
+        <article class="hero-card reveal">
+          <header class="hero-card__header">
+            <h3 class="hero-card__name">{{ person.name }}</h3>
+            <span class="hero-card__role">{{ person.role }}</span>
+            <span class="hero-card__years">{{ person.years }}</span>
+          </header>
+          <p class="hero-card__description">{{ person.description }}</p>
+
+          <div class="hero-card__positions">
+            <h4>What He Demanded:</h4>
+            <ul>
+              {% for position in person.keyPositions %}
+              <li>{{ position }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+
+          {% if person.whatHeSaid %}
+          <div class="hero-card__comparison">
+            <div class="hero-card__said">
+              <strong>What He Said:</strong>
+              <p>"{{ person.whatHeSaid.quote }}"</p>
+              <cite>{{ person.whatHeSaid.context }}</cite>
+            </div>
+            <div class="hero-card__happened">
+              <strong>What Happened:</strong>
+              <p>{{ person.whatHappened }}</p>
+            </div>
+          </div>
+          {% endif %}
+
+          <blockquote class="hero-card__quote">
+            "{{ person.legacyQuote.text }}"
+            <cite>{{ person.legacyQuote.source }}</cite>
+          </blockquote>
+
+          <footer class="hero-card__footer">
+            <p class="hero-card__legacy">{{ person.legacy }}</p>
+            <a href="{{ person.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="hero-card__source">
+              Source &rarr;
+            </a>
+          </footer>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   SECTION 2: WHAT SHOULD HAVE HAPPENED
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-accountability" data-chapter="Accountability">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Road Not Taken</span>
+      <h2 class="headline-chapter">What Should Have Happened</h2>
+      <p class="subheadline">
+        Six measures that could have prevented 150 years of racial terror. Every one was blocked or abandoned.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--muted">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--wide">
+      <div class="measures-grid">
+        {% for measure in whatShouldHaveHappened.measures %}
+        <article class="measure-card reveal">
+          <header class="measure-card__header">
+            <h3 class="measure-card__title">{{ measure.proposal }}</h3>
+            <span class="measure-card__advocate">Advocated by: {{ measure.advocate }}</span>
+          </header>
+
+          <div class="measure-card__body">
+            <div class="measure-card__proposal">
+              <h4>The Proposal:</h4>
+              <p>{{ measure.description }}</p>
+            </div>
+
+            <div class="measure-card__reality">
+              <h4>What Actually Happened:</h4>
+              <p>{{ measure.whatHappened }}</p>
+            </div>
+
+            <div class="measure-card__consequence">
+              <h4>The Consequence:</h4>
+              <p>{{ measure.consequence }}</p>
+            </div>
+
+            <div class="measure-card__comparison">
+              <h4>The Comparison:</h4>
+              <p>{{ measure.comparison }}</p>
+            </div>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="chapter__content chapter__content--narrow reveal">
+      <div class="callout callout--dark" style="margin-top: 3rem;">
+        <p style="font-size: 1.1rem; line-height: 1.8;">{{ whatShouldHaveHappened.conclusion }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   SECTION 3: THE VILLAINS - LOST CAUSE ARCHITECTS
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-villains" data-chapter="The Villains">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Manufacturers of Myth</span>
+      <h2 class="headline-chapter">Who Built the Lost Cause</h2>
+      <p class="subheadline">
+        The lie didn't spread itself. These are the people who invented, institutionalized, and spread it.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--muted">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--wide">
+      <div class="villain-grid">
+        {% for person in lostCauseArchitects %}
+        <article class="villain-card reveal">
+          <header class="villain-card__header">
+            <h3 class="villain-card__name">{{ person.name }}</h3>
+            <span class="villain-card__role">{{ person.role }}</span>
+            {% if person.years %}
+            <span class="villain-card__years">{{ person.years }}</span>
+            {% endif %}
+          </header>
+
+          <p class="villain-card__description">{{ person.description }}</p>
+
+          <div class="villain-card__contribution">
+            <strong>Contribution:</strong> {{ person.contribution }}
+          </div>
+
+          {% if person.keyWorks %}
+          <div class="villain-card__works">
+            <h4>Key Works:</h4>
+            <ul>
+              {% for work in person.keyWorks %}
+              <li>
+                <strong>{{ work.title }}</strong> ({{ work.year }})
+                <p>{{ work.impact }}</p>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+
+          {% if person.quotes %}
+          <div class="villain-card__quotes">
+            {% for quote in person.quotes %}
+            <blockquote>
+              "{{ quote.text }}"
+              <cite>{{ quote.source }}</cite>
+              <p class="quote-significance">{{ quote.significance }}</p>
+            </blockquote>
+            {% endfor %}
+          </div>
+          {% endif %}
+
+          {% if person.tactics %}
+          <div class="villain-card__tactics">
+            <h4>Tactics:</h4>
+            <ul>
+              {% for tactic in person.tactics %}
+              <li>{{ tactic }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+
+          {% if person.scale %}
+          <div class="villain-card__scale">
+            <h4>Scale of Impact:</h4>
+            <ul>
+              {% if person.scale.monumentsPlaced %}
+              <li><strong>Monuments:</strong> {{ person.scale.monumentsPlaced }}</li>
+              {% endif %}
+              {% if person.scale.textbooksInfluenced %}
+              <li><strong>Textbooks:</strong> {{ person.scale.textbooksInfluenced }}</li>
+              {% endif %}
+              {% if person.scale.chaptersNationwide %}
+              <li><strong>Chapters:</strong> {{ person.scale.chaptersNationwide }}</li>
+              {% endif %}
+            </ul>
+          </div>
+          {% endif %}
+
+          {% if person.impact %}
+          <div class="villain-card__impact">
+            <h4>Impact:</h4>
+            <ul>
+              {% for item in person.impact %}
+              <li>{{ item }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+
+          <footer class="villain-card__footer">
+            <p class="villain-card__legacy">{{ person.legacy }}</p>
+          </footer>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   SECTION 4: THE VIOLENCE
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-violence" data-chapter="The Violence">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Terror Campaign</span>
+      <h2 class="headline-chapter">The Massacres They Don't Teach</h2>
+      <p class="subheadline">
+        Reconstruction didn't fail. It was murdered. Here's the body count.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--muted">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--wide">
+      <div class="massacre-grid">
+        {% for massacre in reconstructionViolence %}
+        <article class="massacre-card reveal">
+          <header class="massacre-card__header">
+            <h3 class="massacre-card__name">{{ massacre.name }}</h3>
+            <div class="massacre-card__meta">
+              <span class="massacre-card__date">{{ massacre.date }}</span>
+              <span class="massacre-card__location">{{ massacre.location }}</span>
+            </div>
+          </header>
+
+          <div class="massacre-card__stats">
+            <div class="massacre-card__stat massacre-card__stat--deaths">
+              <span class="massacre-card__stat-value">{{ massacre.deaths }}</span>
+            </div>
+            {% if massacre.injured %}
+            <div class="massacre-card__stat massacre-card__stat--injured">
+              <span class="massacre-card__stat-value">{{ massacre.injured }}</span>
+            </div>
+            {% endif %}
+            {% if massacre.propertyDestroyed %}
+            <div class="massacre-card__stat massacre-card__stat--property">
+              <span class="massacre-card__stat-value">{{ massacre.propertyDestroyed }}</span>
+            </div>
+            {% endif %}
+          </div>
+
+          <p class="massacre-card__description">{{ massacre.description }}</p>
+
+          <div class="massacre-card__perpetrators">
+            <strong>Perpetrators:</strong> {{ massacre.perpetrators }}
+          </div>
+
+          <div class="massacre-card__response">
+            <strong>Response:</strong> {{ massacre.response }}
+          </div>
+
+          {% if massacre.legalConsequence %}
+          <div class="massacre-card__legal">
+            <strong>Legal Consequence:</strong> {{ massacre.legalConsequence }}
+          </div>
+          {% endif %}
+
+          <blockquote class="massacre-card__quote">
+            "{{ massacre.quote }}"
+            <cite>{{ massacre.quoteSource }}</cite>
+          </blockquote>
+
+          <footer class="massacre-card__footer">
+            <p class="massacre-card__significance">{{ massacre.significance }}</p>
+            <a href="{{ massacre.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="massacre-card__source">
+              Source &rarr;
+            </a>
+          </footer>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   SECTION 5: THE CONNECTION
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-connection" data-chapter="The Connection">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Pattern</span>
+      <h2 class="headline-chapter">The Same 11 States</h2>
+    </div>
+    <div class="chapter__content chapter__content--narrow reveal">
+      <div class="callout callout--highlight" style="text-align: left; font-size: 1.1rem; line-height: 1.8;">
+        <p>{{ whatShouldHaveHappened.theSame11States }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# Navigation #}
+<section class="chapter chapter--muted" id="chapter-explore">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Continue Exploring</span>
+      <h2 class="headline-section">More to Discover</h2>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+        <a href="/" class="btn btn--primary">The Full Story</a>
+        <a href="/party-realignment/" class="btn btn--secondary">Party Realignment</a>
+        <a href="/voting-access/" class="btn btn--secondary">Voting Access Today</a>
+        <a href="/bingo/" class="btn btn--secondary">Bingo Card</a>
+      </div>
+    </div>
+  </div>
+</section>

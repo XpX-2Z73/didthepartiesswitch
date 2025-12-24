@@ -1,0 +1,60 @@
+{# Bingo Grid Component with Interactive Responses #}
+<div class="bingo-grid" role="grid" aria-label="Civil War Claims and Responses">
+  {% for square in bingoSquares %}
+    <button
+      class="bingo-cell{% if square.id == 'free-space' %} free-space{% endif %}"
+      data-id="{{ square.id }}"
+      data-myth="{{ square.myth }}"
+      data-rebuttal="{{ square.rebuttal | escape }}"
+      data-quote="{{ square.quote | escape }}"
+      data-source="{{ square.source | escape }}"
+      data-source-url="{{ square.sourceUrl }}"
+      {% if square.contentWarning %}data-content-warning="true" data-warning-text="{{ square.warningText | escape }}"{% endif %}
+      aria-label="{% if square.id == 'free-space' %}Free space - automatically marked{% else %}Click to learn about: {{ square.myth }}{% endif %}"
+      role="gridcell"
+      {% if square.id == 'free-space' %}aria-pressed="true"{% endif %}
+    >
+      <span class="bingo-cell__text">{{ square.myth }}</span>
+      <span class="bingo-cell__hint">Click for response</span>
+    </button>
+  {% endfor %}
+</div>
+
+{# Response Modal #}
+<div class="rebuttal-modal" id="rebuttal-modal" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="rebuttal-modal__backdrop"></div>
+  <div class="rebuttal-modal__content">
+    <button class="rebuttal-modal__close" aria-label="Close modal">&times;</button>
+    <div class="rebuttal-modal__header">
+      <span class="rebuttal-modal__label">The Claim</span>
+      <h3 class="rebuttal-modal__myth" id="modal-myth"></h3>
+    </div>
+    <div class="rebuttal-modal__body">
+      <div class="rebuttal-modal__section">
+        <span class="rebuttal-modal__label">The Evidence</span>
+        <p class="rebuttal-modal__rebuttal" id="modal-rebuttal"></p>
+      </div>
+      <div class="content-warning content-warning--compact" id="modal-content-warning" style="display: none;">
+        <span class="content-warning__label">Content Warning:</span>
+        <span class="content-warning__text" id="modal-warning-text"></span>
+      </div>
+      <blockquote class="rebuttal-modal__quote">
+        <p id="modal-quote"></p>
+        <cite id="modal-source"></cite>
+      </blockquote>
+    </div>
+    <div class="rebuttal-modal__footer">
+      <a href="#" class="btn btn--primary" id="modal-source-link" target="_blank" rel="noopener noreferrer">
+        Read the Source
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+          <polyline points="15 3 21 3 21 9"></polyline>
+          <line x1="10" y1="14" x2="21" y2="3"></line>
+        </svg>
+      </a>
+      <button class="btn btn--secondary rebuttal-modal__mark" id="modal-mark">
+        Mark Square
+      </button>
+    </div>
+  </div>
+</div>

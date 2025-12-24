@@ -1,0 +1,25 @@
+{
+  "name": "civil-war-primary-sources",
+  "version": "2.0.0",
+  "description": "Jamstack site mapping the Civil War cause and party realignment through primary sources - built with 11ty",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve --port=8080",
+    "dev": "eleventy --serve --port=8080",
+    "clean": "rm -rf dist",
+    "debug": "DEBUG=Eleventy* eleventy"
+  },
+  "keywords": [
+    "civil-war",
+    "history",
+    "primary-sources",
+    "jamstack",
+    "eleventy",
+    "11ty"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

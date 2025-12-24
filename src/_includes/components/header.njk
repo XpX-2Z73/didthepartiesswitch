@@ -1,0 +1,9 @@
+<header>
+  <div class="header-inner">
+    <nav aria-label="Primary navigation">
+      {% for item in nav %}
+        <a href="{{ item.href }}">{{ item.label }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

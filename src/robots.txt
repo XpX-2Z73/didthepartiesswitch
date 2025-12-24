@@ -1,0 +1,6 @@
+# Robots.txt for Civil War Primary Sources Site
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://didthepartiesswitch.com/sitemap.xml

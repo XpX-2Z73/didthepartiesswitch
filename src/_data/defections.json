@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Strom Thurmond",
+    "state": "South Carolina",
+    "description": "Governor, Dixiecrat presidential nominee, and long-serving senator whose 1948 revolt against civil rights foreshadowed the Southern Strategy.",
+    "timeline": [
+      { "year": "1948", "event": "Leaves the Democratic Convention over civil rights plank and runs as a States' Rights Democrat." },
+      { "year": "1957", "event": "Filibusters the Civil Rights Act of 1957 for 24 hours and 18 minutes to block civil rights legislation." },
+      { "year": "1964", "event": "Switches to the Republican Party after Lyndon Johnson signs the Civil Rights Act." }
+    ]
+  },
+  {
+    "name": "Jesse Helms",
+    "state": "North Carolina",
+    "description": "Television commentator turned senator who built a conservative base opposing school desegregation orders and civil rights enforcement.",
+    "timeline": [
+      { "year": "1950s", "event": "Works as segregationist TV editorialist at WRAL, registered Democrat." },
+      { "year": "1960s", "event": "Delivers segregationist editorials on WRAL opposing the Civil Rights Act and Voting Rights Act." },
+      { "year": "1970", "event": "Officially registers Republican; wins the Senate seat in 1972 as part of the GOP Southern surge." }
+    ]
+  },
+  {
+    "name": "Phil Gramm",
+    "state": "Texas",
+    "description": "Economist and congressman who aligned with Reagan's fiscal agenda, representing the later economic phase of realignment after the civil rights battles had been decided.",
+    "timeline": [
+      { "year": "1978", "event": "Elected to Congress as a Democrat representing a conservative Texas district." },
+      { "year": "1983", "event": "Resigns after being removed from the House Budget Committee for collaborating with Reagan's White House." },
+      { "year": "1984", "event": "Wins the same seat as a Republican and later serves as GOP senator." }
+    ]
+  },
+  {
+    "name": "Richard Shelby",
+    "state": "Alabama",
+    "description": "Conservative Democrat who opposed much of the Clinton agenda and found a lasting home in the Republican caucus, illustrating the final stages of the realignment.",
+    "timeline": [
+      { "year": "1986", "event": "Elected to the U.S. Senate as a Democrat promising states' rights and limited federal reach." },
+      { "year": "1994", "event": "Switches to the Republican Party the day after Republicans win control of Congress." },
+      { "year": "2000s", "event": "Chairs Senate committees as a Republican and campaigns against Democratic federal programs." }
+    ]
+  }
+]

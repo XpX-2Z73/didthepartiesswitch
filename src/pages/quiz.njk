@@ -1,0 +1,47 @@
+---
+layout: layouts/base.njk
+title: Party Switch Quiz
+description: Did the parties really switch? Test yourself with 10 questions on secession, Reconstruction, the Southern Strategy, and where the voters went.
+permalink: /quiz/
+---
+
+<section class="hero hero--short" id="chapter-intro" data-chapter="Quiz">
+  <div class="hero__content">
+    <span class="eyebrow">Test Yourself</span>
+    <h1 class="headline-hero hero__title">Reality Check</h1>
+    <p class="subheadline hero__subtitle">
+      10 questions. Primary sources only. No mythology allowed.
+    </p>
+    <div class="quiz-score-display reveal">
+      <span>Score: </span><span id="quiz-score">0 / 0</span>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--muted" id="chapter-quiz" data-chapter="Questions">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <p class="lead-text">
+        Hand this quiz to anyone who wants a refresher. Click an answer to reveal if you're right.
+      </p>
+    </div>
+    <div class="quiz-container reveal">
+      {% include "components/quiz.njk" %}
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--dark" id="chapter-explore">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center">
+      <span class="eyebrow">Continue Exploring</span>
+      <h2 class="headline-section">More Tools</h2>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+        <a href="/" class="btn btn--primary">The Full Story</a>
+        <a href="/bingo/" class="btn btn--secondary">Bingo Card</a>
+        <a href="/party-realignment/" class="btn btn--secondary">Party Realignment</a>
+        <a href="/voting-access/" class="btn btn--secondary">Voting Access</a>
+      </div>
+    </div>
+  </div>
+</section>
