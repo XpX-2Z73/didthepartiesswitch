@@ -163,9 +163,9 @@
     },
     {
       "question": "What pattern connects 1861 to 2024?",
-      "options": ["A. Nothing - the regions are completely different", "B. The same 11 states that seceded are the same 11 with the most voting restrictions today", "C. The North became more conservative", "D. All 50 states followed the same path"],
+      "options": ["A. Nothing - the regions are completely different", "B. Ten of the 11 states that seceded are among those with the most voting restrictions today", "C. The North became more conservative", "D. All 50 states followed the same path"],
       "answer": "B",
-      "explanation": "The 11 states that seceded in 1861 are the same 11 states that opposed civil rights in 1964, the same 11 states that flipped Republican via the Southern Strategy, and the same 11 states that enacted the most voting restrictions after Shelby County (2013). This isn't coincidence; it's inheritance. The ideology changed parties, but the geography stayed the same.",
+      "explanation": "The 11 states that seceded in 1861 are the same 11 states that opposed civil rights in 1964. Ten of those 11 flipped Republican via the Southern Strategy and enacted voting restrictions after Shelby County (2013). Virginia is the exception, having trended blue since 2008. But for the Deep South, this isn't coincidence; it's inheritance.",
       "quote": "When Reconstruction failed, it failed specifically in these states, and the failure was never corrected.",
       "source": "Geographic voting pattern analysis",
       "sourceUrl": "https://www.brennancenter.org/our-work/research-reports/voting-laws-roundup-2023",
