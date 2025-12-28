@@ -6899,3 +6899,265 @@ html {
 .mission-statement__scope strong {
   color: var(--accent-gold);
 }
+
+/* ============================================
+   SENATE REALIGNMENT COMPONENT
+   ============================================ */
+
+.senate-realignment {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+/* Stats Row */
+.senate-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--space-md);
+}
+
+.senate-stat {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: var(--space-md);
+  text-align: center;
+}
+
+.senate-stat--primary {
+  background: rgba(212, 168, 83, 0.1);
+  border-color: var(--accent-gold-dim);
+}
+
+.senate-stat__number {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--accent-gold);
+  line-height: 1;
+  margin-bottom: var(--space-xs);
+}
+
+.senate-stat--primary .senate-stat__number {
+  font-size: 3rem;
+}
+
+.senate-stat__label {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Waves Breakdown */
+.senate-waves {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: var(--space-md);
+}
+
+.senate-waves__title {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  margin: 0 0 var(--space-md);
+  text-align: center;
+}
+
+.senate-waves__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-sm);
+}
+
+.senate-wave {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: var(--space-sm);
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 8px;
+  border-left: 3px solid var(--accent-gold);
+}
+
+.senate-wave__name {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+}
+
+.senate-wave__seats {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--accent-gold);
+}
+
+.senate-wave__desc {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* Senate Table */
+.senate-table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+}
+
+.senate-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  min-width: 600px;
+}
+
+.senate-table thead {
+  background: rgba(255, 255, 255, 0.05);
+  position: sticky;
+  top: 0;
+}
+
+.senate-table th {
+  text-align: left;
+  padding: var(--space-sm);
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.senate-table td {
+  padding: var(--space-sm);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  vertical-align: middle;
+}
+
+.senate-row:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.senate-cell--state {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.senator-name {
+  color: var(--text-secondary);
+}
+
+.flip-year {
+  font-family: var(--font-mono);
+  color: var(--text-primary);
+}
+
+.years-badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.years-badge--fast {
+  background: rgba(76, 175, 80, 0.2);
+  color: #81c784;
+}
+
+.years-badge--medium {
+  background: rgba(255, 193, 7, 0.2);
+  color: #ffd54f;
+}
+
+.years-badge--slow {
+  background: rgba(244, 67, 54, 0.2);
+  color: #e57373;
+}
+
+.republican-name {
+  color: #e57373;
+  font-weight: 500;
+}
+
+.seat-note {
+  display: inline-block;
+  margin-left: 0.5rem;
+  cursor: help;
+  opacity: 0.5;
+  font-size: 0.85rem;
+}
+
+.seat-note:hover {
+  opacity: 1;
+}
+
+/* Key Insights */
+.senate-insights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-md);
+}
+
+.senate-insight {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: var(--space-md);
+}
+
+.senate-insight__title {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  color: var(--accent-gold);
+  margin: 0 0 var(--space-xs);
+}
+
+.senate-insight__text {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Source Note */
+.senate-source {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-align: center;
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--border-subtle);
+}
+
+.senate-source a {
+  margin-left: 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .senate-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .senate-stat__number {
+    font-size: 2rem;
+  }
+
+  .senate-stat--primary .senate-stat__number {
+    font-size: 2.5rem;
+  }
+
+  .senate-waves__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .senate-insights {
+    grid-template-columns: 1fr;
+  }
+}

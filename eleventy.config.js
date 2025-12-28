@@ -10,6 +10,8 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/images");
   eleventyConfig.addPassthroughCopy({ "src/robots.txt": "robots.txt" });
   eleventyConfig.addPassthroughCopy({ "src/bingsiteauth.xml": "bingsiteauth.xml" });
+  eleventyConfig.addPassthroughCopy({ "src/llms.txt": "llms.txt" });
+  eleventyConfig.addPassthroughCopy({ "src/llms-full.txt": "llms-full.txt" });
 
   // Watch for changes in assets
   eleventyConfig.addWatchTarget("src/assets/");

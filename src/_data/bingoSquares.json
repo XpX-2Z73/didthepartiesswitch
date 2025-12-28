@@ -306,5 +306,87 @@
     "quote": "This is a country for white men, and by God, as long as I am President, it shall be a government for white men.",
     "source": "Andrew Johnson, 1866",
     "sourceUrl": "https://www.whitehouse.gov/about-the-white-house/presidents/andrew-johnson/"
+  },
+  {
+    "id": "democrats-founded-kkk",
+    "myth": "Democrats founded the KKK",
+    "rebuttal": "Yes, and those Democrats' political descendants are now Republicans. The first Klan (1860s) was founded by Confederate veterans—Democrats. The second Klan (1920s) was strongest in Indiana and Oregon, not just the South. The third Klan (1950s-60s) opposed civil rights. When LBJ signed the Civil Rights Act, the Klan endorsed Goldwater. David Duke ran for office as a Republican. In 2016 and 2020, the KKK endorsed Trump. Follow the Klan's endorsements across history—they track the party realignment perfectly.",
+    "quote": "The more Negroes who register as Democrats in the South, the sooner the Negrophobe whites will quit the Democrats and become Republicans. That's where the votes are.",
+    "source": "Kevin Phillips, Nixon strategist, New York Times, 1970",
+    "sourceUrl": "https://www.nytimes.com/1970/05/17/archives/nixons-southern-strategy-its-all-in-the-charts.html"
+  },
+  {
+    "id": "carter-won-south",
+    "myth": "Carter won the South in 1976",
+    "rebuttal": "Carter was a Southern Baptist governor from Georgia running against Ford (who pardoned Nixon) in a post-Watergate backlash election. He was the LAST Democrat to win the Deep South. After Carter: Reagan swept the South in 1980 and 1984. Bush in 1988. Clinton only won his home state Arkansas plus Tennessee, Louisiana, and Georgia (his running mate's state). Obama lost the Deep South. Biden lost it. No Democrat has won Mississippi, Alabama, or South Carolina since Carter. He wasn't a reversal of the trend—he was the exception that proves it.",
+    "quote": "Some Republicans gave up on winning the African American vote, looking the other way or trying to benefit politically from racial polarization. I am here today as the Republican chairman to tell you we were wrong.",
+    "source": "Ken Mehlman, RNC Chairman, 2005",
+    "sourceUrl": "https://www.washingtonpost.com/archive/politics/2005/07/14/rnc-chief-to-say-it-was-wrong-to-exploit-racial-conflict-for-votes/"
+  },
+  {
+    "id": "only-thurmond-switched",
+    "myth": "Only Thurmond switched parties",
+    "rebuttal": "The switch was about VOTERS, not politicians. Most segregationist Democrats didn't need to switch—they were already conservative representatives of conservative voters. When they retired, their seats went Republican. Here's the proof: every single Senate seat held by a Democrat who voted against the 1964 Civil Rights Act eventually flipped Republican. 100% of them. Thurmond (1964), Tennessee (1966), Florida (1968), North Carolina (1972), Mississippi (1978), Alabama (1980), Georgia (1980)... all the way to West Virginia (2024). The voters switched; the politicians just took longer.",
+    "quote": "I was wrong. Those days are over, and they ought to be over.",
+    "source": "George Wallace, 1979, on his segregationist past",
+    "sourceUrl": "https://www.nytimes.com/1991/03/10/opinion/george-wallace-s-long-journey.html"
+  },
+  {
+    "id": "goldwater-libertarian",
+    "myth": "Goldwater was a libertarian, not racist",
+    "rebuttal": "Goldwater's personal beliefs are irrelevant to the political effect. He voted against the Civil Rights Act. The Deep South—which had voted Democratic since Reconstruction—suddenly voted for him. Strom Thurmond switched parties to endorse him. Whatever Goldwater believed privately, his campaign was the vehicle that delivered segregationist voters to the GOP. The Southern Strategy wasn't about Goldwater's philosophy; it was about what his opposition to civil rights SIGNALED to white Southerners. They heard it clearly.",
+    "quote": "You start out in 1954 by saying, 'N----r, n----r, n----r.' By 1968 you can't say 'n----r'—that hurts you, backfires. So you say stuff like, uh, forced busing, states' rights.",
+    "source": "Lee Atwater, Republican strategist, 1981 recorded interview",
+    "sourceUrl": "https://www.thenation.com/article/archive/exclusive-lee-atwaters-infamous-1981-interview-southern-strategy/",
+    "contentWarning": true,
+    "warningText": "Quote contains a racial slur (censored)"
+  },
+  {
+    "id": "religion-not-race",
+    "myth": "The switch was about religion, not race",
+    "rebuttal": "The timeline doesn't support this. The Moral Majority formed in 1979, but the South had already been trending Republican since 1964. Goldwater swept the Deep South in 1964. Nixon won it in 1968 and 1972. The religious right organized AFTER the racial realignment was underway. And here's the hidden history: Paul Weyrich, co-founder of the Moral Majority, later admitted the movement was founded to defend segregated Christian schools (like Bob Jones University), not to oppose abortion. The religious framing came later; the racial realignment came first.",
+    "quote": "What galvanized the Christian community was not abortion, it was the attempt on the part of the IRS to rescind the tax-exempt status of Bob Jones University because of its racially discriminatory policies.",
+    "source": "Paul Weyrich, co-founder of Moral Majority, as quoted by Randall Balmer",
+    "sourceUrl": "https://www.politico.com/magazine/story/2014/05/religious-right-real-origins-107133/"
+  },
+  {
+    "id": "woodrow-wilson",
+    "myth": "What about Woodrow Wilson?",
+    "rebuttal": "Wilson was a segregationist, and his racism is indefensible. He re-segregated federal agencies, screened 'Birth of a Nation' at the White House, and praised the Klan. This is exactly why we say 'follow the voters.' Wilson's Democratic Party WAS the party of Southern segregation. But where are those voters today? They vote Republican. Wilson's racism doesn't exonerate the modern GOP; it illustrates that the racist coalition switched parties. The question isn't 'which party was racist in 1915'—it's 'where did those voters go?'",
+    "quote": "The white men were roused by a mere instinct of self-preservation... until at last there had sprung into existence a great Ku Klux Klan.",
+    "source": "Woodrow Wilson, quoted approvingly in 'Birth of a Nation' (1915)",
+    "sourceUrl": "https://www.history.com/news/woodrow-wilson-racial-segregation-legacy"
+  },
+  {
+    "id": "nixon-vs-eisenhower",
+    "myth": "Nixon did worse in the South than Eisenhower",
+    "rebuttal": "In 1968, George Wallace split the segregationist vote as a third-party candidate, winning five Deep South states. Nixon + Wallace together won the Southern white vote that Eisenhower had won alone. By 1972, with Wallace out, Nixon swept ALL eleven former Confederate states. Kevin Phillips, Nixon's strategist, predicted this exact sequence: Wallace would pull segregationists out of the Democratic Party, then they'd come to the GOP. The 1968 three-way split was a transition phase, not a refutation. By 1972, the strategy was complete.",
+    "quote": "The more Negroes who register as Democrats in the South, the sooner the Negrophobe whites will quit the Democrats and become Republicans.",
+    "source": "Kevin Phillips, Nixon strategist, New York Times, 1970",
+    "sourceUrl": "https://www.nytimes.com/1970/05/17/archives/nixons-southern-strategy-its-all-in-the-charts.html"
+  },
+  {
+    "id": "black-voters-leaving",
+    "myth": "Black voters are leaving Democrats",
+    "rebuttal": "Even if true, this doesn't change history. The Civil War was about slavery—read the secession documents. The Southern Strategy happened—listen to Lee Atwater's tape. The RNC apologized for it in 2005. Future voting patterns don't retroactively change what happened. This site documents 1861-2024. If Black voters shift parties in the future, we'll document that too. But that wouldn't change what Mississippi wrote in 1861, what Atwater admitted in 1981, or what Mehlman apologized for in 2005. History is about what happened, not what might happen next.",
+    "quote": "Some Republicans gave up on winning the African American vote, looking the other way or trying to benefit politically from racial polarization. I am here today as the Republican chairman to tell you we were wrong.",
+    "source": "Ken Mehlman, RNC Chairman, NAACP Speech, 2005",
+    "sourceUrl": "https://www.npr.org/2005/08/22/4810209/republicans-seek-to-increase-african-american-support"
+  },
+  {
+    "id": "democrat-cities",
+    "myth": "Democrat-run cities have failed",
+    "rebuttal": "This conflates local governance with the party realignment question. But let's engage: The Great Migration sent 6 million Black Americans to Northern cities precisely because they could VOTE there—unlike the Jim Crow South. Those cities became Democratic because Black voters chose Democrats after FDR's New Deal and especially after the Civil Rights Act. If you're asking why Black voters chose Democrats, the answer is: because Republicans chose the Southern Strategy. The RNC admitted this and apologized. If Republicans want Black votes, they could try earning them instead of restricting voting access.",
+    "quote": "The more Negroes who register as Democrats in the South, the sooner the Negrophobe whites will quit the Democrats and become Republicans. That's where the votes are.",
+    "source": "Kevin Phillips, Nixon strategist, explaining why Republicans stopped pursuing Black voters",
+    "sourceUrl": "https://www.nytimes.com/1970/05/17/archives/nixons-southern-strategy-its-all-in-the-charts.html"
+  },
+  {
+    "id": "mlk-republican",
+    "myth": "MLK was a Republican",
+    "rebuttal": "King never publicly endorsed a party or candidate. His father, Martin Luther King Sr., was a Republican who switched to support JFK in 1960. MLK Jr. praised Republicans for their civil rights heritage while condemning Goldwater; he praised LBJ's legislation while criticizing Democratic segregationists. He refused to endorse either party. What IS documented: King was surveilled by the FBI, and the Republican Party formally apologized for abandoning Black voters. Claiming King for either party misrepresents his actual politics—and conveniently ignores the Southern Strategy he would have witnessed had he lived.",
+    "quote": "I don't think the Republican Party is a party full of the almighty God, nor is the Democratic Party. They both have weaknesses.",
+    "source": "Martin Luther King Jr., 1958 interview",
+    "sourceUrl": "https://kinginstitute.stanford.edu/king-papers/documents/interview-martin-luther-king-jr"
   }
 ]

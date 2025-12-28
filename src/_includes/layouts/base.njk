@@ -112,6 +112,200 @@
       ]
     }
     </script>
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Did the Parties Switch?",
+      "url": "{{ site.url }}",
+      "description": "{{ site.description }}",
+      "sameAs": []
+    }
+    </script>
+    <!-- Article Schema for main content -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "{{ title or site.title }}",
+      "description": "{{ description or site.description }}",
+      "url": "{{ site.url }}{{ page.url }}",
+      "datePublished": "2024-01-01",
+      "dateModified": "2024-12-27",
+      "author": {
+        "@type": "Organization",
+        "name": "Did the Parties Switch?"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Did the Parties Switch?",
+        "url": "{{ site.url }}"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ site.url }}{{ page.url }}"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "American Civil War",
+          "sameAs": "https://en.wikipedia.org/wiki/American_Civil_War"
+        },
+        {
+          "@type": "Thing",
+          "name": "Southern Strategy",
+          "sameAs": "https://en.wikipedia.org/wiki/Southern_strategy"
+        },
+        {
+          "@type": "Thing",
+          "name": "Party Realignment",
+          "sameAs": "https://en.wikipedia.org/wiki/Political_realignment"
+        }
+      ]
+    }
+    </script>
+    <!-- ClaimReview Schema for Fact-Checking -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "url": "{{ site.url }}/bingo/",
+      "claimReviewed": "The Civil War was about states' rights, not slavery",
+      "itemReviewed": {
+        "@type": "Claim",
+        "author": {
+          "@type": "Organization",
+          "name": "Lost Cause mythology"
+        },
+        "datePublished": "1890-01-01",
+        "appearance": {
+          "@type": "CreativeWork",
+          "name": "Various historical revisionist sources"
+        }
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Did the Parties Switch?",
+        "url": "{{ site.url }}"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 1,
+        "bestRating": 5,
+        "worstRating": 1,
+        "alternateName": "False"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "url": "{{ site.url }}/bingo/",
+      "claimReviewed": "The political parties never switched",
+      "itemReviewed": {
+        "@type": "Claim",
+        "author": {
+          "@type": "Organization",
+          "name": "Various political commentators"
+        }
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Did the Parties Switch?",
+        "url": "{{ site.url }}"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 1,
+        "bestRating": 5,
+        "worstRating": 1,
+        "alternateName": "False"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "url": "{{ site.url }}/",
+      "claimReviewed": "Tariffs, not slavery, caused the Civil War",
+      "itemReviewed": {
+        "@type": "Claim",
+        "author": {
+          "@type": "Organization",
+          "name": "Lost Cause mythology"
+        }
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Did the Parties Switch?",
+        "url": "{{ site.url }}"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 1,
+        "bestRating": 5,
+        "worstRating": 1,
+        "alternateName": "False"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "url": "{{ site.url }}/bingo/",
+      "claimReviewed": "Republicans passed the Civil Rights Act so the parties couldn't have switched",
+      "itemReviewed": {
+        "@type": "Claim",
+        "author": {
+          "@type": "Organization",
+          "name": "Various political commentators"
+        }
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Did the Parties Switch?",
+        "url": "{{ site.url }}"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 2,
+        "bestRating": 5,
+        "worstRating": 1,
+        "alternateName": "Mostly False"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "url": "{{ site.url }}/bingo/",
+      "claimReviewed": "Robert Byrd being in the KKK proves Democrats are the real racists",
+      "itemReviewed": {
+        "@type": "Claim",
+        "author": {
+          "@type": "Organization",
+          "name": "Various political commentators"
+        }
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Did the Parties Switch?",
+        "url": "{{ site.url }}"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 2,
+        "bestRating": 5,
+        "worstRating": 1,
+        "alternateName": "Misleading"
+      }
+    }
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to main content</a>
