@@ -68,9 +68,27 @@ Source: National Park Service, https://www.nps.gov/fosu/index.htm
 
 ---
 
-## Chapter 3: The Party Realignment (1948-1980s)
+## Chapter 3: The Party Realignment (1861-2024)
 
-### Timeline of the Switch
+### Complete Timeline
+
+**1866 - The Massacres Begin:**
+White mobs murder Black citizens in Memphis (46 dead) and New Orleans (34-50 dead). Congress responds by passing the 14th Amendment.
+
+**1873-1876 - Redemption by Violence:**
+Colfax Massacre (Easter 1873): 60-150 Black militia executed after surrender. Hamburg Massacre (July 4, 1876): Red Shirts murder Black militiamen; massacre leader Matthew Butler elected U.S. Senator. Supreme Court's Cruikshank ruling guts federal civil rights enforcement.
+
+**1877 - The Betrayal:**
+Compromise of 1877 ends Reconstruction. Federal troops withdraw. Democrats retake every Southern statehouse through violence and fraud.
+
+**1913-1921 - Wilson's Re-Segregation:**
+Democratic President Woodrow Wilson re-segregates the federal government. Screens "Birth of a Nation" at White House. Second Ku Klux Klan grows to 4-6 million members.
+
+**1919-1921 - Red Summer and Tulsa:**
+25+ race massacres. Tulsa's "Black Wall Street" destroyed: 100-300 killed, 35 blocks burned.
+
+**1932-1936 - The New Deal Coalition:**
+FDR wins all 11 Southern states while courting Black voters in Northern cities. Black voters shift to Democrats for first time. But FDR refuses to support anti-lynching legislation to keep Dixiecrats in coalition.
 
 **1948 - The First Crack:**
 Strom Thurmond runs as Dixiecrat on segregation platform, wins 4 Deep South states.
@@ -89,11 +107,17 @@ Civil Rights Act Vote:
 - Key insight: The split was REGIONAL (North vs South), not partisan
 
 **1968 - Nixon's Southern Strategy:**
-Nixon campaigns on "law and order" targeting white backlash to civil rights.
+Nixon campaigns on "law and order" targeting white backlash to civil rights. George Wallace wins 5 Southern states as third-party segregationist. Nixon + Wallace together capture white Southern vote from Democrats.
 
 **1970 - The Strategy Explained:**
 Kevin Phillips (Nixon strategist): "The more Negroes who register as Democrats in the South, the sooner the Negrophobe whites will quit the Democrats and become Republicans. That's where the votes are."
 Source: New York Times, 1970
+
+**1972 - The Nixon Sweep:**
+With Wallace shot and out of the race, Nixon wins ALL 11 Southern states (and 49 states total). Wallace voters complete journey to GOP. Phillips's prediction fulfilled.
+
+**1976 - The Carter Exception:**
+Jimmy Carter, Southern Baptist from Georgia, sweeps the South against Ford (who pardoned Nixon). He is the LAST Democrat to win the Deep South. No Democrat since has won Mississippi, Alabama, or South Carolina.
 
 **1980 - Reagan Consolidates:**
 Reagan opens campaign at Neshoba County Fair, Mississippi (near site of 1964 civil rights worker murders), declaring "I believe in states' rights."
@@ -107,6 +131,12 @@ Source: https://www.thenation.com/article/archive/exclusive-lee-atwaters-infamou
 **2005 - The Official Apology:**
 Ken Mehlman (RNC Chairman) to NAACP: "Some Republicans gave up on winning the African American vote, looking the other way or trying to benefit politically from racial polarization. I am here today as the Republican chairman to tell you we were wrong."
 Source: https://www.npr.org/2005/08/22/4810209/republicans-seek-to-increase-african-american-support
+
+**2008 - Obama Elected:**
+First Black president loses every Deep South state but flips Virginia, North Carolina, Florida. The coalition that opposed civil rights still votes as a bloc.
+
+**2024 - Realignment Complete:**
+Robert Byrd's West Virginia seat—last held by a Civil Rights Act opponent—flips Republican. The 60-year realignment is complete.
 
 ---
 
