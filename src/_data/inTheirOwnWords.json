@@ -88,5 +88,104 @@
     "sourceUrl": "https://www.npr.org/2005/08/22/4810209/republicans-seek-to-increase-african-american-support",
     "archiveUrl": "https://web.archive.org/web/20250625215855/https://www.npr.org/2005/08/22/4810209/republicans-seek-to-increase-african-american-support",
     "significance": "Official Republican Party apology acknowledging the Southern Strategy"
+  },
+  {
+    "year": 1956,
+    "who": "101 Southern Congressmen",
+    "role": "Signers of the Southern Manifesto",
+    "quote": "We regard the decision of the Supreme Court in the school cases as a clear abuse of judicial power... We pledge ourselves to use all lawful means to bring about a reversal of this decision.",
+    "context": "Declaration of Constitutional Principles opposing Brown v. Board",
+    "source": "Congressional Record, March 12, 1956",
+    "sourceUrl": "https://www.senate.gov/artandhistory/history/resources/pdf/SouthernManifesto.pdf",
+    "archiveUrl": "https://web.archive.org/web/20240101000000/https://www.senate.gov/artandhistory/history/resources/pdf/SouthernManifesto.pdf",
+    "significance": "The ENTIRE Southern Democratic congressional delegation united against integration. Track where each signatory's seat ended up—nearly all Republican."
+  },
+  {
+    "year": 1963,
+    "who": "George Wallace",
+    "role": "Governor of Alabama",
+    "quote": "In the name of the greatest people that have ever trod this earth, I draw the line in the dust and toss the gauntlet before the feet of tyranny, and I say segregation now, segregation tomorrow, segregation forever!",
+    "context": "Inaugural Address as Governor",
+    "source": "Alabama Department of Archives and History",
+    "sourceUrl": "https://digital.archives.alabama.gov/digital/collection/voices/id/2952",
+    "archiveUrl": "https://web.archive.org/web/20231001000000/https://digital.archives.alabama.gov/digital/collection/voices/id/2952",
+    "significance": "The man who won 5 Southern states in 1968. His voters didn't disappear—they became Nixon voters in 1972, then Reagan voters in 1980."
+  },
+  {
+    "year": 1980,
+    "who": "Ronald Reagan",
+    "role": "Republican Presidential Nominee",
+    "quote": "I believe in states' rights... I believe we have distorted the balance of our government today by giving powers that were never intended to be given in the Constitution to that federal establishment.",
+    "context": "Campaign speech at Neshoba County Fair, Mississippi—7 miles from where civil rights workers Chaney, Goodman, and Schwerner were murdered in 1964",
+    "source": "Campaign records, August 3, 1980",
+    "sourceUrl": "https://neshobademocrat.com/stories/reagan-made-famous-states-rights-speech-here,2475",
+    "archiveUrl": "https://web.archive.org/web/20200101000000/https://neshobademocrat.com/stories/reagan-made-famous-states-rights-speech-here,2475",
+    "significance": "Reagan launched his general election campaign at the site of a civil rights murder with the phrase 'states' rights.' He swept the South."
+  },
+  {
+    "year": 1890,
+    "who": "Judge Solomon Calhoon",
+    "role": "President, Mississippi Constitutional Convention",
+    "quote": "We came here to exclude the negro. Nothing short of this will answer.",
+    "context": "Opening the convention that wrote Jim Crow into Mississippi's constitution",
+    "source": "Journal of the Mississippi Constitutional Convention of 1890",
+    "sourceUrl": "https://www.facinghistory.org/resource-library/mississippi-and-jim-crow",
+    "archiveUrl": "https://web.archive.org/web/20240101000000/https://www.facinghistory.org/resource-library/mississippi-and-jim-crow",
+    "significance": "They said the quiet part out loud. Jim Crow wasn't about 'heritage'—it was about excluding Black voters. In their own words."
+  },
+  {
+    "year": 1896,
+    "who": "Justice John Marshall Harlan",
+    "role": "Lone dissenter in Plessy v. Ferguson",
+    "quote": "Our Constitution is color-blind, and neither knows nor tolerates classes among citizens. In respect of civil rights, all citizens are equal before the law.",
+    "context": "Dissenting from the 'separate but equal' ruling that legalized segregation for 58 years",
+    "source": "Plessy v. Ferguson, 163 U.S. 537 (1896)",
+    "sourceUrl": "https://www.law.cornell.edu/supremecourt/text/163/537#writing-USSC_CR_0163_0537_ZD",
+    "archiveUrl": "https://web.archive.org/web/20240101000000/https://www.law.cornell.edu/supremecourt/text/163/537",
+    "significance": "Harlan, a former slaveholder from Kentucky, was the only justice who got it right. It took 58 years for the Court to catch up."
+  },
+  {
+    "year": 1852,
+    "who": "Frederick Douglass",
+    "role": "Abolitionist, former slave",
+    "quote": "What, to the American slave, is your 4th of July? I answer: a day that reveals to him, more than all other days in the year, the gross injustice and cruelty to which he is the constant victim.",
+    "context": "Speech to the Rochester Ladies' Anti-Slavery Society",
+    "source": "What to the Slave is the Fourth of July?, July 5, 1852",
+    "sourceUrl": "https://teachingamericanhistory.org/document/what-to-the-slave-is-the-fourth-of-july/",
+    "archiveUrl": "https://web.archive.org/web/20240101000000/https://teachingamericanhistory.org/document/what-to-the-slave-is-the-fourth-of-july/",
+    "significance": "The most powerful indictment of American slavery—from someone who escaped it."
+  },
+  {
+    "year": 1861,
+    "who": "Abraham Lincoln",
+    "role": "16th President of the United States",
+    "quote": "I have no purpose, directly or indirectly, to interfere with the institution of slavery in the States where it exists. I believe I have no lawful right to do so, and I have no inclination to do so.",
+    "context": "First Inaugural Address, attempting to reassure the South",
+    "source": "Inaugural Address, March 4, 1861",
+    "sourceUrl": "https://avalon.law.yale.edu/19th_century/lincoln1.asp",
+    "archiveUrl": "https://web.archive.org/web/20240101000000/https://avalon.law.yale.edu/19th_century/lincoln1.asp",
+    "significance": "Lincoln promised NOT to abolish slavery—and the South attacked Fort Sumter anyway. They weren't defending themselves; they were expanding slavery."
+  },
+  {
+    "year": 1965,
+    "who": "Lyndon B. Johnson",
+    "role": "36th President of the United States",
+    "quote": "Their cause must be our cause too. Because it is not just Negroes, but really it is all of us, who must overcome the crippling legacy of bigotry and injustice. And we shall overcome.",
+    "context": "Address to Congress requesting passage of the Voting Rights Act, one week after Bloody Sunday",
+    "source": "Special Message to Congress, March 15, 1965",
+    "sourceUrl": "https://millercenter.org/the-presidency/presidential-speeches/march-15-1965-speech-congress-voting-rights",
+    "archiveUrl": "https://web.archive.org/web/20240101000000/https://millercenter.org/the-presidency/presidential-speeches/march-15-1965-speech-congress-voting-rights",
+    "significance": "A Southern president from Texas embracing the civil rights movement's anthem. The Democratic Party chose civil rights over the Solid South."
+  },
+  {
+    "year": 1870,
+    "who": "Hiram Revels",
+    "role": "First Black U.S. Senator",
+    "quote": "I maintain that the past record of my race is a true index of the feelings which today animate them... they bear toward their former masters no revengeful thoughts, no hatreds, no animosities.",
+    "context": "First speech in the Senate, responding to those who opposed seating him",
+    "source": "Congressional Globe, February 25, 1870",
+    "sourceUrl": "https://www.senate.gov/artandhistory/history/common/generic/SpeechesRevels.htm",
+    "archiveUrl": "https://web.archive.org/web/20240101000000/https://www.senate.gov/artandhistory/history/common/generic/SpeechesRevels.htm",
+    "significance": "The first Black Senator spoke of reconciliation. White supremacists responded with the Klan. No Black Southerner would serve in Congress again until 1973."
   }
 ]

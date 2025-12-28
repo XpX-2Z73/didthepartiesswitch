@@ -55,5 +55,107 @@
     "linkText": "Read the interview transcript",
     "contentWarning": true,
     "warningText": "Quote contains a racial slur (censored)"
+  },
+  {
+    "date": "March 12, 1956",
+    "title": "The Southern Manifesto",
+    "quote": "We pledge ourselves to use all lawful means to bring about a reversal of this decision [Brown v. Board] which is contrary to the Constitution.",
+    "attribution": "101 Southern Congressmen, Declaration of Constitutional Principles",
+    "link": "https://www.senate.gov/artandhistory/history/resources/pdf/SouthernManifesto.pdf",
+    "archiveLink": "https://web.archive.org/web/20240101000000/https://www.senate.gov/artandhistory/history/resources/pdf/SouthernManifesto.pdf",
+    "linkText": "Read the full manifesto (PDF)",
+    "isGovernment": true
+  },
+  {
+    "date": "January 14, 1963",
+    "title": "Wallace's 'Segregation Forever' Inaugural",
+    "quote": "Segregation now, segregation tomorrow, segregation forever!",
+    "attribution": "George Wallace, Alabama Gubernatorial Inaugural Address",
+    "link": "https://digital.archives.alabama.gov/digital/collection/voices/id/2952",
+    "archiveLink": "https://web.archive.org/web/20231001000000/https://digital.archives.alabama.gov/digital/collection/voices/id/2952",
+    "linkText": "Read the full speech"
+  },
+  {
+    "date": "August 3, 1980",
+    "title": "Reagan's Neshoba County Speech",
+    "quote": "I believe in states' rights... I believe we have distorted the balance of our government today by giving powers that were never intended to be given in the Constitution to that federal establishment.",
+    "attribution": "Ronald Reagan, Neshoba County Fair, Mississippi (near where civil rights workers were murdered in 1964)",
+    "link": "https://web.archive.org/web/20160304043aborede/https://www.reaganlibrary.gov/archives/speech/remarks-neshoba-county-fair",
+    "archiveLink": "https://neshobademocrat.com/stories/reagan-made-famous-states-rights-speech-here,2475",
+    "linkText": "Read about the speech"
+  },
+  {
+    "date": "1890",
+    "title": "Mississippi Constitutional Convention",
+    "quote": "We came here to exclude the negro. Nothing short of this will answer.",
+    "attribution": "Judge Solomon Calhoon, President of the Mississippi Constitutional Convention of 1890",
+    "link": "https://web.archive.org/web/20200101000000/https://mshistorynow.mdah.ms.gov/issue/mississippi-black-codes",
+    "archiveLink": "https://www.facinghistory.org/resource-library/mississippi-and-jim-crow",
+    "linkText": "Read about Jim Crow's origins"
+  },
+  {
+    "date": "November 1865",
+    "title": "Mississippi Black Codes",
+    "quote": "All freedmen, free negroes and mulattoes... with no lawful employment... shall be deemed vagrants, and on conviction thereof shall be fined.",
+    "attribution": "Mississippi Vagrant Law, one of the Black Codes passed immediately after the Civil War",
+    "link": "https://www.blackpast.org/african-american-history/primary-documents-african-american-history/mississippi-black-codes-1865/",
+    "archiveLink": "https://web.archive.org/web/20231001000000/https://www.blackpast.org/african-american-history/primary-documents-african-american-history/mississippi-black-codes-1865/",
+    "linkText": "Read the Black Codes"
+  },
+  {
+    "date": "December 1860",
+    "title": "Crittenden Compromise Rejected",
+    "quote": "No amendment shall be made to the Constitution which will authorize or give to Congress the power to abolish or interfere... with slavery.",
+    "attribution": "Sen. John Crittenden's proposed constitutional amendment, rejected because the South demanded MORE protections for slavery",
+    "link": "https://web.archive.org/web/20200815000000/https://avalon.law.yale.edu/19th_century/crittenden.asp",
+    "archiveLink": "https://www.ushistory.org/documents/crittenden.htm",
+    "linkText": "Read the compromise proposals"
+  },
+  {
+    "date": "May 18, 1896",
+    "title": "Justice Harlan's Plessy Dissent",
+    "quote": "Our Constitution is color-blind, and neither knows nor tolerates classes among citizens.",
+    "attribution": "Justice John Marshall Harlan, lone dissenter in Plessy v. Ferguson",
+    "link": "https://www.law.cornell.edu/supremecourt/text/163/537#writing-USSC_CR_0163_0537_ZD",
+    "archiveLink": "https://web.archive.org/web/20240101000000/https://www.law.cornell.edu/supremecourt/text/163/537",
+    "linkText": "Read the dissent",
+    "isGovernment": true
+  },
+  {
+    "date": "July 5, 1852",
+    "title": "Frederick Douglass: 'What to the Slave is the Fourth of July?'",
+    "quote": "What, to the American slave, is your 4th of July? I answer: a day that reveals to him, more than all other days in the year, the gross injustice and cruelty to which he is the constant victim.",
+    "attribution": "Frederick Douglass, Rochester, New York",
+    "link": "https://teachingamericanhistory.org/document/what-to-the-slave-is-the-fourth-of-july/",
+    "archiveLink": "https://web.archive.org/web/20240101000000/https://teachingamericanhistory.org/document/what-to-the-slave-is-the-fourth-of-july/",
+    "linkText": "Read the full speech"
+  },
+  {
+    "date": "March 4, 1861",
+    "title": "Lincoln's First Inaugural",
+    "quote": "I have no purpose, directly or indirectly, to interfere with the institution of slavery in the States where it exists. I believe I have no lawful right to do so, and I have no inclination to do so.",
+    "attribution": "Abraham Lincoln, attempting reconciliation before the South started the war anyway",
+    "link": "https://avalon.law.yale.edu/19th_century/lincoln1.asp",
+    "archiveLink": "https://web.archive.org/web/20240101000000/https://avalon.law.yale.edu/19th_century/lincoln1.asp",
+    "linkText": "Read the full address"
+  },
+  {
+    "date": "March 15, 1965",
+    "title": "LBJ's 'We Shall Overcome' Speech",
+    "quote": "Their cause must be our cause too. Because it is not just Negroes, but really it is all of us, who must overcome the crippling legacy of bigotry and injustice. And we shall overcome.",
+    "attribution": "President Lyndon Johnson, Address to Congress on Voting Rights",
+    "link": "https://millercenter.org/the-presidency/presidential-speeches/march-15-1965-speech-congress-voting-rights",
+    "archiveLink": "https://web.archive.org/web/20240101000000/https://millercenter.org/the-presidency/presidential-speeches/march-15-1965-speech-congress-voting-rights",
+    "linkText": "Read the full speech"
+  },
+  {
+    "date": "February 25, 1870",
+    "title": "Hiram Revels' First Senate Speech",
+    "quote": "I maintain that the past record of my race is a true index of the feelings which today animate them... they bear toward their former masters no revengeful thoughts, no hatreds, no animosities.",
+    "attribution": "Hiram Revels, first Black U.S. Senator, addressing those who opposed seating him",
+    "link": "https://www.senate.gov/artandhistory/history/common/generic/SpeechesRevels.htm",
+    "archiveLink": "https://web.archive.org/web/20240101000000/https://www.senate.gov/artandhistory/history/common/generic/SpeechesRevels.htm",
+    "linkText": "Read the speech",
+    "isGovernment": true
   }
 ]

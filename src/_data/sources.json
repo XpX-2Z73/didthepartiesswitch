@@ -272,6 +272,111 @@
       "category": "research",
       "year": "2016",
       "description": "<a href=\"https://www.splcenter.org/20190201/whose-heritage-public-symbols-confederacy\" target=\"_blank\">Southern Poverty Law Center</a> <a href=\"https://web.archive.org/web/20230601/https://www.splcenter.org/20190201/whose-heritage-public-symbols-confederacy\" target=\"_blank\" class=\"archive-link\">[archive]</a>: Most monuments erected during Jim Crow (1890s-1920s) and Civil Rights era (1950s-1960s), not memorials, but intimidation."
+    },
+    {
+      "title": "The Southern Manifesto",
+      "era": "civil-rights",
+      "category": "documents",
+      "year": "1956",
+      "description": "<a href=\"https://www.senate.gov/artandhistory/history/resources/pdf/SouthernManifesto.pdf\" target=\"_blank\">Senate Archives (PDF)</a>: 101 Southern congressmen signed a declaration opposing Brown v. Board. Track where each signatory's seat ended up—nearly all Republican."
+    },
+    {
+      "title": "Wallace Inaugural Address",
+      "era": "civil-rights",
+      "category": "speeches",
+      "year": "1963",
+      "description": "<a href=\"https://digital.archives.alabama.gov/digital/collection/voices/id/2952\" target=\"_blank\">Alabama Archives</a>: George Wallace's 'segregation now, segregation tomorrow, segregation forever' speech. He won 5 Southern states in 1968; his voters became Republicans."
+    },
+    {
+      "title": "Reagan Neshoba County Speech",
+      "era": "southern-strategy",
+      "category": "speeches",
+      "year": "1980",
+      "description": "<a href=\"https://neshobademocrat.com/stories/reagan-made-famous-states-rights-speech-here,2475\" target=\"_blank\">Neshoba Democrat</a>: Reagan launched his general election campaign 7 miles from where civil rights workers were murdered, declaring 'I believe in states' rights.'"
+    },
+    {
+      "title": "Mississippi Black Codes",
+      "era": "reconstruction",
+      "category": "legislation",
+      "year": "1865",
+      "description": "<a href=\"https://www.blackpast.org/african-american-history/primary-documents-african-american-history/mississippi-black-codes-1865/\" target=\"_blank\">BlackPast</a>: Laws passed immediately after the Civil War to re-enslave Black people in all but name. Shows what happened when the South was left to 'reconstruct' itself."
+    },
+    {
+      "title": "Mississippi Convention 1890",
+      "era": "reconstruction",
+      "category": "documents",
+      "year": "1890",
+      "description": "<a href=\"https://www.facinghistory.org/resource-library/mississippi-and-jim-crow\" target=\"_blank\">Facing History</a>: Convention president declared 'We came here to exclude the negro.' Jim Crow's purpose stated explicitly."
+    },
+    {
+      "title": "Crittenden Compromise",
+      "era": "secession",
+      "category": "documents",
+      "year": "1860",
+      "description": "<a href=\"https://web.archive.org/web/20200815000000/https://avalon.law.yale.edu/19th_century/crittenden.asp\" target=\"_blank\">Yale Avalon (Archive)</a>: The South rejected this compromise because it didn't provide ENOUGH protection for slavery. Proves it was never about 'states' rights.'"
+    },
+    {
+      "title": "Justice Harlan's Plessy Dissent",
+      "era": "reconstruction",
+      "category": "court-cases",
+      "year": "1896",
+      "description": "<a href=\"https://www.law.cornell.edu/supremecourt/text/163/537#writing-USSC_CR_0163_0537_ZD\" target=\"_blank\">Cornell Law</a>: 'Our Constitution is color-blind.' The lone dissenter in Plessy v. Ferguson—it took 58 years for the Court to catch up."
+    },
+    {
+      "title": "Frederick Douglass July 4th Speech",
+      "era": "secession",
+      "category": "speeches",
+      "year": "1852",
+      "description": "<a href=\"https://teachingamericanhistory.org/document/what-to-the-slave-is-the-fourth-of-july/\" target=\"_blank\">Teaching American History</a>: 'What, to the American slave, is your 4th of July?' The most powerful indictment of American slavery."
+    },
+    {
+      "title": "Lincoln's First Inaugural",
+      "era": "secession",
+      "category": "speeches",
+      "year": "1861",
+      "description": "<a href=\"https://avalon.law.yale.edu/19th_century/lincoln1.asp\" target=\"_blank\">Yale Avalon</a>: Lincoln promised NOT to interfere with slavery—and the South attacked Fort Sumter anyway. They weren't defending themselves."
+    },
+    {
+      "title": "LBJ 'We Shall Overcome' Speech",
+      "era": "civil-rights",
+      "category": "speeches",
+      "year": "1965",
+      "description": "<a href=\"https://millercenter.org/the-presidency/presidential-speeches/march-15-1965-speech-congress-voting-rights\" target=\"_blank\">Miller Center</a>: A Southern president embracing the civil rights anthem one week after Bloody Sunday. Democrats chose civil rights over the Solid South."
+    },
+    {
+      "title": "Hiram Revels Senate Speech",
+      "era": "reconstruction",
+      "category": "speeches",
+      "year": "1870",
+      "description": "<a href=\"https://www.senate.gov/artandhistory/history/common/generic/SpeechesRevels.htm\" target=\"_blank\">Senate Archives</a>: First Black Senator's speech on reconciliation. No Black Southerner would serve in Congress again until 1973."
+    },
+    {
+      "title": "13th Amendment",
+      "era": "reconstruction",
+      "category": "documents",
+      "year": "1865",
+      "description": "<a href=\"https://www.archives.gov/milestone-documents/13th-amendment\" target=\"_blank\">National Archives</a>: Abolished slavery. Ratified December 6, 1865."
+    },
+    {
+      "title": "14th Amendment",
+      "era": "reconstruction",
+      "category": "documents",
+      "year": "1868",
+      "description": "<a href=\"https://www.archives.gov/milestone-documents/14th-amendment\" target=\"_blank\">National Archives</a>: Granted citizenship and equal protection. Ratified July 9, 1868."
+    },
+    {
+      "title": "15th Amendment",
+      "era": "reconstruction",
+      "category": "documents",
+      "year": "1870",
+      "description": "<a href=\"https://www.archives.gov/milestone-documents/15th-amendment\" target=\"_blank\">National Archives</a>: Prohibited racial discrimination in voting. Ratified February 3, 1870. Effectively nullified by Jim Crow until the Voting Rights Act."
+    },
+    {
+      "title": "Ida B. Wells - Southern Horrors",
+      "era": "reconstruction",
+      "category": "documents",
+      "year": "1892",
+      "description": "<a href=\"https://www.gutenberg.org/ebooks/14975\" target=\"_blank\">Project Gutenberg</a>: Ida B. Wells' documentation of lynching. Primary source evidence of racial terrorism during Jim Crow."
     }
   ],
   "eras": [
