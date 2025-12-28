@@ -35,9 +35,9 @@
     "id": "read-history",
     "myth": "Read a real history book",
     "rebuttal": "We have. The American Historical Association, the Organization of American Historians, and virtually every peer-reviewed academic source confirms slavery was the central cause of secession. The 'Lost Cause' narrative was manufactured decades after the war by Confederate apologists.",
-    "quote": "Too few participants in these conversations have read the essential primary sources... the economics and morality of slavery were at the center of the secession crisis.",
-    "source": "American Historical Association, '16 Months to Sumter' Collection",
-    "sourceUrl": "https://www.historians.org/teaching-learning/aha-historical-collections/16-months-to-sumter/introductions-to-secession-editorial-series/"
+    "quote": "The Civil War started because of uncompromising differences between the free and slave states over the power of the national government to prohibit slavery in the territories that had not yet become states.",
+    "source": "National Park Service, official history of the Civil War",
+    "sourceUrl": "https://www.nps.gov/civilwar/facts.htm"
   },
   {
     "id": "not-about-slavery",
@@ -50,10 +50,10 @@
   {
     "id": "lincoln-tyrant",
     "myth": "Lincoln was a tyrant",
-    "rebuttal": "Lincoln was elected through the democratic process. The South seceded before he even took office because they feared he would limit slavery's expansion (which his platform promised). The Confederacy fired the first shots at Fort Sumter. Lincoln responded to armed rebellion.",
-    "quote": "We hold these truths to be self-evident: that all men are created equal... the normal condition of all territory of the United States is that of freedom.",
-    "source": "Republican Party Platform, 1860",
-    "sourceUrl": "https://www.presidency.ucsb.edu/documents/republican-party-platform-1860"
+    "rebuttal": "Lincoln was elected through the democratic process. The South seceded before he even took office because they feared he would limit slavery's expansion. Seven states left the Union before Lincoln was inaugurated. The Confederacy fired the first shots at Fort Sumter on April 12, 1861. Lincoln responded to armed rebellion against the government. The 'tyrant' won a democratic election; the Confederacy started a war.",
+    "quote": "At 4:30 a.m. on April 12, 1861, Confederate batteries opened fire on Fort Sumter. The American Civil War had begun.",
+    "source": "National Park Service, Fort Sumter National Historical Park",
+    "sourceUrl": "https://www.nps.gov/fosu/learn/historyculture/fort_sumter.htm"
   },
   {
     "id": "heritage",
@@ -138,10 +138,10 @@
   {
     "id": "teacher-said",
     "myth": "My teacher said so",
-    "rebuttal": "What you learned in school depended on when and where you went to school. Textbooks have been rewritten many times, often to minimize slavery's role. The primary documents haven't changed since 1861. Read them yourself.",
-    "quote": "The AHA's collection provides hundreds of primary sources showing the economics and morality of slavery at the center of secession.",
-    "source": "American Historical Association",
-    "sourceUrl": "https://www.historians.org/teaching-learning/aha-historical-collections/16-months-to-sumter/introductions-to-secession-editorial-series/"
+    "rebuttal": "What you learned in school depended on when and where you went to school. For decades, the United Daughters of the Confederacy controlled Southern textbooks and explicitly demanded that books 'reject a text-book that says the South fought to hold her slaves.' The primary documents haven't changed since 1861. Read them yourself.",
+    "quote": "Reject a book that says the South fought to hold her slaves.",
+    "source": "Mildred Rutherford, UDC Historian General, 'A Measuring Rod to Test Text Books' (1919)",
+    "sourceUrl": "https://archive.org/details/measuringrodtote00ruth"
   },
   {
     "id": "brainwashed",
@@ -180,10 +180,10 @@
   {
     "id": "blame-textbooks",
     "myth": "Blame the textbooks",
-    "rebuttal": "Agreed, many textbooks got it wrong for decades. That's why we link to primary sources. The Mississippi Declaration of Secession, the Cornerstone Speech, and the Confederate Constitution weren't written by textbook publishers.",
-    "quote": "Too few participants in these conversations have read the essential primary sources.",
-    "source": "American Historical Association",
-    "sourceUrl": "https://www.historians.org/teaching-learning/aha-historical-collections/16-months-to-sumter/introductions-to-secession-editorial-series/"
+    "rebuttal": "Agreed, many textbooks got it wrong for decades—because Confederate apologists rewrote them. The United Daughters of the Confederacy published explicit guidelines to censor any book that told the truth about slavery. That's why we link to primary sources: the secession declarations, the Cornerstone Speech, and the Confederate Constitution weren't written by textbook publishers. They were written by the men who started the war.",
+    "quote": "Reject a text-book that does not clearly outline the policy of the North in Reconstruction legislation and administration.",
+    "source": "Mildred Rutherford, UDC Historian General, 'A Measuring Rod to Test Text Books' (1919)",
+    "sourceUrl": "https://archive.org/details/measuringrodtote00ruth"
   },
   {
     "id": "rewriting-history",
@@ -279,17 +279,17 @@
     "id": "klan-antifa",
     "myth": "The Klan was just like Antifa",
     "rebuttal": "The Klan murdered thousands, overthrew elected governments (Wilmington 1898), and enforced a racial caste system for a century. They executed Black militia members after surrender (Colfax 1873, Hamburg 1876). Their leaders became governors and senators. The Supreme Court made their violence legal (U.S. v. Cruikshank). There is no comparison.",
-    "quote": "The half of them was killed after the surrender... They were shot down like dogs.",
-    "source": "Survivor testimony from Colfax Massacre, 1873",
-    "sourceUrl": "https://www.nps.gov/cari/learn/historyculture/the-colfax-riot.htm"
+    "quote": "Between 60 and 150 Black men were killed, most after they had surrendered. Three whites died. No one was ever convicted.",
+    "source": "Colfax Massacre, 1873 - BlackPast",
+    "sourceUrl": "https://www.blackpast.org/african-american-history/colfax-massacre-1873/"
   },
   {
     "id": "slaves-well-treated",
     "myth": "Slaves were well treated",
     "rebuttal": "Being held in bondage with no rights, no wages, no legal personhood, and subject to sale, separation from family, and corporal punishment is not 'good treatment' regardless of individual circumstances. But also: the enslaved people disagreed. When given the chance, they fled by the hundreds of thousands. They fought for the Union. They testified to Congress about the horrors they experienced. Listen to them.",
-    "quote": "We make the greatest of all claims, that of being an enslaved people, who have risen up under the most cruel system of bondage the world has ever witnessed.",
+    "quote": "What, to the American slave, is your 4th of July? I answer: a day that reveals to him, more than all other days in the year, the gross injustice and cruelty to which he is the constant victim.",
     "source": "Frederick Douglass, 'What to the Slave Is the Fourth of July?' 1852",
-    "sourceUrl": "https://www.nps.gov/articles/frederick-douglass-what-to-the-slave-is-the-fourth-of-july.htm"
+    "sourceUrl": "https://teachingamericanhistory.org/document/what-to-the-slave-is-the-fourth-of-july/"
   },
   {
     "id": "radical-republicans-extreme",
@@ -368,7 +368,7 @@
   {
     "id": "black-voters-leaving",
     "myth": "Black voters are leaving Democrats",
-    "rebuttal": "Even if true, this doesn't change history. The Civil War was about slavery—read the secession documents. The Southern Strategy happened—listen to Lee Atwater's tape. The RNC apologized for it in 2005. Future voting patterns don't retroactively change what happened. This site documents 1861-2024. If Black voters shift parties in the future, we'll document that too. But that wouldn't change what Mississippi wrote in 1861, what Atwater admitted in 1981, or what Mehlman apologized for in 2005. History is about what happened, not what might happen next.",
+    "rebuttal": "In 2024, Black voters supported Democrats 86-12%. In 2020, it was 92-8%. Yes, there's been some movement—but 86% is not 'leaving.' More importantly: future voting patterns don't retroactively change history. The Civil War was about slavery—read the secession documents. The Southern Strategy happened—listen to Atwater's tape. The RNC apologized for it in 2005. If Black voters shift parties, we'll document that too. But it wouldn't change what Mississippi wrote in 1861, what Atwater admitted in 1981, or what Mehlman apologized for in 2005. History is about what happened, not what might happen next.",
     "quote": "Some Republicans gave up on winning the African American vote, looking the other way or trying to benefit politically from racial polarization. I am here today as the Republican chairman to tell you we were wrong.",
     "source": "Ken Mehlman, RNC Chairman, NAACP Speech, 2005",
     "sourceUrl": "https://www.npr.org/2005/08/22/4810209/republicans-seek-to-increase-african-american-support"
@@ -376,10 +376,10 @@
   {
     "id": "democrat-cities",
     "myth": "Democrat-run cities have failed",
-    "rebuttal": "This conflates local governance with the party realignment question. But let's engage: The Great Migration sent 6 million Black Americans to Northern cities precisely because they could VOTE there—unlike the Jim Crow South. Those cities became Democratic because Black voters chose Democrats after FDR's New Deal and especially after the Civil Rights Act. If you're asking why Black voters chose Democrats, the answer is: because Republicans chose the Southern Strategy. The RNC admitted this and apologized. If Republicans want Black votes, they could try earning them instead of restricting voting access.",
-    "quote": "The more Negroes who register as Democrats in the South, the sooner the Negrophobe whites will quit the Democrats and become Republicans. That's where the votes are.",
-    "source": "Kevin Phillips, Nixon strategist, explaining why Republicans stopped pursuing Black voters",
-    "sourceUrl": "https://www.nytimes.com/1970/05/17/archives/nixons-southern-strategy-its-all-in-the-charts.html"
+    "rebuttal": "This is a deflection from history, but let's engage: 8 of the 10 poorest states by median income are Republican-led (Mississippi, West Virginia, Arkansas, Louisiana, Alabama, Kentucky, Oklahoma, South Carolina). 9 of the 10 states with the highest infant mortality are Republican-led. 8 of the 10 states most dependent on federal aid are Republican-led. Cities have challenges because that's where people live—80% of U.S. GDP comes from metro areas. But none of this changes history: the Civil War was about slavery (read the secession documents), the Southern Strategy happened (listen to Atwater's tape), and the RNC apologized for it (2005). Present-day policy debates don't retroactively change the historical record.",
+    "quote": "Some Republicans gave up on winning the African American vote, looking the other way or trying to benefit politically from racial polarization. I am here today as the Republican chairman to tell you we were wrong.",
+    "source": "Ken Mehlman, RNC Chairman, 2005 - explaining why Black voters chose Democrats",
+    "sourceUrl": "https://www.npr.org/2005/08/22/4810209/republicans-seek-to-increase-african-american-support"
   },
   {
     "id": "mlk-republican",
