@@ -57,6 +57,41 @@ permalink: /bingo/
   </div>
 </section>
 
+<section class="chapter" id="chapter-all-claims" data-chapter="All Claims">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Reference</span>
+      <h2 class="headline-chapter">All {{ bingoSquares | length }} Claims</h2>
+      <p class="subheadline">
+        Browse every claim and response. Click any to see the full rebuttal with sources.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="claims-list reveal">
+        {% for square in bingoSquares %}
+          {% if square.id != 'free-space' %}
+          <button
+            class="claims-list__item bingo-cell-trigger"
+            data-id="{{ square.id }}"
+            data-myth="{{ square.myth }}"
+            data-rebuttal="{{ square.rebuttal | escape }}"
+            data-quote="{{ square.quote | escape }}"
+            data-source="{{ square.source | escape }}"
+            data-source-url="{{ square.sourceUrl }}"
+            {% if square.contentWarning %}data-content-warning="true" data-warning-text="{{ square.warningText | escape }}"{% endif %}
+          >
+            <span class="claims-list__myth">{{ square.myth }}</span>
+            <svg class="claims-list__arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 18l6-6-6-6"/>
+            </svg>
+          </button>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="chapter chapter--dark" id="chapter-stats" data-chapter="Why It Matters">
   <div class="chapter__inner">
     <div class="chapter__content chapter__content--center reveal">

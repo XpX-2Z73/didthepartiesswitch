@@ -230,8 +230,9 @@
 
   function initBingoInteraction() {
     const bingoGrid = document.querySelector('.bingo-grid');
+    const claimsList = document.querySelector('.claims-list');
     const modal = document.getElementById('rebuttal-modal');
-    if (!bingoGrid || !modal) return;
+    if (!modal) return;
 
     // Get modal elements
     const modalBackdrop = modal.querySelector('.rebuttal-modal__backdrop');
@@ -245,21 +246,22 @@
     const modalContentWarning = document.getElementById('modal-content-warning');
     const modalWarningText = document.getElementById('modal-warning-text');
 
-    // Click on bingo cell - open modal
-    bingoGrid.addEventListener('click', (e) => {
-      const cell = e.target.closest('.bingo-cell');
-      if (!cell) return;
+    // Helper function to populate and open modal
+    function showClaimModal(element, isBingoCell) {
+      if (isBingoCell) {
+        currentBingoCell = element;
+      } else {
+        currentBingoCell = null;
+      }
 
-      currentBingoCell = cell;
-
-      // Get data from cell
-      const myth = cell.dataset.myth;
-      const rebuttal = cell.dataset.rebuttal;
-      const quote = cell.dataset.quote;
-      const source = cell.dataset.source;
-      const sourceUrl = cell.dataset.sourceUrl;
-      const contentWarning = cell.dataset.contentWarning;
-      const warningText = cell.dataset.warningText;
+      // Get data from element
+      const myth = element.dataset.myth;
+      const rebuttal = element.dataset.rebuttal;
+      const quote = element.dataset.quote;
+      const source = element.dataset.source;
+      const sourceUrl = element.dataset.sourceUrl;
+      const contentWarning = element.dataset.contentWarning;
+      const warningText = element.dataset.warningText;
 
       // Populate modal
       modalMythEl.textContent = myth;
@@ -276,16 +278,39 @@
         modalContentWarning.style.display = 'none';
       }
 
-      // Update mark button text based on cell state
-      if (cell.classList.contains('marked')) {
+      // Update mark button visibility/text based on context
+      if (isBingoCell && element.classList.contains('marked')) {
         modalMarkBtn.textContent = 'Unmark Square';
-      } else {
+        modalMarkBtn.style.display = '';
+      } else if (isBingoCell) {
         modalMarkBtn.textContent = 'Mark Square';
+        modalMarkBtn.style.display = '';
+      } else {
+        // Hide mark button for claims list (not part of bingo game)
+        modalMarkBtn.style.display = 'none';
       }
 
       // Show modal
       openModal(modal);
-    });
+    }
+
+    // Click on bingo cell - open modal
+    if (bingoGrid) {
+      bingoGrid.addEventListener('click', (e) => {
+        const cell = e.target.closest('.bingo-cell');
+        if (!cell) return;
+        showClaimModal(cell, true);
+      });
+    }
+
+    // Click on claims list item - open modal
+    if (claimsList) {
+      claimsList.addEventListener('click', (e) => {
+        const item = e.target.closest('.bingo-cell-trigger');
+        if (!item) return;
+        showClaimModal(item, false);
+      });
+    }
 
     // Close modal on backdrop click
     modalBackdrop.addEventListener('click', () => {
@@ -309,8 +334,10 @@
       if (!modal.classList.contains('is-open')) return;
 
       const modalContent = modal.querySelector('.rebuttal-modal__content');
-      // If click is outside modal content and not on a bingo cell, close modal
-      if (!modalContent.contains(e.target) && !e.target.closest('.bingo-cell')) {
+      // If click is outside modal content and not on a bingo cell or claims list item, close modal
+      if (!modalContent.contains(e.target) &&
+          !e.target.closest('.bingo-cell') &&
+          !e.target.closest('.bingo-cell-trigger')) {
         closeModal(modal);
       }
     });

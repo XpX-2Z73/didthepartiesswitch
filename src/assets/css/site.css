@@ -1696,6 +1696,57 @@ main header {
   transform: rotate(180deg);
 }
 
+/* All Claims List */
+.claims-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-sm);
+}
+
+.claims-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  padding: var(--space-md);
+  background: var(--bg-card);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-align: left;
+  cursor: pointer;
+  transition: all var(--duration-fast) var(--ease-out);
+}
+
+.claims-list__item:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent-gold-dim);
+  transform: translateX(4px);
+}
+
+.claims-list__item:focus {
+  outline: 2px solid var(--accent-gold);
+  outline-offset: 2px;
+}
+
+.claims-list__myth {
+  flex: 1;
+}
+
+.claims-list__arrow {
+  flex-shrink: 0;
+  opacity: 0.5;
+  transition: opacity var(--duration-fast) var(--ease-out);
+}
+
+.claims-list__item:hover .claims-list__arrow {
+  opacity: 1;
+  color: var(--accent-gold);
+}
+
 .bingo-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
