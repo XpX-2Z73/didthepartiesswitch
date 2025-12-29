@@ -138,7 +138,7 @@
   {
     "id": "teacher-said",
     "myth": "My teacher said so",
-    "rebuttal": "What you learned in school depended on when and where you went to school. For decades, the United Daughters of the Confederacy controlled Southern textbooks and explicitly demanded that books 'reject a text-book that says the South fought to hold her slaves.' The primary documents haven't changed since 1861. Read them yourself.",
+    "rebuttal": "What you learned depended on when and where you went to school. The 1898 Wilmington coup—where a white mob overthrew an elected biracial government and murdered up to 300 Black citizens—was taught as a 'race riot caused by Black people' until 2011. That's 113 years of lies in North Carolina textbooks. The United Daughters of the Confederacy controlled Southern textbooks for decades. The primary documents haven't changed since 1861. Read them yourself.",
     "quote": "Reject a book that says the South fought to hold her slaves.",
     "source": "Mildred Rutherford, UDC Historian General, 'A Measuring Rod to Test Text Books' (1919)",
     "sourceUrl": "https://archive.org/details/measuringrodtote00ruth"
@@ -180,10 +180,10 @@
   {
     "id": "blame-textbooks",
     "myth": "Blame the textbooks",
-    "rebuttal": "Agreed, many textbooks got it wrong for decades—because Confederate apologists rewrote them. The United Daughters of the Confederacy published explicit guidelines to censor any book that told the truth about slavery. That's why we link to primary sources: the secession declarations, the Cornerstone Speech, and the Confederate Constitution weren't written by textbook publishers. They were written by the men who started the war.",
-    "quote": "Reject a text-book that does not clearly outline the policy of the North in Reconstruction legislation and administration.",
-    "source": "Mildred Rutherford, UDC Historian General, 'A Measuring Rod to Test Text Books' (1919)",
-    "sourceUrl": "https://archive.org/details/measuringrodtote00ruth"
+    "rebuttal": "Agreed, many textbooks got it wrong—because Confederate apologists rewrote them. Case in point: the 1898 Wilmington coup, where a white mob overthrew an elected government and murdered hundreds, was described as a 'race riot caused by Black people' in North Carolina textbooks until 2011. Democrats finally corrected it; Republicans opposed the change 7-5. The UDC published explicit guidelines to censor any book that told the truth. That's why we link to primary sources.",
+    "quote": "The Commission recommends that the events of 1898 and their impact be added to the curriculum of the public schools of North Carolina.",
+    "source": "1898 Wilmington Race Riot Commission Final Report, 2006",
+    "sourceUrl": "https://www.dncr.nc.gov/1898-wilmington-coup"
   },
   {
     "id": "rewriting-history",

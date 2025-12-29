@@ -1,23 +1,22 @@
 {# Bingo Grid Component with Interactive Responses #}
-<div class="bingo-grid" role="grid" aria-label="Civil War Claims and Responses">
-  {% for square in bingoSquares %}
-    <button
-      class="bingo-cell{% if square.id == 'free-space' %} free-space{% endif %}"
-      data-id="{{ square.id }}"
-      data-myth="{{ square.myth }}"
-      data-rebuttal="{{ square.rebuttal | escape }}"
-      data-quote="{{ square.quote | escape }}"
-      data-source="{{ square.source | escape }}"
-      data-source-url="{{ square.sourceUrl }}"
-      {% if square.contentWarning %}data-content-warning="true" data-warning-text="{{ square.warningText | escape }}"{% endif %}
-      aria-label="{% if square.id == 'free-space' %}Free space - automatically marked{% else %}Click to learn about: {{ square.myth }}{% endif %}"
-      role="gridcell"
-      {% if square.id == 'free-space' %}aria-pressed="true"{% endif %}
-    >
-      <span class="bingo-cell__text">{{ square.myth }}</span>
-      <span class="bingo-cell__hint">Click for response</span>
-    </button>
-  {% endfor %}
+{# Pass all squares to JavaScript for randomization - renders 5x5 with FREE SPACE centered #}
+
+<script>
+  window.allBingoSquares = {{ bingoSquares | dump | safe }};
+</script>
+
+<div class="bingo-controls">
+  <button class="btn btn--secondary bingo-shuffle-btn" id="shuffle-bingo" aria-label="Generate new bingo card">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M23 4v6h-6M1 20v-6h6"/>
+      <path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/>
+    </svg>
+    New Card
+  </button>
+</div>
+
+<div class="bingo-grid" role="grid" aria-label="Civil War Claims and Responses" id="bingo-grid">
+  {# Grid will be populated by JavaScript #}
 </div>
 
 {# Response Modal #}

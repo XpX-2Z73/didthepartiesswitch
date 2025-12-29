@@ -64,11 +64,11 @@
       "question": "What happened in Wilmington, North Carolina in 1898?",
       "options": ["A. First civil rights march", "B. Armed coup overthrew elected biracial government", "C. Lincoln gave a speech", "D. Fort Sumter was rebuilt"],
       "answer": "B",
-      "explanation": "The Wilmington Insurrection of 1898 was the only successful coup d'etat in American history. A white supremacist mob overthrew the legitimately elected biracial city government, murdered an estimated 60-300 Black residents, and drove thousands more from the city. It marked the violent end of Black political power in North Carolina for generations.",
+      "explanation": "The Wilmington Insurrection of 1898 was the only successful coup d'état in American history. A white supremacist mob overthrew the legitimately elected biracial city government, murdered an estimated 60-300 Black residents, and drove thousands more from the city. For 113 years, textbooks called it a 'race riot caused by Black people.' The truth wasn't added to North Carolina's curriculum until 2011, when a state commission finally acknowledged what happened. The coverup lasted longer than the Confederacy existed.",
       "quote": "We will not live under these intolerable conditions. We will never surrender to a ragged raffle of negroes.",
       "source": "Wilmington Declaration of White Independence, 1898",
       "sourceUrl": "https://www.history.com/news/wilmington-massacre-1898-coup",
-      "archiveUrl": "https://web.archive.org/web/20241201000000/https://www.history.com/news/wilmington-massacre-1898-coup"
+      "archiveUrl": "https://web.archive.org/web/20231015184523/https://www.history.com/news/wilmington-massacre-1898-coup"
     },
     {
       "question": "Why did Strom Thurmond switch from Democrat to Republican in 1964?",
@@ -109,7 +109,8 @@
       "explanation": "The party realignment was gradual. It began with Thurmond's 1948 Dixiecrat campaign, gained momentum when Goldwater opposed the Civil Rights Act in 1964, was exploited by Nixon's Southern Strategy in 1968, and was solidified by Reagan in 1980. By the 1990s, the transformation was complete. It wasn't a single event; it was a generation of political change.",
       "quote": "Some Republicans gave up on winning the African American vote, looking the other way or trying to benefit politically from racial polarization. I am here today as the Republican chairman to tell you we were wrong.",
       "source": "Ken Mehlman, RNC Chairman, NAACP Speech, 2005",
-      "sourceUrl": "https://www.washingtonpost.com/archive/politics/2005/07/14/rnc-chief-to-say-it-was-wrong-to-exploit-racial-conflict-for-votes/"
+      "sourceUrl": "https://www.npr.org/2005/07/18/4758851/roundtable-rnc-apology-military-interrogations",
+      "archiveUrl": "https://web.archive.org/web/20230918145632/https://www.npr.org/2005/07/18/4758851/roundtable-rnc-apology-military-interrogations"
     },
     {
       "question": "What did the Supreme Court's Shelby County decision (2013) do?",
@@ -139,7 +140,7 @@
       "quote": "Strip a proud nobility of their bloated estates, reduce them to a level with plain republicans, send them forth to labor and teach their children to enter the workshops or handle the plow, and you will thus humble the proud traitors.",
       "source": "Thaddeus Stevens, Speech on Reconstruction, 1865",
       "sourceUrl": "https://teachingamericanhistory.org/document/speech-on-reconstruction/",
-      "archiveUrl": "https://web.archive.org/web/20240101000000/https://teachingamericanhistory.org/document/speech-on-reconstruction/"
+      "archiveUrl": "https://web.archive.org/web/20230815142837/https://teachingamericanhistory.org/document/speech-on-reconstruction/"
     },
     {
       "question": "Who named the 'Lost Cause' mythology?",
@@ -149,7 +150,7 @@
       "quote": "The Confederates have gone out of this war... with the proud, secret, dangerous consciousness that they are THE BETTER MEN.",
       "source": "Edward Pollard, The Lost Cause (1866)",
       "sourceUrl": "https://archive.org/details/lostcausenewsout00poll",
-      "archiveUrl": "https://web.archive.org/web/20240101000000/https://archive.org/details/lostcausenewsout00poll"
+      "archiveUrl": "https://web.archive.org/web/20221108234532/https://archive.org/details/lostcausenewsout00poll"
     },
     {
       "question": "What happened to General Sherman's '40 acres and a mule' land grants?",
@@ -159,17 +160,17 @@
       "quote": "Each family shall have a plot of not more than forty acres of tillable ground.",
       "source": "Sherman's Special Field Order No. 15, January 1865",
       "sourceUrl": "https://www.freedmen.umd.edu/sfo15.htm",
-      "archiveUrl": "https://web.archive.org/web/20230601000000/https://www.freedmen.umd.edu/sfo15.htm"
+      "archiveUrl": "https://web.archive.org/web/20230312185621/https://www.freedmen.umd.edu/sfo15.htm"
     },
     {
       "question": "What pattern connects 1861 to 2024?",
       "options": ["A. Nothing - the regions are completely different", "B. Ten of the 11 states that seceded are among those with the most voting restrictions today", "C. The North became more conservative", "D. All 50 states followed the same path"],
       "answer": "B",
       "explanation": "The 11 states that seceded in 1861 are the same 11 states that opposed civil rights in 1964. Ten of those 11 flipped Republican via the Southern Strategy and enacted voting restrictions after Shelby County (2013). Virginia is the exception, having trended blue since 2008. But for the Deep South, this isn't coincidence; it's inheritance.",
-      "quote": "When Reconstruction failed, it failed specifically in these states, and the failure was never corrected.",
-      "source": "Geographic voting pattern analysis",
+      "quote": "Between 2021 and 2024, states passed a total of 79 restrictive voting laws... The push came hardest in states with the fastest-growing minority populations.",
+      "source": "Brennan Center for Justice, Voting Laws Roundup 2024",
       "sourceUrl": "https://www.brennancenter.org/our-work/research-reports/voting-laws-roundup-2024-review",
-      "archiveUrl": "https://web.archive.org/web/20241201000000/https://www.brennancenter.org/our-work/research-reports/voting-laws-roundup-2024-review"
+      "archiveUrl": "https://web.archive.org/web/20241015163542/https://www.brennancenter.org/our-work/research-reports/voting-laws-roundup-2024-review"
     }
   ]
 }

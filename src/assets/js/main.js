@@ -142,6 +142,88 @@
   }
 
   // ============================================
+  // BINGO CARD GENERATION
+  // ============================================
+
+  // Fisher-Yates shuffle
+  function shuffleArray(array) {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  }
+
+  function generateBingoCard() {
+    const bingoGrid = document.getElementById('bingo-grid');
+    if (!bingoGrid || !window.allBingoSquares) return;
+
+    // Separate free-space from other squares
+    const freeSpace = window.allBingoSquares.find(s => s.id === 'free-space');
+    const otherSquares = window.allBingoSquares.filter(s => s.id !== 'free-space');
+
+    // Shuffle and pick 24 random squares
+    const shuffled = shuffleArray(otherSquares);
+    const selected = shuffled.slice(0, 24);
+
+    // Insert free-space at position 12 (center of 5x5 grid)
+    const cardSquares = [...selected.slice(0, 12), freeSpace, ...selected.slice(12)];
+
+    // Clear existing grid
+    bingoGrid.innerHTML = '';
+
+    // Render the 25 squares
+    cardSquares.forEach(square => {
+      const button = document.createElement('button');
+      button.className = 'bingo-cell' + (square.id === 'free-space' ? ' free-space' : '');
+      button.dataset.id = square.id;
+      button.dataset.myth = square.myth;
+      button.dataset.rebuttal = square.rebuttal;
+      button.dataset.quote = square.quote;
+      button.dataset.source = square.source;
+      button.dataset.sourceUrl = square.sourceUrl;
+
+      if (square.contentWarning) {
+        button.dataset.contentWarning = 'true';
+        button.dataset.warningText = square.warningText;
+      }
+
+      button.setAttribute('aria-label',
+        square.id === 'free-space'
+          ? 'Free space - automatically marked'
+          : `Click to learn about: ${square.myth}`
+      );
+      button.setAttribute('role', 'gridcell');
+
+      if (square.id === 'free-space') {
+        button.setAttribute('aria-pressed', 'true');
+      }
+
+      button.innerHTML = `
+        <span class="bingo-cell__text">${square.myth}</span>
+        <span class="bingo-cell__hint">Click for response</span>
+      `;
+
+      bingoGrid.appendChild(button);
+    });
+  }
+
+  function initBingoCard() {
+    const shuffleBtn = document.getElementById('shuffle-bingo');
+
+    // Generate initial card
+    generateBingoCard();
+
+    // Shuffle button
+    if (shuffleBtn) {
+      shuffleBtn.addEventListener('click', () => {
+        generateBingoCard();
+      });
+    }
+  }
+
+  // ============================================
   // BINGO INTERACTION WITH MODAL
   // ============================================
   let currentBingoCell = null;
@@ -798,6 +880,7 @@
     initProgressBar();
     initHeroParallax();
     initCSVDownload();
+    initBingoCard();
     initBingoInteraction();
     initStateModal();
     initQuiz();

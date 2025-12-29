@@ -1676,6 +1676,26 @@ main header {
   margin: 0 auto;
 }
 
+.bingo-controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--space-md);
+}
+
+.bingo-shuffle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.bingo-shuffle-btn svg {
+  transition: transform var(--duration-fast) var(--ease-out);
+}
+
+.bingo-shuffle-btn:hover svg {
+  transform: rotate(180deg);
+}
+
 .bingo-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
