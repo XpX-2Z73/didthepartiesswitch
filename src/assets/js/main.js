@@ -547,8 +547,49 @@
 
     const questions = quizContainer.querySelectorAll('.quiz-question');
     const scoreDisplay = document.getElementById('quiz-score');
+    const stickyScoreDisplay = document.getElementById('quiz-score-sticky-value');
+    const stickyBar = document.getElementById('quiz-score-sticky');
+    const heroSection = document.querySelector('.hero');
     let score = 0;
     let answered = 0;
+
+    // Function to update both score displays
+    function updateScore() {
+      const scoreText = `${score} / ${answered}`;
+      if (scoreDisplay) {
+        scoreDisplay.textContent = scoreText;
+      }
+      if (stickyScoreDisplay) {
+        stickyScoreDisplay.textContent = scoreText;
+      }
+    }
+
+    // Sticky score bar scroll handling
+    if (stickyBar && heroSection) {
+      let ticking = false;
+
+      function updateStickyVisibility() {
+        const heroBottom = heroSection.getBoundingClientRect().bottom;
+        if (heroBottom < 0) {
+          stickyBar.classList.add('is-visible');
+          stickyBar.setAttribute('aria-hidden', 'false');
+        } else {
+          stickyBar.classList.remove('is-visible');
+          stickyBar.setAttribute('aria-hidden', 'true');
+        }
+        ticking = false;
+      }
+
+      window.addEventListener('scroll', () => {
+        if (!ticking) {
+          requestAnimationFrame(updateStickyVisibility);
+          ticking = true;
+        }
+      }, { passive: true });
+
+      // Initial check
+      updateStickyVisibility();
+    }
 
     questions.forEach((question) => {
       const options = question.querySelectorAll('.quiz-option');
@@ -576,10 +617,8 @@
             });
           }
 
-          // Update score
-          if (scoreDisplay) {
-            scoreDisplay.textContent = `${score} / ${answered}`;
-          }
+          // Update both score displays
+          updateScore();
 
           // Show explanation if exists
           const explanation = question.querySelector('.quiz-explanation');

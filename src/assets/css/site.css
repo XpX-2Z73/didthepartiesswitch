@@ -3450,6 +3450,51 @@ footer {
   margin-top: var(--space-md);
 }
 
+/* Sticky Score Bar */
+.quiz-score-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: linear-gradient(135deg, var(--bg-dark), var(--bg-chapter));
+  border-bottom: 1px solid var(--accent-gold-dim);
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: transform 0.3s var(--ease-out), opacity 0.3s var(--ease-out);
+  pointer-events: none;
+}
+
+.quiz-score-sticky.is-visible {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.quiz-score-sticky__inner {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: var(--space-sm) var(--space-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+}
+
+.quiz-score-sticky__label {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.quiz-score-sticky__value {
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--accent-gold);
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
