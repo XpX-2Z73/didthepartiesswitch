@@ -2118,6 +2118,43 @@ main header {
   flex-shrink: 0;
 }
 
+/* Era headers for source lists */
+.source-list__era {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent-gold);
+  margin: var(--space-lg) 0 var(--space-sm) 0;
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px solid var(--accent-gold-dim);
+}
+
+.source-list__era:first-child {
+  margin-top: 0;
+}
+
+/* Featured source rows (smoking guns) */
+.source-list__row--featured .source-list__item {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(139, 90, 43, 0.1));
+  border-color: var(--accent-gold-dim);
+}
+
+.source-list__row--featured .source-list__item:hover {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.2), rgba(139, 90, 43, 0.2));
+  border-color: var(--accent-gold);
+}
+
+.source-list__row--featured .source-list__archive {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(139, 90, 43, 0.1));
+  border-color: var(--accent-gold-dim);
+}
+
+/* Multiple source lists spacing */
+.source-list + .source-list {
+  margin-top: var(--space-lg);
+}
+
 /* Responsive adjustments for bingo page */
 @media (max-width: 768px) {
   .myth-origin-grid {
