@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 title: Party Switch Quiz
-description: Did the parties really switch? Test yourself with 10 questions on secession, Reconstruction, the Southern Strategy, and where the voters went.
+description: Did the parties really switch? Test yourself with questions on secession, Reconstruction, the Southern Strategy, and where the voters went.
 permalink: /quiz/
 ---
 
@@ -10,7 +10,7 @@ permalink: /quiz/
     <span class="eyebrow">Test Yourself</span>
     <h1 class="headline-hero hero__title">Reality Check</h1>
     <p class="subheadline hero__subtitle">
-      10 questions. Primary sources only. No mythology allowed.
+      {{ quizQuestions.questions | length }} questions. Primary sources only. No mythology allowed.
     </p>
     <div class="quiz-score-display reveal">
       <span>Score: </span><span id="quiz-score">0 / 0</span>
