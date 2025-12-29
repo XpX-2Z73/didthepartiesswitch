@@ -3453,22 +3453,19 @@ footer {
 /* Sticky Score Bar */
 .quiz-score-sticky {
   position: fixed;
-  top: 0;
+  top: 3px; /* Below progress bar */
   left: 0;
   right: 0;
   z-index: 999;
-  background: linear-gradient(135deg, var(--bg-dark), var(--bg-chapter));
-  border-bottom: 1px solid var(--accent-gold-dim);
+  background: var(--bg-dark);
+  border-bottom: 2px solid var(--accent-gold);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
   transform: translateY(-100%);
-  opacity: 0;
-  transition: transform 0.3s var(--ease-out), opacity 0.3s var(--ease-out);
-  pointer-events: none;
+  transition: transform 0.3s ease-out;
 }
 
 .quiz-score-sticky.is-visible {
   transform: translateY(0);
-  opacity: 1;
-  pointer-events: auto;
 }
 
 .quiz-score-sticky__inner {
