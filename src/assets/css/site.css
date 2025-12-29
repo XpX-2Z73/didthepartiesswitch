@@ -2152,7 +2152,9 @@ main header {
 
 /* Multiple source lists spacing */
 .source-list + .source-list {
-  margin-top: var(--space-lg);
+  margin-top: var(--space-xl, 3rem);
+  padding-top: var(--space-lg, 2rem);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 /* Responsive adjustments for bingo page */
