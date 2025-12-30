@@ -32,9 +32,17 @@
         "sourceUrl": "https://www.nps.gov/thst/learn/historyculture/stevens-epitaph.htm"
       }
     ],
-    "whatHeSaid": "Confiscate the estates of every rebel... and let them be divided among the soldiers and actual settlers.",
+    "whatHeSaid": {
+      "quote": "Confiscate the estates of every rebel... and let them be divided among the soldiers and actual settlers.",
+      "context": "On land redistribution, 1865"
+    },
     "whatHappened": "Johnson pardoned Confederate leaders. Land was returned to slaveholders. Freed people got nothing.",
-    "legacy": "Stevens was right. Without land and capital, freed people had no economic independence. Without trials, Confederate leaders returned to power. Without enforcement, rights were stripped away. Every failure of Reconstruction was a failure to heed Stevens's warnings."
+    "legacyQuote": {
+      "text": "I repose in this quiet and secluded spot, not from any natural preference for solitude, but finding other cemeteries limited as to race by charter rules, I have chosen this that I might illustrate in my death the principles which I advocated through a long life: Equality of Man before his Creator.",
+      "source": "Stevens's self-written epitaph, 1868"
+    },
+    "legacy": "Stevens was right. Without land and capital, freed people had no economic independence. Without trials, Confederate leaders returned to power. Without enforcement, rights were stripped away. Every failure of Reconstruction was a failure to heed Stevens's warnings.",
+    "sourceUrl": "https://www.nps.gov/thst/learn/historyculture/stevens-epitaph.htm"
   },
   {
     "name": "Charles Sumner",
@@ -68,9 +76,17 @@
         "sourceUrl": "https://www.masshist.org/features/sumner"
       }
     ],
-    "whatHeSaid": "No compromise with slaveholders. Full equality under law. Federal enforcement forever.",
+    "whatHeSaid": {
+      "quote": "No compromise with slaveholders. Full equality under law. Federal enforcement forever.",
+      "context": "On Reconstruction policy"
+    },
     "whatHappened": "Sumner's Civil Rights Act of 1875 was gutted by the Supreme Court in 1883. It took until 1964 for Congress to pass similar legislation.",
-    "legacy": "Sumner was beaten nearly to death for speaking truth. He returned and kept fighting. His Civil Rights Act, struck down in 1883, became the model for the Civil Rights Act of 1964, 89 years later. The delay cost millions of lives."
+    "legacyQuote": {
+      "text": "Where Slavery is, there Liberty cannot be; and where Liberty is, there Slavery cannot be.",
+      "source": "Speech on slavery and democracy, 1864"
+    },
+    "legacy": "Sumner was beaten nearly to death for speaking truth. He returned and kept fighting. His Civil Rights Act, struck down in 1883, became the model for the Civil Rights Act of 1964, 89 years later. The delay cost millions of lives.",
+    "sourceUrl": "https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Sumner.htm"
   },
   {
     "name": "Benjamin Butler",
@@ -98,9 +114,17 @@
         "sourceUrl": "https://www.history.com/news/contrabands-civil-war-slavery"
       }
     ],
-    "whatHeSaid": "Use federal power to crush the rebellion and its cause. Don't negotiate with traitors.",
+    "whatHeSaid": {
+      "quote": "Use federal power to crush the rebellion and its cause. Don't negotiate with traitors.",
+      "context": "On federal enforcement"
+    },
     "whatHappened": "Butler's Klan Act was weakened by the Supreme Court. Johnson's impeachment failed by one vote. Federal enforcement ended in 1877.",
-    "legacy": "Butler's contraband policy was the first crack in slavery's legal armor. His prosecution of Johnson nearly succeeded. His Klan Act was the last federal effort to protect Black voters until 1965. When enforcement ended, the Klan won."
+    "legacyQuote": {
+      "text": "I shall hold these negroes as contraband of war... I am credibly informed that the negroes in this neighborhood are now being employed in the erection of batteries and other works by the rebels.",
+      "source": "Butler's 'contraband' policy at Fort Monroe, 1861"
+    },
+    "legacy": "Butler's contraband policy was the first crack in slavery's legal armor. His prosecution of Johnson nearly succeeded. His Klan Act was the last federal effort to protect Black voters until 1965. When enforcement ended, the Klan won.",
+    "sourceUrl": "https://www.nps.gov/fomr/learn/historyculture/contraband.htm"
   },
   {
     "name": "Hiram Revels",
@@ -122,8 +146,16 @@
         "sourceUrl": "https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Revels.htm"
       }
     ],
-    "whatHeSaid": "Black Americans are ready to participate fully in democracy. Give us the chance.",
+    "whatHeSaid": {
+      "quote": "Black Americans are ready to participate fully in democracy. Give us the chance.",
+      "context": "On Black political participation"
+    },
     "whatHappened": "Within a decade, Mississippi's 1890 constitution stripped Black citizens of the vote Revels had exercised. No Black senator from the South for 130 years.",
-    "legacy": "Revels sat in Jefferson Davis's seat, a powerful symbol. But symbols weren't enough. Without enforcement, Reconstruction's promise was stolen. Mississippi wouldn't elect another Black senator until... it still hasn't."
+    "legacyQuote": {
+      "text": "I maintain that the past record of my race is a true index of the feelings which today animate them... They bear toward their former masters no revengeful thoughts, no hatreds, no animosities. They wish to be friends.",
+      "source": "First speech on the Senate floor, 1870"
+    },
+    "legacy": "Revels sat in Jefferson Davis's seat, a powerful symbol. But symbols weren't enough. Without enforcement, Reconstruction's promise was stolen. Mississippi wouldn't elect another Black senator until... it still hasn't.",
+    "sourceUrl": "https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Revels.htm"
   }
 ]
