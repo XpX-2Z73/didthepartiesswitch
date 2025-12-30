@@ -6669,6 +6669,8 @@ html {
   font-size: 0.8rem;
   font-style: normal;
   color: var(--text-muted);
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .hero-card__footer {
