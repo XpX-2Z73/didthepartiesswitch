@@ -547,7 +547,9 @@
 
     const questions = quizContainer.querySelectorAll('.quiz-question');
     const scoreDisplay = document.getElementById('quiz-score');
-    const stickyScoreDisplay = document.getElementById('quiz-score-sticky-value');
+    const fixedScoreDisplay = document.getElementById('quiz-score-fixed-value');
+    const fixedBar = document.getElementById('quiz-score-fixed');
+    const heroScoreContainer = document.getElementById('quiz-score-hero');
     let score = 0;
     let answered = 0;
 
@@ -557,9 +559,32 @@
       if (scoreDisplay) {
         scoreDisplay.textContent = scoreText;
       }
-      if (stickyScoreDisplay) {
-        stickyScoreDisplay.textContent = scoreText;
+      if (fixedScoreDisplay) {
+        fixedScoreDisplay.textContent = scoreText;
       }
+    }
+
+    // Show fixed bar when hero score is not visible
+    if (fixedBar && heroScoreContainer) {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              // Hero score visible - hide fixed bar
+              fixedBar.classList.remove('is-visible');
+            } else {
+              // Hero score NOT visible - show fixed bar
+              fixedBar.classList.add('is-visible');
+            }
+          });
+        },
+        {
+          root: null,
+          threshold: 0,
+          rootMargin: '-50px 0px 0px 0px'
+        }
+      );
+      observer.observe(heroScoreContainer);
     }
 
     questions.forEach((question) => {

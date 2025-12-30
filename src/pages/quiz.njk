@@ -5,6 +5,14 @@ description: Did the parties really switch? Test yourself with questions on sece
 permalink: /quiz/
 ---
 
+{# Fixed score bar - hidden until hero score scrolls out of view #}
+<div class="quiz-score-fixed" id="quiz-score-fixed">
+  <div class="quiz-score-fixed__inner">
+    <span class="quiz-score-fixed__label">Score:</span>
+    <span class="quiz-score-fixed__value" id="quiz-score-fixed-value">0 / 0</span>
+  </div>
+</div>
+
 <section class="hero hero--short" id="chapter-intro" data-chapter="Quiz">
   <div class="hero__content">
     <span class="eyebrow">Test Yourself</span>
@@ -12,21 +20,13 @@ permalink: /quiz/
     <p class="subheadline hero__subtitle">
       {{ quizQuestions.questions | length }} questions. Primary sources only. No mythology allowed.
     </p>
-    <div class="quiz-score-display reveal">
+    <div class="quiz-score-display reveal" id="quiz-score-hero">
       <span>Score: </span><span id="quiz-score">0 / 0</span>
     </div>
   </div>
 </section>
 
 <section class="chapter chapter--muted" id="chapter-quiz" data-chapter="Questions">
-  {# Sticky score bar - pure CSS, no JavaScript needed #}
-  <div class="quiz-score-sticky" id="quiz-score-sticky">
-    <div class="quiz-score-sticky__inner">
-      <span class="quiz-score-sticky__label">Score:</span>
-      <span class="quiz-score-sticky__value" id="quiz-score-sticky-value">0 / 0</span>
-    </div>
-  </div>
-
   <div class="chapter__inner">
     <div class="chapter__content chapter__content--center reveal">
       <p class="lead-text">

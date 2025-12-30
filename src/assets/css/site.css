@@ -3450,19 +3450,25 @@ footer {
   margin-top: var(--space-md);
 }
 
-/* Sticky Score Bar - Pure CSS, no JavaScript needed */
-.quiz-score-sticky {
-  position: sticky;
+/* Fixed Score Bar - appears when hero score scrolls out */
+.quiz-score-fixed {
+  position: fixed;
   top: 3px; /* Below progress bar */
+  left: 0;
+  right: 0;
   z-index: 999;
   background: var(--bg-dark);
   border-bottom: 2px solid var(--accent-gold);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-  margin: 0 calc(-1 * var(--space-lg));
-  padding: 0 var(--space-lg);
+  /* HIDDEN BY DEFAULT */
+  display: none;
 }
 
-.quiz-score-sticky__inner {
+.quiz-score-fixed.is-visible {
+  display: block;
+}
+
+.quiz-score-fixed__inner {
   max-width: var(--content-width);
   margin: 0 auto;
   padding: var(--space-sm) var(--space-md);
@@ -3472,14 +3478,14 @@ footer {
   gap: var(--space-sm);
 }
 
-.quiz-score-sticky__label {
+.quiz-score-fixed__label {
   font-size: 0.85rem;
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
-.quiz-score-sticky__value {
+.quiz-score-fixed__value {
   font-family: var(--font-mono);
   font-size: 1.1rem;
   font-weight: 600;
