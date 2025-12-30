@@ -549,7 +549,7 @@
     const scoreDisplay = document.getElementById('quiz-score');
     const stickyScoreDisplay = document.getElementById('quiz-score-sticky-value');
     const stickyBar = document.getElementById('quiz-score-sticky');
-    const originalScoreDisplay = document.querySelector('.quiz-score-display');
+    const sentinel = document.getElementById('quiz-score-sentinel');
     let score = 0;
     let answered = 0;
 
@@ -564,33 +564,29 @@
       }
     }
 
-    // Sticky score bar scroll handling - show when original score scrolls out of view
-    if (stickyBar && originalScoreDisplay) {
-      let ticking = false;
-
-      function updateStickyVisibility() {
-        const scoreRect = originalScoreDisplay.getBoundingClientRect();
-        // Show sticky bar when the original score display is scrolled out of view
-        // (when its bottom edge is above the viewport)
-        if (scoreRect.bottom < 60) {
-          stickyBar.classList.add('is-visible');
-          stickyBar.setAttribute('aria-hidden', 'false');
-        } else {
-          stickyBar.classList.remove('is-visible');
-          stickyBar.setAttribute('aria-hidden', 'true');
+    // Sticky score bar using IntersectionObserver on sentinel element
+    if (stickyBar && sentinel) {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            // When sentinel is NOT intersecting (scrolled past), show sticky bar
+            if (!entry.isIntersecting) {
+              stickyBar.classList.add('is-visible');
+              stickyBar.setAttribute('aria-hidden', 'false');
+            } else {
+              stickyBar.classList.remove('is-visible');
+              stickyBar.setAttribute('aria-hidden', 'true');
+            }
+          });
+        },
+        {
+          root: null,
+          rootMargin: '-3px 0px 0px 0px', // Account for progress bar height
+          threshold: 0
         }
-        ticking = false;
-      }
+      );
 
-      window.addEventListener('scroll', () => {
-        if (!ticking) {
-          requestAnimationFrame(updateStickyVisibility);
-          ticking = true;
-        }
-      }, { passive: true });
-
-      // Initial check
-      updateStickyVisibility();
+      observer.observe(sentinel);
     }
 
     questions.forEach((question) => {
