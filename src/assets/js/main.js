@@ -549,7 +549,7 @@
     const scoreDisplay = document.getElementById('quiz-score');
     const stickyScoreDisplay = document.getElementById('quiz-score-sticky-value');
     const stickyBar = document.getElementById('quiz-score-sticky');
-    const heroSection = document.querySelector('.hero');
+    const originalScoreDisplay = document.querySelector('.quiz-score-display');
     let score = 0;
     let answered = 0;
 
@@ -564,13 +564,15 @@
       }
     }
 
-    // Sticky score bar scroll handling
-    if (stickyBar && heroSection) {
+    // Sticky score bar scroll handling - show when original score scrolls out of view
+    if (stickyBar && originalScoreDisplay) {
       let ticking = false;
 
       function updateStickyVisibility() {
-        const heroBottom = heroSection.getBoundingClientRect().bottom;
-        if (heroBottom < 0) {
+        const scoreRect = originalScoreDisplay.getBoundingClientRect();
+        // Show sticky bar when the original score display is scrolled out of view
+        // (when its bottom edge is above the viewport)
+        if (scoreRect.bottom < 60) {
           stickyBar.classList.add('is-visible');
           stickyBar.setAttribute('aria-hidden', 'false');
         } else {
