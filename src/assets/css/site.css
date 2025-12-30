@@ -6522,15 +6522,22 @@ html {
    RECONSTRUCTION PAGE - HEROES, VILLAINS, MASSACRES
    ============================================ */
 
-/* Grid layouts */
+/* Masonry-style layouts using CSS columns */
 .hero-grid,
 .villain-grid,
 .measures-grid,
 .massacre-grid {
-  display: grid;
-  gap: var(--space-md);
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  align-items: start;
+  column-count: 3;
+  column-gap: var(--space-md);
+}
+
+@media (max-width: 1024px) {
+  .hero-grid,
+  .villain-grid,
+  .measures-grid,
+  .massacre-grid {
+    column-count: 2;
+  }
 }
 
 @media (max-width: 768px) {
@@ -6538,7 +6545,7 @@ html {
   .villain-grid,
   .measures-grid,
   .massacre-grid {
-    grid-template-columns: 1fr;
+    column-count: 1;
   }
 }
 
@@ -6551,6 +6558,8 @@ html {
   display: flex;
   flex-direction: column;
   gap: var(--space-md);
+  break-inside: avoid;
+  margin-bottom: var(--space-md);
 }
 
 .hero-card__header {
@@ -6688,6 +6697,8 @@ html {
   display: flex;
   flex-direction: column;
   gap: var(--space-md);
+  break-inside: avoid;
+  margin-bottom: var(--space-md);
 }
 
 .villain-card__header {
@@ -6808,6 +6819,8 @@ html {
   display: flex;
   flex-direction: column;
   gap: var(--space-md);
+  break-inside: avoid;
+  margin-bottom: var(--space-md);
 }
 
 .measure-card__header {
@@ -6893,6 +6906,8 @@ html {
   display: flex;
   flex-direction: column;
   gap: var(--space-md);
+  break-inside: avoid;
+  margin-bottom: var(--space-md);
 }
 
 .massacre-card__header {
