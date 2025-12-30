@@ -7,6 +7,11 @@
     "contribution": "Created the 'Lost Cause' term and narrative framework",
     "keyWorks": [
       {
+        "title": "Black Diamonds Gathered in the Darkey Homes of the South",
+        "year": 1859,
+        "impact": "Pro-slavery propaganda published before the war, proving his white supremacist ideology predated and motivated his later 'Lost Cause' reframing"
+      },
+      {
         "title": "The Lost Cause: A New Southern History of the War of the Confederates",
         "year": 1866,
         "impact": "Established the template: the war was about states' rights, not slavery; the South was noble and outnumbered; defeat was inevitable but honorable"
@@ -22,7 +27,18 @@
         "text": "The Confederates have gone out of this war... with the proud, secret, dangerous consciousness that they are THE BETTER MEN, and that there was nothing wanting but a change of circumstances to make them the victors.",
         "source": "The Lost Cause (1866)",
         "significance": "Shows the mythology was designed from the start to preserve Southern identity and prepare for a 'rematch'"
+      },
+      {
+        "text": "The war...has left the South its own proud memories, a consciousness of duty done to the last extremity, and in the face of the great defeat, a title to respect.",
+        "source": "The Lost Cause (1866)",
+        "significance": "Shows how the mythology reframed treason as honor and defeat as moral victory"
       }
+    ],
+    "tactics": [
+      "Reframed the war from slavery to 'constitutional liberty' and 'states' rights'",
+      "Portrayed Confederate defeat as noble sacrifice against overwhelming odds",
+      "Blamed Jefferson Davis's leadership rather than the cause itself",
+      "Established the template of 'Southern civilization' vs. 'Northern aggression'"
     ],
     "legacy": "Pollard died in 1872, but his narrative outlived him by generations. Every 'states' rights' argument, every 'War of Northern Aggression' claim, every 'heritage not hate' bumper sticker traces back to his 1866 book."
   },

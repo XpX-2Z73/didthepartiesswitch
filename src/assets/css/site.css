@@ -6528,8 +6528,9 @@ html {
 .measures-grid,
 .massacre-grid {
   display: grid;
-  gap: var(--space-lg);
+  gap: var(--space-md);
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  align-items: start;
 }
 
 @media (max-width: 768px) {
