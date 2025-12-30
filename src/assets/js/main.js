@@ -548,8 +548,6 @@
     const questions = quizContainer.querySelectorAll('.quiz-question');
     const scoreDisplay = document.getElementById('quiz-score');
     const stickyScoreDisplay = document.getElementById('quiz-score-sticky-value');
-    const stickyBar = document.getElementById('quiz-score-sticky');
-    const sentinel = document.getElementById('quiz-score-sentinel');
     let score = 0;
     let answered = 0;
 
@@ -562,31 +560,6 @@
       if (stickyScoreDisplay) {
         stickyScoreDisplay.textContent = scoreText;
       }
-    }
-
-    // Sticky score bar using IntersectionObserver on sentinel element
-    if (stickyBar && sentinel) {
-      const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            // When sentinel is NOT intersecting (scrolled past), show sticky bar
-            if (!entry.isIntersecting) {
-              stickyBar.classList.add('is-visible');
-              stickyBar.setAttribute('aria-hidden', 'false');
-            } else {
-              stickyBar.classList.remove('is-visible');
-              stickyBar.setAttribute('aria-hidden', 'true');
-            }
-          });
-        },
-        {
-          root: null,
-          rootMargin: '-3px 0px 0px 0px', // Account for progress bar height
-          threshold: 0
-        }
-      );
-
-      observer.observe(sentinel);
     }
 
     questions.forEach((question) => {

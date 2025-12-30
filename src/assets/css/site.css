@@ -3450,36 +3450,16 @@ footer {
   margin-top: var(--space-md);
 }
 
-/* Sentinel for sticky score bar trigger */
-#quiz-score-sentinel {
-  height: 1px;
-  margin: 0;
-  padding: 0;
-  pointer-events: none;
-}
-
-/* Sticky Score Bar */
+/* Sticky Score Bar - Pure CSS, no JavaScript needed */
 .quiz-score-sticky {
-  position: fixed;
+  position: sticky;
   top: 3px; /* Below progress bar */
-  left: 0;
-  right: 0;
   z-index: 999;
   background: var(--bg-dark);
   border-bottom: 2px solid var(--accent-gold);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-10px);
-  transition: opacity 0.25s ease-out, visibility 0.25s ease-out, transform 0.25s ease-out;
-  pointer-events: none;
-}
-
-.quiz-score-sticky.is-visible {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-  pointer-events: auto;
+  margin: 0 calc(-1 * var(--space-lg));
+  padding: 0 var(--space-lg);
 }
 
 .quiz-score-sticky__inner {

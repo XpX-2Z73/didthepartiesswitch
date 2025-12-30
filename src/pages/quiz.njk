@@ -18,18 +18,15 @@ permalink: /quiz/
   </div>
 </section>
 
-{# Sentinel element - when this scrolls out of view, sticky bar appears #}
-<div id="quiz-score-sentinel" aria-hidden="true"></div>
-
-{# Sticky score bar - appears when scrolling past hero #}
-<div class="quiz-score-sticky" id="quiz-score-sticky" aria-hidden="true">
-  <div class="quiz-score-sticky__inner">
-    <span class="quiz-score-sticky__label">Score:</span>
-    <span class="quiz-score-sticky__value" id="quiz-score-sticky-value">0 / 0</span>
-  </div>
-</div>
-
 <section class="chapter chapter--muted" id="chapter-quiz" data-chapter="Questions">
+  {# Sticky score bar - pure CSS, no JavaScript needed #}
+  <div class="quiz-score-sticky" id="quiz-score-sticky">
+    <div class="quiz-score-sticky__inner">
+      <span class="quiz-score-sticky__label">Score:</span>
+      <span class="quiz-score-sticky__value" id="quiz-score-sticky-value">0 / 0</span>
+    </div>
+  </div>
+
   <div class="chapter__inner">
     <div class="chapter__content chapter__content--center reveal">
       <p class="lead-text">
