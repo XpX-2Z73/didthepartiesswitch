@@ -3276,6 +3276,30 @@ footer {
   display: flex;
   flex-direction: column;
   gap: var(--space-md);
+  /* Hide until JavaScript shuffles questions/answers */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.quiz.is-ready {
+  opacity: 1;
+}
+
+/* Answer indicator shown after answering */
+.quiz-answer-indicator {
+  margin-bottom: var(--space-sm);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.quiz-answer-indicator--correct {
+  color: #4ade80;
+}
+
+.quiz-answer-indicator--incorrect {
+  color: #f87171;
 }
 
 .quiz-question {

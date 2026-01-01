@@ -545,7 +545,6 @@
     const quizContainer = document.querySelector('.quiz');
     if (!quizContainer) return;
 
-    const questions = quizContainer.querySelectorAll('.quiz-question');
     const scoreDisplay = document.getElementById('quiz-score');
     const fixedScoreDisplay = document.getElementById('quiz-score-fixed-value');
     const fixedBar = document.getElementById('quiz-score-fixed');
@@ -553,7 +552,7 @@
     let score = 0;
     let answered = 0;
 
-    // Fisher-Yates shuffle for randomizing options
+    // Fisher-Yates shuffle for randomizing arrays
     function shuffleArray(array) {
       for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -562,11 +561,28 @@
       return array;
     }
 
-    // Shuffle options for each question on page load
-    questions.forEach((question) => {
+    // 1. Shuffle question order
+    const questionsArray = Array.from(quizContainer.querySelectorAll('.quiz-question'));
+    shuffleArray(questionsArray);
+
+    // Re-append questions in shuffled order and renumber them
+    questionsArray.forEach((question, index) => {
+      const questionText = question.querySelector('.quiz-question__text');
+      if (questionText) {
+        // Update question number (format: "1. Question text?")
+        const originalText = questionText.textContent;
+        const questionContent = originalText.replace(/^\d+\.\s*/, ''); // Remove old number
+        questionText.textContent = `${index + 1}. ${questionContent}`;
+      }
+      question.setAttribute('data-question-id', index + 1);
+      quizContainer.appendChild(question);
+    });
+
+    // 2. Shuffle options within each question
+    const letters = ['A', 'B', 'C', 'D'];
+    questionsArray.forEach((question) => {
       const optionsContainer = question.querySelector('.quiz-options');
       const options = Array.from(optionsContainer.querySelectorAll('.quiz-option'));
-      const letters = ['A', 'B', 'C', 'D'];
 
       // Shuffle the options array
       shuffleArray(options);
@@ -577,6 +593,9 @@
         const originalText = option.textContent;
         const answerText = originalText.substring(3); // Remove "A. ", "B. ", etc.
 
+        // Store the new letter on the element for later reference
+        option.dataset.letter = letters[index];
+
         // Update with new letter
         option.textContent = `${letters[index]}. ${answerText}`;
         option.setAttribute('aria-label', `${letters[index]}. ${answerText}`);
@@ -585,6 +604,12 @@
         optionsContainer.appendChild(option);
       });
     });
+
+    // 3. Reveal quiz after shuffling (prevent flash of unshuffled content)
+    quizContainer.classList.add('is-ready');
+
+    // Get fresh reference to questions after shuffling
+    const questions = quizContainer.querySelectorAll('.quiz-question');
 
     // Function to update both score displays
     function updateScore() {
@@ -633,6 +658,14 @@
 
           const isCorrect = option.dataset.correct === 'true';
 
+          // Find the correct answer and its letter
+          let correctLetter = '';
+          options.forEach((opt) => {
+            if (opt.dataset.correct === 'true') {
+              correctLetter = opt.dataset.letter;
+            }
+          });
+
           if (isCorrect) {
             option.classList.add('correct');
             score++;
@@ -654,6 +687,17 @@
           if (explanation) {
             explanation.classList.add('show');
             explanation.setAttribute('aria-hidden', 'false');
+
+            // Add correct answer indicator at the top of explanation
+            const explanationContent = explanation.querySelector('.quiz-explanation__content');
+            if (explanationContent && !explanationContent.querySelector('.quiz-answer-indicator')) {
+              const indicator = document.createElement('div');
+              indicator.className = 'quiz-answer-indicator';
+              indicator.innerHTML = isCorrect
+                ? `<span class="quiz-answer-indicator--correct">Correct! The answer was ${correctLetter}.</span>`
+                : `<span class="quiz-answer-indicator--incorrect">Incorrect. The answer was ${correctLetter}.</span>`;
+              explanationContent.insertBefore(indicator, explanationContent.firstChild);
+            }
 
             // Smooth scroll to show explanation if it's below the fold
             setTimeout(() => {
