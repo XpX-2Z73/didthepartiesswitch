@@ -553,6 +553,39 @@
     let score = 0;
     let answered = 0;
 
+    // Fisher-Yates shuffle for randomizing options
+    function shuffleArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+    // Shuffle options for each question on page load
+    questions.forEach((question) => {
+      const optionsContainer = question.querySelector('.quiz-options');
+      const options = Array.from(optionsContainer.querySelectorAll('.quiz-option'));
+      const letters = ['A', 'B', 'C', 'D'];
+
+      // Shuffle the options array
+      shuffleArray(options);
+
+      // Re-append in shuffled order and update labels
+      options.forEach((option, index) => {
+        // Extract the answer text (after "X. ")
+        const originalText = option.textContent;
+        const answerText = originalText.substring(3); // Remove "A. ", "B. ", etc.
+
+        // Update with new letter
+        option.textContent = `${letters[index]}. ${answerText}`;
+        option.setAttribute('aria-label', `${letters[index]}. ${answerText}`);
+
+        // Re-append to container (this reorders the DOM)
+        optionsContainer.appendChild(option);
+      });
+    });
+
     // Function to update both score displays
     function updateScore() {
       const scoreText = `${score} / ${answered}`;
