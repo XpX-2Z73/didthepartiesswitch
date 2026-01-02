@@ -589,9 +589,9 @@
 
       // Re-append in shuffled order and update labels
       options.forEach((option, index) => {
-        // Extract the answer text (after "X. ")
-        const originalText = option.textContent;
-        const answerText = originalText.substring(3); // Remove "A. ", "B. ", etc.
+        // Extract the answer text (after "X. ") - trim first to handle template whitespace
+        const originalText = option.textContent.trim();
+        const answerText = originalText.replace(/^[A-D]\.\s*/, ''); // Remove "A. ", "B. ", etc.
 
         // Store the new letter on the element for later reference
         option.dataset.letter = letters[index];
@@ -773,8 +773,9 @@
       shuffleArray(options);
 
       options.forEach((option, index) => {
-        const originalText = option.textContent;
-        const answerText = originalText.substring(3);
+        // Trim first to handle template whitespace, then use regex to remove letter prefix
+        const originalText = option.textContent.trim();
+        const answerText = originalText.replace(/^[A-D]\.\s*/, '');
         option.dataset.letter = letters[index];
         option.textContent = `${letters[index]}. ${answerText}`;
         option.setAttribute('aria-label', `${letters[index]}. ${answerText}`);
