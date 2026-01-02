@@ -3313,8 +3313,15 @@ footer {
 }
 
 /* Advanced quiz doesn't need opacity hiding since section handles visibility */
-.advanced-quiz {
-  opacity: 1;
+.quiz.advanced-quiz {
+  opacity: 1 !important;
+}
+
+/* Ensure advanced quiz questions are visible */
+.advanced-quiz .quiz-question {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
 @keyframes fadeInUp {
