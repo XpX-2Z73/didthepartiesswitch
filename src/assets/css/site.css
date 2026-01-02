@@ -3312,6 +3312,11 @@ footer {
   animation: fadeInUp 0.6s ease;
 }
 
+/* Advanced quiz doesn't need opacity hiding since section handles visibility */
+.advanced-quiz {
+  opacity: 1;
+}
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
