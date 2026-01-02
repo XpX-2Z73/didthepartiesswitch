@@ -39,6 +39,28 @@ permalink: /quiz/
   </div>
 </section>
 
+{# Advanced Quiz - Hidden until main quiz is complete #}
+<section class="chapter chapter--dark advanced-quiz-section" id="advanced-quiz-section" data-chapter="Scholar's Challenge">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">You're Ready</span>
+      <h2 class="headline-section">Scholar's Challenge</h2>
+      <p class="lead-text">
+        {{ advancedQuizQuestions.questions | length }} questions. No sanitizing. What they don't teach.
+      </p>
+      <p class="body-text" style="max-width: 600px; margin: 0 auto 2rem;">
+        This quiz covers the documented horrors that get whitewashed from textbooks: massacres, convict leasing, medical atrocities, and the legal architecture of white supremacy. Every question is sourced. Content warnings are provided where needed.
+      </p>
+      <div class="quiz-score-display" id="advanced-quiz-score-display">
+        <span>Score: </span><span id="advanced-quiz-score">0 / 0</span>
+      </div>
+    </div>
+    <div class="quiz-container reveal">
+      {% include "components/advanced-quiz.njk" %}
+    </div>
+  </div>
+</section>
+
 <section class="chapter chapter--dark" id="chapter-explore">
   <div class="chapter__inner">
     <div class="chapter__content chapter__content--center">

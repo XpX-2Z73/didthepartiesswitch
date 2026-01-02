@@ -1,0 +1,51 @@
+{# Advanced Quiz Component - Scholar's Challenge #}
+<div class="quiz advanced-quiz" id="advanced-quiz">
+  {% for q in advancedQuizQuestions.questions %}
+    <article class="quiz-question" data-question-id="{{ loop.index }}">
+      <span class="quiz-question__category">{{ q.category }}</span>
+      <p class="quiz-question__text">{{ loop.index }}. {{ q.question }}</p>
+      <div class="quiz-options" role="group" aria-label="Answer options for question {{ loop.index }}">
+        {% for option in q.options %}
+          {% set optionLetter = option | first %}
+          {% set isCorrect = optionLetter == q.answer %}
+          <button type="button" class="quiz-option" data-correct="{{ isCorrect }}" aria-label="{{ option }}">
+            {{ option }}
+          </button>
+        {% endfor %}
+      </div>
+      <div class="quiz-explanation" aria-hidden="true">
+        <div class="quiz-explanation__content">
+          <p class="quiz-explanation__text">{{ q.explanation }}</p>
+          {% if q.contentWarning %}
+          <div class="content-warning content-warning--compact">
+            <span class="content-warning__label">Content Warning:</span>
+            <span class="content-warning__text">{{ q.warningText }}</span>
+          </div>
+          {% endif %}
+          <blockquote class="quiz-explanation__quote">
+            <p>"{{ q.quote }}"</p>
+            <cite>— {{ q.source }}</cite>
+          </blockquote>
+          <div class="quiz-explanation__links">
+            <a href="{{ q.sourceUrl }}" class="quiz-explanation__source" target="_blank" rel="noopener noreferrer">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                <polyline points="15 3 21 3 21 9"/>
+                <line x1="10" y1="14" x2="21" y2="3"/>
+              </svg>
+              Read the source
+            </a>
+            {% if q.archiveUrl %}
+            <a href="{{ q.archiveUrl }}" class="quiz-explanation__archive" target="_blank" rel="noopener noreferrer" title="Archived backup">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 8v13H3V8M1 3h22v5H1zM10 12h4"/>
+              </svg>
+              Archived
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </article>
+  {% endfor %}
+</div>

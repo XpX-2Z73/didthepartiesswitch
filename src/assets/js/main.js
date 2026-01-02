@@ -707,6 +707,150 @@
               }
             }, 100);
           }
+
+          // Check if main quiz is complete - reveal advanced quiz
+          if (answered === questions.length) {
+            const advancedSection = document.getElementById('advanced-quiz-section');
+            if (advancedSection && !advancedSection.classList.contains('is-visible')) {
+              // Small delay to let user see their final score
+              setTimeout(() => {
+                advancedSection.classList.add('is-visible');
+                initAdvancedQuiz();
+                // Scroll to reveal the advanced quiz
+                setTimeout(() => {
+                  advancedSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 300);
+              }, 1500);
+            }
+          }
+        });
+      });
+    });
+  }
+
+  // ============================================
+  // ADVANCED QUIZ (Scholar's Challenge)
+  // ============================================
+  function initAdvancedQuiz() {
+    const advancedQuizContainer = document.getElementById('advanced-quiz');
+    if (!advancedQuizContainer) return;
+
+    const scoreDisplay = document.getElementById('advanced-quiz-score');
+    let score = 0;
+    let answered = 0;
+
+    // Fisher-Yates shuffle
+    function shuffleArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+    // Shuffle question order
+    const questionsArray = Array.from(advancedQuizContainer.querySelectorAll('.quiz-question'));
+    shuffleArray(questionsArray);
+
+    // Re-append questions in shuffled order and renumber them
+    questionsArray.forEach((question, index) => {
+      const questionText = question.querySelector('.quiz-question__text');
+      if (questionText) {
+        const originalText = questionText.textContent;
+        const questionContent = originalText.replace(/^\d+\.\s*/, '');
+        questionText.textContent = `${index + 1}. ${questionContent}`;
+      }
+      question.setAttribute('data-question-id', index + 1);
+      advancedQuizContainer.appendChild(question);
+    });
+
+    // Shuffle options within each question
+    const letters = ['A', 'B', 'C', 'D'];
+    questionsArray.forEach((question) => {
+      const optionsContainer = question.querySelector('.quiz-options');
+      const options = Array.from(optionsContainer.querySelectorAll('.quiz-option'));
+
+      shuffleArray(options);
+
+      options.forEach((option, index) => {
+        const originalText = option.textContent;
+        const answerText = originalText.substring(3);
+        option.dataset.letter = letters[index];
+        option.textContent = `${letters[index]}. ${answerText}`;
+        option.setAttribute('aria-label', `${letters[index]}. ${answerText}`);
+        optionsContainer.appendChild(option);
+      });
+    });
+
+    // Reveal quiz after shuffling
+    advancedQuizContainer.classList.add('is-ready');
+
+    // Get fresh reference to questions
+    const questions = advancedQuizContainer.querySelectorAll('.quiz-question');
+
+    // Update score display
+    function updateScore() {
+      if (scoreDisplay) {
+        scoreDisplay.textContent = `${score} / ${answered}`;
+      }
+    }
+
+    // Add click handlers
+    questions.forEach((question) => {
+      const options = question.querySelectorAll('.quiz-option');
+
+      options.forEach((option) => {
+        option.addEventListener('click', () => {
+          if (question.classList.contains('answered')) return;
+
+          question.classList.add('answered');
+          answered++;
+
+          const isCorrect = option.dataset.correct === 'true';
+
+          let correctLetter = '';
+          options.forEach((opt) => {
+            if (opt.dataset.correct === 'true') {
+              correctLetter = opt.dataset.letter;
+            }
+          });
+
+          if (isCorrect) {
+            option.classList.add('correct');
+            score++;
+          } else {
+            option.classList.add('incorrect');
+            options.forEach((opt) => {
+              if (opt.dataset.correct === 'true') {
+                opt.classList.add('correct');
+              }
+            });
+          }
+
+          updateScore();
+
+          const explanation = question.querySelector('.quiz-explanation');
+          if (explanation) {
+            explanation.classList.add('show');
+            explanation.setAttribute('aria-hidden', 'false');
+
+            const explanationContent = explanation.querySelector('.quiz-explanation__content');
+            if (explanationContent && !explanationContent.querySelector('.quiz-answer-indicator')) {
+              const indicator = document.createElement('div');
+              indicator.className = 'quiz-answer-indicator';
+              indicator.innerHTML = isCorrect
+                ? `<span class="quiz-answer-indicator--correct">Correct! The answer was ${correctLetter}.</span>`
+                : `<span class="quiz-answer-indicator--incorrect">Incorrect. The answer was ${correctLetter}.</span>`;
+              explanationContent.insertBefore(indicator, explanationContent.firstChild);
+            }
+
+            setTimeout(() => {
+              const rect = explanation.getBoundingClientRect();
+              if (rect.bottom > window.innerHeight) {
+                explanation.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+              }
+            }, 100);
+          }
         });
       });
     });
