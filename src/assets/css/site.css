@@ -3312,24 +3312,6 @@ footer {
   animation: fadeInUp 0.6s ease;
 }
 
-/* Advanced quiz doesn't need opacity hiding since section handles visibility */
-.quiz.advanced-quiz {
-  opacity: 1 !important;
-}
-
-/* Ensure advanced quiz questions are visible */
-.advanced-quiz .quiz-question {
-  display: block !important;
-  opacity: 1 !important;
-  visibility: visible !important;
-}
-
-/* Ensure quiz-container is visible when section is visible */
-.advanced-quiz-section.is-visible .quiz-container.reveal {
-  opacity: 1 !important;
-  visibility: visible !important;
-}
-
 @keyframes fadeInUp {
   from {
     opacity: 0;
