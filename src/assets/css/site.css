@@ -3324,6 +3324,12 @@ footer {
   visibility: visible !important;
 }
 
+/* Ensure quiz-container is visible when section is visible */
+.advanced-quiz-section.is-visible .quiz-container.reveal {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
 @keyframes fadeInUp {
   from {
     opacity: 0;

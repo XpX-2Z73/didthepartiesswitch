@@ -6,6 +6,11 @@
 (function() {
   'use strict';
 
+  // DEBUG: Log on script load
+  console.log('=== MAIN.JS LOADED ===');
+  console.log('Advanced quiz container exists:', !!document.getElementById('advanced-quiz'));
+  console.log('Advanced quiz questions on load:', document.querySelectorAll('#advanced-quiz .quiz-question').length);
+
   // ============================================
   // SCROLL REVEAL ANIMATIONS
   // ============================================
@@ -715,6 +720,10 @@
               // Small delay to let user see their final score
               setTimeout(() => {
                 advancedSection.classList.add('is-visible');
+                // Also reveal all .reveal elements inside the advanced section
+                advancedSection.querySelectorAll('.reveal').forEach(el => {
+                  el.classList.add('is-visible');
+                });
                 initAdvancedQuiz();
                 // Scroll to reveal the advanced quiz
                 setTimeout(() => {
@@ -732,8 +741,16 @@
   // ADVANCED QUIZ (Scholar's Challenge)
   // ============================================
   function initAdvancedQuiz() {
+    console.log('initAdvancedQuiz called');
     const advancedQuizContainer = document.getElementById('advanced-quiz');
-    if (!advancedQuizContainer) return;
+    console.log('advancedQuizContainer:', advancedQuizContainer);
+    if (!advancedQuizContainer) {
+      console.log('ERROR: advancedQuizContainer not found!');
+      return;
+    }
+
+    const questionsFound = advancedQuizContainer.querySelectorAll('.quiz-question');
+    console.log('Questions found:', questionsFound.length);
 
     const scoreDisplay = document.getElementById('advanced-quiz-score');
     let score = 0;
@@ -785,9 +802,16 @@
 
     // Reveal quiz after shuffling
     advancedQuizContainer.classList.add('is-ready');
+    console.log('Added is-ready class. Container classes:', advancedQuizContainer.className);
+    console.log('Container computed opacity:', window.getComputedStyle(advancedQuizContainer).opacity);
 
     // Get fresh reference to questions
     const questions = advancedQuizContainer.querySelectorAll('.quiz-question');
+    console.log('Questions after shuffle:', questions.length);
+    if (questions.length > 0) {
+      console.log('First question computed opacity:', window.getComputedStyle(questions[0]).opacity);
+      console.log('First question computed display:', window.getComputedStyle(questions[0]).display);
+    }
 
     // Update score display
     function updateScore() {
