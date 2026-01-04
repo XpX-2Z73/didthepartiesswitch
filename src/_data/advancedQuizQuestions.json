@@ -660,17 +660,6 @@
     },
     {
       "category": "Housing Discrimination",
-      "question": "What was 'contract buying' and how did it exploit Black families in Chicago?",
-      "options": ["A. A fair installment plan with standard terms and protections", "B. A predatory system where Black buyers paid inflated prices with no equity, losing everything if they missed one payment", "C. A government assistance program for low-income buyers to own homes", "D. A rental agreement with an option to purchase the home eventually"],
-      "answer": "B",
-      "explanation": "Because Black families couldn't get mortgages due to redlining, they were forced into 'contract buying'—purchasing homes on installment at hugely inflated prices. Unlike a mortgage, buyers built no equity; if they missed a single payment, they lost the house AND all previous payments. Speculators bought houses cheaply, then sold them to Black families at 2-3 times the price. An estimated 85% of Black homebuyers in Chicago from 1940-1970 bought on contract, losing billions in wealth.",
-      "quote": "They sold us homes that were worth $12,000 for $27,000, and if we missed one payment, we lost everything.",
-      "source": "Contract Buyers League testimony, Chicago, 1960s",
-      "sourceUrl": "https://www.theatlantic.com/magazine/archive/2014/06/the-case-for-reparations/361631/",
-      "archiveUrl": "https://web.archive.org/web/20231215000000/https://www.theatlantic.com/magazine/archive/2014/06/the-case-for-reparations/361631/"
-    },
-    {
-      "category": "Housing Discrimination",
       "question": "What happened when Black families moved into Levittown, Pennsylvania in 1957?",
       "options": ["A. They were welcomed by neighbors and local leaders with open arms", "B. The community ignored them and went on as usual without incident", "C. Mobs gathered nightly, threw rocks, burned crosses, and Confederate flags flew from neighboring houses", "D. They were asked to leave peacefully by the developer who built the homes"],
       "answer": "C",
@@ -918,19 +907,6 @@
       "archiveUrl": "https://web.archive.org/web/20231108000000/https://www.britannica.com/event/Buck-v-Bell"
     },
     {
-      "category": "Scientific Racism",
-      "question": "What medical experiments did Dr. J. Marion Sims perform on enslaved women?",
-      "options": ["A. Vaccinations against common infectious diseases affecting the population", "B. Repeated surgical experiments without anesthesia, operating on the same women up to 30 times", "C. Blood pressure studies for cardiovascular research at medical schools", "D. Nutritional research on diet and health effects on pregnant women"],
-      "answer": "B",
-      "explanation": "Dr. J. Marion Sims, often called the 'father of modern gynecology,' developed his surgical techniques by experimenting on enslaved Black women without anesthesia. He operated on one woman, Anarcha, at least 30 times. Sims justified withholding anesthesia based on the racist myth that Black people didn't feel pain the same way white people did. Statues honoring Sims stood in Central Park and other locations until recent removals.",
-      "quote": "Sims's innovation was to exploit the social circumstances of slavery... He experimented on enslaved women without their consent.",
-      "source": "Harriet Washington, 'Medical Apartheid'",
-      "sourceUrl": "https://www.history.com/news/the-father-of-modern-gynecology-performed-shocking-experiments-on-slaves",
-      "archiveUrl": "https://web.archive.org/web/20231215000000/https://www.history.com/news/the-father-of-modern-gynecology-performed-shocking-experiments-on-slaves",
-      "contentWarning": true,
-      "warningText": "Contains description of medical torture"
-    },
-    {
       "category": "Labor Discrimination",
       "question": "Why were domestic workers and agricultural workers excluded from the Social Security Act of 1935 and the National Labor Relations Act?",
       "options": ["A. Administrative convenience made inclusion impractical for the government", "B. They had separate programs designed for them by individual states", "C. Because these were the jobs held predominantly by Black workers—Southern Democrats demanded their exclusion", "D. They were covered under existing state laws providing similar benefits"],
@@ -1035,17 +1011,6 @@
     },
     {
       "category": "Lynching & Terror",
-      "question": "How many anti-lynching bills did Congress fail to pass despite decades of attempts?",
-      "options": ["A. About 10 different bills over the years in total", "B. About 50 different bills over the years in Congress", "C. Nearly 200 different bills over the years", "D. About 5 different bills over the years were introduced"],
-      "answer": "C",
-      "explanation": "Congress introduced nearly 200 anti-lynching bills over more than a century, starting in 1900. Every single one was blocked, primarily by Southern Democrats using the filibuster in the Senate. The Dyer Anti-Lynching Bill passed the House in 1922 but died in the Senate. Congress did not pass an anti-lynching law until the Emmett Till Anti-Lynching Act in 2022—67 years after Till's murder and 122 years after the first bill was introduced.",
-      "quote": "Senators have blocked this bill because they do not care about the lives of Black Americans.",
-      "source": "Ida B. Wells, anti-lynching crusader",
-      "sourceUrl": "https://www.senate.gov/about/powers-procedures/filibuster-cloture/civil-rights-filibuster-1922.htm",
-      "archiveUrl": "https://web.archive.org/web/20231201000000/https://www.senate.gov/about/powers-procedures/filibuster-cloture/civil-rights-filibuster-1922.htm"
-    },
-    {
-      "category": "Lynching & Terror",
       "question": "What happened to Black World War I veterans specifically targeted for lynching?",
       "options": ["A. They were protected by the military authorities from harm", "B. Many were lynched while still in uniform, targeted specifically for serving their country", "C. They received special protection from the government agencies", "D. They faced no more danger than other Black men in the South"],
       "answer": "B",
@@ -1131,17 +1096,6 @@
       "source": "Corrigan v. Buckley, 1926",
       "sourceUrl": "https://supreme.justia.com/cases/federal/us/271/323/",
       "archiveUrl": "https://web.archive.org/web/20231108000000/https://supreme.justia.com/cases/federal/us/271/323/"
-    },
-    {
-      "category": "Economic Terrorism",
-      "question": "How much land did Black farmers lose between 1910 and today?",
-      "options": ["A. About 2 million acres of farmland total was lost to foreclosures", "B. About 12 million of 19 million acres—approximately 90% of Black-owned farmland", "C. About 5 million acres of farmland total was lost through various causes", "D. Very little land was lost during this period due to legal protections"],
-      "answer": "B",
-      "explanation": "In 1910, Black farmers owned approximately 19 million acres of farmland. Today, they own less than 2 million acres—a loss of roughly 90%. This wasn't natural economic forces; it was systematic dispossession through fraud, intimidation, violence, discriminatory lending, and 'partition sales' that forced sale of family land. The USDA itself was complicit, denying loans and assistance to Black farmers for decades, as documented in the Pigford cases.",
-      "quote": "We lost the land through every dirty trick imaginable—legal, illegal, and violent.",
-      "source": "Black farmers' testimony, Pigford v. Glickman documentation",
-      "sourceUrl": "https://www.theatlantic.com/magazine/archive/2019/09/this-land-was-our-land/594742/",
-      "archiveUrl": "https://web.archive.org/web/20231201000000/https://www.theatlantic.com/magazine/archive/2019/09/this-land-was-our-land/594742/"
     },
     {
       "category": "Economic Terrorism",
