@@ -82,7 +82,7 @@
     },
     {
       "question": "What was the 'Southern Strategy'?",
-      "options": ["A. Confederate war plan to defend territory", "B. GOP strategy using coded racial appeals to win white Southern voters", "C. Democratic plan to win back the South", "D. Reconstruction policy for rebuilding states"],
+      "options": ["A. Confederate military war plan to defend Southern territory from invasion", "B. GOP strategy using coded racial appeals to win white Southern voters", "C. Democratic political plan to win back the South after Reconstruction", "D. Federal Reconstruction policy for rebuilding Southern states after war"],
       "answer": "B",
       "explanation": "The Southern Strategy was a Republican electoral strategy to win white Southern voters by appealing to racism against African Americans. Nixon adviser Kevin Phillips outlined it in 1970. Lee Atwater later explained how it evolved from explicit racism to coded language. In 2005, RNC Chairman Ken Mehlman formally apologized for it.",
       "quote": "You start out in 1954 by saying, 'N----r, n----r, n----r.' By 1968 you can't say 'n----r'—that hurts you, backfires. So you say stuff like, uh, forced busing, states' rights, and all that stuff.",
@@ -164,7 +164,7 @@
     },
     {
       "question": "What pattern connects 1861 to 2024?",
-      "options": ["A. Nothing - the regions are completely different now", "B. Ten of the 11 states that seceded are among those with the most voting restrictions today", "C. The North became more conservative than the South", "D. All 50 states followed the same political path"],
+      "options": ["A. Nothing connects them - the regions have completely changed their political character since then", "B. Ten of the 11 states that seceded are among those with the most voting restrictions today", "C. The North became significantly more conservative than the South on most political issues", "D. All 50 states followed the same political path from Confederate sympathy to civil rights"],
       "answer": "B",
       "explanation": "The 11 states that seceded in 1861 are the same 11 states that opposed civil rights in 1964. Ten of those 11 flipped Republican via the Southern Strategy and enacted voting restrictions after Shelby County (2013). Virginia is the exception, having trended blue since 2008. But for the Deep South, this isn't coincidence; it's inheritance.",
       "quote": "Between 2021 and 2024, states passed a total of 79 restrictive voting laws... The push came hardest in states with the fastest-growing minority populations.",
