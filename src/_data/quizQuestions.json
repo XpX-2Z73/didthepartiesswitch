@@ -52,7 +52,7 @@
     },
     {
       "question": "Why did the 'Lost Cause' mythology survive?",
-      "options": ["A. It was historically accurate and well-documented", "B. Andrew Johnson pardoned Confederate leaders who then rewrote history", "C. Lincoln endorsed it before his assassination", "D. It was taught only in the North initially"],
+      "options": ["A. It was historically accurate and supported by documents", "B. Andrew Johnson pardoned Confederate leaders who then rewrote history", "C. Lincoln endorsed it publicly before his assassination", "D. It was taught only in Northern schools initially"],
       "answer": "B",
       "explanation": "Andrew Johnson pardoned over 13,000 Confederate officials instead of prosecuting them for treason. These men returned to power, founded organizations like the United Daughters of the Confederacy, placed monuments, and controlled textbooks for generations. The 'Lost Cause' (the lie that the war was about states' rights, not slavery) was invented by the very men who should have faced justice. Johnson's leniency let the losers write the history.",
       "quote": "This is a country for white men, and by God, as long as I am President, it shall be a government for white men.",
@@ -62,7 +62,7 @@
     },
     {
       "question": "What happened in Wilmington, North Carolina in 1898?",
-      "options": ["A. First civil rights march was organized", "B. Armed coup overthrew elected biracial government", "C. Lincoln gave a famous speech there", "D. Fort Sumter was rebuilt after the war"],
+      "options": ["A. First major civil rights march was organized there", "B. Armed coup overthrew the elected biracial government", "C. Lincoln gave a famous wartime speech there", "D. Fort Sumter was rebuilt after the Civil War"],
       "answer": "B",
       "explanation": "The Wilmington Insurrection of 1898 was the only successful coup d'état in American history. A white supremacist mob overthrew the legitimately elected biracial city government, murdered an estimated 60-300 Black residents, and drove thousands more from the city. For 113 years, textbooks called it a 'race riot caused by Black people.' The truth wasn't added to North Carolina's curriculum until 2011, when a state commission finally acknowledged what happened. The coverup lasted longer than the Confederacy existed.",
       "quote": "We will not live under these intolerable conditions. We will never surrender to a ragged raffle of negroes.",
@@ -124,7 +124,7 @@
     },
     {
       "question": "What happened at the Colfax Massacre in 1873?",
-      "options": ["A. Lincoln was assassinated by John Wilkes Booth", "B. Black militia members were executed after surrendering", "C. The Emancipation Proclamation was signed there", "D. Confederate forces won a major battle nearby"],
+      "options": ["A. Lincoln was assassinated there by John Wilkes Booth", "B. Black militia members were executed after surrendering", "C. The Emancipation Proclamation was signed at that location", "D. Confederate forces won a major military battle nearby"],
       "answer": "B",
       "explanation": "On Easter Sunday 1873, white paramilitaries attacked Black militia defending the Grant Parish courthouse in Louisiana. After the Black defenders surrendered, 60-150 men were pulled from the group and executed. The Supreme Court case that followed, U.S. v. Cruikshank (1876), ruled the 14th Amendment didn't apply to private violence, effectively making it legal for the Klan to murder Black citizens.",
       "quote": "The half of them was killed after the surrender... They were shot down like dogs.",
