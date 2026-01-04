@@ -2,7 +2,7 @@
   "questions": [
     {
       "question": "What event started the shooting war in 1861?",
-      "options": ["A. Boston Tea Party", "B. Attack on Fort Sumter", "C. Battle of Gettysburg", "D. Missouri Compromise"],
+      "options": ["A. The Boston Tea Party protest against British taxation", "B. Attack on Fort Sumter", "C. Battle of Gettysburg in Pennsylvania", "D. Missouri Compromise of 1820"],
       "answer": "B",
       "explanation": "Confederate forces opened fire on the federal garrison at Fort Sumter in Charleston Harbor at 4:30 AM on April 12, 1861. After 34 hours of bombardment, Major Robert Anderson surrendered. No one was killed in the battle itself, but it ignited the bloodiest war in American history.",
       "quote": "The Confederacy fired on the US garrison of Fort Sumter on April 12, 1861 opening the Civil War, which redefined American freedom.",
@@ -22,7 +22,7 @@
     },
     {
       "question": "Who fired first?",
-      "options": ["A. Union at Charleston", "B. Confederacy at Fort Sumter", "C. Britain", "D. Mexico"],
+      "options": ["A. Union forces stationed at Charleston Harbor", "B. Confederacy at Fort Sumter", "C. Britain intervening in the conflict", "D. Mexico attacking from the southwest border"],
       "answer": "B",
       "explanation": "Confederate batteries under General P.G.T. Beauregard fired the first shots at 4:30 AM on April 12, 1861. The Union garrison under Major Anderson had not fired a shot. Edmund Ruffin, a pro-slavery advocate, claimed to have fired one of the first shots and later killed himself after the Confederacy lost.",
       "quote": "Confederate forces fired the first shots of the Civil War upon Federal troops at Fort Sumter at 4:30 a.m. on April 12, 1861.",
@@ -42,7 +42,7 @@
     },
     {
       "question": "Who became president after Lincoln was assassinated?",
-      "options": ["A. Ulysses Grant", "B. Andrew Johnson", "C. Jefferson Davis", "D. Frederick Douglass"],
+      "options": ["A. Ulysses Grant, the Union general", "B. Andrew Johnson", "C. Jefferson Davis, the Confederate president", "D. Frederick Douglass, the abolitionist leader"],
       "answer": "B",
       "explanation": "Andrew Johnson, Lincoln's Vice President, became the 17th President after Lincoln's assassination on April 15, 1865. Johnson, a Tennessee Democrat who had remained loyal to the Union, proved disastrous for Reconstruction. He pardoned Confederate leaders, opposed civil rights for freed slaves, and was impeached (though not removed) by Congress.",
       "quote": "This is a country for white men, and by God, as long as I am President, it shall be a government for white men.",
@@ -52,7 +52,7 @@
     },
     {
       "question": "Why did the 'Lost Cause' mythology survive?",
-      "options": ["A. It was historically accurate and supported by documents", "B. Andrew Johnson pardoned Confederate leaders who then rewrote history", "C. Lincoln endorsed it publicly before his assassination", "D. It was taught only in Northern schools initially"],
+      "options": ["A. It was historically accurate and supported by primary source documents from the era", "B. Andrew Johnson pardoned Confederate leaders who then rewrote history", "C. Lincoln endorsed it publicly before his assassination as a path to reconciliation", "D. It was taught only in Northern schools initially before spreading to the South"],
       "answer": "B",
       "explanation": "Andrew Johnson pardoned over 13,000 Confederate officials instead of prosecuting them for treason. These men returned to power, founded organizations like the United Daughters of the Confederacy, placed monuments, and controlled textbooks for generations. The 'Lost Cause' (the lie that the war was about states' rights, not slavery) was invented by the very men who should have faced justice. Johnson's leniency let the losers write the history.",
       "quote": "This is a country for white men, and by God, as long as I am President, it shall be a government for white men.",
@@ -72,7 +72,7 @@
     },
     {
       "question": "Why did Strom Thurmond switch from Democrat to Republican in 1964?",
-      "options": ["A. Tax policy disagreements with LBJ", "B. Opposition to Civil Rights Act", "C. Foreign policy on Vietnam War", "D. He didn't actually switch parties"],
+      "options": ["A. Tax policy disagreements with President Lyndon Johnson", "B. Opposition to Civil Rights Act", "C. Foreign policy disagreements over the Vietnam War", "D. He didn't actually switch parties at all"],
       "answer": "B",
       "explanation": "Strom Thurmond switched parties on September 16, 1964, specifically because the Democratic Party had passed the Civil Rights Act. Thurmond had run for president in 1948 as a segregationist Dixiecrat. His switch to the GOP signaled that the party of Lincoln was now the home for those opposing civil rights.",
       "quote": "The Democratic Party has abandoned the people... It has repudiated the Constitution of the United States. It is leading the evolution of our nation to a socialistic dictatorship.",
@@ -94,7 +94,7 @@
     },
     {
       "question": "What happened to Southern white voters between 1860 and today?",
-      "options": ["A. They always voted Republican consistently", "B. They switched from Democratic to Republican", "C. They always voted Democratic consistently", "D. They stopped voting in large numbers"],
+      "options": ["A. They always voted Republican consistently throughout history", "B. They switched from Democratic to Republican", "C. They always voted Democratic consistently throughout history", "D. They stopped voting in large numbers after Reconstruction"],
       "answer": "B",
       "explanation": "In 1860, the white South voted Democratic and remained solidly Democratic for nearly 100 years. The shift began in 1948 with the Dixiecrat revolt, accelerated after the Civil Rights Act of 1964, and was complete by the 1980s. Today, the former Confederate states are the most reliably Republican region in the country.",
       "quote": "From now on, the Republicans are never going to get more than 10 to 20 percent of the Negro vote and they don't need any more than that... The more Negroes who register as Democrats in the South, the sooner the Negrophobe whites will quit the Democrats and become Republicans.",
@@ -104,7 +104,7 @@
     },
     {
       "question": "How long did this shift take?",
-      "options": ["A. It happened overnight in 1964 alone", "B. Decades, from 1948 through the 1980s", "C. It never happened according to records", "D. One week in 1972 after Watergate"],
+      "options": ["A. It happened overnight in 1964 when Johnson signed the Civil Rights Act", "B. Decades, from 1948 through the 1980s", "C. It never happened according to historical records and voting data", "D. One week in 1972 after the Watergate scandal broke"],
       "answer": "B",
       "explanation": "The party realignment was gradual. It began with Thurmond's 1948 Dixiecrat campaign, gained momentum when Goldwater opposed the Civil Rights Act in 1964, was exploited by Nixon's Southern Strategy in 1968, and was solidified by Reagan in 1980. By the 1990s, the transformation was complete. It wasn't a single event; it was a generation of political change.",
       "quote": "Some Republicans gave up on winning the African American vote, looking the other way or trying to benefit politically from racial polarization. I am here today as the Republican chairman to tell you we were wrong.",
@@ -114,7 +114,7 @@
     },
     {
       "question": "What did the Supreme Court's Shelby County decision (2013) do?",
-      "options": ["A. Strengthened voting rights significantly", "B. Gutted Voting Rights Act preclearance", "C. Banned voter ID laws nationwide", "D. Required automatic voter registration"],
+      "options": ["A. Strengthened voting rights protections for minorities significantly", "B. Gutted Voting Rights Act preclearance", "C. Banned voter ID laws as unconstitutional nationwide", "D. Required automatic voter registration in all states"],
       "answer": "B",
       "explanation": "In Shelby County v. Holder (2013), the Supreme Court struck down the formula used to determine which states needed federal approval before changing voting laws. Within hours of the decision, Texas announced a strict voter ID law. Within months, states across the former Confederacy enacted new voting restrictions. The decision effectively ended federal oversight of voting in states with histories of discrimination.",
       "quote": "Our country has changed, and while any racial discrimination in voting is too much, Congress must ensure that the legislation it passes to remedy that problem speaks to current conditions.",
@@ -134,7 +134,7 @@
     },
     {
       "question": "What did Thaddeus Stevens demand for Confederate leaders?",
-      "options": ["A. Immediate pardons and restoration", "B. Treason trials and land confiscation", "C. Cabinet positions in the government", "D. Voting rights to be restored quickly"],
+      "options": ["A. Immediate pardons and full restoration of their rights", "B. Treason trials and land confiscation", "C. Cabinet positions in the new unified government", "D. Voting rights to be restored quickly after the war"],
       "answer": "B",
       "explanation": "Thaddeus Stevens, the Radical Republican leader, demanded that Confederate leaders be tried for treason and their land confiscated and redistributed to freed people ('40 acres and a mule'). He was ignored. Andrew Johnson instead pardoned over 13,000 Confederate officials, who returned to power and spent the next century building Jim Crow.",
       "quote": "Strip a proud nobility of their bloated estates, reduce them to a level with plain republicans, send them forth to labor and teach their children to enter the workshops or handle the plow, and you will thus humble the proud traitors.",
@@ -154,7 +154,7 @@
     },
     {
       "question": "What happened to General Sherman's '40 acres and a mule' land grants?",
-      "options": ["A. They became permanent federal law protecting all freedmen", "B. Andrew Johnson reversed them and returned land to slaveholders", "C. They were expanded nationwide to include all freedmen", "D. They were never actually issued to anyone at all"],
+      "options": ["A. They became permanent federal law protecting all freedmen across the South", "B. Andrew Johnson reversed them and returned land to slaveholders", "C. They were expanded nationwide to include all freedmen in every state", "D. They were never actually issued to anyone because Congress blocked them"],
       "answer": "B",
       "explanation": "In January 1865, General Sherman's Special Field Order No. 15 granted 400,000 acres of confiscated Confederate land to freed people along the Atlantic coast. Freed families began farming this land immediately. But Andrew Johnson reversed the order after Lincoln's assassination, evicted the freed people, and returned the land to the former slaveholders. The racial wealth gap that began with this betrayal persists today.",
       "quote": "Each family shall have a plot of not more than forty acres of tillable ground.",
@@ -164,7 +164,7 @@
     },
     {
       "question": "What pattern connects 1861 to 2024?",
-      "options": ["A. Nothing connects them - the regions have completely changed their political character since then", "B. Ten of the 11 states that seceded are among those with the most voting restrictions today", "C. The North became significantly more conservative than the South on most political issues", "D. All 50 states followed the same political path from Confederate sympathy to civil rights"],
+      "options": ["A. Nothing connects them - the regions have completely changed their political character and voting patterns since then", "B. Ten of the 11 states that seceded are among those with the most voting restrictions today", "C. The North became significantly more conservative than the South on most political issues after the civil rights era", "D. All 50 states followed the same political path from initial Confederate sympathy to eventually supporting civil rights"],
       "answer": "B",
       "explanation": "The 11 states that seceded in 1861 are the same 11 states that opposed civil rights in 1964. Ten of those 11 flipped Republican via the Southern Strategy and enacted voting restrictions after Shelby County (2013). Virginia is the exception, having trended blue since 2008. But for the Deep South, this isn't coincidence; it's inheritance.",
       "quote": "Between 2021 and 2024, states passed a total of 79 restrictive voting laws... The push came hardest in states with the fastest-growing minority populations.",
