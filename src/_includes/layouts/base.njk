@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="{{ site.language }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% if title %}{{ title }} | {% endif %}{{ site.title }}</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/assets/images/favicon.svg" />
+    <meta name="description" content="{{ description or site.description }}" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ title or site.title }}" />
+    <meta property="og:description" content="{{ description or site.description }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="{{ site.url }}/assets/images/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Did the Parties Switch? Yes. The proof from 1861 to 2024." />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ title or site.title }}" />
+    <meta name="twitter:description" content="{{ description or site.description }}" />
+    <meta name="twitter:image" content="{{ site.url }}/assets/images/og-image.png" />
+    <meta name="twitter:image:alt" content="Did the Parties Switch? Yes. The proof from 1861 to 2024." />
+
+    <!-- Additional SEO -->
+    <meta name="robots" content="index, follow" />
+    <meta name="msvalidate.01" content="3B97EE84031C016207C8AFF26DCDCA3C" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0a0a0c" />
+    <meta name="msapplication-TileColor" content="#0a0a0c" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/site.css" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "{{ site.title }}",
+      "description": "{{ site.description }}",
+      "url": "{{ site.url }}"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Did the parties switch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The party realignment was gradual, spanning from 1948 through the 1980s. It began with Thurmond's Dixiecrat campaign in 1948, accelerated when Goldwater opposed the Civil Rights Act in 1964, was exploited by Nixon's Southern Strategy in 1968, and solidified under Reagan in 1980. In 2005, RNC Chairman Ken Mehlman formally apologized for the Southern Strategy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who started the Civil War?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Confederate forces fired the first shots at Fort Sumter at 4:30 AM on April 12, 1861. The Union garrison had not fired a shot. The Confederate states seceded and attacked federal property to preserve slavery, as explicitly stated in their own secession declarations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why did Southern states secede?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The seceding states explicitly cited slavery as the cause. Mississippi's declaration states: 'Our position is thoroughly identified with the institution of slavery—the greatest material interest of the world.' Georgia's declaration mentions slavery over 80 times. Tariffs are rarely or never mentioned in these documents."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What was the Southern Strategy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Southern Strategy was a Republican electoral strategy to win white Southern voters by appealing to racial resentment. Nixon adviser Kevin Phillips outlined it in 1970. Lee Atwater later explained how it evolved from explicit racism to coded language like 'states' rights' and 'forced busing.' RNC Chairman Ken Mehlman apologized for it in 2005."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Didn't more Republicans vote for the Civil Rights Act?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, but this is misleading. The real divide was regional, not partisan: Northern Democrats voted 94% yes, while Southern Democrats voted only 7% yes. It was North vs South, not Republican vs Democrat. And those Southern Democrats who opposed civil rights? Their voters became Republicans over the following decades, which is exactly what the party switch describes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What about Robert Byrd?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Robert Byrd joined the KKK in the 1940s, but spent 50 years apologizing for it. He called it 'the greatest mistake I ever made,' voted for the Civil Rights Act of 1968, and supported renewing the Voting Rights Act. The NAACP praised him at his death in 2010. More importantly, the party switch was about voters, not individual politicians. The white South moved from Democratic to Republican; that's the switch."
+          }
+        }
+      ]
+    }
+    </script>
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Did the Parties Switch?",
+      "url": "{{ site.url }}",
+      "description": "{{ site.description }}",
+      "sameAs": []
+    }
+    </script>
+    <!-- Article Schema for main content -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "{{ title or site.title }}",
+      "description": "{{ description or site.description }}",
+      "url": "{{ site.url }}{{ page.url }}",
+      "datePublished": "2024-01-01",
+      "dateModified": "2024-12-27",
+      "author": {
+        "@type": "Organization",
+        "name": "Did the Parties Switch?"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Did the Parties Switch?",
+        "url": "{{ site.url }}"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ site.url }}{{ page.url }}"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "American Civil War",
+          "sameAs": "https://en.wikipedia.org/wiki/American_Civil_War"
+        },
+        {
+          "@type": "Thing",
+          "name": "Southern Strategy",
+          "sameAs": "https://en.wikipedia.org/wiki/Southern_strategy"
+        },
+        {
+          "@type": "Thing",
+          "name": "Party Realignment",
+          "sameAs": "https://en.wikipedia.org/wiki/Political_realignment"
+        }
+      ]
+    }
+    </script>
+    <!-- ClaimReview Schema for Fact-Checking -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "url": "{{ site.url }}/bingo/",
+      "claimReviewed": "The Civil War was about states' rights, not slavery",
+      "itemReviewed": {
+        "@type": "Claim",
+        "author": {
+          "@type": "Organization",
+          "name": "Lost Cause mythology"
+        },
+        "datePublished": "1890-01-01",
+        "appearance": {
+          "@type": "CreativeWork",
+          "name": "Various historical revisionist sources"
+        }
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Did the Parties Switch?",
+        "url": "{{ site.url }}"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 1,
+        "bestRating": 5,
+        "worstRating": 1,
+        "alternateName": "False"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "url": "{{ site.url }}/bingo/",
+      "claimReviewed": "The political parties never switched",
+      "itemReviewed": {
+        "@type": "Claim",
+        "author": {
+          "@type": "Organization",
+          "name": "Various political commentators"
+        }
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Did the Parties Switch?",
+        "url": "{{ site.url }}"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 1,
+        "bestRating": 5,
+        "worstRating": 1,
+        "alternateName": "False"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "url": "{{ site.url }}/",
+      "claimReviewed": "Tariffs, not slavery, caused the Civil War",
+      "itemReviewed": {
+        "@type": "Claim",
+        "author": {
+          "@type": "Organization",
+          "name": "Lost Cause mythology"
+        }
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Did the Parties Switch?",
+        "url": "{{ site.url }}"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 1,
+        "bestRating": 5,
+        "worstRating": 1,
+        "alternateName": "False"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "url": "{{ site.url }}/bingo/",
+      "claimReviewed": "Republicans passed the Civil Rights Act so the parties couldn't have switched",
+      "itemReviewed": {
+        "@type": "Claim",
+        "author": {
+          "@type": "Organization",
+          "name": "Various political commentators"
+        }
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Did the Parties Switch?",
+        "url": "{{ site.url }}"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 2,
+        "bestRating": 5,
+        "worstRating": 1,
+        "alternateName": "Mostly False"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      "url": "{{ site.url }}/bingo/",
+      "claimReviewed": "Robert Byrd being in the KKK proves Democrats are the real racists",
+      "itemReviewed": {
+        "@type": "Claim",
+        "author": {
+          "@type": "Organization",
+          "name": "Various political commentators"
+        }
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Did the Parties Switch?",
+        "url": "{{ site.url }}"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 2,
+        "bestRating": 5,
+        "worstRating": 1,
+        "alternateName": "Misleading"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar">
+      <div class="progress-bar__fill" id="progress-fill"></div>
+    </div>
+
+    <!-- Desktop Header Navigation -->
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a href="/" class="site-header__logo">Did the Parties Switch?</a>
+        <nav class="site-header__nav" aria-label="Main navigation">
+          <a href="/" class="site-header__link{% if page.url == '/' %} is-active{% endif %}">Home</a>
+          <a href="/reconstruction/" class="site-header__link{% if page.url == '/reconstruction/' %} is-active{% endif %}">Reconstruction</a>
+          <a href="/sources/" class="site-header__link{% if page.url == '/sources/' %} is-active{% endif %}">Evidence</a>
+          <a href="/voting-access/" class="site-header__link{% if page.url == '/voting-access/' %} is-active{% endif %}">Voting Today</a>
+          <a href="/quiz/" class="site-header__link{% if page.url == '/quiz/' %} is-active{% endif %}">Quiz</a>
+          <a href="/bingo/" class="site-header__link{% if page.url == '/bingo/' %} is-active{% endif %}">Bingo</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      {{ content | safe }}
+    </main>
+
+    {% include "components/footer.njk" %}
+
+    <!-- Scroll animations and interactions -->
+    <script src="/assets/js/main.js" defer></script>
+  </body>
+</html>

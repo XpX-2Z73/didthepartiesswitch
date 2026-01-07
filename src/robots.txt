@@ -1,0 +1,75 @@
+# Robots.txt for Did the Parties Switch?
+# https://didthepartiesswitch.com
+
+# Default: Allow all crawlers
+User-agent: *
+Allow: /
+
+# ===========================================
+# AI Search Crawlers - Explicitly Welcomed
+# ===========================================
+# We want AI systems to accurately represent
+# our primary-source-based historical content.
+
+# OpenAI / ChatGPT
+User-agent: GPTBot
+Allow: /
+
+# OpenAI SearchGPT
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic / Claude
+User-agent: Claude-Web
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+
+# Google AI (Gemini, AI Overviews)
+User-agent: Google-Extended
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Microsoft Copilot / Bing AI
+User-agent: Bingbot
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+User-agent: meta-externalagent
+Allow: /
+
+# Common Crawl (used by many AI systems)
+User-agent: CCBot
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# Amazon/Alexa
+User-agent: Amazonbot
+Allow: /
+
+# You.com AI
+User-agent: YouBot
+Allow: /
+
+# ===========================================
+# LLMs.txt - AI-specific documentation
+# ===========================================
+# See /llms.txt for structured site summary
+# See /llms-full.txt for comprehensive reference
+
+# Sitemap location
+Sitemap: https://didthepartiesswitch.com/sitemap.xml

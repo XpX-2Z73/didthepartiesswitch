@@ -1,0 +1,48 @@
+{# In Their Own Words - Strategists explaining the Southern Strategy #}
+<div class="own-words">
+  {% for item in inTheirOwnWords %}
+  <article class="own-words__item {% if item.contentWarning %}own-words__item--has-warning{% endif %}">
+    <header class="own-words__header">
+      <span class="own-words__year">{{ item.year }}</span>
+      <div class="own-words__who">
+        <strong>{{ item.who }}</strong>
+        <span>{{ item.role }}</span>
+      </div>
+    </header>
+    {% if item.contentWarning %}
+    <div class="own-words__warning">
+      <div class="content-warning">
+        <span class="content-warning__icon" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+            <line x1="12" y1="9" x2="12" y2="13"/>
+            <line x1="12" y1="17" x2="12.01" y2="17"/>
+          </svg>
+        </span>
+        <span class="content-warning__label">Content Warning</span>
+        <p class="content-warning__text">{{ item.warningText }}</p>
+      </div>
+      <details class="own-words__reveal">
+        <summary class="own-words__reveal-btn">Show quote</summary>
+        <blockquote class="own-words__quote">
+          "{{ item.quote }}"
+        </blockquote>
+      </details>
+    </div>
+    {% else %}
+    <blockquote class="own-words__quote">
+      "{{ item.quote }}"
+    </blockquote>
+    {% endif %}
+    <footer class="own-words__footer">
+      <p class="own-words__context">{{ item.context }}</p>
+      <p class="own-words__significance">
+        <strong>Why it matters:</strong> {{ item.significance }}
+      </p>
+      <a href="{{ item.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="own-words__source">
+        {{ item.source }} <span aria-hidden="true">→</span>
+      </a>
+    </footer>
+  </article>
+  {% endfor %}
+</div>

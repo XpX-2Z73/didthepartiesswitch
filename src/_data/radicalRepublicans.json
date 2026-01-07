@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Thaddeus Stevens",
+    "state": "Pennsylvania",
+    "role": "House of Representatives (1849-1853, 1859-1868)",
+    "photo": null,
+    "description": "The most powerful Radical Republican in Congress. Stevens demanded land redistribution, treason trials for Confederate leaders, and full citizenship for freed people. He called Andrew Johnson a traitor and led his impeachment. He died before seeing his vision realized, and America is still paying for ignoring him.",
+    "keyPositions": [
+      "Confiscate Confederate plantations and redistribute land to freed people",
+      "Try Confederate leaders for treason",
+      "Full voting rights and citizenship for Black Americans",
+      "Federal enforcement of civil rights in the South",
+      "Permanent exclusion of Confederate leaders from office"
+    ],
+    "quotes": [
+      {
+        "text": "The whole fabric of Southern society must be changed, and never can it be done if this opportunity is lost... How can republican institutions, free schools, free churches, free social intercourse exist in a mingled community of nabobs and serfs?",
+        "year": 1865,
+        "context": "Speech on Reconstruction policy",
+        "sourceUrl": "https://teachingamericanhistory.org/document/reconstruction-speech/"
+      },
+      {
+        "text": "Strip a proud nobility of their bloated estates, reduce them to a level with plain republicans, send them forth to labor and teach their children to enter the workshops or handle the plow, and you will thus humble the proud traitors.",
+        "year": 1865,
+        "context": "Advocating for land confiscation and redistribution",
+        "sourceUrl": "https://www.loc.gov/item/rbpe.23602500/"
+      },
+      {
+        "text": "I repose in this quiet and secluded spot, not from any natural preference for solitude, but finding other cemeteries limited as to race by charter rules, I have chosen this that I might illustrate in my death the principles which I advocated through a long life: Equality of Man before his Creator.",
+        "year": 1868,
+        "context": "Stevens's self-written epitaph (he was buried in a Black cemetery because white cemeteries were segregated)",
+        "sourceUrl": "https://www.thaddeusstevenssociety.com/speeches-quotes"
+      }
+    ],
+    "whatHeSaid": {
+      "quote": "Confiscate the estates of every rebel... and let them be divided among the soldiers and actual settlers.",
+      "context": "On land redistribution, 1865"
+    },
+    "whatHappened": "Johnson pardoned Confederate leaders. Land was returned to slaveholders. Freed people got nothing.",
+    "legacyQuote": {
+      "text": "I repose in this quiet and secluded spot, not from any natural preference for solitude, but finding other cemeteries limited as to race by charter rules, I have chosen this that I might illustrate in my death the principles which I advocated through a long life: Equality of Man before his Creator.",
+      "source": "Stevens's self-written epitaph, 1868 — ⚠️ CENSORED: The NPS page documenting this (nps.gov/thst/learn/historyculture/stevens-epitaph.htm) was REMOVED in 2025 under Executive Order 'Restoring Truth and Sanity to American History'"
+    },
+    "legacy": "Stevens was right. Without land and capital, freed people had no economic independence. Without trials, Confederate leaders returned to power. Without enforcement, rights were stripped away. Every failure of Reconstruction was a failure to heed Stevens's warnings.",
+    "sourceUrl": "https://www.thaddeusstevenssociety.com/speeches-quotes",
+    "archiveUrl": "https://web.archive.org/web/20241215000000*/nps.gov/thst/learn/historyculture/stevens-epitaph.htm",
+    "censorshipNote": "The original National Park Service page about Stevens was removed in 2025 under Executive Order 'Restoring Truth and Sanity to American History' (March 27, 2025), which directed removal of content that 'disparages Americans' from federal websites. The erasure of Reconstruction history continues. Original URL (now dead): https://www.nps.gov/thst/learn/historyculture/stevens-epitaph.htm"
+  },
+  {
+    "name": "Charles Sumner",
+    "state": "Massachusetts",
+    "role": "U.S. Senator (1851-1874)",
+    "photo": null,
+    "description": "The Senate's leading voice for abolition and civil rights. In 1856, a pro-slavery congressman nearly beat him to death on the Senate floor for an anti-slavery speech. Sumner spent three years recovering, then returned to lead the fight for the 13th, 14th, and 15th Amendments. He died still fighting for civil rights legislation.",
+    "keyPositions": [
+      "Complete civil and political equality for Black Americans",
+      "Desegregation of schools, transportation, and public accommodations",
+      "Federal civil rights enforcement",
+      "Opposition to any compromise with former Confederates"
+    ],
+    "quotes": [
+      {
+        "text": "The cries of the slave have disturbed, but they are now to cease. The blood of the slave no longer stains our National escutcheon... The whip of the master no longer cracks... Slavery is dead.",
+        "year": 1865,
+        "context": "Upon ratification of the 13th Amendment",
+        "sourceUrl": "https://www.senate.gov/artandhistory/history/common/generic/Speeches_Sumner_CrimeSpeech.htm"
+      },
+      {
+        "text": "Where Slavery is, there Liberty cannot be; and where Liberty is, there Slavery cannot be.",
+        "year": 1864,
+        "context": "Speech on the incompatibility of slavery and democracy",
+        "sourceUrl": "https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Sumner.htm"
+      },
+      {
+        "text": "I know nothing of military law, but I know that we are bound to carry on the war until slavery is crushed and peace secured.",
+        "year": 1861,
+        "context": "Insisting on abolition as a war aim",
+        "sourceUrl": "https://www.masshist.org/features/sumner"
+      }
+    ],
+    "whatHeSaid": {
+      "quote": "No compromise with slaveholders. Full equality under law. Federal enforcement forever.",
+      "context": "On Reconstruction policy"
+    },
+    "whatHappened": "Sumner's Civil Rights Act of 1875 was gutted by the Supreme Court in 1883. It took until 1964 for Congress to pass similar legislation.",
+    "legacyQuote": {
+      "text": "Where Slavery is, there Liberty cannot be; and where Liberty is, there Slavery cannot be.",
+      "source": "Speech on slavery and democracy, 1864"
+    },
+    "legacy": "Sumner was beaten nearly to death for speaking truth. He returned and kept fighting. His Civil Rights Act, struck down in 1883, became the model for the Civil Rights Act of 1964, 89 years later. The delay cost millions of lives.",
+    "sourceUrl": "https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Sumner.htm"
+  },
+  {
+    "name": "Benjamin Butler",
+    "state": "Massachusetts",
+    "role": "Union General, House of Representatives (1867-1875, 1877-1879)",
+    "photo": null,
+    "description": "A Union general who declared escaped slaves 'contraband of war,' refusing to return them to Confederate owners, creating the policy that led to emancipation. As a congressman, he drafted the Ku Klux Klan Act and led the impeachment prosecution of Andrew Johnson.",
+    "keyPositions": [
+      "Refuse to return escaped slaves to Confederate owners (contraband policy)",
+      "Federal prosecution of Klan terrorism",
+      "Impeachment of Andrew Johnson",
+      "Military occupation until civil rights were guaranteed"
+    ],
+    "quotes": [
+      {
+        "text": "I shall hold these negroes as contraband of war... I am credibly informed that the negroes in this neighborhood are now being employed in the erection of batteries and other works by the rebels.",
+        "year": 1861,
+        "context": "Butler's 'contraband' policy at Fort Monroe, refusing to return escaped slaves",
+        "sourceUrl": "https://www.nps.gov/fomr/learn/historyculture/contraband.htm"
+      },
+      {
+        "text": "These rebels have used all their slaves as laborers against the United States. Shall we not use them for the United States?",
+        "year": 1861,
+        "context": "Justifying the contraband policy",
+        "sourceUrl": "https://www.history.com/news/contrabands-civil-war-slavery"
+      }
+    ],
+    "whatHeSaid": {
+      "quote": "Use federal power to crush the rebellion and its cause. Don't negotiate with traitors.",
+      "context": "On federal enforcement"
+    },
+    "whatHappened": "Butler's Klan Act was weakened by the Supreme Court. Johnson's impeachment failed by one vote. Federal enforcement ended in 1877.",
+    "legacyQuote": {
+      "text": "I shall hold these negroes as contraband of war... I am credibly informed that the negroes in this neighborhood are now being employed in the erection of batteries and other works by the rebels.",
+      "source": "Butler's 'contraband' policy at Fort Monroe, 1861"
+    },
+    "legacy": "Butler's contraband policy was the first crack in slavery's legal armor. His prosecution of Johnson nearly succeeded. His Klan Act was the last federal effort to protect Black voters until 1965. When enforcement ended, the Klan won.",
+    "sourceUrl": "https://www.nps.gov/fomr/learn/historyculture/contraband.htm"
+  },
+  {
+    "name": "Hiram Revels",
+    "state": "Mississippi",
+    "role": "U.S. Senator (1870-1871), First Black Senator",
+    "photo": null,
+    "description": "A minister and educator who became the first African American to serve in the U.S. Senate, filling the seat once held by Jefferson Davis. Revels proved that Black Americans could govern, which is exactly why white supremacists worked so hard to ensure it never happened again.",
+    "keyPositions": [
+      "Full citizenship and voting rights for Black Americans",
+      "Desegregation of federal workforce",
+      "Amnesty for some ex-Confederates (controversial among Radicals)",
+      "Education as the path to equality"
+    ],
+    "quotes": [
+      {
+        "text": "I maintain that the past record of my race is a true index of the feelings which today animate them... They bear toward their former masters no revengeful thoughts, no hatreds, no animosities. They wish to be friends.",
+        "year": 1870,
+        "context": "First speech on the Senate floor",
+        "sourceUrl": "https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Revels.htm"
+      }
+    ],
+    "whatHeSaid": {
+      "quote": "Black Americans are ready to participate fully in democracy. Give us the chance.",
+      "context": "On Black political participation"
+    },
+    "whatHappened": "Within a decade, Mississippi's 1890 constitution stripped Black citizens of the vote Revels had exercised. No Black senator from the South for 130 years.",
+    "legacyQuote": {
+      "text": "I maintain that the past record of my race is a true index of the feelings which today animate them... They bear toward their former masters no revengeful thoughts, no hatreds, no animosities. They wish to be friends.",
+      "source": "First speech on the Senate floor, 1870"
+    },
+    "legacy": "Revels sat in Jefferson Davis's seat, a powerful symbol. But symbols weren't enough. Without enforcement, Reconstruction's promise was stolen. Mississippi wouldn't elect another Black senator until... it still hasn't.",
+    "sourceUrl": "https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Revels.htm"
+  }
+]

@@ -1,0 +1,770 @@
+---
+layout: layouts/base.njk
+title: Did the Parties Switch?
+description: Yes. Here's the proof. Primary sources from 1861 to 2024 tracking the voters who opposed civil rights, from the Democratic Party to the Republican Party.
+---
+
+{# ============================================
+   CHAPTER 1: THE OPENING
+   ============================================ #}
+<section class="hero" id="chapter-intro" data-chapter="Introduction">
+  <div class="hero__vignette"></div>
+  <div class="hero__content-wrapper">
+    <div class="hero__eyebrow">
+      <span class="hero__line"></span>
+      <span class="hero__date-text">1861 — 2024</span>
+      <span class="hero__line"></span>
+    </div>
+    <h1 class="headline-hero hero__title">
+      <span class="hero__title-line">Yes, the Parties</span>
+      <span class="hero__title-line hero__title-line--accent">Switched.</span>
+    </h1>
+    <p class="subheadline hero__subtitle">
+      The evidence from 1861 to today. Their own words. Their own votes.
+    </p>
+    <div class="hero__cta">
+      <a href="#chapter-spark" class="btn btn--primary btn--large">See the Proof</a>
+      <a href="/quiz/" class="btn btn--ghost">Take the Quiz</a>
+    </div>
+  </div>
+  <div class="scroll-prompt">
+    <span class="scroll-prompt__text">Scroll to explore</span>
+    <span class="scroll-prompt__arrow">↓</span>
+  </div>
+</section>
+
+{# ============================================
+   MISSION STATEMENT
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-mission" data-chapter="Mission">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <div class="mission-statement">
+        <p class="mission-statement__text">{{ site.mission }}</p>
+        <p class="mission-statement__scope"><strong>Scope:</strong> {{ site.scope }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   CHAPTER 2: THE SPARK
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-spark" data-chapter="The Spark">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Chapter I</span>
+      <h2 class="headline-chapter">The Spark That Lit the War</h2>
+      <p class="subheadline">
+        At 4:30 a.m., Confederate batteries opened fire on Fort Sumter.
+        The Union garrison had not fired a single shot.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--dark" id="chapter-sumter">
+  <div class="fact-stack">
+    <article class="fact-item reveal">
+      <span class="fact-item__number">01</span>
+      <h3 class="fact-item__title">The First Shots</h3>
+      <p class="fact-item__text">
+        Confederate commander P.G.T. Beauregard ordered the bombardment of Fort Sumter at 4:30 a.m.
+        on April 12, 1861. Major Robert Anderson's Union garrison endured 34 hours before
+        evacuating. The Confederacy fired first; the Union did not fire on Confederates before this
+        attack.
+      </p>
+    </article>
+    <article class="fact-item reveal reveal--delay-1">
+      <span class="fact-item__number">02</span>
+      <h3 class="fact-item__title">The Secession Wave</h3>
+      <p class="fact-item__text">
+        Between December 1860 and June 1861, eleven states declared secession. Each public
+        declaration cited threats to slavery, often by name. No hidden code, just explicit intent.
+      </p>
+    </article>
+    <article class="fact-item reveal reveal--delay-2">
+      <span class="fact-item__number">03</span>
+      <h3 class="fact-item__title">The Cornerstone</h3>
+      <p class="fact-item__text">
+        On March 21, 1861, Confederate Vice President Alexander Stephens told Savannah that the
+        Confederacy rested on "the great truth that the negro is not equal to the white man."
+      </p>
+    </article>
+  </div>
+</section>
+
+{# ============================================
+   CHAPTER 3: THE DOCUMENTS
+   ============================================ #}
+<section class="chapter chapter--gradient" id="chapter-documents" data-chapter="Their Words">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Chapter II</span>
+      <h2 class="headline-chapter">What They Actually Said</h2>
+      <p class="subheadline">
+        The secession documents leave no room for debate. They stated their cause explicitly.
+      </p>
+    </div>
+  </div>
+</section>
+
+{# Mississippi Quote - Full Screen #}
+<section class="chapter chapter--dark">
+  <div class="chapter__inner">
+    <div class="quote-block reveal">
+      <blockquote class="quote-block__text">
+        Our position is thoroughly identified with the institution of slavery, the greatest material
+        interest of the world.
+      </blockquote>
+      <cite class="quote-block__attribution">- Mississippi Declaration of Secession, January 1861</cite>
+    </div>
+  </div>
+</section>
+
+{# Primary Source Cards #}
+<section class="chapter chapter--muted" id="chapter-sources" data-chapter="Sources">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Primary Sources</span>
+      <h2 class="headline-chapter">Read the Documents</h2>
+      <p class="subheadline">
+        Direct quotes from secession documents, speeches, and official records.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--full">
+      <div class="source-grid">
+        {% for source in primarySources %}
+        <article class="source-card reveal reveal--delay-{{ loop.index0 % 3 }}">
+          <div class="source-card__header">
+            <span class="source-card__date">{{ source.date }}</span>
+            <div class="source-card__icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+              </svg>
+            </div>
+          </div>
+          <h3 class="source-card__title">{{ source.title }}</h3>
+          {% if source.contentWarning %}
+          <div class="content-warning content-warning--compact">
+            <span class="content-warning__label">Content Warning:</span>
+            <span class="content-warning__text">{{ source.warningText }}</span>
+          </div>
+          {% endif %}
+          <blockquote class="source-card__quote">"{{ source.quote }}"</blockquote>
+          <footer class="source-card__footer">
+            <cite class="source-card__attribution">{{ source.attribution }}</cite>
+            <div class="source-card__links">
+              <a href="{{ source.link }}" class="source-card__link" target="_blank" rel="noopener noreferrer">
+                {{ source.linkText }}
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+              {% if source.archiveLink %}
+              <a href="{{ source.archiveLink }}" class="source-card__archive" target="_blank" rel="noopener noreferrer" title="Archived backup copy">
+                Archived
+              </a>
+              {% endif %}
+            </div>
+            {% if source.isGovernment %}
+            <p class="source-card__warning">Government source - verified intact Dec 2025</p>
+            {% endif %}
+          </footer>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# Document Analysis - Word Count - All Four States #}
+<section class="chapter chapter--dark" id="chapter-numbers" data-chapter="The Numbers">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Numbers Don't Lie</span>
+      <h2 class="headline-chapter">Count the Words Across All Four Declarations</h2>
+      <p class="subheadline">
+        Four states issued formal declarations explaining their secession. Here's what they talked about.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="declaration-grid reveal">
+        {% for doc in secessionDocs %}
+        <article class="declaration-card">
+          <header class="declaration-card__header">
+            <span class="declaration-card__state">{{ doc.state }}</span>
+            <span class="declaration-card__date">{{ doc.date }}</span>
+          </header>
+          <div class="declaration-card__counts">
+            <div class="declaration-card__count declaration-card__count--slavery">
+              <span class="declaration-card__number">{{ doc.slaveryMentions }}</span>
+              <span class="declaration-card__label">slavery mentions</span>
+            </div>
+            <div class="declaration-card__count declaration-card__count--tariff">
+              <span class="declaration-card__number">{{ doc.tariffMentions }}</span>
+              <span class="declaration-card__label">tariff mentions</span>
+            </div>
+          </div>
+          <blockquote class="declaration-card__quote">"{{ doc.keyQuote }}"</blockquote>
+          <footer class="declaration-card__footer">
+            <a href="{{ doc.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="declaration-card__link">Read full text →</a>
+            <a href="{{ doc.archiveUrl }}" target="_blank" rel="noopener noreferrer" class="declaration-card__archive">Archived</a>
+          </footer>
+        </article>
+        {% endfor %}
+      </div>
+      <div class="declaration-summary reveal">
+        <p class="declaration-summary__text">
+          <strong>Total across all four declarations:</strong>
+          <span class="declaration-summary__highlight">81 mentions of slavery</span>,
+          <span class="declaration-summary__zero">0 mentions of tariffs</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# The Economic Reality #}
+<section class="chapter chapter--muted" id="chapter-economics" data-chapter="The Economics">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Economic Question</span>
+      <h2 class="headline-chapter">{{ economicContext.headline }}</h2>
+      <p class="subheadline">{{ economicContext.subheadline }}</p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="stat-grid reveal">
+        {% for fact in economicContext.keyFacts %}
+        <article class="stat-card">
+          <span class="stat-card__number">{{ fact.stat }}</span>
+          <span class="stat-card__label">{{ fact.label }}</span>
+          <p class="stat-card__context">{{ fact.context }}</p>
+          <a href="{{ fact.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="stat-card__source">{{ fact.source }} →</a>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="chapter__content chapter__content--center reveal">
+      <div class="economics-tariffs">
+        <h3 class="headline-section" style="font-size: 1.5rem;">{{ economicContext.tariffsContext.headline }}</h3>
+        <p class="text-muted">{{ economicContext.tariffsContext.explanation }}</p>
+        <div class="tariff-comparison">
+          {% for item in economicContext.tariffsContext.comparison %}
+          <div class="tariff-item">
+            <strong class="tariff-term">{{ item.term }}</strong>
+            <span class="tariff-count">{{ item.mentions }}</span>
+            <span class="tariff-note">{{ item.note }}</span>
+          </div>
+          {% endfor %}
+        </div>
+        <p class="text-accent" style="margin-top: 1.5rem; font-style: italic;">{{ economicContext.tariffsContext.conclusion }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# The Quotes They Can't Spin - All Four States #}
+<section class="chapter chapter--accent-dark" id="chapter-quotes" data-chapter="Their Words">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">In Their Own Words</span>
+      <h2 class="headline-section">Four States. One Message.</h2>
+      <p class="subheadline">Direct quotes from the official secession declarations.</p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="state-quotes-grid">
+        {% for doc in secessionDocs %}
+        <article class="state-quote-card reveal reveal--delay-{{ loop.index0 % 4 }}">
+          <header class="state-quote-card__header">
+            <span class="state-quote-card__state">{{ doc.state }}</span>
+            <span class="state-quote-card__abbr">{{ doc.abbr }}</span>
+          </header>
+          <blockquote class="state-quote-card__quote">
+            <div class="state-quote-card__icon">"</div>
+            <p class="state-quote-card__text">{{ doc.keyQuote }}</p>
+          </blockquote>
+          <div class="state-quote-card__more">
+            <details>
+              <summary>More from {{ doc.state }}</summary>
+              <ul class="state-quote-card__additional">
+                {% for quote in doc.additionalQuotes %}
+                <li>"{{ quote }}"</li>
+                {% endfor %}
+              </ul>
+            </details>
+          </div>
+          <footer class="state-quote-card__footer">
+            <a href="{{ doc.sourceUrl }}" target="_blank" rel="noopener noreferrer">Read full declaration →</a>
+          </footer>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="chapter__content chapter__content--center reveal">
+      <div class="takeaway-box">
+        <span class="takeaway-box__label">Key Takeaway</span>
+        <p class="takeaway-box__text">Four different states, four different documents, one consistent message: they were seceding to preserve slavery. The "states' rights" reframing came later.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   CHAPTER 4: THE MAPS
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-maps" data-chapter="The Shift">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Chapter III</span>
+      <h2 class="headline-chapter">The Party Realignment</h2>
+      <p class="subheadline">
+        Compare the same eleven states across 164 years. The coalition shift is undeniable.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--muted">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--wide reveal">
+      <div class="map-comparison">
+        <article class="map-panel">
+          <h3 class="map-panel__title">1860: Before Secession</h3>
+          <p class="map-panel__subtitle">Southern Democrats dominated. Lincoln won zero of these states.</p>
+          <div class="state-grid">
+            {% for state in states %}
+              {% set realignment = null %}
+              {% for r in stateRealignment %}
+                {% if r.abbr == state.abbr %}
+                  {% set realignment = r %}
+                {% endif %}
+              {% endfor %}
+              {% set tileClass = "state-tile--dem" %}
+              {% if state.winner1860 == "Constitutional Union" %}
+                {% set tileClass = "state-tile--other" %}
+              {% endif %}
+              <button
+                class="state-tile state-tile--interactive {{ tileClass }}"
+                data-abbr="{{ state.abbr }}"
+                data-state="{{ state.state }}"
+                data-flip-year="{{ realignment.flipYear if realignment else '' }}"
+                data-key-figure="{{ realignment.keyFigure if realignment else '' }}"
+                data-key-figure-role="{{ realignment.keyFigureRole if realignment else '' }}"
+                data-headline="{{ realignment.headline if realignment else '' }}"
+                data-summary="{{ realignment.summary | escape if realignment else '' }}"
+                data-quote="{{ realignment.quote | escape if realignment else '' }}"
+                data-quote-attribution="{{ realignment.quoteAttribution | escape if realignment else '' }}"
+                data-source-url="{{ realignment.sourceUrl if realignment else '' }}"
+                data-events="{{ realignment.keyEvents | dump | escape if realignment else '[]' }}"
+                aria-label="Click to learn about {{ state.state }}'s political realignment"
+              >
+                <span class="state-tile__abbr">{{ state.abbr }}</span>
+                <span class="state-tile__party">{{ state.winner1860 | truncate(12, true, '') }}</span>
+              </button>
+            {% endfor %}
+          </div>
+        </article>
+        <article class="map-panel">
+          <h3 class="map-panel__title">2024: After Realignment</h3>
+          <p class="map-panel__subtitle">Ten of eleven now vote Republican. Virginia stands alone.</p>
+          <div class="state-grid">
+            {% for state in states %}
+              {% set realignment = null %}
+              {% for r in stateRealignment %}
+                {% if r.abbr == state.abbr %}
+                  {% set realignment = r %}
+                {% endif %}
+              {% endfor %}
+              {% set tileClass = "state-tile--rep" %}
+              {% if state.winner2024 == "Democratic" %}
+                {% set tileClass = "state-tile--dem" %}
+              {% endif %}
+              <button
+                class="state-tile state-tile--interactive {{ tileClass }}"
+                data-abbr="{{ state.abbr }}"
+                data-state="{{ state.state }}"
+                data-flip-year="{{ realignment.flipYear if realignment else '' }}"
+                data-key-figure="{{ realignment.keyFigure if realignment else '' }}"
+                data-key-figure-role="{{ realignment.keyFigureRole if realignment else '' }}"
+                data-headline="{{ realignment.headline if realignment else '' }}"
+                data-summary="{{ realignment.summary | escape if realignment else '' }}"
+                data-quote="{{ realignment.quote | escape if realignment else '' }}"
+                data-quote-attribution="{{ realignment.quoteAttribution | escape if realignment else '' }}"
+                data-source-url="{{ realignment.sourceUrl if realignment else '' }}"
+                data-events="{{ realignment.keyEvents | dump | escape if realignment else '[]' }}"
+                aria-label="Click to learn about {{ state.state }}'s political realignment"
+              >
+                <span class="state-tile__abbr">{{ state.abbr }}</span>
+                <span class="state-tile__party">{{ state.winner2024 }}</span>
+              </button>
+            {% endfor %}
+          </div>
+        </article>
+      </div>
+      <p class="map-instructions">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"/>
+        </svg>
+        Click any state to see when and why it flipped
+      </p>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   CHAPTER 5: THE TIMELINE
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-timeline" data-chapter="The Arc">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Chapter IV</span>
+      <h2 class="headline-chapter">From Reconstruction to Civil Rights</h2>
+      <p class="subheadline">
+        A century of struggle. Every federal reckoning left an imprint on party coalitions.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--muted">
+  <div class="chapter__inner">
+    <div class="chapter__content reveal">
+      <div class="timeline">
+        {% for item in reconstruction %}
+        <article class="timeline__item reveal reveal--delay-{{ loop.index0 % 4 }}">
+          <span class="timeline__year">{{ item.period }}</span>
+          <div class="timeline__content">
+            <p>{{ item.content | safe }}</p>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   CHAPTER 6: THE DATA
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-data" data-chapter="The Data">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Chapter V</span>
+      <h2 class="headline-chapter">Coalition Trajectories</h2>
+      <p class="subheadline">
+        Track the Republican share of former Confederate states from 1860 to 2024.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--muted">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--wide reveal">
+      <div class="coalition-chart">
+        {% for point in coalition %}
+        <div class="chart-row reveal reveal--delay-{{ loop.index0 % 4 }}">
+          <span class="chart-year">{{ point.year }}</span>
+          <div class="chart-bar">
+            <div class="chart-fill" style="width: {{ point.share }}%;" data-value="{{ point.share }}%"></div>
+          </div>
+          <div class="chart-annotation">
+            <strong>{{ point.label }}</strong>
+            <span>{{ point.description }}</span>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   CHAPTER 7: TODAY
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-today" data-chapter="Today">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Chapter VI</span>
+      <h2 class="headline-chapter">Voting Access Today</h2>
+      <p class="subheadline">
+        The battle over who votes continues in the former Confederacy.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--muted">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--wide reveal">
+      <div class="impact-grid">
+        {% for card in impactCards %}
+        <article class="impact-card reveal reveal--delay-{{ loop.index0 % 4 }}">
+          <span class="impact-card__state">{{ card.state }}</span>
+          <div class="impact-card__stat">{{ card.stat }}</div>
+          <h3 class="impact-card__title">{{ card.title }}</h3>
+          <p class="impact-card__text">{{ card.content }}</p>
+          <p class="impact-card__source">{{ card.source }}</p>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   CHAPTER 8: THE CONSENSUS
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-consensus" data-chapter="Consensus">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Chapter VII</span>
+      <h2 class="headline-chapter">What Historians Agree On</h2>
+      <p class="subheadline">
+        Major professional organizations summarize the consensus.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--muted">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--wide reveal">
+      <div class="card-grid">
+        {% for item in consensus %}
+        <article class="card reveal reveal--delay-{{ loop.index0 % 4 }}">
+          <h3 class="card__title">{{ item.organization }}</h3>
+          <p class="card__text">
+            {{ item.content | safe }}
+          </p>
+          <div class="card__links">
+            <a href="{{ item.link }}" class="document-card__link" target="_blank" rel="noopener noreferrer">
+              {{ item.linkText }}
+            </a>
+            {% if item.archiveLink %}
+            <a href="{{ item.archiveLink }}" class="card__archive" target="_blank" rel="noopener noreferrer" title="Archived backup copy">
+              Archived
+            </a>
+            {% endif %}
+          </div>
+          {% if item.isGovernment %}
+          <p class="card__warning">{{ item.warning }}</p>
+          {% endif %}
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   CHAPTER 9: CHECK FOR YOURSELF
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-verify" data-chapter="Verify">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Chapter VIII</span>
+      <h2 class="headline-chapter">Don't Take Our Word For It</h2>
+      <p class="subheadline">
+        If this contradicts what you learned, good. Check the sources yourself.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--muted">
+  <div class="fact-stack">
+    <article class="fact-item reveal">
+      <span class="fact-item__number">01</span>
+      <h3 class="fact-item__title">We Linked Every Claim</h3>
+      <p class="fact-item__text">
+        Every quote on this site links to the original document. Yale's Avalon Project,
+        the National Archives, teaching archives at major universities. Click through.
+        Read the full text. See if we're cherry-picking or if this is really what they said.
+      </p>
+    </article>
+    <article class="fact-item reveal reveal--delay-1">
+      <span class="fact-item__number">02</span>
+      <h3 class="fact-item__title">Textbooks Change. Documents Don't.</h3>
+      <p class="fact-item__text">
+        What you learned in school depended on when and where you went to school.
+        Textbooks get rewritten. The Mississippi Declaration of Secession says
+        the same thing it said in 1861.
+      </p>
+    </article>
+    <article class="fact-item reveal reveal--delay-2">
+      <span class="fact-item__number">03</span>
+      <h3 class="fact-item__title">Question Everything, Including This</h3>
+      <p class="fact-item__text">
+        If you think we got something wrong, check the source and tell us. The goal
+        isn't to win an argument. It's to get the history right.
+      </p>
+    </article>
+  </div>
+</section>
+
+{# ============================================
+   CHAPTER 10: BIBLIOGRAPHY
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-bibliography" data-chapter="Bibliography">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Evidence</span>
+      <h2 class="headline-chapter">Primary Sources</h2>
+      <p class="subheadline">
+        Start with the documents. Everything else is commentary.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--muted">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Complete Documentation</span>
+      <h2 class="headline-section">The Archive</h2>
+      <p class="subheadline">
+        Every source cited on this site, verified against archived copies.
+      </p>
+      <a href="/sources/" class="btn btn--primary" style="margin-top: var(--space-md);">
+        Browse {{ sources.list | length }} Primary Sources
+      </a>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   THE BOTTOM LINE
+   ============================================ #}
+<section class="chapter chapter--conclusion" id="chapter-conclusion" data-chapter="The Bottom Line">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Bottom Line</span>
+      <h2 class="headline-chapter">The Evidence Is Clear</h2>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="conclusion-grid reveal">
+        <div class="conclusion-fact">
+          <span class="conclusion-fact__number">1861</span>
+          <p class="conclusion-fact__text">Confederate leaders said slavery was the cause. In writing. Repeatedly.</p>
+        </div>
+        <div class="conclusion-fact">
+          <span class="conclusion-fact__number">1964</span>
+          <p class="conclusion-fact__text">Segregationists switched parties after Democrats passed civil rights laws.</p>
+        </div>
+        <div class="conclusion-fact">
+          <span class="conclusion-fact__number">2024</span>
+          <p class="conclusion-fact__text">10 of 11 Confederate states now vote Republican. The coalitions flipped.</p>
+        </div>
+      </div>
+    </div>
+    <div class="chapter__content chapter__content--center reveal">
+      <blockquote class="conclusion-quote">
+        <p>"Our position is thoroughly identified with the institution of slavery."</p>
+        <cite>Mississippi Declaration of Secession, 1861</cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   EXPLORE MORE
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-explore">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Go Deeper</span>
+      <h2 class="headline-section">Explore the Evidence</h2>
+      <p class="subheadline" style="margin-bottom: 2rem;">
+        Test yourself. Share with others. Let the documents speak.
+      </p>
+      <div class="cta-grid">
+        <a href="/quiz/" class="cta-card cta-card--primary">
+          <span class="cta-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3M12 17h.01"/></svg>
+          </span>
+          <span class="cta-card__title">Take the Quiz</span>
+          <span class="cta-card__desc">{{ quizQuestions.questions | length }} questions. Primary sources only.</span>
+        </a>
+        <a href="/bingo/" class="cta-card">
+          <span class="cta-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/></svg>
+          </span>
+          <span class="cta-card__title">Claims & Responses</span>
+          <span class="cta-card__desc">Common arguments. Sourced responses.</span>
+        </a>
+        <a href="/reconstruction/" class="cta-card">
+          <span class="cta-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          </span>
+          <span class="cta-card__title">Reconstruction</span>
+          <span class="cta-card__desc">What should have happened. Who stopped it.</span>
+        </a>
+        <a href="/party-realignment/" class="cta-card">
+          <span class="cta-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg>
+          </span>
+          <span class="cta-card__title">Full Evidence</span>
+          <span class="cta-card__desc">Election data. Platform quotes. Sources.</span>
+        </a>
+        <a href="/voting-access/" class="cta-card">
+          <span class="cta-card__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+          </span>
+          <span class="cta-card__title">Voting Today</span>
+          <span class="cta-card__desc">The same states. New restrictions.</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# State Realignment Modal #}
+<div class="state-modal" id="state-modal" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="state-modal__backdrop"></div>
+  <div class="state-modal__content">
+    <button class="state-modal__close" aria-label="Close modal">&times;</button>
+    <div class="state-modal__header">
+      <span class="state-modal__abbr" id="modal-state-abbr"></span>
+      <div>
+        <h3 class="state-modal__state" id="modal-state-name"></h3>
+        <p class="state-modal__headline" id="modal-headline"></p>
+      </div>
+    </div>
+    <div class="state-modal__body">
+      <div class="state-modal__flip">
+        <span class="state-modal__flip-label">First Republican Presidential Vote</span>
+        <span class="state-modal__flip-year" id="modal-flip-year"></span>
+      </div>
+      <div class="state-modal__figure">
+        <span class="state-modal__figure-label">Key Figure</span>
+        <span class="state-modal__figure-name" id="modal-key-figure"></span>
+        <span class="state-modal__figure-role" id="modal-key-figure-role"></span>
+      </div>
+      <p class="state-modal__summary" id="modal-summary"></p>
+      <blockquote class="state-modal__quote">
+        <p id="modal-quote"></p>
+        <cite id="modal-quote-attribution"></cite>
+      </blockquote>
+      <div class="state-modal__timeline" id="modal-timeline">
+        {# Populated by JavaScript #}
+      </div>
+    </div>
+    <div class="state-modal__footer">
+      <a href="#" class="btn btn--primary" id="modal-source-link" target="_blank" rel="noopener noreferrer">
+        View Source
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+          <polyline points="15 3 21 3 21 9"></polyline>
+          <line x1="10" y1="14" x2="21" y2="3"></line>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,124 @@
+[
+  {
+    "state": "Alabama",
+    "abbr": "AL",
+    "title": "Photo ID required since 2014",
+    "stat": "Strict ID",
+    "content": "Alabama requires photo ID to vote and closed 31 DMV offices in 2015, primarily in Black Belt counties with highest Black populations. After backlash, some part-time offices reopened.",
+    "source": "Alabama Secretary of State; Brennan Center",
+    "sourceUrl": "https://www.brennancenter.org/our-work/research-reports/challenge-obtaining-voter-identification",
+    "archiveUrl": "https://web.archive.org/web/20240601000000/https://www.brennancenter.org/our-work/research-reports/challenge-obtaining-voter-identification",
+    "postShelby": true
+  },
+  {
+    "state": "Arkansas",
+    "abbr": "AR",
+    "title": "ID law struck down, then reinstated",
+    "stat": "Strict ID",
+    "content": "Arkansas's voter ID law was struck down by state courts in 2014, then reinstated via constitutional amendment in 2018. The state has no early voting and limited absentee access.",
+    "source": "Arkansas Secretary of State; National Conference of State Legislatures",
+    "sourceUrl": "https://www.ncsl.org/elections-and-campaigns/voter-id",
+    "archiveUrl": "https://web.archive.org/web/20240601000000/https://www.ncsl.org/elections-and-campaigns/voter-id",
+    "postShelby": true
+  },
+  {
+    "state": "Florida",
+    "abbr": "FL",
+    "title": "Felony disenfranchisement persists",
+    "stat": "1.1M",
+    "content": "Despite 2018's Amendment 4 restoring voting rights, Florida's legislature added fees requirement. Over 1.1 million Floridians with felony convictions remain disenfranchised, disproportionately Black.",
+    "source": "Sentencing Project; Brennan Center",
+    "sourceUrl": "https://www.sentencingproject.org/reports/locked-out-2022-estimates-of-people-denied-voting-rights/",
+    "archiveUrl": "https://web.archive.org/web/20240601000000/https://www.sentencingproject.org/reports/locked-out-2022-estimates-of-people-denied-voting-rights/",
+    "postShelby": true
+  },
+  {
+    "state": "Georgia",
+    "abbr": "GA",
+    "title": "Drop boxes cut 87%",
+    "stat": "-87%",
+    "content": "SB 202 (2021) cut metro-Atlanta drop boxes from 107 in 2020 to just 16, with steepest losses in Fulton and DeKalb counties, the state's largest Black population centers.",
+    "source": "Georgia Public Broadcasting / ProPublica",
+    "sourceUrl": "https://www.propublica.org/article/georgia-voting-law-restricts-ballot-drop-boxes",
+    "archiveUrl": "https://web.archive.org/web/20240601000000/https://www.propublica.org/article/georgia-voting-law-restricts-ballot-drop-boxes",
+    "postShelby": true
+  },
+  {
+    "state": "Louisiana",
+    "abbr": "LA",
+    "title": "No early voting expansion",
+    "stat": "7 days",
+    "content": "Louisiana offers only 7 days of early voting (compared to 46 days in California). The state requires photo ID and has some of the most restrictive absentee voting rules in the nation.",
+    "source": "Louisiana Secretary of State; Vote.org",
+    "sourceUrl": "https://www.vote.org/early-voting-calendar/",
+    "archiveUrl": "https://web.archive.org/web/20240601000000/https://www.vote.org/early-voting-calendar/",
+    "postShelby": false
+  },
+  {
+    "state": "Mississippi",
+    "abbr": "MS",
+    "title": "Jim Crow-era provision survives",
+    "stat": "1890",
+    "content": "Mississippi still uses an 1890 provision requiring statewide candidates to win both the popular vote AND a majority of state House districts, designed explicitly to dilute Black voting power.",
+    "source": "Mississippi Constitution; Brennan Center",
+    "sourceUrl": "https://www.brennancenter.org/our-work/research-reports/jim-crow-era-election-rule-mississippi-falls-ballot",
+    "archiveUrl": "https://web.archive.org/web/20240601000000/https://www.brennancenter.org/our-work/research-reports/jim-crow-era-election-rule-mississippi-falls-ballot",
+    "postShelby": false
+  },
+  {
+    "state": "North Carolina",
+    "abbr": "NC",
+    "title": "\"Surgical precision\" targeting",
+    "stat": "2016",
+    "content": "The 4th Circuit struck down NC's 2013 law, finding it targeted Black voters \"with almost surgical precision.\" The legislature passed new restrictions (S747) in 2023.",
+    "source": "NC NAACP v. McCrory, 4th Circuit",
+    "sourceUrl": "https://www.ca4.uscourts.gov/opinions/161468.P.pdf",
+    "archiveUrl": "https://web.archive.org/web/20240601000000/https://www.ca4.uscourts.gov/opinions/161468.P.pdf",
+    "postShelby": true
+  },
+  {
+    "state": "South Carolina",
+    "abbr": "SC",
+    "title": "First post-Shelby restriction blocked",
+    "stat": "2012",
+    "content": "SC was the first state to pass a voter ID law after Shelby County (2013). A previous version was blocked by DOJ under preclearance. Current law requires photo ID with narrow exceptions.",
+    "source": "South Carolina Election Commission; DOJ records",
+    "sourceUrl": "https://www.justice.gov/crt/about-section-5-voting-rights-act",
+    "archiveUrl": "https://web.archive.org/web/20240601000000/https://www.justice.gov/crt/about-section-5-voting-rights-act",
+    "postShelby": true
+  },
+  {
+    "state": "Tennessee",
+    "abbr": "TN",
+    "title": "Harshest registration penalties",
+    "stat": "Felony",
+    "content": "Tennessee made it a felony to submit incomplete voter registration forms (2019), targeting voter registration drives. A federal court blocked parts of the law as unconstitutional.",
+    "source": "Tennessee HB 1079; League of Women Voters v. Hargett",
+    "sourceUrl": "https://www.aclu.org/cases/league-women-voters-tennessee-v-hargett",
+    "archiveUrl": "https://web.archive.org/web/20240601000000/https://www.aclu.org/cases/league-women-voters-tennessee-v-hargett",
+    "postShelby": true
+  },
+  {
+    "state": "Texas",
+    "abbr": "TX",
+    "title": "Mail ballot rejections spike",
+    "stat": "12K+",
+    "content": "Under SB 1 (2021), over 12,000 mail ballots were rejected in the first election, disproportionately affecting Black and Latino voters in Harris County and other urban areas.",
+    "source": "Brennan Center for Justice",
+    "sourceUrl": "https://www.brennancenter.org/our-work/research-reports/mail-ballot-rejection-rates-texas-2022-primary",
+    "archiveUrl": "https://web.archive.org/web/20240601000000/https://www.brennancenter.org/our-work/research-reports/mail-ballot-rejection-rates-texas-2022-primary",
+    "postShelby": true
+  },
+  {
+    "state": "Virginia",
+    "abbr": "VA",
+    "title": "Turnout rises with access",
+    "stat": "+9 pts",
+    "content": "After adding no-excuse absentee voting and same-day registration, Virginia's 2020 turnout jumped 9 points, the largest increase in the South. Virginia is now the only former Confederate state voting Democratic.",
+    "source": "Virginia Department of Elections",
+    "sourceUrl": "https://www.elections.virginia.gov/resultsreports/",
+    "archiveUrl": "https://web.archive.org/web/20240601000000/https://www.elections.virginia.gov/resultsreports/",
+    "postShelby": false,
+    "expanded": true
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "organization": "American Historical Association",
+    "content": "The AHA's '16 Months to Sumter' collection provides hundreds of primary sources showing 'the economics and morality of slavery' at the center of secession. They note that 'too few participants in these conversations have read the essential primary sources.'",
+    "link": "https://www.historians.org/teaching-learning/aha-historical-collections/16-months-to-sumter/introductions-to-secession-editorial-series/",
+    "archiveLink": "https://web.archive.org/web/20241103061627/https://www.historians.org/teaching-learning/aha-historical-collections/16-months-to-sumter/introductions-to-secession-editorial-series/",
+    "linkText": "Read AHA primary sources"
+  },
+  {
+    "organization": "National Park Service",
+    "content": "Fort Sumter's official NPS history states that 'Charleston blazed a path towards secession to preserve slavery' and Confederate forces 'fired on the US garrison... opening the Civil War, which redefined American freedom.'",
+    "link": "https://www.nps.gov/fosu/index.htm",
+    "archiveLink": "https://web.archive.org/web/20240101234541/https://www.nps.gov/fosu/index.htm",
+    "linkText": "Visit Fort Sumter NPS",
+    "isGovernment": true,
+    "warning": "Government source - verified intact as of Dec 2025. Archive preserved as precaution."
+  },
+  {
+    "organization": "Eric Foner (Columbia)",
+    "content": "Foner's <em>Reconstruction: America's Unfinished Revolution</em> won the Bancroft Prize and remains the standard history. It tracks how the party realignment followed federal enforcement of civil rights from the 1930s through the 1980s.",
+    "link": "https://www.amazon.com/Reconstruction-Updated-Unfinished-Revolution-1863-1877/dp/0062354515",
+    "linkText": "See Foner's book"
+  },
+  {
+    "organization": "Encyclopaedia Britannica",
+    "content": "Britannica's entry on the Southern Strategy describes how 'the Republican Party... appealed to white southerners by emphasizing states' rights and coded racial messaging' to flip the formerly Democratic South.",
+    "link": "https://www.britannica.com/topic/Southern-strategy",
+    "archiveLink": "https://web.archive.org/web/20240524192210/https://www.britannica.com/topic/Southern-strategy",
+    "linkText": "Read Britannica entry"
+  }
+]

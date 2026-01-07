@@ -1,0 +1,93 @@
+{# Senate Realignment Component #}
+{# Shows the complete flip of all Senate seats held by Civil Rights Act opponents #}
+
+<div class="senate-realignment">
+  {# Summary Stats #}
+  <div class="senate-stats">
+    <div class="senate-stat senate-stat--primary">
+      <span class="senate-stat__number">{{ senateRealignment.summary.flippedPercentage }}%</span>
+      <span class="senate-stat__label">Seats Flipped Republican</span>
+    </div>
+    <div class="senate-stat">
+      <span class="senate-stat__number">{{ senateRealignment.summary.totalSeats }}</span>
+      <span class="senate-stat__label">Democratic NAY Votes</span>
+    </div>
+    <div class="senate-stat">
+      <span class="senate-stat__number">{{ senateRealignment.summary.averageYearsToFlip }}</span>
+      <span class="senate-stat__label">Average Years to Flip</span>
+    </div>
+    <div class="senate-stat">
+      <span class="senate-stat__number">{{ senateRealignment.summary.completionYear }}</span>
+      <span class="senate-stat__label">Final Flip Year</span>
+    </div>
+  </div>
+
+  {# Wave Breakdown #}
+  <div class="senate-waves">
+    <h4 class="senate-waves__title">The Realignment Happened in Waves</h4>
+    <div class="senate-waves__grid">
+      {% for wave in senateRealignment.waves %}
+      <div class="senate-wave">
+        <span class="senate-wave__name">{{ wave.name }}</span>
+        <span class="senate-wave__seats">{{ wave.seats }} seats</span>
+        <span class="senate-wave__desc">{{ wave.description }}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  {# Full Table #}
+  <div class="senate-table-wrapper">
+    <table class="senate-table" aria-describedby="senate-table-note">
+      <thead>
+        <tr>
+          <th scope="col">State</th>
+          <th scope="col">Senator (D) Who Voted NAY</th>
+          <th scope="col">Flip Year</th>
+          <th scope="col">Years</th>
+          <th scope="col">Flipped To</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for seat in senateRealignment.seats %}
+        <tr class="senate-row senate-row--{{ 'fast' if seat.yearsToFlip <= 8 else ('medium' if seat.yearsToFlip <= 24 else 'slow') }}">
+          <td class="senate-cell senate-cell--state">{{ seat.state }}</td>
+          <td class="senate-cell senate-cell--senator">
+            <span class="senator-name">{{ seat.senator }}</span>
+          </td>
+          <td class="senate-cell senate-cell--year">
+            <span class="flip-year">{{ seat.flipYear }}</span>
+          </td>
+          <td class="senate-cell senate-cell--duration">
+            <span class="years-badge years-badge--{{ 'fast' if seat.yearsToFlip <= 8 else ('medium' if seat.yearsToFlip <= 24 else 'slow') }}">
+              {{ seat.yearsToFlip }}
+            </span>
+          </td>
+          <td class="senate-cell senate-cell--flipped">
+            <span class="republican-name">{{ seat.flippedTo }}</span>
+            {% if seat.note %}
+            <span class="seat-note" title="{{ seat.note }}">ⓘ</span>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  {# Key Insights #}
+  <div class="senate-insights">
+    {% for insight in senateRealignment.keyInsights %}
+    <div class="senate-insight">
+      <h4 class="senate-insight__title">{{ insight.title }}</h4>
+      <p class="senate-insight__text">{{ insight.text }}</p>
+    </div>
+    {% endfor %}
+  </div>
+
+  {# Source Note #}
+  <p class="senate-source">
+    {{ senateRealignment.sourceNote }}
+    <a href="{{ senateRealignment.sourceUrl }}" target="_blank" rel="noopener noreferrer">View Senate vote record →</a>
+  </p>
+</div>

@@ -1,0 +1,78 @@
+{
+  "headline": "Slavery Was the Economic Issue",
+  "subheadline": "The \"economic factors\" argument misses the point. The Southern economy was built on slavery. When they fought to preserve slavery, they were fighting to preserve their economy.",
+  "keyFacts": [
+    {
+      "stat": "$3.5 Billion",
+      "label": "Value of enslaved people in 1860",
+      "context": "More than all American railroads, factories, and banks combined. Enslaved people were the largest financial asset in the country.",
+      "source": "1860 U.S. Census",
+      "sourceUrl": "https://www.census.gov/library/publications/1864/dec/1860a.html"
+    },
+    {
+      "stat": "4 Million",
+      "label": "People held in bondage",
+      "context": "Nearly one-third of the Southern population was enslaved. Their unpaid labor generated the wealth that built the Southern economy.",
+      "source": "1860 U.S. Census",
+      "sourceUrl": "https://www.census.gov/library/publications/1864/dec/1860a.html"
+    },
+    {
+      "stat": "57%",
+      "label": "of U.S. exports from cotton alone",
+      "context": "Cotton was America's most valuable export. It was grown almost entirely by enslaved labor in the South.",
+      "source": "Historical Statistics of the United States",
+      "sourceUrl": "https://hsus.cambridge.org/"
+    }
+  ],
+  "economicQuotes": [
+    {
+      "quote": "Our position is thoroughly identified with the institution of slavery—the greatest material interest of the world.",
+      "source": "Mississippi Declaration of Secession, 1861",
+      "sourceUrl": "https://avalon.law.yale.edu/19th_century/csa_missec.asp",
+      "analysis": "They said it themselves: slavery was their \"greatest material interest.\" This IS the economic argument."
+    },
+    {
+      "quote": "African slavery, as it exists in the United States, is a moral, a social, and a political blessing.",
+      "source": "Jefferson Davis, U.S. Senate, 1858",
+      "sourceUrl": "https://jeffersondavis.rice.edu/",
+      "analysis": "The future Confederate president framed slavery as essential to Southern prosperity."
+    },
+    {
+      "quote": "The great truth that the negro is not equal to the white man; that slavery subordination to the superior race is his natural and normal condition. This, our new government, is the first, in the history of the world, based upon this great physical, philosophical, and moral truth.",
+      "source": "Alexander Stephens, Cornerstone Speech, 1861",
+      "sourceUrl": "https://teachingamericanhistory.org/document/cornerstone-speech/",
+      "analysis": "The Confederate Vice President explicitly stated that slavery, not states' rights, was the foundation of their new nation."
+    }
+  ],
+  "tariffsContext": {
+    "headline": "What About Tariffs?",
+    "explanation": "Tariff disputes did exist between North and South. But the secession documents themselves reveal what mattered most:",
+    "comparison": [
+      {
+        "term": "Slavery",
+        "mentions": "83 times in the four main secession declarations",
+        "note": "Central to every grievance"
+      },
+      {
+        "term": "Tariffs",
+        "mentions": "0 times in Mississippi, Georgia, South Carolina, or Texas declarations",
+        "note": "Not mentioned as a cause for leaving"
+      }
+    ],
+    "conclusion": "If tariffs were the real cause, why didn't they say so? They were explicit about slavery because slavery was the issue."
+  },
+  "historianQuotes": [
+    {
+      "quote": "The war came because the two sections no longer shared the same moral universe... At the heart of that estrangement was slavery.",
+      "source": "James McPherson, Pulitzer Prize-winning historian",
+      "work": "Battle Cry of Freedom",
+      "sourceUrl": "https://global.oup.com/academic/product/battle-cry-of-freedom-9780195168952"
+    },
+    {
+      "quote": "Slavery was the foundation of the antebellum Southern economy... By 1860, there were more millionaires per capita in the Mississippi Valley than anywhere else in the United States.",
+      "source": "Edward Baptist, Cornell University",
+      "work": "The Half Has Never Been Told",
+      "sourceUrl": "https://www.basicbooks.com/titles/edward-e-baptist/the-half-has-never-been-told/9780465049660/"
+    }
+  ]
+}

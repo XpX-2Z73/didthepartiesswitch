@@ -1,0 +1,175 @@
+---
+layout: layouts/base.njk
+title: Voting Access
+description: State-by-state election data and voting access policies in former Confederate states.
+permalink: /voting-access/
+---
+
+<section class="hero hero--short" id="chapter-intro" data-chapter="Voting">
+  <div class="hero__content">
+    <span class="eyebrow">Today</span>
+    <h1 class="headline-hero hero__title">Voting Access</h1>
+    <p class="subheadline hero__subtitle">
+      The battle over who votes continues in the former Confederacy.
+    </p>
+  </div>
+</section>
+
+{# Elections Table #}
+<section class="chapter chapter--muted" id="chapter-elections" data-chapter="Elections">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">2024 Results</span>
+      <h2 class="headline-chapter">From Secession to Today</h2>
+      <p class="subheadline">
+        Ten of eleven seceding states backed the Republican ticket in 2024.
+        Virginia stands alone.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--wide reveal">
+      {% include "components/state-table.njk" %}
+      <div class="table-actions" style="display: flex; gap: 1rem; justify-content: center; margin-top: 2rem;">
+        <button type="button" class="btn btn--primary" id="download-csv">
+          Download CSV
+        </button>
+        <a class="btn btn--secondary" href="/party-realignment/#chapter-coalition">
+          Coalition Chart
+        </a>
+      </div>
+      <p class="caption" style="text-align: center; margin-top: 2rem;">
+        Data: AP state calls for 2024, Virginia DoE, Georgia SB 202 text, Texas SB 1 filings, Brennan Center.
+      </p>
+    </div>
+  </div>
+</section>
+
+{# Voting Access Cards #}
+<section class="chapter chapter--dark" id="chapter-access" data-chapter="Access">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Case Studies</span>
+      <h2 class="headline-chapter">Voting Access After Realignment</h2>
+      <p class="subheadline">
+        Expansion in some states. Restriction in others. The tug-of-war continues.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--muted">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--wide">
+      <div class="card-grid">
+        <article class="card reveal">
+          <h3 class="card__title">Expansion: Virginia</h3>
+          <p class="card__text">
+            From 2020 onward, Virginia enacted automatic voter registration via the DMV, no-excuse
+            absentee voting, and same-day registration. The state also restored voting rights
+            to tens of thousands of returning citizens.
+          </p>
+        </article>
+        <article class="card reveal reveal--delay-1">
+          <h3 class="card__title">Restriction: Georgia</h3>
+          <p class="card__text">
+            SB 202 trimmed drop boxes, shortened absentee request windows, and increased ID
+            requirements. Federal courts continue to weigh challenges about disparate racial impact.
+          </p>
+        </article>
+        <article class="card reveal reveal--delay-2">
+          <h3 class="card__title">Restriction: Texas</h3>
+          <p class="card__text">
+            SB 1 criminalized some forms of assistance, banned drive-through voting, and requires ID
+            numbers on mail ballot materials. Federal courts struck down some sections; others remain.
+          </p>
+        </article>
+        <article class="card reveal reveal--delay-3">
+          <h3 class="card__title">Broader Trends</h3>
+          <p class="card__text">
+            Brennan Center tracking shows 14 states expanded access in 2023-24 while 12 enacted new
+            restrictions. The tug-of-war reflects ongoing battles over who votes, echoing Reconstruction.
+          </p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# Post-Shelby Impact #}
+<section class="chapter chapter--dark" id="chapter-shelby" data-chapter="Shelby">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">All 11 States</span>
+      <h2 class="headline-chapter">Voting Access Today</h2>
+      <p class="subheadline">
+        After the Supreme Court weakened the Voting Rights Act in <em>Shelby County v. Holder</em> (2013),
+        states previously covered by federal preclearance moved quickly. Here's where each former Confederate state stands.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--muted">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--wide reveal">
+      {% include "components/impact-grid.njk" %}
+    </div>
+  </div>
+</section>
+
+{# The Same 11 States Connection #}
+<section class="chapter chapter--dark" id="chapter-connection" data-chapter="Connection">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Pattern</span>
+      <h2 class="headline-chapter">The Same 11 States</h2>
+    </div>
+    <div class="chapter__content chapter__content--narrow reveal">
+      <div class="callout callout--highlight" style="text-align: left; font-size: 1.1rem; line-height: 1.8;">
+        <p style="margin-bottom: 1rem;">
+          <strong>1861:</strong> Eleven states secede to preserve slavery.
+        </p>
+        <p style="margin-bottom: 1rem;">
+          <strong>1865:</strong> Those 11 states pass Black Codes to recreate slavery.
+        </p>
+        <p style="margin-bottom: 1rem;">
+          <strong>1877:</strong> Those 11 states "redeem" themselves through terror, ending Reconstruction.
+        </p>
+        <p style="margin-bottom: 1rem;">
+          <strong>1890-1910:</strong> Those 11 states disenfranchise Black voters through poll taxes, literacy tests, and grandfather clauses.
+        </p>
+        <p style="margin-bottom: 1rem;">
+          <strong>1964:</strong> Those 11 states provide the "no" votes against the Civil Rights Act (7% of Southern Democrats voted yes).
+        </p>
+        <p style="margin-bottom: 1rem;">
+          <strong>1968-1980:</strong> Those 11 states flip Republican via the Southern Strategy.
+        </p>
+        <p style="margin-bottom: 1rem;">
+          <strong>2013:</strong> After <em>Shelby County</em> guts the VRA, those 11 states lead the nation in voting restrictions.
+        </p>
+        <p style="margin-bottom: 1rem;">
+          <strong>2024:</strong> Ten of those 11 states vote Republican.
+        </p>
+        <p style="margin-top: 2rem; font-size: 1.2rem; font-weight: 600;">
+          This is not coincidence. This is inheritance.
+        </p>
+        <p style="margin-top: 1rem;">
+          When Reconstruction failed, it failed specifically in these states, and the failure was never corrected. The ideology didn't disappear; it changed parties. The geography stayed the same.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--dark" id="chapter-explore">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Continue Exploring</span>
+      <h2 class="headline-section">More to Discover</h2>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+        <a href="/" class="btn btn--primary">The Full Story</a>
+        <a href="/party-realignment/" class="btn btn--secondary">Party Realignment</a>
+        <a href="/bingo/" class="btn btn--secondary">Bingo Card</a>
+      </div>
+    </div>
+  </div>
+</section>

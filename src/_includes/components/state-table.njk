@@ -1,0 +1,26 @@
+{# State Election Table - pre-rendered #}
+<div class="table-wrapper">
+  <table id="election-table" aria-describedby="election-table-note">
+    <caption class="sr-only">
+      2024 presidential winners and voting access notes for states that seceded in 1860-61
+    </caption>
+    <thead>
+      <tr>
+        <th scope="col">State</th>
+        <th scope="col">Seceded 1860-61</th>
+        <th scope="col">2024 Presidential Winner</th>
+        <th scope="col">Access Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for state in states %}
+        <tr>
+          <td>{{ state.state }}</td>
+          <td>{{ "Yes" if state.seceded else "No" }}</td>
+          <td>{{ state.winner2024 }}</td>
+          <td>{{ state.notes }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

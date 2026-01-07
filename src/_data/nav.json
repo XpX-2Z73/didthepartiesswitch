@@ -1,0 +1,14 @@
+[
+  { "href": "/#origin", "label": "The Spark" },
+  { "href": "/#documents", "label": "Secession Texts" },
+  { "href": "/reconstruction/", "label": "Reconstruction" },
+  { "href": "/party-realignment/", "label": "Party Shift" },
+  { "href": "/#comparative", "label": "Global Parallels" },
+  { "href": "/party-realignment/#coalition-data", "label": "Coalition Data" },
+  { "href": "/voting-access/", "label": "Voting Access" },
+  { "href": "/#psychology", "label": "Memory & Mind" },
+  { "href": "/bingo/", "label": "Bingo" },
+  { "href": "/quiz/", "label": "Quiz" },
+  { "href": "/#debate", "label": "Active Debates" },
+  { "href": "/sources/", "label": "Archive" }
+]

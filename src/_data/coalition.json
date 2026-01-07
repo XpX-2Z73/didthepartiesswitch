@@ -1,0 +1,82 @@
+[
+  {
+    "year": 1860,
+    "share": 0,
+    "label": "Democratic South",
+    "description": "Lincoln carried 0 of 11 seceding states. The South voted for pro-slavery candidates (Breckinridge, Bell)."
+  },
+  {
+    "year": 1932,
+    "share": 0,
+    "label": "Solid South holds",
+    "description": "Hoover carried 0 of 11. Despite the Depression, the Democratic South remained unbroken."
+  },
+  {
+    "year": 1948,
+    "share": 0,
+    "label": "Dixiecrat revolt",
+    "description": "Dewey carried 0 of 11. Thurmond's Dixiecrat campaign won 4 states, showing the South would break, but not yet for the GOP.",
+    "quotes": [
+      {
+        "text": "We stand for the segregation of the races and the racial integrity of each race.",
+        "source": "Dixiecrat Platform, 1948"
+      },
+      {
+        "text": "All the laws of Washington and all the bayonets of the Army cannot force the Negro into our homes, our schools, our churches.",
+        "source": "Strom Thurmond, Dixiecrat campaign, 1948"
+      }
+    ]
+  },
+  {
+    "year": 1964,
+    "share": 45,
+    "label": "Goldwater vs. Civil Rights Act",
+    "description": "Goldwater carried 5 of 11 (AL, GA, LA, MS, SC) after opposing the Civil Rights Act, the first mass Deep South breakthrough since Reconstruction.",
+    "quotes": [
+      {
+        "text": "The Democratic Party has abandoned the people. It has repudiated the Constitution of the United States.",
+        "source": "Strom Thurmond, switching to GOP, September 1964"
+      },
+      {
+        "text": "Goldwater won 87% of the vote in Mississippi, the highest percentage in the nation.",
+        "source": "1964 Election Results"
+      },
+      {
+        "text": "Extremism in the defense of liberty is no vice.",
+        "source": "Barry Goldwater, GOP Convention, 1964"
+      }
+    ]
+  },
+  {
+    "year": 1980,
+    "share": 91,
+    "label": "Reagan coalition",
+    "description": "Reagan carried 10 of 11 (Carter won home-state Georgia). The Southern Strategy reaches full effect.",
+    "quotes": [
+      {
+        "text": "I believe in states' rights.",
+        "source": "Ronald Reagan, Neshoba County Fair, Mississippi, 1980"
+      },
+      {
+        "text": "The more Negroes who register as Democrats in the South, the sooner the Negrophobe whites will quit the Democrats and become Republicans.",
+        "source": "Kevin Phillips, Nixon strategist, 1970"
+      },
+      {
+        "text": "You start out in 1954 by saying 'n----r, n----r, n----r.' By 1968 you can't say that... So you say stuff like forced busing, states' rights.",
+        "source": "Lee Atwater, GOP strategist, 1981"
+      }
+    ]
+  },
+  {
+    "year": 2000,
+    "share": 100,
+    "label": "GOP sweep",
+    "description": "Bush carried 11 of 11, completing the realignment. The party of Lincoln now holds the former Confederacy."
+  },
+  {
+    "year": 2024,
+    "share": 91,
+    "label": "Ten of eleven states",
+    "description": "GOP carried 10 of 11. Virginia's demographic shift makes it the lone holdout as the rest remain solidly Republican."
+  }
+]

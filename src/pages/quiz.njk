@@ -1,0 +1,77 @@
+---
+layout: layouts/base.njk
+title: Party Switch Quiz
+description: Did the parties really switch? Test yourself with questions on secession, Reconstruction, the Southern Strategy, and where the voters went.
+permalink: /quiz/
+---
+
+{# Fixed score bar - hidden until hero score scrolls out of view #}
+<div class="quiz-score-fixed" id="quiz-score-fixed">
+  <div class="quiz-score-fixed__inner">
+    <span class="quiz-score-fixed__label">Score:</span>
+    <span class="quiz-score-fixed__value" id="quiz-score-fixed-value">0 / 0</span>
+  </div>
+</div>
+
+<section class="hero hero--short" id="chapter-intro" data-chapter="Quiz">
+  <div class="hero__content">
+    <span class="eyebrow">Test Yourself</span>
+    <h1 class="headline-hero hero__title">Reality Check</h1>
+    <p class="subheadline hero__subtitle">
+      {{ quizQuestions.questions | length }} questions. Primary sources only. No mythology allowed.
+    </p>
+    <div class="quiz-score-display reveal" id="quiz-score-hero">
+      <span>Score: </span><span id="quiz-score">0 / 0</span>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--muted" id="chapter-quiz" data-chapter="Questions">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <p class="lead-text">
+        Hand this quiz to anyone who wants a refresher. Click an answer to reveal if you're right.
+      </p>
+    </div>
+    <div class="quiz-container reveal">
+      {% include "components/quiz.njk" %}
+    </div>
+  </div>
+</section>
+
+{# Advanced Quiz - Hidden until main quiz is complete #}
+<section class="chapter chapter--dark advanced-quiz-section" id="advanced-quiz-section" data-chapter="Scholar's Challenge">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">You're Ready</span>
+      <h2 class="headline-section">Scholar's Challenge</h2>
+      <p class="lead-text">
+        {{ advancedQuizQuestions.questions | length }} questions. No sanitizing. What they don't teach.
+      </p>
+      <p class="body-text" style="max-width: 600px; margin: 0 auto 2rem;">
+        This quiz covers the documented horrors that get whitewashed from textbooks: massacres, convict leasing, medical atrocities, and the legal architecture of white supremacy. Every question is sourced. Content warnings are provided where needed.
+      </p>
+      <div class="quiz-score-display" id="advanced-quiz-score-display">
+        <span>Score: </span><span id="advanced-quiz-score">0 / 0</span>
+      </div>
+    </div>
+    <div class="quiz-container">
+      {% include "components/advanced-quiz.njk" %}
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--dark" id="chapter-explore">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center">
+      <span class="eyebrow">Continue Exploring</span>
+      <h2 class="headline-section">More Tools</h2>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+        <a href="/" class="btn btn--primary">The Full Story</a>
+        <a href="/bingo/" class="btn btn--secondary">Bingo Card</a>
+        <a href="/party-realignment/" class="btn btn--secondary">Party Realignment</a>
+        <a href="/voting-access/" class="btn btn--secondary">Voting Access</a>
+      </div>
+    </div>
+  </div>
+</section>

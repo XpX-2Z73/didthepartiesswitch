@@ -1,0 +1,12 @@
+{# Timeline component - renders a vertical timeline with period markers #}
+{# Usage: {% include "components/timeline.njk" %} with items in scope #}
+<div class="timeline">
+  {% for item in items %}
+    <article class="timeline__item">
+      <span class="timeline__year">{{ item.period or item.date }}</span>
+      <div class="timeline__content">
+        <p>{{ item.content | safe }}</p>
+      </div>
+    </article>
+  {% endfor %}
+</div>

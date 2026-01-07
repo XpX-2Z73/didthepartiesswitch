@@ -1,0 +1,117 @@
+---
+layout: layouts/base.njk
+title: The Archive
+description: Complete primary source archive with verification status. Every document, court case, and admission that proves the historical record.
+permalink: /sources/
+---
+
+<section class="hero hero--short" id="chapter-intro">
+  <div class="hero__content">
+    <span class="eyebrow">Primary Source Archive</span>
+    <h1 class="headline-hero hero__title">The Archive</h1>
+    <p class="subheadline hero__subtitle">
+      {{ sources.list | length }} verified primary sources. Every claim backed by documentation.
+    </p>
+  </div>
+</section>
+
+{# Verification Status #}
+<section class="chapter">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--wide">
+      {% include "components/source-verification-status.njk" %}
+    </div>
+  </div>
+</section>
+
+{# Archive by Era #}
+{% for era in sources.eras %}
+  {% set eraSources = [] %}
+  {% for source in sources.list %}
+    {% if source.era == era.id %}
+      {% set eraSources = (eraSources.push(source), eraSources) %}
+    {% endif %}
+  {% endfor %}
+
+  {% if eraSources.length > 0 %}
+<section class="chapter {% if loop.index % 2 == 0 %}chapter--muted{% endif %}" id="era-{{ era.id }}">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">{{ era.years }}</span>
+      <h2 class="headline-section">{{ era.name }}</h2>
+      <p class="text-muted">{{ era.description }}</p>
+    </div>
+    <div class="chapter__content chapter__content--wide reveal">
+      <div class="archive-grid">
+        {% for source in sources.list %}
+          {% if source.era == era.id %}
+        <article class="archive-item">
+          <div class="archive-item__header">
+            <span class="archive-item__year">{{ source.year }}</span>
+            <span class="archive-item__category archive-item__category--{{ source.category }}">
+              {% if source.category == "documents" %}
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+              {% elif source.category == "speeches" %}
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+              {% elif source.category == "court-cases" %}
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M3 10h18M12 3l9 7H3l9-7z"/></svg>
+              {% elif source.category == "legislation" %}
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+              {% elif source.category == "events" %}
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              {% elif source.category == "government" %}
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M3 10h18M5 6l7-3 7 3M4 10v11M20 10v11"/></svg>
+              {% elif source.category == "elections" %}
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+              {% elif source.category == "research" %}
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+              {% else %}
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+              {% endif %}
+              {{ source.category | replace("-", " ") }}
+            </span>
+          </div>
+          <h3 class="archive-item__title">{{ source.title }}</h3>
+          <div class="archive-item__description">
+            {{ source.description | safe }}
+          </div>
+        </article>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+  {% endif %}
+{% endfor %}
+
+{# Quick Navigation #}
+<section class="chapter chapter--dark">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <h2 class="headline-section">Navigate the Archive</h2>
+      <p class="text-muted">Jump to a specific era</p>
+      <div class="archive-nav">
+        {% for era in sources.eras %}
+        <a href="#era-{{ era.id }}" class="archive-nav__link">
+          {{ era.name }}
+          <span class="archive-nav__years">{{ era.years }}</span>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# Call to Action #}
+<section class="chapter chapter--muted">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="/" class="btn btn--primary">Back to Overview</a>
+        <a href="/party-realignment/" class="btn btn--secondary">The Evidence</a>
+        <a href="/voting-access/" class="btn btn--secondary">Voting Access Today</a>
+      </div>
+    </div>
+  </div>
+</section>

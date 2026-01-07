@@ -1,0 +1,87 @@
+{
+  "lastVerified": "2026-01-04T04:16:48.999Z",
+  "status": "verified",
+  "sources": [
+    {
+      "id": "mississippi-declaration",
+      "name": "Mississippi Declaration of Secession",
+      "liveUrl": "https://avalon.law.yale.edu/19th_century/csa_missec.asp",
+      "archiveUrl": "https://web.archive.org/web/20230601/https://avalon.law.yale.edu/19th_century/csa_missec.asp",
+      "searchText": "Our position is thoroughly identified with the institution of slavery",
+      "verified": true,
+      "lastChecked": "2026-01-04T04:16:12.196Z",
+      "warning": null
+    },
+    {
+      "id": "cornerstone-speech",
+      "name": "Stephens Cornerstone Speech",
+      "liveUrl": "https://teachingamericanhistory.org/document/cornerstone-speech/",
+      "archiveUrl": "https://web.archive.org/web/20230601/https://teachingamericanhistory.org/document/the-corner-stone-speech/",
+      "searchText": "the negro is not equal to the white man",
+      "verified": true,
+      "lastChecked": "2026-01-04T04:16:16.344Z",
+      "warning": null
+    },
+    {
+      "id": "dixiecrat-platform",
+      "name": "Dixiecrat Platform (1948)",
+      "liveUrl": "https://www.presidency.ucsb.edu/documents/platform-the-states-rights-democratic-party",
+      "archiveUrl": "https://web.archive.org/web/20240526/https://www.presidency.ucsb.edu/documents/platform-the-states-rights-democratic-party",
+      "searchText": "We stand for the segregation of the races",
+      "verified": true,
+      "lastChecked": "2026-01-04T04:16:22.174Z",
+      "warning": null
+    },
+    {
+      "id": "atwater-interview",
+      "name": "Lee Atwater Interview (1981)",
+      "liveUrl": "https://www.thenation.com/article/archive/exclusive-lee-atwaters-infamous-1981-interview-southern-strategy/",
+      "archiveUrl": "https://web.archive.org/web/20230601/https://www.thenation.com/article/archive/exclusive-lee-atwaters-infamous-1981-interview-southern-strategy/",
+      "searchText": "you say stuff like, uh, forced busing",
+      "verified": true,
+      "lastChecked": "2026-01-04T04:16:26.980Z",
+      "warning": null
+    },
+    {
+      "id": "mehlman-apology",
+      "name": "Ken Mehlman NAACP Apology (2005)",
+      "liveUrl": "https://www.npr.org/2005/08/22/4810209/republicans-seek-to-increase-african-american-support",
+      "archiveUrl": "https://web.archive.org/web/20230601/https://www.npr.org/2005/08/22/4810209/republicans-seek-to-increase-african-american-support",
+      "searchText": "I come here as Republican chairman to tell you we were wrong",
+      "verified": true,
+      "lastChecked": "2026-01-04T04:16:31.104Z",
+      "warning": null
+    },
+    {
+      "id": "confederate-constitution",
+      "name": "Confederate Constitution",
+      "liveUrl": "https://avalon.law.yale.edu/19th_century/csa_csa.asp",
+      "archiveUrl": "https://web.archive.org/web/20230601/https://avalon.law.yale.edu/19th_century/csa_csa.asp",
+      "searchText": "right of property in negro slaves",
+      "verified": true,
+      "lastChecked": "2026-01-04T04:16:35.617Z",
+      "warning": null
+    },
+    {
+      "id": "republican-platform-1860",
+      "name": "Republican Platform (1860)",
+      "liveUrl": "https://www.presidency.ucsb.edu/documents/republican-party-platform-1860",
+      "archiveUrl": "https://web.archive.org/web/20230601/https://www.presidency.ucsb.edu/documents/republican-party-platform-1860",
+      "searchText": "normal condition of all the territory of the United States is that of freedom",
+      "verified": true,
+      "lastChecked": "2026-01-04T04:16:40.585Z",
+      "warning": null
+    },
+    {
+      "id": "texas-v-white",
+      "name": "Texas v. White (1869)",
+      "liveUrl": "https://www.law.cornell.edu/supremecourt/text/74/700",
+      "archiveUrl": "https://web.archive.org/web/20230601/https://www.law.cornell.edu/supremecourt/text/74/700",
+      "searchText": "indestructible Union, composed of indestructible States",
+      "verified": true,
+      "lastChecked": "2026-01-04T04:16:44.650Z",
+      "warning": null
+    }
+  ],
+  "warnings": []
+}

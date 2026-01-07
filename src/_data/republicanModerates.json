@@ -1,0 +1,75 @@
+{
+  "headline": "The Republican Civil Rights Legacy",
+  "introduction": "Before the Southern Strategy, the Republican Party had a century-long civil rights legacy. Understanding what they chose to abandon makes the strategic shift more significant.",
+  "civilRightsActVote": {
+    "headline": "The Civil Rights Act Vote (1964)",
+    "description": "Both parties split on the Civil Rights Act, but Republicans were MORE likely to vote yes than Democrats, especially in the Senate.",
+    "senate": {
+      "republican": {"yes": 27, "no": 6, "percent": 82},
+      "democratic": {"yes": 46, "no": 21, "percent": 69}
+    },
+    "house": {
+      "republican": {"yes": 138, "no": 34, "percent": 80},
+      "democratic": {"yes": 152, "no": 96, "percent": 61}
+    },
+    "note": "Without Republican votes, the Civil Rights Act would not have passed. The split was regional, not purely partisan: Northern Democrats and most Republicans voted yes; Southern Democrats voted no.",
+    "source": "GovTrack / Congressional Record",
+    "sourceUrl": "https://www.govtrack.us/congress/votes/88-1964/s409"
+  },
+  "legacyHighlights": [
+    {
+      "year": "1860s",
+      "event": "Party of Lincoln",
+      "description": "Republicans led the fight to end slavery and passed the 13th, 14th, and 15th Amendments during Reconstruction.",
+      "significance": "This was the party's founding identity."
+    },
+    {
+      "year": "1870-1901",
+      "event": "Black Republican Representatives",
+      "description": "Twenty-two Black Americans served in Congress during Reconstruction, all Republicans. Hiram Revels (MS) and Blanche Bruce (MS) served in the Senate.",
+      "significance": "The GOP was the party of Black political representation."
+    },
+    {
+      "year": "1957",
+      "event": "Eisenhower Sends Troops",
+      "description": "President Eisenhower deployed the 101st Airborne to Little Rock, Arkansas to enforce school desegregation at Central High School.",
+      "significance": "A Republican president used federal force to protect civil rights."
+    },
+    {
+      "year": "1964",
+      "event": "Civil Rights Act Passes",
+      "description": "82% of Republican senators voted for the Civil Rights Act (vs. 69% of Democrats). GOP votes were essential to overcoming the Southern Democratic filibuster.",
+      "significance": "Republicans helped break the filibuster that Southern Democrats used to block civil rights."
+    }
+  ],
+  "moderatesFigures": [
+    {
+      "name": "Nelson Rockefeller",
+      "role": "Governor of New York, Presidential Candidate",
+      "civilRightsRecord": "Strong supporter of civil rights legislation, represented the party's moderate-to-liberal wing",
+      "whatHappened": "Lost 1964 GOP nomination to Goldwater; the party chose the Southern Strategy path"
+    },
+    {
+      "name": "Jacob Javits",
+      "role": "U.S. Senator (NY)",
+      "civilRightsRecord": "Co-sponsored civil rights legislation, champion of liberal Republican tradition",
+      "whatHappened": "Lost 1980 primary to conservative challenger as party moved right"
+    },
+    {
+      "name": "Edward Brooke",
+      "role": "U.S. Senator (MA)",
+      "civilRightsRecord": "First Black senator elected by popular vote since Reconstruction; moderate Republican",
+      "whatHappened": "Lost 1978 reelection; represented a wing of the party that faded with the Southern Strategy"
+    }
+  ],
+  "theChoice": {
+    "headline": "The Road Not Taken",
+    "explanation": "In 1964, Republicans faced a choice: the Rockefeller path (civil rights, Northern moderates) or the Goldwater path (Southern whites opposed to civil rights). They chose Goldwater. That choice shaped the next six decades.",
+    "goldwaterQuote": {
+      "text": "Extremism in the defense of liberty is no vice. Moderation in the pursuit of justice is no virtue.",
+      "source": "Barry Goldwater, 1964 Republican Convention acceptance speech",
+      "context": "This line was understood by both supporters and opponents as rejecting the moderate wing's approach to civil rights."
+    }
+  },
+  "conclusion": "The Southern Strategy wasn't inevitable. Republicans had spent a century building a civil rights legacy. Goldwater, Nixon, and Reagan made a strategic choice to pursue white Southern voters by opposing federal civil rights enforcement, against their own party's history."
+}

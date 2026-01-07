@@ -1,0 +1,392 @@
+[
+  {
+    "id": "states-rights",
+    "myth": "States' rights",
+    "rebuttal": "The right to do what? Every secession document answers this question explicitly: the right to own slaves and expand slavery into new territories. The Confederate Constitution actually restricted states' rights by forbidding any state from abolishing slavery.",
+    "quote": "Our position is thoroughly identified with the institution of slavery—the greatest material interest of the world.",
+    "source": "Mississippi Declaration of Secession, January 1861",
+    "sourceUrl": "https://avalon.law.yale.edu/19th_century/csa_missec.asp"
+  },
+  {
+    "id": "tariffs",
+    "myth": "Tariffs",
+    "rebuttal": "Read the secession documents. Mississippi's declaration mentions slavery repeatedly and tariffs zero times. Georgia's mentions slavery-related terms over 80 times. South Carolina's grievances focus entirely on slavery and fugitive slave laws. The tariff argument was invented decades later.",
+    "quote": "A blow at slavery is a blow at commerce and civilization.",
+    "source": "Mississippi Declaration of Secession, January 1861",
+    "sourceUrl": "https://avalon.law.yale.edu/19th_century/csa_missec.asp"
+  },
+  {
+    "id": "party-switch",
+    "myth": "Party switch debate",
+    "rebuttal": "The party realignment is documented fact. In 1964, Strom Thurmond, the Dixiecrat segregationist, switched to the Republican Party specifically because Democrats passed the Civil Rights Act. In 2005, RNC Chairman Ken Mehlman formally apologized to the NAACP for the Southern Strategy.",
+    "quote": "Some Republicans gave up on winning the African American vote, looking the other way or trying to benefit politically from racial polarization. I am here today as the Republican chairman to tell you we were wrong.",
+    "source": "Ken Mehlman, RNC Chairman, NAACP Speech, 2005",
+    "sourceUrl": "https://www.npr.org/2005/08/22/4810209/republicans-seek-to-increase-african-american-support"
+  },
+  {
+    "id": "both-sides",
+    "myth": "Both sides bad",
+    "rebuttal": "One side seceded to preserve slavery and fired the first shots. The other side fought to preserve the Union and eventually abolished slavery. The Confederacy's own leaders said their government was founded on white supremacy. There is no moral equivalence.",
+    "quote": "Our new government is founded upon... the great truth that the negro is not equal to the white man; that slavery subordination to the superior race is his natural and normal condition.",
+    "source": "Alexander Stephens, Confederate Vice President, Cornerstone Speech, March 21, 1861",
+    "sourceUrl": "https://teachingamericanhistory.org/document/cornerstone-speech/"
+  },
+  {
+    "id": "read-history",
+    "myth": "Read a real history book",
+    "rebuttal": "We have. The American Historical Association, the Organization of American Historians, and virtually every peer-reviewed academic source confirms slavery was the central cause of secession. The 'Lost Cause' narrative was manufactured decades after the war by Confederate apologists.",
+    "quote": "The Civil War started because of uncompromising differences between the free and slave states over the power of the national government to prohibit slavery in the territories that had not yet become states.",
+    "source": "National Park Service, official history of the Civil War",
+    "sourceUrl": "https://www.nps.gov/civilwar/facts.htm"
+  },
+  {
+    "id": "not-about-slavery",
+    "myth": "It wasn't about slavery",
+    "rebuttal": "The people who seceded disagreed with you. Confederate Vice President Alexander Stephens said the Confederacy's 'cornerstone' was the 'great truth that the negro is not equal to the white man.' Four states issued declarations of causes, all centered on slavery.",
+    "quote": "Our new government is founded upon... the great truth that the negro is not equal to the white man; that slavery subordination to the superior race is his natural and normal condition.",
+    "source": "Alexander Stephens, Cornerstone Speech, March 21, 1861",
+    "sourceUrl": "https://teachingamericanhistory.org/document/cornerstone-speech/"
+  },
+  {
+    "id": "lincoln-tyrant",
+    "myth": "Lincoln was a tyrant",
+    "rebuttal": "Lincoln was elected through the democratic process. The South seceded before he even took office because they feared he would limit slavery's expansion. Seven states left the Union before Lincoln was inaugurated. The Confederacy fired the first shots at Fort Sumter on April 12, 1861. Lincoln responded to armed rebellion against the government. The 'tyrant' won a democratic election; the Confederacy started a war.",
+    "quote": "At 4:30 a.m. on April 12, 1861, Confederate batteries opened fire on Fort Sumter. The American Civil War had begun.",
+    "source": "National Park Service, Fort Sumter National Historical Park",
+    "sourceUrl": "https://www.nps.gov/fosu/learn/historyculture/fort_sumter.htm"
+  },
+  {
+    "id": "heritage",
+    "myth": "Heritage not hate",
+    "rebuttal": "The Confederate battle flag was largely unused after the war until the 1948 Dixiecrat campaign and 1950s civil rights movement. Its resurgence was explicitly tied to opposition to desegregation. Georgia added the Confederate emblem to its flag in 1956, two years after Brown v. Board of Education.",
+    "quote": "We stand for the segregation of the races and the racial integrity of each race.",
+    "source": "States' Rights Democratic (Dixiecrat) Platform, 1948",
+    "sourceUrl": "https://www.presidency.ucsb.edu/documents/platform-the-states-rights-democratic-party"
+  },
+  {
+    "id": "what-about-rome",
+    "myth": "What about Rome",
+    "rebuttal": "Whataboutism doesn't change what the Confederacy said about itself. Yes, slavery existed throughout history. The Confederacy was unique in explicitly founding a nation on the principle of racial slavery as a permanent institution and fighting a war to preserve it.",
+    "quote": "African slavery as it exists amongst us—the proper status of the negro in our form of civilization. This was the immediate cause of the late rupture and present revolution.",
+    "source": "Alexander Stephens, Cornerstone Speech, March 21, 1861",
+    "sourceUrl": "https://teachingamericanhistory.org/document/cornerstone-speech/"
+  },
+  {
+    "id": "north-started",
+    "myth": "Actually the North started it",
+    "rebuttal": "Confederate batteries under General P.G.T. Beauregard fired on Fort Sumter at 4:30 a.m. on April 12, 1861. The Union garrison under Major Robert Anderson had not fired a shot. This is undisputed historical fact confirmed by the National Park Service.",
+    "quote": "The Confederacy fired on the US garrison of Fort Sumter on April 12, 1861 opening the Civil War.",
+    "source": "National Park Service, Fort Sumter National Historical Park",
+    "sourceUrl": "https://www.nps.gov/fosu/index.htm"
+  },
+  {
+    "id": "media-lied",
+    "myth": "The media lied",
+    "rebuttal": "We're not citing media. We're citing the actual documents written by Confederate leaders themselves: their declarations of secession, their constitution, their vice president's speeches. These are primary sources, not interpretations.",
+    "quote": "Our position is thoroughly identified with the institution of slavery—the greatest material interest of the world.",
+    "source": "Mississippi Declaration of Secession, January 1861",
+    "sourceUrl": "https://avalon.law.yale.edu/19th_century/csa_missec.asp"
+  },
+  {
+    "id": "not-all-slaveholders",
+    "myth": "Not all slaveholders were bad",
+    "rebuttal": "Owning human beings as property is inherently wrong. But more importantly, this deflects from the issue: the Confederacy seceded to preserve the institution of slavery. Individual character doesn't change what the documents say about why they fought.",
+    "quote": "It advocates negro equality, socially and politically... the loss of property worth four billions of money.",
+    "source": "Mississippi Declaration of Secession, January 1861",
+    "sourceUrl": "https://avalon.law.yale.edu/19th_century/csa_missec.asp"
+  },
+  {
+    "id": "free-space",
+    "myth": "FREE SPACE",
+    "rebuttal": "You've encountered someone arguing about the Civil War! The documents are on your side. Every primary source confirms slavery was the central cause of secession. Click any square for the facts.",
+    "quote": "For far less cause than this, our fathers separated from the Crown of England.",
+    "source": "Mississippi Declaration of Secession, comparing slavery's defense to the American Revolution",
+    "sourceUrl": "https://avalon.law.yale.edu/19th_century/csa_missec.asp"
+  },
+  {
+    "id": "south-wanted-freedom",
+    "myth": "The South just wanted freedom",
+    "rebuttal": "Freedom to do what? The Confederate Constitution explicitly protected slavery and prohibited any Confederate state from abolishing it. They wanted the 'freedom' to own people as property and expand that system westward.",
+    "quote": "No bill of attainder, ex post facto law, or law denying or impairing the right of property in negro slaves shall be passed.",
+    "source": "Constitution of the Confederate States, Article I, Section 9",
+    "sourceUrl": "https://avalon.law.yale.edu/19th_century/csa_csa.asp"
+  },
+  {
+    "id": "economics",
+    "myth": "It was about economics",
+    "rebuttal": "Correct: the economics of slavery. The South's wealth was built on enslaved labor. 'Economics' and 'slavery' weren't separate issues; they were the same issue. Mississippi's declaration calls slavery 'the greatest material interest of the world.'",
+    "quote": "Our position is thoroughly identified with the institution of slavery—the greatest material interest of the world... a blow at slavery is a blow at commerce and civilization.",
+    "source": "Mississippi Declaration of Secession, January 1861",
+    "sourceUrl": "https://avalon.law.yale.edu/19th_century/csa_missec.asp"
+  },
+  {
+    "id": "democrats-did-it",
+    "myth": "Democrats did it",
+    "rebuttal": "Yes, and then their voters switched parties. Look at the map: ten of the 11 states that seceded in 1861 vote Republican today (Virginia is the exception, having trended blue since 2008). The people didn't move. The party labels changed. Exposed to civil rights legislation, Southern whites left the Democrats for the GOP. That's the switch; not politicians changing, but voters changing. The RNC apologized for exploiting this in 2005.",
+    "quote": "Some Republicans gave up on winning the African American vote, looking the other way or trying to benefit politically from racial polarization. I am here today as the Republican chairman to tell you we were wrong.",
+    "source": "Ken Mehlman, RNC Chairman, NAACP Speech, 2005",
+    "sourceUrl": "https://www.washingtonpost.com/archive/politics/2005/07/14/rnc-chief-to-say-it-was-wrong-to-exploit-racial-conflict-for-votes/"
+  },
+  {
+    "id": "complicated",
+    "myth": "It's complicated",
+    "rebuttal": "It's really not. The people who seceded wrote down exactly why they did it. They said it was about slavery, explicitly, repeatedly, in their own words. The 'complexity' narrative was invented later to obscure this clear historical record.",
+    "quote": "Our new government is founded upon... the great truth that the negro is not equal to the white man.",
+    "source": "Alexander Stephens, Cornerstone Speech, March 21, 1861",
+    "sourceUrl": "https://teachingamericanhistory.org/document/cornerstone-speech/"
+  },
+  {
+    "id": "teacher-said",
+    "myth": "My teacher said so",
+    "rebuttal": "What you learned depended on when and where you went to school. The 1898 Wilmington coup—where a white mob overthrew an elected biracial government and murdered up to 300 Black citizens—was taught as a 'race riot caused by Black people' until 2011. That's 113 years of lies in North Carolina textbooks. The United Daughters of the Confederacy controlled Southern textbooks for decades. The primary documents haven't changed since 1861. Read them yourself.",
+    "quote": "Reject a book that says the South fought to hold her slaves.",
+    "source": "Mildred Rutherford, UDC Historian General, 'A Measuring Rod to Test Text Books' (1919)",
+    "sourceUrl": "https://archive.org/details/measuringrodtote00ruth"
+  },
+  {
+    "id": "brainwashed",
+    "myth": "You've been brainwashed",
+    "rebuttal": "We're quoting the Confederacy's own leaders and documents. If citing primary sources is 'brainwashing,' then the people who wrote them brainwashed themselves. Click any link and read the original text.",
+    "quote": "Our position is thoroughly identified with the institution of slavery.",
+    "source": "Mississippi Declaration of Secession, January 1861",
+    "sourceUrl": "https://avalon.law.yale.edu/19th_century/csa_missec.asp"
+  },
+  {
+    "id": "whataboutism",
+    "myth": "Whataboutism to modern politics",
+    "rebuttal": "The documents don't change based on modern politics. The secession declarations said what they said in 1860-61. The Southern Strategy happened when it happened. History is history regardless of who's in office today.",
+    "quote": "You start out in 1954 by saying 'n----r, n----r, n----r.' By 1968 you can't say that... So you say stuff like forced busing, states' rights.",
+    "source": "Lee Atwater, GOP Strategist, 1981 Interview",
+    "sourceUrl": "https://www.thenation.com/article/archive/exclusive-lee-atwaters-infamous-1981-interview-southern-strategy/",
+    "contentWarning": true,
+    "warningText": "Quote contains a racial slur (censored)"
+  },
+  {
+    "id": "cite-source",
+    "myth": "Cite one source",
+    "rebuttal": "Every square on this board links to a primary source. The Mississippi Declaration of Secession. The Cornerstone Speech. The Confederate Constitution. The Fort Sumter records. Click any square for citations.",
+    "quote": "Our position is thoroughly identified with the institution of slavery—the greatest material interest of the world.",
+    "source": "Mississippi Declaration of Secession, January 1861",
+    "sourceUrl": "https://avalon.law.yale.edu/19th_century/csa_missec.asp"
+  },
+  {
+    "id": "secession-legal",
+    "myth": "Secession was legal",
+    "rebuttal": "The Supreme Court ruled in Texas v. White (1869) that secession was unconstitutional. But legality is beside the point: the Confederacy seceded to preserve slavery. Even if it were legal, the cause would still be what they said it was: slavery.",
+    "quote": "The Constitution, in all its provisions, looks to an indestructible Union composed of indestructible States.",
+    "source": "Chief Justice Salmon P. Chase, Texas v. White, 1869",
+    "sourceUrl": "https://www.law.cornell.edu/supremecourt/text/74/700"
+  },
+  {
+    "id": "blame-textbooks",
+    "myth": "Blame the textbooks",
+    "rebuttal": "Agreed, many textbooks got it wrong—because Confederate apologists rewrote them. Case in point: the 1898 Wilmington coup, where a white mob overthrew an elected government and murdered hundreds, was described as a 'race riot caused by Black people' in North Carolina textbooks until 2011. Democrats finally corrected it; Republicans opposed the change 7-5. The UDC published explicit guidelines to censor any book that told the truth. That's why we link to primary sources.",
+    "quote": "The Commission recommends that the events of 1898 and their impact be added to the curriculum of the public schools of North Carolina.",
+    "source": "1898 Wilmington Race Riot Commission Final Report, 2006",
+    "sourceUrl": "https://www.dncr.nc.gov/1898-wilmington-coup"
+  },
+  {
+    "id": "rewriting-history",
+    "myth": "Stop rewriting history",
+    "rebuttal": "We're doing the opposite. The 'Lost Cause' narrative rewrote history to minimize slavery. We're returning to what Confederate leaders actually said, in their own documents, in their own words. That's not rewriting; that's reading.",
+    "quote": "Our new government is founded upon... the great truth that the negro is not equal to the white man; that slavery subordination to the superior race is his natural and normal condition.",
+    "source": "Alexander Stephens, Cornerstone Speech, March 21, 1861",
+    "sourceUrl": "https://teachingamericanhistory.org/document/cornerstone-speech/"
+  },
+  {
+    "id": "black-confederates",
+    "myth": "Black Confederates fought too",
+    "rebuttal": "The Confederacy explicitly prohibited Black soldiers until March 1865, one month before surrender, and even then required owner consent. Enslaved people forced to labor for Confederate armies were not soldiers. The myth of willing Black Confederate soldiers emerged in the 1970s and has been debunked by every major Civil War historian.",
+    "quote": "We are fighting for our system of civilization... We are fighting to maintain the heaven-ordained supremacy of the white man over the inferior or colored race.",
+    "source": "William T. Thompson, Savannah Morning News editor and advocate for the 'Stainless Banner' flag, 1863",
+    "sourceUrl": "https://www.nps.gov/articles/black-confederates.htm"
+  },
+  {
+    "id": "robert-byrd",
+    "myth": "Robert Byrd was KKK",
+    "rebuttal": "Yes, and he spent 50 years apologizing for it. He called joining the Klan 'the greatest mistake I ever made' and voted for the Civil Rights Act of 1968 and the renewal of the Voting Rights Act. The NAACP praised him at his death in 2010. But more importantly: the switch wasn't about individual politicians; it was about VOTERS. The white South went from solidly Democratic to solidly Republican. That's the switch.",
+    "quote": "I know now I was wrong. Intolerance had no place in America. I apologized a thousand times... and I don't mind apologizing over and over again.",
+    "source": "Robert Byrd, 2005 Interview",
+    "sourceUrl": "https://web.archive.org/web/20100702190335/http://www.washingtonpost.com/wp-dyn/content/article/2005/06/18/AR2005061801105_pf.html"
+  },
+  {
+    "id": "lbj-quote",
+    "myth": "LBJ's 200 years quote",
+    "rebuttal": "The 'voting Democrat for 200 years' quote is unverified. It appears in one book with no recording, no transcript, and no contemporaneous source. Historians consider it apocryphal. But even if true, it wouldn't change what the secession documents say, what Lee Atwater admitted on tape, or what the RNC Chairman apologized for in 2005. We have verified quotes from Republican strategists, on the record.",
+    "quote": "You start out in 1954 by saying, 'N----r, n----r, n----r.' By 1968 you can't say 'n----r'—that hurts you, backfires. So you say stuff like, uh, forced busing, states' rights.",
+    "source": "Lee Atwater, Republican strategist, 1981 recorded interview",
+    "sourceUrl": "https://www.thenation.com/article/archive/exclusive-lee-atwaters-infamous-1981-interview-southern-strategy/",
+    "contentWarning": true,
+    "warningText": "Quote contains a racial slur (censored)"
+  },
+  {
+    "id": "gop-passed-civil-rights",
+    "myth": "Republicans passed Civil Rights Act",
+    "rebuttal": "This is technically true but deeply misleading. Yes, 82% of Republicans voted for the 1964 Civil Rights Act vs 69% of Democrats. But the real divide was regional: Northern Democrats voted 94% yes, Southern Democrats voted 7% yes. It was North vs South, not party vs party. And those Southern Democrats who opposed it? Their voters became Republicans. Exposed by the Atwater tapes and the RNC's own apology.",
+    "quote": "The more Negroes who register as Democrats in the South, the sooner the Negrophobe whites will quit the Democrats and become Republicans. That's where the votes are.",
+    "source": "Kevin Phillips, Nixon strategist, New York Times, 1970",
+    "sourceUrl": "https://www.nytimes.com/1970/05/17/archives/nixons-southern-strategy-its-all-in-the-charts.html"
+  },
+  {
+    "id": "george-wallace",
+    "myth": "George Wallace stayed Democrat",
+    "rebuttal": "Wallace also apologized. In 1979 he said he was wrong about segregation, and in 1982 he won his final term as governor with strong Black support after publicly repenting. But again: the switch wasn't about politicians; it was about VOTERS. Wallace's segregationist voters didn't stay with the Democrats who nominated Carter, Mondale, and Dukakis. They became Reagan Republicans. Follow the voters, not the politicians.",
+    "quote": "I was wrong. Those days are over, and they ought to be over.",
+    "source": "George Wallace, 1979",
+    "sourceUrl": "https://www.nytimes.com/1991/03/10/opinion/george-wallace-s-long-journey.html"
+  },
+  {
+    "id": "party-of-lincoln",
+    "myth": "Party of Lincoln",
+    "rebuttal": "Yes, Lincoln was a Republican. And in 1860, he won zero Southern states while sweeping the North. Today, Republicans sweep the South while Democrats win the North. Lincoln's coalition (Northern, anti-slavery, pro-Union) votes Democratic now. The coalition that opposed Lincoln (Southern, pro-slavery, pro-secession) votes Republican now. The party labels stayed the same. The voters switched. That's the point.",
+    "quote": "The more Negroes who register as Democrats in the South, the sooner the Negrophobe whites will quit the Democrats and become Republicans.",
+    "source": "Kevin Phillips, Nixon strategist, 1970",
+    "sourceUrl": "https://www.nytimes.com/1970/05/17/archives/nixons-southern-strategy-its-all-in-the-charts.html"
+  },
+  {
+    "id": "reconstruction-tyranny",
+    "myth": "Reconstruction was tyranny",
+    "rebuttal": "This is Lost Cause propaganda invented by the men Andrew Johnson pardoned. Reconstruction was democracy: Black men voted, held office, built schools, and participated in government. The 'tyranny' was federal troops preventing the Klan from murdering voters. When troops left in 1877, the tyranny began: poll taxes, literacy tests, lynching, and Jim Crow. Reconstruction wasn't the problem; ending it was.",
+    "quote": "This is a country for white men, and by God, as long as I am President, it shall be a government for white men.",
+    "source": "Andrew Johnson, 1866 (the president who sabotaged Reconstruction)",
+    "sourceUrl": "https://www.whitehouse.gov/about-the-white-house/presidents/andrew-johnson/"
+  },
+  {
+    "id": "confederate-monuments",
+    "myth": "Monuments preserve history",
+    "rebuttal": "Most Confederate monuments weren't built after the war; they were built during Jim Crow (1890s-1920s) and the Civil Rights era (1950s-1960s) as tools of intimidation. The United Daughters of the Confederacy explicitly placed them to promote the Lost Cause mythology and remind Black citizens of white supremacy. They don't preserve history; they rewrite it. The men they honor committed treason to preserve slavery.",
+    "quote": "These monuments were not erected to honor the dead, but to intimidate the living.",
+    "source": "Southern Poverty Law Center, 'Whose Heritage?' Report",
+    "sourceUrl": "https://www.splcenter.org/20190201/whose-heritage-public-symbols-confederacy"
+  },
+  {
+    "id": "40-acres-myth",
+    "myth": "40 acres was never really promised",
+    "rebuttal": "It was more than promised; it was GIVEN. Sherman's Special Field Order No. 15 (January 1865) granted 400,000 acres to freed people. Families moved onto the land and started farming. Then Andrew Johnson reversed it, evicted Black families, and returned the land to the slaveholders who had committed treason. The promise wasn't broken; it was deliberately destroyed.",
+    "quote": "Each family shall have a plot of not more than forty acres of tillable ground.",
+    "source": "Sherman's Special Field Order No. 15, January 1865",
+    "sourceUrl": "https://www.archives.gov/publications/prologue/2003/fall/sherman-order.html"
+  },
+  {
+    "id": "slavery-dying-out",
+    "myth": "Slavery was dying out anyway",
+    "rebuttal": "This is demonstrably false. In 1860, enslaved people were worth $3.5 billion, more than all American railroads, factories, and banks combined. Cotton production was at all-time highs. The slave population was growing. The South seceded precisely because slavery was profitable and they wanted to expand it into new territories. Read Mississippi's declaration: slavery was their 'greatest material interest.'",
+    "quote": "Our position is thoroughly identified with the institution of slavery—the greatest material interest of the world.",
+    "source": "Mississippi Declaration of Secession, January 1861",
+    "sourceUrl": "https://avalon.law.yale.edu/19th_century/csa_missec.asp"
+  },
+  {
+    "id": "klan-antifa",
+    "myth": "The Klan was just like Antifa",
+    "rebuttal": "The Klan murdered thousands, overthrew elected governments (Wilmington 1898), and enforced a racial caste system for a century. They executed Black militia members after surrender (Colfax 1873, Hamburg 1876). Their leaders became governors and senators. The Supreme Court made their violence legal (U.S. v. Cruikshank). There is no comparison.",
+    "quote": "Between 60 and 150 Black men were killed, most after they had surrendered. Three whites died. No one was ever convicted.",
+    "source": "Colfax Massacre, 1873 - BlackPast",
+    "sourceUrl": "https://www.blackpast.org/african-american-history/colfax-massacre-1873/"
+  },
+  {
+    "id": "slaves-well-treated",
+    "myth": "Slaves were well treated",
+    "rebuttal": "Being held in bondage with no rights, no wages, no legal personhood, and subject to sale, separation from family, and corporal punishment is not 'good treatment' regardless of individual circumstances. But also: the enslaved people disagreed. When given the chance, they fled by the hundreds of thousands. They fought for the Union. They testified to Congress about the horrors they experienced. Listen to them.",
+    "quote": "What, to the American slave, is your 4th of July? I answer: a day that reveals to him, more than all other days in the year, the gross injustice and cruelty to which he is the constant victim.",
+    "source": "Frederick Douglass, 'What to the Slave Is the Fourth of July?' 1852",
+    "sourceUrl": "https://teachingamericanhistory.org/document/what-to-the-slave-is-the-fourth-of-july/"
+  },
+  {
+    "id": "radical-republicans-extreme",
+    "myth": "Radical Republicans were too extreme",
+    "rebuttal": "The 'extreme' Radical Republicans wanted: treason trials for people who committed treason, land for people who had worked it for free, voting rights enforced by federal troops, and Confederate leaders barred from office. They were ignored. We got 100 years of Jim Crow instead. The 'radicals' were right. The 'moderates' enabled a century of terror.",
+    "quote": "Strip a proud nobility of their bloated estates, reduce them to a level with plain republicans... and you will thus humble the proud traitors.",
+    "source": "Thaddeus Stevens, Speech on Reconstruction, 1865",
+    "sourceUrl": "https://teachingamericanhistory.org/document/reconstruction-speech/"
+  },
+  {
+    "id": "johnson-saved-country",
+    "myth": "Andrew Johnson saved the country",
+    "rebuttal": "Andrew Johnson sabotaged Reconstruction at every turn. He pardoned 13,000 Confederate officials. He reversed land redistribution. He opposed the 14th Amendment. He was impeached by Congress for obstructing Reconstruction. His explicit philosophy: 'This is a country for white men.' The men he pardoned went on to create Jim Crow, place Confederate monuments, and rewrite history. Johnson didn't save the country; he betrayed freed people and enabled a century of terror.",
+    "quote": "This is a country for white men, and by God, as long as I am President, it shall be a government for white men.",
+    "source": "Andrew Johnson, 1866",
+    "sourceUrl": "https://www.whitehouse.gov/about-the-white-house/presidents/andrew-johnson/"
+  },
+  {
+    "id": "democrats-founded-kkk",
+    "myth": "Democrats founded the KKK",
+    "rebuttal": "Yes, and those Democrats' political descendants are now Republicans. The first Klan (1860s) was founded by Confederate veterans—Democrats. The second Klan (1920s) was strongest in Indiana and Oregon, not just the South. The third Klan (1950s-60s) opposed civil rights. When LBJ signed the Civil Rights Act, the Klan endorsed Goldwater. David Duke—former KKK Grand Wizard—ran for Louisiana governor as a Republican and personally endorsed Trump in 2016 and 2020. Follow the Klan's endorsements across history—they track the party realignment perfectly.",
+    "quote": "The more Negroes who register as Democrats in the South, the sooner the Negrophobe whites will quit the Democrats and become Republicans. That's where the votes are.",
+    "source": "Kevin Phillips, Nixon strategist, New York Times, 1970",
+    "sourceUrl": "https://www.nytimes.com/1970/05/17/archives/nixons-southern-strategy-its-all-in-the-charts.html"
+  },
+  {
+    "id": "carter-won-south",
+    "myth": "Carter won the South in 1976",
+    "rebuttal": "Carter was a Southern Baptist governor from Georgia running against Ford (who pardoned Nixon) in a post-Watergate backlash election. He was the LAST Democrat to win the Deep South. After Carter: Reagan swept the South in 1980 and 1984. Bush in 1988. Clinton only won his home state Arkansas plus Tennessee, Louisiana, and Georgia (his running mate's state). Obama lost the Deep South. Biden lost it. No Democrat has won Mississippi, Alabama, or South Carolina since Carter. He wasn't a reversal of the trend—he was the exception that proves it.",
+    "quote": "Some Republicans gave up on winning the African American vote, looking the other way or trying to benefit politically from racial polarization. I am here today as the Republican chairman to tell you we were wrong.",
+    "source": "Ken Mehlman, RNC Chairman, 2005",
+    "sourceUrl": "https://www.washingtonpost.com/archive/politics/2005/07/14/rnc-chief-to-say-it-was-wrong-to-exploit-racial-conflict-for-votes/"
+  },
+  {
+    "id": "only-thurmond-switched",
+    "myth": "Only Thurmond switched parties",
+    "rebuttal": "The switch was about VOTERS, not politicians. Most segregationist Democrats didn't need to switch—they were already conservative representatives of conservative voters. When they retired, their seats went Republican. Here's the proof: every single Senate seat held by a Democrat who voted against the 1964 Civil Rights Act eventually flipped Republican. 100% of them. Thurmond (1964), Tennessee (1966), Florida (1968), North Carolina (1972), Mississippi (1978), Alabama (1980), Georgia (1980)... all the way to West Virginia (2024). The voters switched; the politicians just took longer.",
+    "quote": "I was wrong. Those days are over, and they ought to be over.",
+    "source": "George Wallace, 1979, on his segregationist past",
+    "sourceUrl": "https://www.nytimes.com/1991/03/10/opinion/george-wallace-s-long-journey.html"
+  },
+  {
+    "id": "goldwater-libertarian",
+    "myth": "Goldwater was a libertarian, not racist",
+    "rebuttal": "Goldwater's personal beliefs are irrelevant to the political effect. He voted against the Civil Rights Act. The Deep South—which had voted Democratic since Reconstruction—suddenly voted for him. Strom Thurmond switched parties to endorse him. Whatever Goldwater believed privately, his campaign was the vehicle that delivered segregationist voters to the GOP. The Southern Strategy wasn't about Goldwater's philosophy; it was about what his opposition to civil rights SIGNALED to white Southerners. They heard it clearly.",
+    "quote": "You start out in 1954 by saying, 'N----r, n----r, n----r.' By 1968 you can't say 'n----r'—that hurts you, backfires. So you say stuff like, uh, forced busing, states' rights.",
+    "source": "Lee Atwater, Republican strategist, 1981 recorded interview",
+    "sourceUrl": "https://www.thenation.com/article/archive/exclusive-lee-atwaters-infamous-1981-interview-southern-strategy/",
+    "contentWarning": true,
+    "warningText": "Quote contains a racial slur (censored)"
+  },
+  {
+    "id": "religion-not-race",
+    "myth": "The switch was about religion, not race",
+    "rebuttal": "The timeline doesn't support this. The Moral Majority formed in 1979, but the South had already been trending Republican since 1964. Goldwater swept the Deep South in 1964. Nixon won it in 1968 and 1972. The religious right organized AFTER the racial realignment was underway. And here's the hidden history: Paul Weyrich, co-founder of the Moral Majority, later admitted the movement was founded to defend segregated Christian schools (like Bob Jones University), not to oppose abortion. The religious framing came later; the racial realignment came first.",
+    "quote": "What galvanized the Christian community was not abortion, it was the attempt on the part of the IRS to rescind the tax-exempt status of Bob Jones University because of its racially discriminatory policies.",
+    "source": "Paul Weyrich, co-founder of Moral Majority, as quoted by Randall Balmer",
+    "sourceUrl": "https://www.politico.com/magazine/story/2014/05/religious-right-real-origins-107133/"
+  },
+  {
+    "id": "woodrow-wilson",
+    "myth": "What about Woodrow Wilson?",
+    "rebuttal": "Wilson was a segregationist, and his racism is indefensible. He re-segregated federal agencies, screened 'Birth of a Nation' at the White House, and praised the Klan. This is exactly why we say 'follow the voters.' Wilson's Democratic Party WAS the party of Southern segregation. But where are those voters today? They vote Republican. Wilson's racism doesn't exonerate the modern GOP; it illustrates that the racist coalition switched parties. The question isn't 'which party was racist in 1915'—it's 'where did those voters go?'",
+    "quote": "The white men were roused by a mere instinct of self-preservation... until at last there had sprung into existence a great Ku Klux Klan.",
+    "source": "Woodrow Wilson, quoted approvingly in 'Birth of a Nation' (1915)",
+    "sourceUrl": "https://millercenter.org/president/wilson/domestic-affairs"
+  },
+  {
+    "id": "nixon-vs-eisenhower",
+    "myth": "Nixon did worse in the South than Eisenhower",
+    "rebuttal": "In 1968, George Wallace split the segregationist vote as a third-party candidate, winning five Deep South states. Nixon + Wallace together won the Southern white vote that Eisenhower had won alone. By 1972, with Wallace out, Nixon swept ALL eleven former Confederate states. Kevin Phillips, Nixon's strategist, predicted this exact sequence: Wallace would pull segregationists out of the Democratic Party, then they'd come to the GOP. The 1968 three-way split was a transition phase, not a refutation. By 1972, the strategy was complete.",
+    "quote": "The more Negroes who register as Democrats in the South, the sooner the Negrophobe whites will quit the Democrats and become Republicans.",
+    "source": "Kevin Phillips, Nixon strategist, New York Times, 1970",
+    "sourceUrl": "https://www.nytimes.com/1970/05/17/archives/nixons-southern-strategy-its-all-in-the-charts.html"
+  },
+  {
+    "id": "black-voters-leaving",
+    "myth": "Black voters are leaving Democrats",
+    "rebuttal": "In 2024, Black voters supported Democrats 86-12%. In 2020, it was 92-8%. Yes, there's been some movement—but 86% is not 'leaving.' More importantly: future voting patterns don't retroactively change history. The Civil War was about slavery—read the secession documents. The Southern Strategy happened—listen to Atwater's tape. The RNC apologized for it in 2005. If Black voters shift parties, we'll document that too. But it wouldn't change what Mississippi wrote in 1861, what Atwater admitted in 1981, or what Mehlman apologized for in 2005. History is about what happened, not what might happen next.",
+    "quote": "Some Republicans gave up on winning the African American vote, looking the other way or trying to benefit politically from racial polarization. I am here today as the Republican chairman to tell you we were wrong.",
+    "source": "Ken Mehlman, RNC Chairman, NAACP Speech, 2005",
+    "sourceUrl": "https://www.npr.org/2005/08/22/4810209/republicans-seek-to-increase-african-american-support"
+  },
+  {
+    "id": "democrat-cities",
+    "myth": "Democrat-run cities have failed",
+    "rebuttal": "This is a deflection from history, but let's engage: 8 of the 10 poorest states by median income are Republican-led (Mississippi, West Virginia, Arkansas, Louisiana, Alabama, Kentucky, Oklahoma, South Carolina). 9 of the 10 states with the highest infant mortality are Republican-led. 8 of the 10 states most dependent on federal aid are Republican-led. Cities have challenges because that's where people live—80% of U.S. GDP comes from metro areas. But none of this changes history: the Civil War was about slavery (read the secession documents), the Southern Strategy happened (listen to Atwater's tape), and the RNC apologized for it (2005). Present-day policy debates don't retroactively change the historical record.",
+    "quote": "Some Republicans gave up on winning the African American vote, looking the other way or trying to benefit politically from racial polarization. I am here today as the Republican chairman to tell you we were wrong.",
+    "source": "Ken Mehlman, RNC Chairman, 2005 - explaining why Black voters chose Democrats",
+    "sourceUrl": "https://www.npr.org/2005/08/22/4810209/republicans-seek-to-increase-african-american-support"
+  },
+  {
+    "id": "mlk-republican",
+    "myth": "MLK was a Republican",
+    "rebuttal": "King never publicly endorsed a party or candidate. His father, Martin Luther King Sr., was a Republican who switched to support JFK in 1960. MLK Jr. praised Republicans for their civil rights heritage while condemning Goldwater; he praised LBJ's legislation while criticizing Democratic segregationists. He refused to endorse either party. What IS documented: King was surveilled by the FBI, and the Republican Party formally apologized for abandoning Black voters. Claiming King for either party misrepresents his actual politics—and conveniently ignores the Southern Strategy he would have witnessed had he lived.",
+    "quote": "I don't think the Republican Party is a party full of the almighty God, nor is the Democratic Party. They both have weaknesses.",
+    "source": "Martin Luther King Jr., 1958 interview",
+    "sourceUrl": "https://kinginstitute.stanford.edu/encyclopedia"
+  }
+]
