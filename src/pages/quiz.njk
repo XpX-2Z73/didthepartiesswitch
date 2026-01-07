@@ -39,6 +39,26 @@ permalink: /quiz/
   </div>
 </section>
 
+{# Locked Preview - Shows before main quiz is complete #}
+<section class="chapter chapter--dark advanced-quiz-locked" id="advanced-quiz-locked" data-chapter="Locked">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center">
+      <div class="locked-preview">
+        <span class="locked-preview__icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+            <path d="M7 11V7a5 5 0 0110 0v4"/>
+          </svg>
+        </span>
+        <h2 class="headline-section" style="margin-top: 1rem;">Scholar's Challenge</h2>
+        <p class="body-text" style="opacity: 0.7; max-width: 500px; margin: 0 auto;">
+          {{ advancedQuizQuestions.questions | length }} questions on what they leave out of textbooks. Complete all {{ quizQuestions.questions | length }} questions above to unlock.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 {# Advanced Quiz - Hidden until main quiz is complete #}
 <section class="chapter chapter--dark advanced-quiz-section" id="advanced-quiz-section" data-chapter="Scholar's Challenge">
   <div class="chapter__inner">

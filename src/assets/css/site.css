@@ -3302,6 +3302,31 @@ footer {
   color: #f87171;
 }
 
+/* Locked Preview - Shows before quiz complete */
+.advanced-quiz-locked {
+  display: block;
+}
+
+.advanced-quiz-locked.is-hidden {
+  display: none;
+}
+
+.locked-preview {
+  text-align: center;
+  padding: 2rem;
+}
+
+.locked-preview__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.5);
+}
+
 /* Advanced Quiz Section - Hidden until main quiz complete */
 .advanced-quiz-section {
   display: none;

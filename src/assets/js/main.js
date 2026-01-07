@@ -711,9 +711,14 @@
           // Check if main quiz is complete - reveal advanced quiz
           if (answered === questions.length) {
             const advancedSection = document.getElementById('advanced-quiz-section');
+            const lockedPreview = document.getElementById('advanced-quiz-locked');
             if (advancedSection && !advancedSection.classList.contains('is-visible')) {
               // Small delay to let user see their final score
               setTimeout(() => {
+                // Hide the locked preview
+                if (lockedPreview) {
+                  lockedPreview.classList.add('is-hidden');
+                }
                 advancedSection.classList.add('is-visible');
                 // Also reveal all .reveal elements inside the advanced section
                 advancedSection.querySelectorAll('.reveal').forEach(el => {
