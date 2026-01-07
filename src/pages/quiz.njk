@@ -32,6 +32,9 @@ permalink: /quiz/
       <p class="lead-text">
         Hand this quiz to anyone who wants a refresher. Click an answer to reveal if you're right.
       </p>
+      <p class="body-text" style="opacity: 0.7; margin-top: 1rem;">
+        Complete all {{ quizQuestions.questions | length }} to unlock the Scholar's Challenge.
+      </p>
     </div>
     <div class="quiz-container reveal">
       {% include "components/quiz.njk" %}
