@@ -133,11 +133,13 @@
       "headline": {{ (title or site.title) | dump | safe }},
       "description": {{ (description or site.description) | dump | safe }},
       "url": "{{ site.url }}{{ page.url }}",
-      "datePublished": "2024-01-01",
-      "dateModified": "2024-12-27",
+      "image": "{{ site.url }}/assets/images/og-image.png",
+      "datePublished": "2024-01-01T00:00:00-05:00",
+      "dateModified": "2025-01-13T00:00:00-05:00",
       "author": {
         "@type": "Organization",
-        "name": "Did the Parties Switch?"
+        "name": "Did the Parties Switch?",
+        "url": "{{ site.url }}"
       },
       "publisher": {
         "@type": "Organization",
