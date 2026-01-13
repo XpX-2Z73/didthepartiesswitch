@@ -414,3 +414,23 @@ permalink: /bingo/
     </div>
   </div>
 </section>
+
+{# FAQ Schema for rich snippets #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for square in bingoSquares %}
+    {
+      "@type": "Question",
+      "name": "{{ square.myth | replace('"', '\\"') }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ square.rebuttal | replace('"', '\\"') | replace('\n', ' ') }}"
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
