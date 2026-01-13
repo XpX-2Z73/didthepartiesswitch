@@ -130,8 +130,8 @@
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "headline": "{{ title or site.title }}",
-      "description": "{{ description or site.description }}",
+      "headline": {{ (title or site.title) | dump | safe }},
+      "description": {{ (description or site.description) | dump | safe }},
       "url": "{{ site.url }}{{ page.url }}",
       "datePublished": "2024-01-01",
       "dateModified": "2024-12-27",
