@@ -3527,6 +3527,17 @@ footer {
   flex-shrink: 0;
 }
 
+.quiz-explanation__source-note {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 2px solid var(--accent-gold);
+  border-radius: 0 4px 4px 0;
+}
+
 .quiz-score-display {
   font-family: var(--font-mono);
   font-size: 1.25rem;

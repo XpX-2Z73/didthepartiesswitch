@@ -71,8 +71,8 @@
     }
 
     const hero = document.querySelector('.hero');
-    const heroContent = hero?.querySelector('.hero__content-wrapper');
-    const scrollPrompt = hero?.querySelector('.scroll-prompt');
+    const heroContent = hero ? hero.querySelector('.hero__content-wrapper') : null;
+    const scrollPrompt = hero ? hero.querySelector('.scroll-prompt') : null;
     if (!hero || !heroContent) return;
 
     let ticking = false;

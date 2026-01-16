@@ -44,6 +44,9 @@
             </a>
             {% endif %}
           </div>
+          {% if q.sourceNote %}
+          <p class="quiz-explanation__source-note">{{ q.sourceNote }}</p>
+          {% endif %}
         </div>
       </div>
     </article>
