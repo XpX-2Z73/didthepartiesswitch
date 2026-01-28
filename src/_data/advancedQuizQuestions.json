@@ -280,10 +280,10 @@
     },
     {
       "category": "Voting Suppression Mechanics",
-      "question": "What made poll taxes especially effective at preventing Black voting?",
+      "question": "What made poll taxes in Southern states especially effective at preventing Black voting?",
       "options": ["A. They were set at impossibly high amounts of $1,000 per person", "B. They were cumulative—you had to pay all back taxes to vote", "C. They only applied in presidential elections, not local races", "D. They were collected at gunpoint by armed registrars"],
       "answer": "B",
-      "explanation": "Poll taxes were typically $1-2 per year, but they were cumulative. To vote at age 30, you might have to pay $20-30 in back taxes (equivalent to hundreds of dollars today) all at once, at the exact moment you tried to register. For sharecroppers who rarely saw cash, this was impossible. The 24th Amendment banned poll taxes in federal elections in 1964, but they continued in state elections until the Supreme Court banned them in 1966.",
+      "explanation": "Poll taxes in former Confederate states were typically $1-2 per year, but they were cumulative. To vote at age 30, you might have to pay $20-30 in back taxes (equivalent to hundreds of dollars today) all at once, at the exact moment you tried to register. For sharecroppers who rarely saw cash, this was impossible. By 1964, only five states still had poll taxes—Alabama, Arkansas, Mississippi, Texas, and Virginia—all former Confederate states. The 24th Amendment banned poll taxes in federal elections in 1964, and the Supreme Court banned them in state elections in 1966.",
       "quote": "The poll tax was designed not just to raise revenue but to create an insurmountable barrier to the ballot box for poor Blacks.",
       "source": "Harper v. Virginia Board of Elections, 1966",
       "sourceUrl": "https://www.law.cornell.edu/supremecourt/text/383/663",
@@ -393,11 +393,11 @@
       "question": "How long did the Tuskegee Syphilis Study run, and what did researchers withhold from participants?",
       "options": ["A. 10 years; they withheld the diagnosis from participants entirely throughout the study", "B. 40 years; they withheld penicillin treatment even after it became available", "C. 5 years; they withheld food rations and proper nutrition from participants", "D. 20 years; they withheld all information about disease transmission from subjects"],
       "answer": "B",
-      "explanation": "The Tuskegee Syphilis Study ran for 40 years (1932-1972). Researchers told 399 Black men with syphilis that they were being treated, but actually gave them placebos and studied the disease's progression. When penicillin became the standard cure in 1947, researchers deliberately withheld it to continue the study. At least 128 men died of syphilis or complications, 40 wives were infected, and 19 children were born with congenital syphilis.",
+      "explanation": "The Tuskegee Syphilis Study, conducted by the U.S. Public Health Service in Macon County, Alabama, ran for 40 years (1932-1972). Researchers recruited 399 poor Black sharecroppers with syphilis, told them they were receiving free healthcare, but actually gave them placebos and studied the disease's progression. When penicillin became the standard cure in 1947, researchers deliberately withheld it to continue the study. At least 128 men died of syphilis or complications, 40 wives were infected, and 19 children were born with congenital syphilis.",
       "quote": "The men were never told they had syphilis, nor were they ever treated for it. They were simply used as laboratory animals.",
       "source": "Final Report of the Tuskegee Syphilis Study Legacy Committee, 1996",
-      "sourceUrl": "https://www.cdc.gov/tuskegee/timeline.htm",
-      "archiveUrl": "https://web.archive.org/web/20231215000000/https://www.cdc.gov/tuskegee/timeline.htm"
+      "sourceUrl": "https://www.cdc.gov/tuskegee/about/index.html",
+      "archiveUrl": "https://web.archive.org/web/20240101000000/https://www.cdc.gov/tuskegee/about/index.html"
     },
     {
       "category": "Medical Atrocities",
