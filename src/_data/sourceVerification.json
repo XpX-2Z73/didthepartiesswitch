@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-02-22T01:00:39.877Z",
+  "lastVerified": "2026-03-01T01:05:50.829Z",
   "status": "partial",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "archiveUrl": "https://web.archive.org/web/20230601/https://avalon.law.yale.edu/19th_century/csa_missec.asp",
       "searchText": "Our position is thoroughly identified with the institution of slavery",
       "verified": true,
-      "lastChecked": "2026-02-22T00:59:45.000Z",
+      "lastChecked": "2026-03-01T01:05:14.354Z",
       "warning": null
     },
     {
@@ -19,7 +19,7 @@
       "archiveUrl": "https://web.archive.org/web/20230601/https://teachingamericanhistory.org/document/the-corner-stone-speech/",
       "searchText": "the negro is not equal to the white man",
       "verified": null,
-      "lastChecked": "2026-02-22T00:59:49.531Z",
+      "lastChecked": "2026-03-01T01:05:18.693Z",
       "warning": "Temporary issue: Live site returned an error. Will retry on next verification."
     },
     {
@@ -29,7 +29,7 @@
       "archiveUrl": "https://web.archive.org/web/20240526/https://www.presidency.ucsb.edu/documents/platform-the-states-rights-democratic-party",
       "searchText": "We stand for the segregation of the races",
       "verified": true,
-      "lastChecked": "2026-02-22T00:59:53.751Z",
+      "lastChecked": "2026-03-01T01:05:23.453Z",
       "warning": null
     },
     {
@@ -39,7 +39,7 @@
       "archiveUrl": "https://web.archive.org/web/20230601/https://www.thenation.com/article/archive/exclusive-lee-atwaters-infamous-1981-interview-southern-strategy/",
       "searchText": "you say stuff like, uh, forced busing",
       "verified": true,
-      "lastChecked": "2026-02-22T00:59:58.246Z",
+      "lastChecked": "2026-03-01T01:05:27.320Z",
       "warning": null
     },
     {
@@ -49,7 +49,7 @@
       "archiveUrl": "https://web.archive.org/web/20230601/https://www.npr.org/2005/08/22/4810209/republicans-seek-to-increase-african-american-support",
       "searchText": "I come here as Republican chairman to tell you we were wrong",
       "verified": true,
-      "lastChecked": "2026-02-22T01:00:06.078Z",
+      "lastChecked": "2026-03-01T01:05:30.896Z",
       "warning": null
     },
     {
@@ -59,7 +59,7 @@
       "archiveUrl": "https://web.archive.org/web/20230601/https://avalon.law.yale.edu/19th_century/csa_csa.asp",
       "searchText": "right of property in negro slaves",
       "verified": true,
-      "lastChecked": "2026-02-22T01:00:10.537Z",
+      "lastChecked": "2026-03-01T01:05:38.811Z",
       "warning": null
     },
     {
@@ -69,7 +69,7 @@
       "archiveUrl": "https://web.archive.org/web/20230601/https://www.presidency.ucsb.edu/documents/republican-party-platform-1860",
       "searchText": "normal condition of all the territory of the United States is that of freedom",
       "verified": true,
-      "lastChecked": "2026-02-22T01:00:14.611Z",
+      "lastChecked": "2026-03-01T01:05:42.429Z",
       "warning": null
     },
     {
@@ -79,7 +79,7 @@
       "archiveUrl": "https://web.archive.org/web/20230601/https://www.law.cornell.edu/supremecourt/text/74/700",
       "searchText": "indestructible Union, composed of indestructible States",
       "verified": true,
-      "lastChecked": "2026-02-22T01:00:34.599Z",
+      "lastChecked": "2026-03-01T01:05:45.725Z",
       "warning": null
     }
   ],
