@@ -1,0 +1,101 @@
+---
+layout: layouts/base.njk
+title: Party Switch Quiz
+description: Did the parties really switch? Test yourself with questions on secession, Reconstruction, the Southern Strategy, and where the voters went.
+permalink: /quiz/
+---
+
+{# Fixed score bar - hidden until hero score scrolls out of view #}
+<div class="quiz-score-fixed" id="quiz-score-fixed">
+  <div class="quiz-score-fixed__inner">
+    <span class="quiz-score-fixed__label">Score:</span>
+    <span class="quiz-score-fixed__value" id="quiz-score-fixed-value">0 / 0</span>
+  </div>
+</div>
+
+<section class="hero hero--short" id="chapter-intro" data-chapter="Quiz">
+  <div class="hero__content">
+    <span class="eyebrow">Test Yourself</span>
+    <h1 class="headline-hero hero__title">Reality Check</h1>
+    <p class="subheadline hero__subtitle">
+      {{ quizQuestions.questions | length }} questions. Primary sources only. No mythology allowed.
+    </p>
+    <div class="quiz-score-display reveal" id="quiz-score-hero">
+      <span>Score: </span><span id="quiz-score">0 / 0</span>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--muted" id="chapter-quiz" data-chapter="Questions">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <p class="lead-text">
+        Hand this quiz to anyone who wants a refresher. Click an answer to reveal if you're right.
+      </p>
+      <p class="body-text" style="opacity: 0.7; margin-top: 1rem;">
+        Complete all {{ quizQuestions.questions | length }} to unlock the Scholar's Challenge.
+      </p>
+    </div>
+    <div class="quiz-container">
+      {% include "components/quiz.njk" %}
+    </div>
+  </div>
+</section>
+
+{# Locked Preview - Shows before main quiz is complete #}
+<section class="chapter chapter--dark advanced-quiz-locked" id="advanced-quiz-locked" data-chapter="Locked">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center">
+      <div class="locked-preview">
+        <span class="locked-preview__icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+            <path d="M7 11V7a5 5 0 0110 0v4"/>
+          </svg>
+        </span>
+        <h2 class="headline-section" style="margin-top: 1rem;">Scholar's Challenge</h2>
+        <p class="body-text" style="opacity: 0.7; max-width: 500px; margin: 0 auto;">
+          {{ advancedQuizQuestions.questions | length }} questions on what they leave out of textbooks. Complete all {{ quizQuestions.questions | length }} questions above to unlock.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# Advanced Quiz - Hidden until main quiz is complete #}
+<section class="chapter chapter--dark advanced-quiz-section" id="advanced-quiz-section" data-chapter="Scholar's Challenge">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">You're Ready</span>
+      <h2 class="headline-section">Scholar's Challenge</h2>
+      <p class="lead-text">
+        {{ advancedQuizQuestions.questions | length }} questions. No sanitizing. What they don't teach.
+      </p>
+      <p class="body-text" style="max-width: 600px; margin: 0 auto 2rem;">
+        This quiz covers the documented horrors that get whitewashed from textbooks: massacres, convict leasing, medical atrocities, and the legal architecture of white supremacy. Every question is sourced. Content warnings are provided where needed.
+      </p>
+      <div class="quiz-score-display" id="advanced-quiz-score-display">
+        <span>Score: </span><span id="advanced-quiz-score">0 / 0</span>
+      </div>
+    </div>
+    <div class="quiz-container">
+      {% include "components/advanced-quiz.njk" %}
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--dark" id="chapter-explore">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center">
+      <span class="eyebrow">Continue Exploring</span>
+      <h2 class="headline-section">More Tools</h2>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+        <a href="/" class="btn btn--primary">The Full Story</a>
+        <a href="/party-realignment/" class="btn btn--secondary">Party Realignment</a>
+        <a href="/reconstruction/" class="btn btn--secondary">Reconstruction</a>
+        <a href="/voting-access/" class="btn btn--secondary">Voting Access</a>
+        <a href="/bingo/" class="btn btn--secondary">Bingo Card</a>
+      </div>
+    </div>
+  </div>
+</section>

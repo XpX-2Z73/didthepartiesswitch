@@ -1,0 +1,91 @@
+[
+  {
+    "state": "Alabama",
+    "abbr": "AL",
+    "seceded": true,
+    "winner2024": "Republican",
+    "winner1860": "Southern Democrat",
+    "notes": "Strict voter ID; limited early voting."
+  },
+  {
+    "state": "Arkansas",
+    "abbr": "AR",
+    "seceded": true,
+    "winner2024": "Republican",
+    "winner1860": "Southern Democrat",
+    "notes": "Photo ID requirements expanded in 2021."
+  },
+  {
+    "state": "Florida",
+    "abbr": "FL",
+    "seceded": true,
+    "winner2024": "Republican",
+    "winner1860": "Southern Democrat",
+    "notes": "SB 7050 tightened third-party registration and mail ballot rules (2023)."
+  },
+  {
+    "state": "Georgia",
+    "abbr": "GA",
+    "seceded": true,
+    "winner2024": "Republican",
+    "winner1860": "Southern Democrat",
+    "notes": "SB 202 (2021) reshaped absentee voting, drop boxes, and ID rules."
+  },
+  {
+    "state": "Louisiana",
+    "abbr": "LA",
+    "seceded": true,
+    "winner2024": "Republican",
+    "winner1860": "Southern Democrat",
+    "notes": "Voter ID in place since 1997; fewer early voting days than national average."
+  },
+  {
+    "state": "Mississippi",
+    "abbr": "MS",
+    "seceded": true,
+    "winner2024": "Republican",
+    "winner1860": "Southern Democrat",
+    "notes": "Felony disenfranchisement upheld; no early voting beyond absentee exceptions."
+  },
+  {
+    "state": "North Carolina",
+    "abbr": "NC",
+    "seceded": true,
+    "winner2024": "Republican",
+    "winner1860": "Southern Democrat",
+    "notes": "SB 747 (2023) activated photo ID; altered mail ballot timelines."
+  },
+  {
+    "state": "South Carolina",
+    "abbr": "SC",
+    "seceded": true,
+    "winner2024": "Republican",
+    "winner1860": "Southern Democrat",
+    "winner1860Note": "No popular vote",
+    "notes": "No-excuse absentee only during 2020; ID required for absentee ballots."
+  },
+  {
+    "state": "Tennessee",
+    "abbr": "TN",
+    "seceded": true,
+    "winner2024": "Republican",
+    "winner1860": "Constitutional Union",
+    "notes": "Strict photo ID law; limited absentee categories."
+  },
+  {
+    "state": "Texas",
+    "abbr": "TX",
+    "seceded": true,
+    "winner2024": "Republican",
+    "winner1860": "Southern Democrat",
+    "notes": "SB 1 (2021) added signature reviews, ID matching, and criminal penalties."
+  },
+  {
+    "state": "Virginia",
+    "abbr": "VA",
+    "seceded": true,
+    "winner2024": "Democratic",
+    "winner1860": "Constitutional Union",
+    "notes": "No-excuse absentee voting, same-day registration, automatic voter registration."
+  }
+]

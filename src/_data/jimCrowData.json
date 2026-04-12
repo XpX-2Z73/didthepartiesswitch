@@ -1,0 +1,149 @@
+{
+  "introduction": "The Black Codes of 1865 were too brazen — federal troops were present, and Reconstruction had given Black men the vote. So the white South evolved its approach. Over the following decades, a comprehensive legal caste system emerged covering every aspect of public life. Its architects called it 'separate but equal.' Everyone who lived under it knew what it really was.",
+
+  "mechanisms": [
+    {
+      "name": "Poll Tax",
+      "years": "1890s – 1966",
+      "mechanism": "Required payment of an annual fee — typically $1–$2 — to register to vote. Mississippi required payment two years in advance of the election. Black sharecroppers who rarely handled cash could not pay. The tax was not the point. Exclusion was.",
+      "target": "Black voters, selectively enforced — white voters often guided through by registrars",
+      "scale": "11 Southern states. By 1940, fewer than 5% of Black adults in the South were registered to vote — down from 67% during Reconstruction.",
+      "abolishedBy": "24th Amendment (1964) for federal elections; Harper v. Virginia Board of Elections (1966) for all elections",
+      "sourceNote": "Mississippi Constitutional Convention proceedings, 1890",
+      "sourceUrl": "https://avalon.law.yale.edu/19th_century/miss1890.asp"
+    },
+    {
+      "name": "Literacy Test",
+      "years": "1890s – 1965",
+      "mechanism": "Applicants were required to read and interpret a section of the state constitution — judged solely by the white registrar. Black applicants with college degrees were failed. White applicants who could barely read were passed. The test was not about literacy. It was about who was allowed to judge.",
+      "target": "Black voters, applied with total discretion by white officials",
+      "scale": "All 11 former Confederate states plus border states. Louisiana's 1964 exam included 30 questions designed to have no correct answer — any response could be ruled wrong.",
+      "abolishedBy": "Voting Rights Act, Section 10 (1965)",
+      "sourceNote": "Louisiana Voter Registration Literacy Test, 1964",
+      "sourceUrl": "https://www.crmvet.org/info/lithome.htm"
+    },
+    {
+      "name": "Grandfather Clause",
+      "years": "1898 – 1915",
+      "mechanism": "Exempted from poll taxes and literacy tests any man whose grandfather had been eligible to vote before January 1, 1867 — the year Black men received the vote. The clause created a permanent hereditary exception: if your grandfather could vote, you could vote without paying or testing. If he could not, you were subject to every restriction.",
+      "target": "Explicitly designed to keep poor white men enfranchised while disenfranchising all Black men",
+      "scale": "Louisiana, North Carolina, Alabama, Virginia, Georgia, Maryland, Oklahoma, and others",
+      "abolishedBy": "Guinn v. United States (1915) — Supreme Court ruled it unconstitutional as a transparent racial workaround of the 15th Amendment",
+      "sourceNote": "Louisiana Constitution, Article 197, Section 5 (1898); Guinn v. United States, 238 U.S. 347 (1915)",
+      "sourceUrl": "https://supreme.justia.com/cases/federal/us/238/347/"
+    },
+    {
+      "name": "White Primary",
+      "years": "1890s – 1944",
+      "mechanism": "The Democratic Party declared itself a private organization not subject to the 15th Amendment, and excluded Black voters from its primaries. In the one-party South, winning the Democratic primary was winning the election. Excluding Black voters from the primary excluded them from all meaningful political participation.",
+      "target": "Black voters across the entire South",
+      "scale": "All Southern states. The Supreme Court initially upheld this in Grovey v. Townsend (1935). When the Court reversed itself in 1944, Texas had already used the white primary to exclude 100,000 Black voters for over 50 years.",
+      "abolishedBy": "Smith v. Allwright (1944) — Supreme Court ruled 8-1 that white primaries violated the 15th Amendment",
+      "sourceNote": "Smith v. Allwright, 321 U.S. 649 (1944)",
+      "sourceUrl": "https://supreme.justia.com/cases/federal/us/321/649/"
+    },
+    {
+      "name": "Separate But Equal",
+      "years": "1896 – 1954",
+      "mechanism": "Plessy v. Ferguson (1896) permitted states to mandate racial separation in public accommodations as long as facilities were nominally 'equal.' They were never equal. Black schools received a fraction of white school funding. Black hospitals were inferior or nonexistent. Facilities were separate because the inequality was the point.",
+      "target": "Black Americans in every public space — schools, trains, hotels, restaurants, water fountains, libraries, courtrooms, hospitals, prisons, cemeteries",
+      "scale": "11 Southern states with explicit statutes; informal segregation enforced throughout the North through redlining and deed covenants. 'Separate but equal' governed nearly every Black American's daily life for 58 years.",
+      "abolishedBy": "Brown v. Board of Education (1954) overturned Plessy; Civil Rights Act (1964) extended prohibition to private businesses",
+      "sourceNote": "Plessy v. Ferguson, 163 U.S. 537 (1896) — Justice Harlan's dissent: 'Our Constitution is color-blind.'",
+      "sourceUrl": "https://www.loc.gov/item/usrep163537/"
+    },
+    {
+      "name": "Sundown Towns",
+      "years": "1890s – 1960s",
+      "mechanism": "Municipalities that expelled or excluded Black residents through ordinance, posted signs ('N*****, Don't Let the Sun Go Down on You in [Town]'), or understood threat of violence. Thousands of American towns became entirely white by enforcement, not coincidence. This was not a Southern phenomenon.",
+      "target": "Black Americans across the United States — including the North and Midwest",
+      "scale": "Researcher James Loewen documented approximately 10,000–13,000 sundown towns nationwide. Illinois had more than any Southern state. Indiana, Ohio, California, and Oregon all had documented sundown towns.",
+      "abolishedBy": "Fair Housing Act (1968) made such exclusion illegal; informal enforcement continued for decades longer",
+      "sourceNote": "James Loewen, Sundown Towns: A Hidden Dimension of American Racism (2005)",
+      "sourceUrl": "https://sundown.tougaloo.edu/sundowntowns.php"
+    }
+  ],
+
+  "plessyCase": {
+    "fullName": "Plessy v. Ferguson",
+    "year": 1896,
+    "citation": "163 U.S. 537",
+    "background": "Homer Plessy was seven-eighths white and one-eighth Black. He deliberately sat in a whites-only railcar in Louisiana to challenge the Separate Car Act of 1890. The case was organized by a New Orleans civil rights committee called the Comité des Citoyens specifically to test the law in court.",
+    "ruling": "The Supreme Court upheld racial separation in public facilities 7-1, establishing 'separate but equal' as constitutional doctrine.",
+    "dissent": "Justice John Marshall Harlan, the lone dissenter and a former enslaver, wrote the ruling that would eventually prevail: 'In the view of the Constitution, in the eye of the law, there is in this country no superior, dominant, ruling class of citizens. There is no caste here. Our Constitution is color-blind, and neither knows nor tolerates classes among citizens.' It took 58 years and a mass movement for his view to become law.",
+    "overturned": "Brown v. Board of Education, 347 U.S. 483 (1954)",
+    "sourceUrl": "https://www.loc.gov/item/usrep163537/"
+  },
+
+  "timeline": [
+    {
+      "year": "1877",
+      "event": "Reconstruction Ends",
+      "detail": "Federal troops withdraw from the South as part of the Compromise of 1877. Without federal enforcement, the rights won in the 13th, 14th, and 15th Amendments become unenforceable. Southern states immediately begin systematic rollback."
+    },
+    {
+      "year": "1883",
+      "event": "Civil Rights Cases",
+      "detail": "Supreme Court strikes down the Civil Rights Act of 1875, ruling that the 14th Amendment prohibits only state discrimination, not private discrimination. This opens the door to segregated private businesses for 81 years."
+    },
+    {
+      "year": "1890",
+      "event": "Mississippi Plan",
+      "detail": "Mississippi's constitutional convention adopts poll taxes, literacy tests, and residency requirements explicitly designed to eliminate Black voting. Within a decade, Black voter registration in Mississippi falls from 190,000 to fewer than 1,000. Every other Southern state follows the template."
+    },
+    {
+      "year": "1896",
+      "event": "Plessy v. Ferguson",
+      "detail": "Supreme Court upholds 'separate but equal' 7-1, constitutionalizing racial segregation. Justice Harlan's lone dissent predicts — correctly — that the ruling will prove itself wrong."
+    },
+    {
+      "year": "1915",
+      "event": "Birth of a Nation Released",
+      "detail": "D.W. Griffith's film portrays the Ku Klux Klan as heroes. President Woodrow Wilson screens it at the White House. The film directly triggers a revival of the KKK, which reaches 4–6 million members by the mid-1920s and operates openly across the North and South."
+    },
+    {
+      "year": "1944",
+      "event": "White Primary Abolished",
+      "detail": "Smith v. Allwright ends white primaries. States respond by intensifying literacy tests, economic pressure on Black voters' employers, and violence — the tools that could be applied without explicit racial language."
+    },
+    {
+      "year": "1954",
+      "event": "Brown v. Board of Education",
+      "detail": "Supreme Court unanimously overturns Plessy v. Ferguson. 'Separate educational facilities are inherently unequal.' Southern states respond with Massive Resistance: some close public schools entirely rather than integrate."
+    },
+    {
+      "year": "1964–1965",
+      "event": "Jim Crow Ends — Legally",
+      "detail": "Civil Rights Act (1964) and Voting Rights Act (1965) dismantle the legal architecture of Jim Crow after 80+ years and a mass movement that cost hundreds of lives. The laws end formal segregation. They do not undo the wealth, education, and political gaps Jim Crow deliberately created."
+    }
+  ],
+
+  "theNumbers": [
+    {
+      "figure": "58",
+      "label": "Years 'separate but equal' was the law of the land",
+      "detail": "Plessy v. Ferguson (1896) to Brown v. Board of Education (1954). An entire framework of racial subordination, upheld by the highest court.",
+      "source": "U.S. Supreme Court records"
+    },
+    {
+      "figure": "< 5%",
+      "label": "Southern Black adult voter registration by 1940",
+      "detail": "Down from 67% during Reconstruction. Poll taxes, literacy tests, grandfather clauses, and violence accomplished what the 15th Amendment was supposed to prevent.",
+      "source": "U.S. Commission on Civil Rights (1959)"
+    },
+    {
+      "figure": "~10,000",
+      "label": "Documented sundown towns across the United States",
+      "detail": "Not a Southern phenomenon. Illinois had more sundown towns than Mississippi. These were enforced by ordinance, signs, and the understood threat of violence.",
+      "source": "James Loewen, Sundown Towns (2005)"
+    },
+    {
+      "figure": "80+",
+      "label": "Years between the Mississippi Plan and the Voting Rights Act",
+      "detail": "1890 to 1965. For more than three generations, the legal architecture of Jim Crow functioned exactly as its architects designed it.",
+      "source": "SNCC Digital Gateway; Voting Rights Act (1965)"
+    }
+  ],
+
+  "conclusion": "Jim Crow was not a regional embarrassment that America grew out of. It was a deliberate legal system, sustained by courts for 58 years, enforced by police, and maintained by violence. Its end required a Supreme Court reversal, two landmark acts of Congress, and a mass movement that cost hundreds of lives. The wealth gap it created — in homeownership, education, employment, and generational capital — was not undone by those laws. It is visible in current data on income, health outcomes, and property values. The legal structure ended. The structure it built did not."
+}

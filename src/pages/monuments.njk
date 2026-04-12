@@ -1,0 +1,263 @@
+---
+layout: layouts/base.njk
+title: Confederate Monuments Timeline
+description: Most Confederate monuments were not built to mourn the dead. They were built during Jim Crow and the Civil Rights era as political statements. The data proves it.
+permalink: /monuments/
+---
+
+<section class="hero hero--short" id="chapter-intro" data-chapter="Monuments">
+  <div class="hero__content">
+    <span class="eyebrow">The Data Speaks</span>
+    <h1 class="headline-hero hero__title">Not Memorials. Statements.</h1>
+    <p class="subheadline hero__subtitle">
+      When Confederate monuments were built tells you exactly why they were built.
+    </p>
+  </div>
+</section>
+
+{# ============================================
+   THE ARGUMENT
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-argument" data-chapter="The Argument">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <div class="callout callout--highlight">
+        <p style="font-size: 1.1rem; line-height: 1.8;">
+          If Confederate monuments were built to honor war dead, nearly all of them would have been built in the years immediately following the Civil War — when grief was fresh and veterans were alive. They weren't. The largest surges came 40 and 90 years after the war, during the height of Jim Crow enforcement and the Civil Rights movement. The timing is not a coincidence.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   THE CHART
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-chart" data-chapter="The Timeline">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">1865 – Present</span>
+      <h2 class="headline-chapter">Confederate Monuments Built Per Decade</h2>
+      <p class="subheadline">
+        Click any bar to see what was happening in America that decade.
+      </p>
+    </div>
+
+    <script>window.monumentsData = {{ monumentsByDecade | dump | safe }};</script>
+
+    <div class="chapter__content chapter__content--wide">
+      <div class="monuments-chart-wrapper reveal">
+        <div class="monuments-chart" id="monuments-chart" role="img" aria-label="Bar chart of Confederate monuments built per decade, showing peaks during Jim Crow and Civil Rights eras">
+          {# Populated by JavaScript #}
+        </div>
+        <div class="monuments-chart__detail" id="monuments-chart-detail" aria-live="polite">
+          <div class="monuments-chart__detail-inner">
+            <p class="monuments-chart__detail-prompt">Click a bar to see context</p>
+          </div>
+        </div>
+      </div>
+      <p class="caption" style="text-align: center; margin-top: 1.5rem;">
+        Data: Southern Poverty Law Center "Whose Heritage?" report (2019). Counts reflect documented statues and monuments; school names, highway names, and military bases are not included in these totals.
+      </p>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   TWO SPIKES
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-spikes" data-chapter="Two Spikes">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Pattern</span>
+      <h2 class="headline-chapter">Two Surges. Same Message.</h2>
+      <p class="subheadline">
+        Monument construction peaked at the exact moments Black Americans gained — or fought to gain — legal rights.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="spike-grid">
+        <article class="spike-card reveal">
+          <header class="spike-card__header">
+            <span class="spike-card__era">First Surge: 1895–1924</span>
+            <h3 class="spike-card__title">Jim Crow Solidifies</h3>
+          </header>
+          <p class="spike-card__body">
+            <em>Plessy v. Ferguson</em> (1896) enshrined "separate but equal." Poll taxes and literacy tests stripped Black men of the vote across the South. Lynching reached its statistical peak. In this context, the United Daughters of the Confederacy mounted a coordinated national campaign to place Confederate monuments at courthouse squares — the symbolic and physical centers of white legal power over Black citizens. These were not placed at battlefields or cemeteries. They were placed where justice was dispensed.
+          </p>
+          <blockquote class="spike-card__quote">
+            <p>"It is the children we want to influence."</p>
+            <cite>— UDC Proceedings, 1907, on the purpose of monument placement near schools and courthouses</cite>
+          </blockquote>
+        </article>
+
+        <article class="spike-card reveal">
+          <header class="spike-card__header">
+            <span class="spike-card__era">Second Surge: 1954–1968</span>
+            <h3 class="spike-card__title">Civil Rights Resistance</h3>
+          </header>
+          <p class="spike-card__body">
+            The largest single-decade count in the entire dataset falls in 1955–1964. Brown v. Board of Education was decided in 1954. Rosa Parks was arrested in 1955. Federal troops escorted Black students into Little Rock Central High School in 1957. As the federal government moved to enforce equality, Southern states and municipalities named schools, highways, and buildings after Confederate leaders — a direct, legislative message about whose history they were defending. This was not grief. It was resistance.
+          </p>
+          <blockquote class="spike-card__quote">
+            <p>"We will not be integrated. Not now. Not ever."</p>
+            <cite>— Gov. George Wallace, inaugural address, January 1963 — the same year Alabama named multiple public schools for Confederate generals</cite>
+          </blockquote>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   NOT JUST THE SOUTH
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-geography" data-chapter="Geography">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Where They Are</span>
+      <h2 class="headline-chapter">Not Just the Confederacy</h2>
+      <p class="subheadline">
+        Confederate symbols spread well beyond the 11 seceding states — following the Lost Cause myth wherever it traveled.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="geography-grid reveal">
+        <div class="geo-stat">
+          <span class="geo-stat__number">1,747<span class="geo-stat__plus">+</span></span>
+          <span class="geo-stat__label">Total Confederate symbols documented in the US</span>
+          <span class="geo-stat__source">SPLC, 2019</span>
+        </div>
+        <div class="geo-stat">
+          <span class="geo-stat__number">718</span>
+          <span class="geo-stat__label">Statues and monuments</span>
+          <span class="geo-stat__source">SPLC, 2019</span>
+        </div>
+        <div class="geo-stat">
+          <span class="geo-stat__number">109</span>
+          <span class="geo-stat__label">Public schools named for Confederate figures</span>
+          <span class="geo-stat__source">SPLC, 2019</span>
+        </div>
+        <div class="geo-stat">
+          <span class="geo-stat__number">9</span>
+          <span class="geo-stat__label">US military bases named for Confederate officers — all renamed 2023</span>
+          <span class="geo-stat__source">Department of Defense, 2023</span>
+        </div>
+      </div>
+      <div class="chapter__content chapter__content--narrow reveal" style="margin-top: 3rem;">
+        <div class="callout callout--dark">
+          <p style="font-size: 1rem; line-height: 1.8;">
+            Confederate monuments exist in 31 states, including California, Wisconsin, and Pennsylvania. The myth was not contained to the former Confederacy — it was exported nationally through textbooks, films, and a coordinated cultural campaign that lasted decades.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   EXAMPLES
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-examples" data-chapter="Examples">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Case Studies</span>
+      <h2 class="headline-chapter">Read the Dates</h2>
+      <p class="subheadline">
+        Eight examples. The year each was built says more than any inscription.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="monument-examples-grid">
+        {% for monument in monumentExamples %}
+        <article class="monument-example reveal">
+          <header class="monument-example__header">
+            <div class="monument-example__year-badge monument-example__year-badge--{{ monument.era }}">{{ monument.year }}</div>
+            <div>
+              <h3 class="monument-example__name">{{ monument.name }}</h3>
+              <span class="monument-example__location">{{ monument.location }}</span>
+            </div>
+          </header>
+
+          <div class="monument-example__type-tag">{{ monument.type | replace("-", " ") | title }}</div>
+
+          <p class="monument-example__dedication">{{ monument.dedication }}</p>
+          <p class="monument-example__context">{{ monument.context }}</p>
+
+          {% if monument.quote %}
+          <blockquote class="monument-example__quote">
+            <p>"{{ monument.quote }}"</p>
+            <cite>— {{ monument.quoteSource }}</cite>
+          </blockquote>
+          {% endif %}
+
+          <div class="monument-example__status">
+            <strong>Today:</strong> {{ monument.currentStatus }}
+          </div>
+
+          <a href="{{ monument.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="monument-example__source">
+            Source &rarr;
+          </a>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   CHARLOTTESVILLE AND AFTER
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-after" data-chapter="After Charlottesville">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">2017 – Present</span>
+      <h2 class="headline-chapter">The Reckoning</h2>
+    </div>
+    <div class="chapter__content chapter__content--narrow reveal">
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9; margin-bottom: var(--space-md);">
+        The August 2017 "Unite the Right" rally in Charlottesville, Virginia — convened explicitly to defend a Robert E. Lee statue — ended with a white nationalist driving a car into a crowd, killing Heather Heyer. The statue had been ordered removed by the city. The rally's stated purpose was to stop the removal.
+      </p>
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9; margin-bottom: var(--space-md);">
+        Between 2015 and 2021, more than 160 Confederate symbols were removed from public spaces. The wave accelerated after George Floyd's murder in 2020. By 2023, all nine Confederate-named US military bases had been renamed under the bipartisan National Defense Authorization Act.
+      </p>
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9;">
+        More than 700 statues and monuments remain. The same two questions apply to each of them: When was it built? And what was happening to Black Americans at that moment?
+      </p>
+    </div>
+  </div>
+</section>
+
+{# Reading Nav #}
+<section class="chapter chapter--dark" id="chapter-reading-nav" aria-label="Reading navigation">
+  <nav class="reading-nav">
+    <a href="/jim-crow/" class="reading-nav__link reading-nav__link--prev">
+      <span class="reading-nav__label">Previous Chapter</span>
+      <span class="reading-nav__title">Jim Crow</span>
+      <span class="reading-nav__arrow">&larr;</span>
+    </a>
+    <a href="/convict-leasing/" class="reading-nav__link reading-nav__link--next">
+      <span class="reading-nav__label">Next Chapter</span>
+      <span class="reading-nav__title">Convict Leasing</span>
+      <span class="reading-nav__arrow">&rarr;</span>
+    </a>
+  </nav>
+</section>
+
+{# ============================================
+   NAVIGATION
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-explore">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Continue Exploring</span>
+      <h2 class="headline-section">The Connected History</h2>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+        <a href="/lost-cause/" class="btn btn--primary">The Myth Machine</a>
+        <a href="/reconstruction/" class="btn btn--secondary">Reconstruction</a>
+        <a href="/convict-leasing/" class="btn btn--secondary">Slavery by Another Name</a>
+        <a href="/bingo/" class="btn btn--secondary">Claims &amp; Responses</a>
+      </div>
+    </div>
+  </div>
+</section>

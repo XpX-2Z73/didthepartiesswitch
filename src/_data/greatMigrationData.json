@@ -1,0 +1,158 @@
+{
+  "scaleStats": [
+    {
+      "figure": "6 million",
+      "label": "Black Americans left the South",
+      "detail": "Between 1910 and 1970, approximately 6 million Black Southerners migrated to Northern, Midwestern, and Western cities — the largest domestic migration in American history.",
+      "source": "HISTORY.com, 'The Great Migration'"
+    },
+    {
+      "figure": "90% → 47%",
+      "label": "share of Black Americans living in the South",
+      "detail": "In 1910, roughly 90% of Black Americans lived in the South. By 1970, that figure was 47%. The demographic center of Black America had shifted irreversibly.",
+      "source": "Britannica, 'Great Migration'"
+    },
+    {
+      "figure": "25×",
+      "label": "Chicago's Black population multiplied",
+      "detail": "Chicago's Black population grew from approximately 44,000 in 1910 to over 1.1 million by 1970. Detroit, New York, and Los Angeles saw comparable transformations.",
+      "source": "Britannica, 'Great Migration'"
+    },
+    {
+      "figure": "230,000",
+      "label": "Chicago Defender circulation at its peak",
+      "detail": "The Chicago Defender ran explicit campaigns urging Black Southerners to leave — publishing job listings, routes, and testimonials. Copies were smuggled past hostile postmasters and read aloud in churches.",
+      "source": "Britannica, 'Chicago Defender'"
+    }
+  ],
+  "pushFactors": [
+    {
+      "factor": "Racial Terror",
+      "detail": "The Equal Justice Initiative documented 4,084 racial terror lynchings in the South between 1877 and 1950. During the 1890s, a Black person was lynched approximately every three days. Violence was not random — it was systematically deployed to suppress economic competition and political participation. Leaving was a rational response to a credible, documented threat.",
+      "sourceUrl": "https://eji.org/reports/lynching-in-america/",
+      "sourceNote": "Equal Justice Initiative — Lynching in America"
+    },
+    {
+      "factor": "Jim Crow Law",
+      "detail": "After Reconstruction, Southern states passed comprehensive legal codes regulating every aspect of Black life: segregated schools, transportation, and hospitals; disenfranchisement through poll taxes and literacy tests; vagrancy statutes that fed the convict leasing system. The law was not neutral — it was an instrument of control designed to extract labor and suppress political power.",
+      "sourceUrl": "https://www.history.com/articles/jim-crow-laws",
+      "sourceNote": "HISTORY.com — Jim Crow Laws"
+    },
+    {
+      "factor": "Economic Exploitation",
+      "detail": "Black sharecroppers and tenant farmers were trapped in debt peonage — contracts designed so they could never pay off their debts and leave. Landowners set prices for both supplies and cotton. Leaving without settling debts was a criminal offense, enforced by law, by debt, and by violence.",
+      "sourceUrl": "https://eji.org/reports/lynching-in-america/",
+      "sourceNote": "Equal Justice Initiative"
+    },
+    {
+      "factor": "The Boll Weevil (1915)",
+      "detail": "Beginning in 1915, the boll weevil beetle destroyed cotton crops across the South, collapsing the agricultural economy that had kept millions of Black families tied to the land. For many, it removed the last economic reason to stay. The First Great Migration accelerated sharply after 1915 — the weevil destroyed the chain as much as it broke the lock.",
+      "sourceUrl": "https://www.britannica.com/animal/boll-weevil",
+      "sourceNote": "Britannica — Boll Weevil"
+    }
+  ],
+  "chicagoDefender": {
+    "description": "The Chicago Defender was the most powerful instrument of Great Migration recruitment. Founded in 1905 by Robert Sengstacke Abbott — himself the son of a formerly enslaved man — it ran explicit editorial campaigns urging Black Southerners to leave, publishing job listings, migration routes, and first-person accounts from those who had made it North. At its peak, circulation reached approximately 230,000; copies were passed hand-to-hand across the South, smuggled past hostile postmasters, and read aloud in churches. White Southern officials recognized the Defender's influence and attempted to ban it from the mail. Several of its distributors were threatened or killed.",
+    "sourceUrl": "https://www.britannica.com/topic/Chicago-Defender",
+    "sourceNote": "Britannica — Chicago Defender"
+  },
+  "destinationCities": [
+    {
+      "city": "Chicago, Illinois",
+      "detail": "Chicago's South Side became the capital of Black America — home to the Chicago Defender, a thriving business district on 47th Street, jazz clubs, and the first major concentrations of Black political power in the North. The Black population grew from approximately 44,000 in 1910 to over 1.1 million by 1970.",
+      "whatTheyFound": "Redlining confined the entire Black population to a narrow band on the South and West sides. Contract sellers extracted an estimated $500 million from Black families. Public housing was deliberately sited to reinforce and extend the segregation the HOLC maps had engineered.",
+      "sourceUrl": "https://www.npr.org/2010/09/13/129827444/great-migration-the-african-american-exodus-north",
+      "sourceNote": "NPR — The Great Migration"
+    },
+    {
+      "city": "New York City — Harlem",
+      "detail": "Harlem became the cultural capital of Black America during the First Wave. The Harlem Renaissance of the 1920s and 1930s produced a generation of writers, artists, and musicians — Langston Hughes, Zora Neale Hurston, Duke Ellington — who created the first major African American artistic movement of the twentieth century.",
+      "whatTheyFound": "Restrictive covenants and redlining confined Black New Yorkers to Harlem and later Bedford-Stuyvesant. Landlords charged premium rents for overcrowded tenements. The same federal maps that blocked homeownership in Chicago and Detroit applied in New York.",
+      "sourceUrl": "https://www.britannica.com/event/Harlem-Renaissance-American-literature-and-art",
+      "sourceNote": "Britannica — Harlem Renaissance"
+    },
+    {
+      "city": "Detroit, Michigan",
+      "detail": "Ford Motor Company and the auto industry drew Black workers with wages unimaginable in the South. Detroit's Black population grew from fewer than 6,000 in 1910 to over 660,000 by 1970, making it one of the most important centers of Black labor organizing in the country.",
+      "whatTheyFound": "The HOLC mapped nearly every Black Detroit neighborhood as Hazardous. The FHA insured all-white suburbs while denying loans in Black Detroit. By 1967, the neighborhoods that had been redlined for 30 years erupted in an uprising that left 43 dead.",
+      "sourceUrl": "https://www.britannica.com/event/Great-Migration",
+      "sourceNote": "Britannica — Great Migration"
+    },
+    {
+      "city": "Los Angeles, California",
+      "detail": "The Second Wave brought hundreds of thousands of Black Southerners to Los Angeles, where defense industry jobs during World War II offered wages and conditions unavailable in the South. The Black population grew from under 8,000 in 1910 to over 763,000 by 1970.",
+      "whatTheyFound": "Restrictive covenants confined Black Angelenos to South Central and Watts despite war-industry wages. The 1965 Watts uprising — like Detroit's 1967 — occurred in neighborhoods systematically denied the wealth-building opportunities available to white residents of the same era.",
+      "sourceUrl": "https://www.history.com/articles/watts-riots",
+      "sourceNote": "HISTORY.com — Watts Riots"
+    }
+  ],
+  "timeline": [
+    {
+      "period": "1905",
+      "event": "Chicago Defender founded",
+      "detail": "Robert Sengstacke Abbott founded the Chicago Defender, which became the most powerful instrument of migration recruitment — publishing job listings, migration routes, and editorial campaigns explicitly urging Black Southerners to leave.",
+      "sourceUrl": "https://www.britannica.com/topic/Chicago-Defender"
+    },
+    {
+      "period": "1910",
+      "event": "First Wave begins",
+      "detail": "With lynching at epidemic levels, Jim Crow law fully operational, and sharecropping trapping millions in debt peonage, the First Great Migration begins. Roughly 90% of Black Americans still live in the South.",
+      "sourceUrl": "https://www.history.com/articles/great-migration"
+    },
+    {
+      "period": "1915",
+      "event": "Boll weevil accelerates departure",
+      "detail": "The boll weevil destroys cotton crops across the South, collapsing the agricultural economy that kept millions tied to the land. The First Wave gains momentum it would not lose for three decades.",
+      "sourceUrl": "https://www.britannica.com/animal/boll-weevil"
+    },
+    {
+      "period": "1917",
+      "event": "East St. Louis Massacre",
+      "detail": "White workers threatened by Black migrants hired as strikebreakers attacked Black neighborhoods in East St. Louis, Illinois. Estimates of Black deaths range from 39 to 200. It showed Northern cities were not free of racial violence — but migration continued regardless.",
+      "sourceUrl": "https://www.britannica.com/event/East-Saint-Louis-Race-Riot-of-1917"
+    },
+    {
+      "period": "1920s–1930s",
+      "event": "Harlem Renaissance",
+      "detail": "The concentration of Black migrants in Harlem produced the first major African American artistic and intellectual movement. Langston Hughes, Zora Neale Hurston, Duke Ellington, and dozens of others created a cultural infrastructure that defined Black American identity for generations.",
+      "sourceUrl": "https://www.britannica.com/event/Harlem-Renaissance-American-literature-and-art"
+    },
+    {
+      "period": "1940",
+      "event": "Second Wave — World War II",
+      "detail": "Defense industry expansion creates millions of industrial jobs in Northern and Western cities. Roosevelt's Executive Order 8802 (1941) prohibits discriminatory hiring in federal defense contracts. The Second Wave — roughly 5 million migrants — dwarfs the First.",
+      "sourceUrl": "https://www.history.com/articles/great-migration"
+    },
+    {
+      "period": "1948",
+      "event": "Shelley v. Kraemer",
+      "detail": "The Supreme Court rules racially restrictive covenants unenforceable — but the ruling was largely symbolic. Banks and the FHA continued redlining. Black families who had built lives in Northern cities still could not buy homes outside designated zones.",
+      "sourceUrl": "https://www.britannica.com/event/Great-Migration"
+    },
+    {
+      "period": "1965",
+      "event": "Watts Uprising",
+      "detail": "Five days of uprising in Watts, Los Angeles, killed 34 people and caused $40 million in damage. Watts had been redlined for three decades. The Kerner Commission's 1968 report concluded the country was 'moving toward two societies, one black, one white — separate and unequal.'",
+      "sourceUrl": "https://www.history.com/articles/watts-riots"
+    },
+    {
+      "period": "1970",
+      "event": "The Migration ends",
+      "detail": "By 1970, the Great Migration had largely run its course. In subsequent decades, a reverse migration began — Black Americans moving back to the South, drawn by improving conditions and economic opportunity in Atlanta, Charlotte, and Houston.",
+      "sourceUrl": "https://www.history.com/articles/great-migration"
+    }
+  ],
+  "politicalImpact": {
+    "partyShift": "In 1932, roughly three-quarters of Black voters supported Herbert Hoover — the Republican Party had been the party of Lincoln and emancipation since 1865. By 1936, the alignment had flipped: more than three-quarters voted for Franklin Roosevelt. The New Deal's relief programs, Eleanor Roosevelt's visible advocacy, and the concentration of Black voters in Northern swing states made Black Americans a constituency both parties had to compete for — a political reality that did not exist when Black Americans were confined to the disenfranchised South.",
+    "congress": "The Great Migration created the first significant bloc of Black elected officials in American history. Oscar De Priest of Chicago became the first Black congressman from a Northern state in 1929. By 1970, the Congressional Black Caucus had been founded, with members representing the Northern cities the Migration had built.",
+    "civilRights": "The urban Black communities built by the Great Migration provided the organizational infrastructure, financial base, and national media reach that powered the Civil Rights Movement. The NAACP's Northern chapters — funded by Northern Black professionals — financed the legal strategy that produced Brown v. Board of Education. The March on Washington drew 250,000 people in part because Northern Black communities could organize, fund, and travel in ways the disenfranchised South could not.",
+    "sourceUrl": "https://www.britannica.com/topic/African-American/The-New-Deal-and-World-War-II",
+    "sourceNote": "Britannica — African Americans: The New Deal and WWII"
+  },
+  "wilkerson": {
+    "quote": "The Great Migration was one of the largest movements of people in history. We talk about the movement of peoples across continents and oceans. But we don't talk enough about this great movement within our own country — and what it meant, and what it cost.",
+    "citation": "Isabel Wilkerson, The Warmth of Other Suns (2010)",
+    "sourceUrl": "https://www.penguinrandomhouse.com/books/190696/the-warmth-of-other-suns-by-isabel-wilkerson/",
+    "sourceNote": "Penguin Random House"
+  }
+}

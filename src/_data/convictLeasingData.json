@@ -1,0 +1,202 @@
+{
+  "scaleStats": [
+    {
+      "figure": "73%",
+      "label": "of Alabama's entire state revenue",
+      "detail": "came from convict leasing at its peak in 1898",
+      "source": "Douglas Blackmon, Slavery by Another Name (2008)"
+    },
+    {
+      "figure": "10x",
+      "label": "higher death rate",
+      "detail": "convict laborers died at ten times the rate of free workers in the same mines",
+      "source": "Annual Reports, Alabama Inspectors of Convicts, 1880–1900"
+    },
+    {
+      "figure": "~90%",
+      "label": "of leased convicts were Black",
+      "detail": "in Alabama in 1903, despite Black citizens being a minority of the state's population",
+      "source": "Alabama Department of Archives and History"
+    },
+    {
+      "figure": "1942",
+      "label": "the year Alabama abolished convict leasing",
+      "detail": "the last state to do so — 77 years after the 13th Amendment was ratified",
+      "source": "Federal prosecution of the Sumter County, Alabama lease system"
+    }
+  ],
+  "companies": [
+    {
+      "name": "Tennessee Coal, Iron and Railroad Company (TCI)",
+      "later": "Acquired by U.S. Steel in 1907",
+      "location": "Bessemer and Birmingham, Alabama",
+      "years": "1880s–1911",
+      "role": "Largest single user of convict labor in the South. Leased hundreds of prisoners annually from the state of Alabama to work its coal mines. Men worked in shafts with poor ventilation, no safety equipment, and extreme heat. TCI paid the state per-prisoner per-day; the workers received nothing.",
+      "deaths": "Multiple men died annually in mining accidents; deaths went uninvestigated. Lessees faced no criminal liability for prisoner deaths.",
+      "sourceUrl": "https://encyclopediaofalabama.org/article/convict-lease-system/",
+      "sourceNote": "Encyclopedia of Alabama — Convict Lease System"
+    },
+    {
+      "name": "Pratt Consolidated Coal Company",
+      "later": null,
+      "location": "Jefferson County, Alabama",
+      "years": "1890s–1920s",
+      "role": "Operated the Pratt Mines using state and county convicts. Men convicted of minor offenses — vagrancy, debt, 'impudence' — were sentenced to Pratt Mines. Some worked underground for years on sentences that began as 30-day misdemeanor fines.",
+      "deaths": "Mine accidents and whipping-related injuries documented in inspector reports. The company was repeatedly cited but never prosecuted.",
+      "sourceUrl": "https://www.encyclopediaofalabama.org/article/h-1346",
+      "sourceNote": "Encyclopedia of Alabama"
+    },
+    {
+      "name": "Sloss-Sheffield Steel and Iron",
+      "later": null,
+      "location": "Birmingham, Alabama",
+      "years": "1887–1910s",
+      "role": "Operated the Flat Top Mine using convict labor sourced through county courts. Sloss advertised to investors the low cost of labor as a competitive advantage. The phrase 'cheap labor' in their annual reports referred explicitly to leased convicts.",
+      "deaths": "In 1890, 90 of every 1,000 prisoners at the Coalburg mine died — a 9% annual death rate. Sloss continued using convict labor after TCI ended the practice. The Coalburg mine was specifically noted for deplorable conditions and its high death rate.",
+      "sourceUrl": "https://encyclopediaofalabama.org/article/sloss-furnaces/",
+      "sourceNote": "Encyclopedia of Alabama — Sloss Furnaces"
+    },
+    {
+      "name": "Georgia and Alabama Railroads (multiple lines)",
+      "later": null,
+      "location": "Georgia, Alabama, Mississippi",
+      "years": "1868–1890s",
+      "role": "Southern railroad construction was built substantially on convict labor after the Civil War. Georgia leased its entire state convict population to the Western and Atlantic Railroad beginning in 1868 — just three years after the 13th Amendment. Men graded roads, laid track, and built bridges in conditions described by inspectors as 'pestilential.'",
+      "deaths": "Georgia's 1870 penitentiary report recorded that 40% of leased convicts had died within four years. The state recorded this as an administrative matter.",
+      "sourceUrl": "https://www.georgiaencyclopedia.org/articles/history-archaeology/convict-lease-system/",
+      "sourceNote": "New Georgia Encyclopedia"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1865",
+      "event": "13th Amendment ratified",
+      "detail": "Abolishes slavery 'except as a punishment for crime whereof the party shall have been duly convicted.' Southern legislatures immediately exploit the exception clause.",
+      "type": "law"
+    },
+    {
+      "year": "1865–1866",
+      "event": "Black Codes enacted across the South",
+      "detail": "Mississippi, South Carolina, Alabama, Virginia, Georgia, and other states pass laws criminalizing unemployment, leaving a job, 'vagrancy,' and 'impudence.' These laws applied specifically to Black citizens and were designed to generate a convict labor supply.",
+      "type": "law"
+    },
+    {
+      "year": "1867–1868",
+      "event": "Reconstruction Acts / Black Codes temporarily invalidated",
+      "detail": "Federal Reconstruction suppresses the Black Codes. Black men vote, hold office, and serve in legislatures. The convict leasing system pauses or shrinks in states under federal oversight.",
+      "type": "resistance"
+    },
+    {
+      "year": "1868",
+      "event": "Georgia leases entire convict population to railroads",
+      "detail": "The first major state convict lease. Georgia Governor Rufus Bullock leases 100 state prisoners to the Georgia and Alabama Railroad. The practice spreads rapidly once demonstrated to be profitable.",
+      "type": "expansion"
+    },
+    {
+      "year": "1877",
+      "event": "Reconstruction ends — Compromise of 1877",
+      "detail": "Federal troops withdraw from the South. Enforcement of Black civil rights collapses. State governments immediately reassert control and expand convict leasing systems. The Black Codes are effectively restored through vagrancy laws, debt peonage, and convict leasing.",
+      "type": "turning-point"
+    },
+    {
+      "year": "1880s–1900s",
+      "event": "Peak of the leasing system",
+      "detail": "Alabama, Georgia, Mississippi, and Texas operate the largest leasing systems. Convicts mine coal, build roads, turpentine forests, and drain swamps. Alabama's leasing revenue funds the state government. Death rates in some operations exceed 40% annually.",
+      "type": "expansion"
+    },
+    {
+      "year": "1898",
+      "event": "Alabama: 73% of state revenue from convict leasing",
+      "detail": "At its peak, convict leasing is the dominant revenue source for the Alabama state government. The incentive to arrest and convict Black men is now explicitly fiscal. County sheriffs earned fees for each prisoner delivered.",
+      "type": "expansion"
+    },
+    {
+      "year": "1901",
+      "event": "Alabama Constitution disenfranchises Black voters",
+      "detail": "Poll taxes, literacy tests, and grandfather clauses eliminate nearly all Black political participation in Alabama. With no political power to protest the system, convict leasing expands unchecked.",
+      "type": "law"
+    },
+    {
+      "year": "1903",
+      "event": "John Spencer Bassett documents the system",
+      "detail": "Academic and journalistic exposure of convict leasing begins. Investigative reports reach Northern audiences. Public pressure begins to build — slowly.",
+      "type": "exposure"
+    },
+    {
+      "year": "1908",
+      "event": "Federal investigation — peonage prosecutions",
+      "detail": "The U.S. Department of Justice prosecutes cases under the federal Anti-Peonage Act. Several planters and county officials are convicted. The federal government acknowledges the system constitutes slavery by another name — but enforcement is limited and short-lived.",
+      "type": "resistance"
+    },
+    {
+      "year": "1928",
+      "event": "Georgia abolishes convict leasing",
+      "detail": "After decades of reform pressure and international embarrassment, Georgia becomes the first major leasing state to formally abolish the system. Chain gangs — state-operated forced labor on public works — replace it. The labor continues; only the contractor changes.",
+      "type": "partial-end"
+    },
+    {
+      "year": "1941–1942",
+      "event": "Alabama abolishes convict leasing — the last state",
+      "detail": "Federal prosecution of Clyde Cunningham in Sumter County, Alabama — who was using convict labor as recently as 1940 — forces the final end. Alabama officially abolishes the leasing system in 1942. Seventy-seven years after the 13th Amendment.",
+      "type": "end"
+    },
+    {
+      "year": "1940s–1960s",
+      "event": "Chain gangs replace leasing — the labor continues",
+      "detail": "Most states that abolished convict leasing replaced it with state-operated chain gangs: prisoners working on roads, farms, and public projects under armed guard. The workers still received nothing. Georgia and several other states operated chain gangs into the 1990s. The contractor changed; the coercion did not.",
+      "type": "expansion"
+    },
+    {
+      "year": "1971",
+      "event": "Attica Prison Uprising",
+      "detail": "Prisoners at Attica Correctional Facility in New York seized the prison in protest of conditions, brutality, and forced labor. After four days, Governor Nelson Rockefeller ordered a retaking by force. 43 people died, including 33 prisoners. Prisoners had demanded wages of more than 25 cents per day for their labor. The uprising made national headlines but produced no labor reforms.",
+      "type": "resistance"
+    },
+    {
+      "year": "1979",
+      "event": "Prison Industry Enhancement Certification Program (PIECP)",
+      "detail": "Congress creates a federal program allowing private companies to contract prison labor. Participating companies pay prisoners sub-minimum wages — often $0.25 to $1.00 per hour before deductions for room, board, and 'victim restitution funds' that can consume most of the check. Companies have included Walmart, McDonald's, Victoria's Secret, and major agricultural operations. The program is voluntary and legal under the 13th Amendment exception.",
+      "type": "expansion"
+    },
+    {
+      "year": "1994",
+      "event": "Crime Bill accelerates mass incarceration",
+      "detail": "The Violent Crime Control and Law Enforcement Act of 1994 expands mandatory minimums, funds prison construction, and accelerates the incarceration rate that had been rising since the 1970s. The US incarcerated population surpasses 1 million in 1994 and reaches 2.3 million by 2008 — the largest prison population in the world, and one that is disproportionately Black. The available labor supply for the 13th Amendment exception grows accordingly.",
+      "type": "expansion"
+    },
+    {
+      "year": "2016",
+      "event": "National prison labor strike",
+      "detail": "On September 9, 2016 — the 45th anniversary of the Attica uprising — prisoners in at least 24 states refused to work in what organizers called the largest prison strike in US history. Participants explicitly framed it as opposition to slavery under the 13th Amendment. The Free Alabama Movement, one of the organizers, stated: 'We will no longer contribute to our own oppression.' Most demands went unmet.",
+      "type": "resistance"
+    },
+    {
+      "year": "2022",
+      "event": "Alabama prison strike over forced labor",
+      "detail": "Alabama prisoners strike for three weeks over conditions and forced labor. Alabama's prison system — the same state that was last to abolish convict leasing in 1942 — is under federal oversight for constitutional violations. Prisoners still earn between $0 and $0.25 per hour for work that generates millions for the state. A federal judge finds Alabama prisons unconstitutionally dangerous.",
+      "type": "resistance"
+    },
+    {
+      "year": "Today",
+      "event": "The 13th Amendment exception remains unchanged",
+      "detail": "The United States Constitution still reads: 'Neither slavery nor involuntary servitude, except as a punishment for crime whereof the party shall have been duly convicted, shall exist...' Several states — including Oregon and Alabama — have passed ballot measures removing the exception language from their state constitutions. No federal amendment has been proposed. An estimated 800,000 incarcerated people perform labor daily in the US, most earning less than $1 per hour or nothing at all.",
+      "type": "law"
+    }
+  ],
+  "individualStories": [
+    {
+      "name": "Green Cottenham",
+      "year": 1908,
+      "story": "Green Cottenham was a 22-year-old Black man arrested in Shelby County, Alabama in 1908 for 'vagrancy' — having no permanent employer. He was convicted in a court proceeding that lasted minutes, fined $10 plus court costs, and when he could not pay, was sentenced to 30 days of hard labor. That sentence was then extended repeatedly by new charges — each generating new fees he could not pay. He was leased to TCI's Pratt Mines. He died there three months later. His cause of death was listed as 'pneumonia.' He was never convicted of a real crime.",
+      "source": "Douglas Blackmon, Slavery by Another Name (2008)",
+      "sourceUrl": "https://www.penguinrandomhouse.com/books/168500/slavery-by-another-name-by-douglas-a-blackmon/"
+    },
+    {
+      "name": "James Thomas",
+      "year": 1880,
+      "story": "James Thomas was arrested in Georgia for 'riding a train without a ticket' — a misdemeanor specifically added to Georgia law after Reconstruction to target Black travelers. He was sentenced to 6 months and leased to a turpentine camp. Inspector reports from that year describe conditions at the camp as 'the worst I have seen.' James Thomas does not appear in any subsequent records.",
+      "source": "Alex Lichtenstein, Twice the Work of Free Labor (1996)",
+      "sourceUrl": "https://www.versobooks.com/books/453-twice-the-work-of-free-labor"
+    }
+  ]
+}

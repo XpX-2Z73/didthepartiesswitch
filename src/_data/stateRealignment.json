@@ -1,0 +1,201 @@
+[
+  {
+    "state": "Alabama",
+    "abbr": "AL",
+    "flipYear": 1964,
+    "keyFigure": "George Wallace",
+    "keyFigureRole": "Governor (D)",
+    "headline": "First Republican vote since Reconstruction",
+    "summary": "Alabama voted for Goldwater in 1964 after he opposed the Civil Rights Act. Governor George Wallace, a Democrat, became the face of segregation with his 'segregation forever' speech. Wallace's 1968 third-party run proved racial politics could flip the South.",
+    "quote": "Segregation now, segregation tomorrow, segregation forever.",
+    "quoteAttribution": "George Wallace, Inaugural Address, January 1963",
+    "sourceUrl": "https://www.archives.alabama.gov/govs_list/inauguralspeech.html",
+    "archiveUrl": "https://web.archive.org/web/20240101000000/https://www.archives.alabama.gov/govs_list/inauguralspeech.html",
+    "keyEvents": [
+      {"year": 1963, "event": "Wallace's 'segregation forever' inaugural"},
+      {"year": 1964, "event": "Voted Goldwater after Civil Rights Act"},
+      {"year": 1968, "event": "Wallace's third-party run wins state"}
+    ]
+  },
+  {
+    "state": "Arkansas",
+    "abbr": "AR",
+    "flipYear": 1972,
+    "keyFigure": "Orval Faubus",
+    "keyFigureRole": "Governor (D)",
+    "headline": "From Little Rock resistance to Republican stronghold",
+    "summary": "Governor Faubus called out the National Guard to block the Little Rock Nine in 1957. The state voted for segregationist George Wallace in 1968, then went Republican with Nixon in 1972 and has stayed red in presidential races since 1980.",
+    "quote": "The National Guard has been called out to maintain or restore the peace and good order of this community.",
+    "quoteAttribution": "Orval Faubus, blocking integration at Little Rock Central High, September 1957",
+    "sourceUrl": "https://www.nps.gov/chsc/learn/historyculture/1957.htm",
+    "archiveUrl": "https://web.archive.org/web/20240601000000/https://www.nps.gov/chsc/learn/historyculture/1957.htm",
+    "keyEvents": [
+      {"year": 1957, "event": "Faubus defies school integration"},
+      {"year": 1968, "event": "Votes for George Wallace"},
+      {"year": 1972, "event": "First Republican presidential vote (Nixon)"}
+    ]
+  },
+  {
+    "state": "Florida",
+    "abbr": "FL",
+    "flipYear": 1952,
+    "keyFigure": "Claude Kirk",
+    "keyFigureRole": "Governor (R), 1967",
+    "headline": "Early flip alongside Tennessee and Virginia",
+    "summary": "Florida, Tennessee, and Virginia all voted Eisenhower in 1952, the first cracks in the Solid South. In 1967, Claude Kirk became Florida's first Republican governor since Reconstruction. The state's growing retiree population and Cuban exile community accelerated the shift.",
+    "quote": "I shall be the catalyst that brings about a renaissance of the two-party system in the South.",
+    "quoteAttribution": "Claude Kirk, campaign speech, 1966",
+    "sourceUrl": "https://www.floridamemory.com/collections/governors/",
+    "archiveUrl": "https://web.archive.org/web/20240601000000/https://www.floridamemory.com/collections/governors/",
+    "keyEvents": [
+      {"year": 1952, "event": "First Republican presidential vote (Eisenhower)"},
+      {"year": 1967, "event": "First Republican governor since Reconstruction"},
+      {"year": 1968, "event": "Nixon wins Florida"}
+    ]
+  },
+  {
+    "state": "Georgia",
+    "abbr": "GA",
+    "flipYear": 1964,
+    "keyFigure": "Newt Gingrich",
+    "keyFigureRole": "U.S. Representative (R), Speaker of the House",
+    "headline": "From Goldwater to Gingrich: the realignment completed",
+    "summary": "Georgia voted Goldwater in 1964, the first crack. Native son Jimmy Carter won in 1976 and 1980, but Newt Gingrich was building something bigger. Elected in 1978 as the first Republican in his district's history, Gingrich led the 1994 'Republican Revolution' that ended 40 years of Democratic House control. Georgia went solidly Republican until 2020.",
+    "quote": "Time named Gingrich 'Man of the Year' for his role in ending the four-decades-long Democratic majority in the House.",
+    "quoteAttribution": "Time Magazine, 1995",
+    "sourceUrl": "https://www.history.com/articles/midterm-elections-1994-republican-revolution-gingrich-contract-with-america",
+    "archiveUrl": "https://web.archive.org/web/20240601000000/https://www.history.com/articles/midterm-elections-1994-republican-revolution-gingrich-contract-with-america",
+    "keyEvents": [
+      {"year": 1964, "event": "First Republican presidential vote (Goldwater)"},
+      {"year": 1978, "event": "Gingrich elected, first GOP rep in district history"},
+      {"year": 1994, "event": "Gingrich leads Republican Revolution"},
+      {"year": 2020, "event": "First Democratic presidential vote since 1992"}
+    ]
+  },
+  {
+    "state": "Louisiana",
+    "abbr": "LA",
+    "flipYear": 1956,
+    "keyFigure": "Dwight Eisenhower",
+    "keyFigureRole": "President (R)",
+    "headline": "First Deep South state to vote Republican since Reconstruction",
+    "summary": "Louisiana voted for Thurmond's Dixiecrat ticket in 1948, then became the first Deep South state to vote Republican since Reconstruction when it chose Eisenhower in 1956. The state voted Goldwater in 1964 and has been reliably Republican since 1980.",
+    "quote": "All the laws of Washington and all the bayonets of the Army cannot force the Negro into our homes, our schools, our churches.",
+    "quoteAttribution": "Strom Thurmond, Dixiecrat campaign speech, 1948",
+    "sourceUrl": "https://www.presidency.ucsb.edu/documents/address-accepting-the-states-rights-democratic-party-nomination-for-president",
+    "archiveUrl": "https://web.archive.org/web/20240526133208/https://www.presidency.ucsb.edu/documents/address-accepting-the-states-rights-democratic-party-nomination-for-president",
+    "keyEvents": [
+      {"year": 1948, "event": "Votes Thurmond (Dixiecrat) - first break from Democrats"},
+      {"year": 1956, "event": "First Republican vote since Reconstruction (Eisenhower)"},
+      {"year": 1964, "event": "Votes Goldwater after Civil Rights Act"}
+    ]
+  },
+  {
+    "state": "Mississippi",
+    "abbr": "MS",
+    "flipYear": 1964,
+    "keyFigure": "James Eastland",
+    "keyFigureRole": "U.S. Senator (D)",
+    "headline": "Highest Goldwater vote in America",
+    "summary": "Mississippi voted Dixiecrat in 1948 but returned to Democrats in 1952 and 1956. In 1964, the state gave Goldwater 87% of the vote, the highest in the nation, after he opposed the Civil Rights Act. Senator James Eastland had declared Brown v. Board 'illegal' in 1954. The state hasn't voted Democratic since 1956.",
+    "quote": "The South will not abide by nor obey this legislative decision by a political court.",
+    "quoteAttribution": "James Eastland, responding to Brown v. Board, 1954",
+    "sourceUrl": "https://www.senate.gov/about/powers-procedures/investigations/mccarthy-hearings/eastland-subcommittee.htm",
+    "archiveUrl": "https://web.archive.org/web/20240601000000/https://www.senate.gov/about/powers-procedures/investigations/mccarthy-hearings/eastland-subcommittee.htm",
+    "keyEvents": [
+      {"year": 1948, "event": "Votes Thurmond (Dixiecrat)"},
+      {"year": "1952-56", "event": "Returns to Democratic (Stevenson)"},
+      {"year": 1964, "event": "87% vote for Goldwater - highest in nation; first Republican"}
+    ]
+  },
+  {
+    "state": "North Carolina",
+    "abbr": "NC",
+    "flipYear": 1968,
+    "keyFigure": "Jesse Helms",
+    "keyFigureRole": "U.S. Senator (R), 1973-2003",
+    "headline": "Jesse Helms and the politics of racial resentment",
+    "summary": "Jesse Helms switched from Democrat to Republican in 1970 and won a Senate seat in 1972. His campaigns were notorious for racial messaging, including the 'Hands' ad attacking affirmative action. He served five terms.",
+    "quote": "White People Wake Up Before It's Too Late. Do you want Negroes working beside you, your wife and your daughters?",
+    "quoteAttribution": "Flyer from Willis Smith Senate campaign, 1950 (Helms was Smith's campaign aide)",
+    "sourceUrl": "https://www.ncpedia.org/smith-graham-senate-race",
+    "archiveUrl": "https://web.archive.org/web/20240601000000/https://www.ncpedia.org/smith-graham-senate-race",
+    "keyEvents": [
+      {"year": 1968, "event": "First Republican presidential vote (Nixon)"},
+      {"year": 1970, "event": "Helms switches parties"},
+      {"year": 1990, "event": "Helms' 'Hands' ad attacks affirmative action"}
+    ]
+  },
+  {
+    "state": "South Carolina",
+    "abbr": "SC",
+    "flipYear": 1964,
+    "keyFigure": "Strom Thurmond",
+    "keyFigureRole": "U.S. Senator, switched to GOP 1964",
+    "headline": "Thurmond's switch: the defining moment",
+    "summary": "Strom Thurmond ran as the Dixiecrat presidential candidate in 1948, carrying four states including his own. In 1964, he switched to the Republican Party specifically because Democrats passed the Civil Rights Act. South Carolina hasn't voted Democratic since.",
+    "quote": "The Democratic Party has abandoned the people. It has repudiated the Constitution of the United States. It is leading the evolution of our nation to a socialistic dictatorship.",
+    "quoteAttribution": "Strom Thurmond, announcing his switch to the Republican Party, September 16, 1964",
+    "sourceUrl": "https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Thurmond.htm",
+    "archiveUrl": "https://web.archive.org/web/20240622133927/https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Thurmond.htm",
+    "keyEvents": [
+      {"year": 1948, "event": "Thurmond runs as Dixiecrat, wins SC"},
+      {"year": 1964, "event": "Thurmond switches to GOP after Civil Rights Act"},
+      {"year": 1964, "event": "SC votes Goldwater; hasn't voted Democratic since"}
+    ]
+  },
+  {
+    "state": "Tennessee",
+    "abbr": "TN",
+    "flipYear": 1952,
+    "keyFigure": "Howard Baker",
+    "keyFigureRole": "U.S. Senator (R), 1967-1985",
+    "headline": "Early flip through moderate Republicanism",
+    "summary": "Tennessee broke for Eisenhower in 1952, building on East Tennessee's long Republican tradition dating to Civil War Unionism. Howard Baker became the first popularly elected Republican senator in 1966. Unlike Deep South states, Tennessee's shift was driven more by economic conservatism; Baker voted FOR the Civil Rights Act of 1968.",
+    "quote": "What did the President know and when did he know it?",
+    "quoteAttribution": "Howard Baker, Watergate hearings, 1973 (demonstrating his national stature)",
+    "sourceUrl": "https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Baker.htm",
+    "archiveUrl": "https://web.archive.org/web/20240601000000/https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Baker.htm",
+    "keyEvents": [
+      {"year": 1952, "event": "First Republican presidential vote (Eisenhower)"},
+      {"year": 1966, "event": "Howard Baker elected to Senate"},
+      {"year": 1968, "event": "Baker votes for Civil Rights Act"}
+    ]
+  },
+  {
+    "state": "Texas",
+    "abbr": "TX",
+    "flipYear": 1952,
+    "keyFigure": "John Tower",
+    "keyFigureRole": "U.S. Senator (R), 1961-1985",
+    "headline": "First Republican senator since Reconstruction",
+    "summary": "John Tower won a 1961 special election to become the first Republican U.S. Senator from Texas since Reconstruction. Governor John Connally, a conservative Democrat, switched to Republican in 1973. Texas has voted Republican in every presidential election since 1980.",
+    "quote": "The conservative movement is making great strides in Texas and the South.",
+    "quoteAttribution": "John Tower, upon winning special election, 1961",
+    "sourceUrl": "https://www.tshaonline.org/handbook/entries/tower-john-goodwin",
+    "archiveUrl": "https://web.archive.org/web/20240601000000/https://www.tshaonline.org/handbook/entries/tower-john-goodwin",
+    "keyEvents": [
+      {"year": 1952, "event": "First Republican presidential vote (Eisenhower)"},
+      {"year": 1961, "event": "Tower elected - first GOP senator since Reconstruction"},
+      {"year": 1973, "event": "Governor Connally switches to Republican"}
+    ]
+  },
+  {
+    "state": "Virginia",
+    "abbr": "VA",
+    "flipYear": 1952,
+    "keyFigure": "Harry F. Byrd",
+    "keyFigureRole": "U.S. Senator (D), led 'massive resistance'",
+    "headline": "The outlier: back to blue",
+    "summary": "Senator Harry Byrd's Democratic machine led 'massive resistance' to school integration in the 1950s. Virginia voted Republican 1952-1960, then LBJ in 1964 (with strong Black turnout), then Republican 1968-2004. Northern Virginia's suburban growth flipped it back Democratic in 2008.",
+    "quote": "If we can organize the Southern States for massive resistance to this order, I think that in time the rest of the country will realize that racial integration is not going to be accepted in the South.",
+    "quoteAttribution": "Harry F. Byrd, advocating 'massive resistance,' 1956",
+    "sourceUrl": "https://encyclopediavirginia.org/entries/massive-resistance/",
+    "archiveUrl": "https://web.archive.org/web/20240601000000/https://encyclopediavirginia.org/entries/massive-resistance/",
+    "keyEvents": [
+      {"year": 1956, "event": "Byrd leads 'massive resistance' to integration"},
+      {"year": 1964, "event": "LBJ wins with strong Black voter turnout"},
+      {"year": 2008, "event": "Flips Democratic; hasn't voted Republican since"}
+    ]
+  }
+]

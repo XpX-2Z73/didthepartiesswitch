@@ -1,0 +1,129 @@
+{
+  "scaleStats": [
+    {
+      "figure": "4,084",
+      "label": "racial terror lynchings documented",
+      "detail": "in 12 Southern states between 1877 and 1950, by the Equal Justice Initiative's 2015 count — the most comprehensive study ever conducted",
+      "source": "Equal Justice Initiative, 'Lynching in America' (2015)"
+    },
+    {
+      "figure": "1882–1968",
+      "label": "years tracked by the NAACP",
+      "detail": "The NAACP documented 4,743 lynchings in the United States between 1882 and 1968, including 1,297 white victims. 72.7% of victims were Black.",
+      "source": "NAACP Historical Records"
+    },
+    {
+      "figure": "3",
+      "label": "per week on average at the peak",
+      "detail": "During the 1890s — the bloodiest decade — a Black person was lynched approximately every three days in the United States. The peak year was 1892: 161 Black people lynched.",
+      "source": "Ida B. Wells, 'A Red Record' (1895)"
+    },
+    {
+      "figure": "200+",
+      "label": "federal anti-lynching bills introduced before passage",
+      "detail": "Congress introduced over 200 anti-lynching bills between 1882 and 1968. All were blocked or filibustered by Southern senators. A federal anti-lynching law was not enacted until 2022 — the Emmett Till Antilynching Act.",
+      "source": "NAACP; Congressional Record"
+    }
+  ],
+  "byState": [
+    { "state": "Mississippi", "count": 654, "note": "Highest total in the South" },
+    { "state": "Georgia", "count": 594, "note": "" },
+    { "state": "Texas", "count": 352, "note": "" },
+    { "state": "Louisiana", "count": 335, "note": "" },
+    { "state": "Alabama", "count": 262, "note": "" },
+    { "state": "Arkansas", "count": 226, "note": "" },
+    { "state": "South Carolina", "count": 185, "note": "" },
+    { "state": "Tennessee", "count": 204, "note": "" },
+    { "state": "Florida", "count": 331, "note": "Highest per capita rate in the South" },
+    { "state": "North Carolina", "count": 101, "note": "" },
+    { "state": "Virginia", "count": 100, "note": "" },
+    { "state": "Kentucky", "count": 168, "note": "" }
+  ],
+  "politicalContext": [
+    {
+      "period": "1877–1900",
+      "event": "Reconstruction ends; peak lynching era begins",
+      "detail": "With federal troops withdrawn in 1877, the systematic terrorism that would define the next generation began almost immediately. Lynching peaked precisely as Black men were gaining or consolidating political power — the violence was designed to destroy it. Mississippi's 1890 constitutional convention, which stripped Black voters of their rights, was preceded by years of lynching that made political resistance impossible.",
+      "lynchingCount": "Approximately 1,700 documented in this period"
+    },
+    {
+      "period": "1892",
+      "event": "Bloodiest single year",
+      "detail": "161 Black Americans lynched — an average of more than 3 per week. Ida B. Wells began her investigative journalism in this year after three of her friends were lynched in Memphis for the 'crime' of running a grocery store that competed successfully with a white-owned store.",
+      "lynchingCount": "161"
+    },
+    {
+      "period": "1915",
+      "event": "Birth of a Nation premieres; Klan revival",
+      "detail": "D.W. Griffith's film, screened at the White House, portrayed lynching as heroic. Within months, the Ku Klux Klan was re-founded at Stone Mountain, Georgia. Klan membership reached an estimated 4 million by the mid-1920s. The film's release directly correlated with a spike in racial violence.",
+      "lynchingCount": "Klan-era violence documented separately"
+    },
+    {
+      "period": "1919",
+      "event": "Red Summer",
+      "detail": "In the summer and fall of 1919, white mobs attacked Black communities in at least 26 cities — including Chicago, Washington D.C., and Elaine, Arkansas. Black veterans returning from WWI who refused to accept second-class status were particular targets. The Elaine Massacre alone killed an estimated 200–800 Black sharecroppers.",
+      "lynchingCount": "83 documented lynchings in 1919 alone"
+    },
+    {
+      "period": "1922",
+      "event": "Dyer Anti-Lynching Bill",
+      "detail": "The Dyer Bill would have made lynching a federal crime. It passed the House 230–119. It was killed by a Senate filibuster led by Southern Democrats, who argued that lynching was a matter of 'states' rights.' This pattern repeated itself for the next 100 years.",
+      "lynchingCount": "Congress blocked, violence continued"
+    },
+    {
+      "period": "1955",
+      "event": "Emmett Till murdered",
+      "detail": "14-year-old Emmett Till was kidnapped, tortured, and murdered in Mississippi for allegedly whistling at a white woman. His killers were acquitted by an all-white jury in 67 minutes. His mother, Mamie Till-Mobley, insisted on an open casket at his funeral. Jet magazine published photographs of his body. The murder and its verdict galvanized the Civil Rights Movement.",
+      "lynchingCount": "His killers later confessed in a magazine interview — protected by double jeopardy"
+    },
+    {
+      "period": "2022",
+      "event": "Emmett Till Antilynching Act signed",
+      "detail": "President Biden signed the first federal anti-lynching law on March 29, 2022 — 67 years after Emmett Till's murder, and 140 years after the first such bill was introduced in Congress. Three House members voted against it.",
+      "lynchingCount": "Federal law at last"
+    }
+  ],
+  "cases": [
+    {
+      "name": "Ida B. Wells",
+      "year": 1892,
+      "role": "Journalist and activist",
+      "story": "After three of her friends were lynched in Memphis for running a grocery store that competed with a white-owned store, Wells began a systematic investigation of lynching in the South. Her 1895 pamphlet 'A Red Record' documented 241 lynchings over three years and demolished the 'protecting white womanhood' justification: she showed that the majority of lynching victims had not been accused of rape or assault, and that the accusation itself was often used as cover for economic or political motives. A Memphis white newspaper called for her own lynching in response. She was already in the North.",
+      "significance": "Wells established the investigative framework that all subsequent anti-lynching work built on. She brought the issue to an international audience through tours of Britain in 1893 and 1894.",
+      "sourceUrl": "https://www.nps.gov/people/idabwells.htm",
+      "sourceNote": "National Park Service"
+    },
+    {
+      "name": "The Elaine Massacre",
+      "year": 1919,
+      "role": "Massacre / Red Summer",
+      "story": "In September 1919, Black sharecroppers in Elaine, Arkansas organized a union to negotiate cotton prices. White planters and federal troops responded with a massacre. Estimates of Black deaths range from 100 to 800; five white men also died. 12 Black men were sentenced to death and 67 more to long prison terms in trials lasting less than an hour. The NAACP's legal defense resulted in Moore v. Dempsey (1923), in which the Supreme Court ruled that mob-dominated trials violated due process — a precedent for later civil rights law.",
+      "significance": "The largest racial massacre of the Red Summer. The Supreme Court case it produced was an early civil rights legal victory.",
+      "sourceUrl": "https://encyclopediaofarkansas.net/entries/elaine-massacre-of-1919-1102/",
+      "sourceNote": "Encyclopedia of Arkansas"
+    },
+    {
+      "name": "Emmett Till",
+      "year": 1955,
+      "role": "14-year-old murder victim",
+      "story": "Emmett Till, 14, was visiting relatives in Money, Mississippi when he was accused of whistling at a white woman, Carolyn Bryant. Her husband Roy Bryant and his half-brother J.W. Milam kidnapped Till from his great-uncle's home, beat him, shot him, and threw his body in the Tallahatchie River weighted with a cotton gin fan. A jury of 12 white men acquitted both men in 67 minutes. Bryant and Milam then sold their confession to Look magazine, protected by double jeopardy. In 2017, Carolyn Bryant admitted she had fabricated the accusation.",
+      "significance": "The open-casket funeral photographs published in Jet magazine created national outrage that directly contributed to the Montgomery Bus Boycott three months later and the broader Civil Rights Movement.",
+      "sourceUrl": "https://www.naacp.org/naacp-history-emmett-till/",
+      "sourceNote": "NAACP"
+    }
+  ],
+  "mythsAndFacts": [
+    {
+      "myth": "Lynchings were crimes of passion by mobs responding to genuine crimes.",
+      "fact": "Ida B. Wells's research showed most lynching victims were accused of minor offenses or no offense at all. Common pretexts included: testifying against a white man in court, demanding fair wages, owning land that a white man wanted, or 'acting uppity.' The 'protecting white womanhood' justification was applied even when no woman was involved. In many cases, victims were publicly tortured in front of crowds of hundreds, with advance newspaper notice — these were planned spectacles, not spontaneous violence."
+    },
+    {
+      "myth": "Lynching was primarily a Southern phenomenon.",
+      "fact": "While the South had the highest concentration, lynchings occurred in at least 46 states. Between 1877 and 1950, documented lynchings occurred in Illinois, Indiana, Ohio, California, and every other region. The NAACP documented lynchings in 41 states. The geography of the violence followed Black Americans wherever they moved."
+    },
+    {
+      "myth": "Lynching was about sexual violence.",
+      "fact": "According to the Tuskegee Institute's records — maintained from 1882 to 1968 — only approximately 19% of lynching victims were even accused of rape or attempted rape. The majority were accused of murder, theft, 'insolence,' economic competition, or nothing at all. The sexual violence framing was a strategic narrative deployed to make the practice seem defensive rather than offensive."
+    }
+  ]
+}

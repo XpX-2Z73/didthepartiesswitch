@@ -1,0 +1,137 @@
+{# Electoral Map Panels - 1860 vs 2024 comparison with interactive state details #}
+<div class="map-panels">
+  <article class="map-panel">
+    <h3>1860: Before Secession</h3>
+    <p>
+      Southern Democrats (Breckinridge) carried nearly every future Confederate state. Virginia and
+      Tennessee broke for the Constitutional Union ticket, and South Carolina picked Breckinridge
+      through its legislature without a popular vote.
+    </p>
+    <div class="map-grid" role="group" aria-label="1860 presidential results in seceding states">
+      {% for state in states %}
+        {% set realignment = null %}
+        {% for r in stateRealignment %}
+          {% if r.abbr == state.abbr %}
+            {% set realignment = r %}
+          {% endif %}
+        {% endfor %}
+        {% set tileClass = "dem" %}
+        {% if state.winner1860 == "Constitutional Union" %}
+          {% set tileClass = "union" %}
+        {% endif %}
+        <button
+          class="state-tile state-tile--interactive {{ tileClass }}"
+          data-abbr="{{ state.abbr }}"
+          data-state="{{ state.state }}"
+          data-flip-year="{{ realignment.flipYear if realignment else '' }}"
+          data-key-figure="{{ realignment.keyFigure if realignment else '' }}"
+          data-key-figure-role="{{ realignment.keyFigureRole if realignment else '' }}"
+          data-headline="{{ realignment.headline if realignment else '' }}"
+          data-summary="{{ realignment.summary | escape if realignment else '' }}"
+          data-quote="{{ realignment.quote | escape if realignment else '' }}"
+          data-quote-attribution="{{ realignment.quoteAttribution | escape if realignment else '' }}"
+          data-source-url="{{ realignment.sourceUrl if realignment else '' }}"
+          data-events="{{ realignment.keyEvents | dump | escape if realignment else '[]' }}"
+          aria-label="Click to learn about {{ state.state }}'s political realignment"
+        >
+          <strong>{{ state.abbr }}</strong>
+          <span>{{ state.winner1860Note or state.winner1860 }}</span>
+        </button>
+      {% endfor %}
+    </div>
+  </article>
+  <article class="map-panel">
+    <h3>2024: After Realignment</h3>
+    <p>
+      Ten of the eleven former Confederate states voted Republican in 2024. Virginia, shaped by its
+      suburban growth and expanded voting access, is the lone Democratic outlier.
+    </p>
+    <div class="map-grid" role="group" aria-label="2024 presidential results in seceding states">
+      {% for state in states %}
+        {% set realignment = null %}
+        {% for r in stateRealignment %}
+          {% if r.abbr == state.abbr %}
+            {% set realignment = r %}
+          {% endif %}
+        {% endfor %}
+        {% set tileClass = "rep" %}
+        {% if state.winner2024 == "Democratic" %}
+          {% set tileClass = "dem" %}
+        {% endif %}
+        <button
+          class="state-tile state-tile--interactive {{ tileClass }}"
+          data-abbr="{{ state.abbr }}"
+          data-state="{{ state.state }}"
+          data-flip-year="{{ realignment.flipYear if realignment else '' }}"
+          data-key-figure="{{ realignment.keyFigure if realignment else '' }}"
+          data-key-figure-role="{{ realignment.keyFigureRole if realignment else '' }}"
+          data-headline="{{ realignment.headline if realignment else '' }}"
+          data-summary="{{ realignment.summary | escape if realignment else '' }}"
+          data-quote="{{ realignment.quote | escape if realignment else '' }}"
+          data-quote-attribution="{{ realignment.quoteAttribution | escape if realignment else '' }}"
+          data-source-url="{{ realignment.sourceUrl if realignment else '' }}"
+          data-events="{{ realignment.keyEvents | dump | escape if realignment else '[]' }}"
+          aria-label="Click to learn about {{ state.state }}'s political realignment"
+        >
+          <strong>{{ state.abbr }}</strong>
+          <span>{{ state.winner2024 }}</span>
+        </button>
+      {% endfor %}
+    </div>
+  </article>
+</div>
+<p class="map-legend" role="presentation">
+  <span><span class="legend-swatch dem"></span> Southern Democrat in 1860 or Democratic in 2024</span>
+  <span><span class="legend-swatch rep"></span> Republican</span>
+  <span><span class="legend-swatch union"></span> Constitutional Union (1860)</span>
+</p>
+<p class="map-instructions">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <path d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"/>
+  </svg>
+  Click any state to see when and why it flipped
+</p>
+
+{# State Realignment Modal #}
+<div class="state-modal" id="state-modal" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="state-modal__backdrop"></div>
+  <div class="state-modal__content">
+    <button class="state-modal__close" aria-label="Close modal">&times;</button>
+    <div class="state-modal__header">
+      <span class="state-modal__abbr" id="modal-state-abbr"></span>
+      <div>
+        <h3 class="state-modal__state" id="modal-state-name"></h3>
+        <p class="state-modal__headline" id="modal-headline"></p>
+      </div>
+    </div>
+    <div class="state-modal__body">
+      <div class="state-modal__flip">
+        <span class="state-modal__flip-label">First Republican Presidential Vote</span>
+        <span class="state-modal__flip-year" id="modal-flip-year"></span>
+      </div>
+      <div class="state-modal__figure">
+        <span class="state-modal__figure-label">Key Figure</span>
+        <span class="state-modal__figure-name" id="modal-key-figure"></span>
+        <span class="state-modal__figure-role" id="modal-key-figure-role"></span>
+      </div>
+      <p class="state-modal__summary" id="modal-summary"></p>
+      <blockquote class="state-modal__quote">
+        <p id="modal-quote"></p>
+        <cite id="modal-quote-attribution"></cite>
+      </blockquote>
+      <div class="state-modal__timeline" id="modal-timeline">
+        {# Populated by JavaScript #}
+      </div>
+    </div>
+    <div class="state-modal__footer">
+      <a href="#" class="btn btn--primary" id="modal-source-link" target="_blank" rel="noopener noreferrer">
+        View Source
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+          <polyline points="15 3 21 3 21 9"></polyline>
+          <line x1="10" y1="14" x2="21" y2="3"></line>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>

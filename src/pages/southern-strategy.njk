@@ -1,0 +1,232 @@
+---
+layout: layouts/base.njk
+title: The Southern Strategy — One Tape. The Whole Plan.
+description: The party switch was not gradual drift. It was engineered — by named strategists using documented methods. Lee Atwater recorded himself explaining it in 1981. Ken Mehlman stood before the NAACP and apologized for it in 2005. The evidence is in their own words.
+permalink: /southern-strategy/
+---
+
+<section class="hero hero--short" id="chapter-intro" data-chapter="Southern Strategy">
+  <div class="hero__content">
+    <span class="eyebrow">1964 – 1984</span>
+    <h1 class="headline-hero hero__title">One Tape. The Whole Plan.</h1>
+    <p class="subheadline hero__subtitle">
+      They documented it themselves. They admitted it themselves. Their own words.
+    </p>
+  </div>
+</section>
+
+{# ============================================
+   THE ARGUMENT
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-argument" data-chapter="The Argument">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <div class="callout callout--highlight">
+        <p style="font-size: 1.1rem; line-height: 1.8;">{{ southernStrategyData.introduction }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   IN THEIR OWN WORDS — ATWATER FIRST
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-atwater" data-chapter="The Atwater Tape">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Primary Source</span>
+      <h2 class="headline-chapter">The Atwater Tape</h2>
+      <p class="subheadline">
+        In 1981, Republican strategist Lee Atwater gave an interview to political scientist Alexander Lamis. He explained the evolution of the Southern Strategy in his own words. The audio was made public in 2012.
+      </p>
+    </div>
+    {% set atwater = southernStrategyData.inTheirOwnWords[0] %}
+    <div class="chapter__content chapter__content--narrow">
+      <div class="ss-quote-card ss-quote-card--featured reveal">
+        <div class="ss-quote-card__header">
+          <span class="ss-quote-card__speaker">{{ atwater.speaker }}</span>
+          <span class="ss-quote-card__role">{{ atwater.role }}</span>
+          <span class="ss-quote-card__year">{{ atwater.year }}</span>
+        </div>
+        <blockquote class="ss-quote-card__quote">
+          <p>"{{ atwater.quote }}"</p>
+        </blockquote>
+        <div class="ss-quote-card__footer">
+          <p class="ss-quote-card__context">{{ atwater.context }}</p>
+          <a href="{{ atwater.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="ss-quote-card__source">{{ atwater.sourceNote }} &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   THE TIMELINE
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-timeline" data-chapter="The Timeline">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">1964 – 2005</span>
+      <h2 class="headline-chapter">From Goldwater to the Apology</h2>
+    </div>
+    <div class="chapter__content chapter__content--narrow">
+      <div class="ss-timeline">
+        {% for event in southernStrategyData.timeline %}
+        <div class="ss-timeline__event reveal">
+          <div class="ss-timeline__year">{{ event.year }}</div>
+          <div class="ss-timeline__body">
+            <h3 class="ss-timeline__title">{{ event.event }}</h3>
+            <p class="ss-timeline__detail">{{ event.detail }}</p>
+            <p class="ss-timeline__significance">{{ event.significance }}</p>
+            <a href="{{ event.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="ss-timeline__source">{{ event.sourceNote }} &rarr;</a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   MORE QUOTES
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-words" data-chapter="Their Words">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Documentary Record</span>
+      <h2 class="headline-chapter">In Their Own Words</h2>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="ss-quotes-grid">
+        {% for item in southernStrategyData.inTheirOwnWords %}
+        {% if loop.index > 1 %}
+        <div class="ss-quote-card reveal">
+          <div class="ss-quote-card__header">
+            <span class="ss-quote-card__speaker">{{ item.speaker }}</span>
+            <span class="ss-quote-card__role">{{ item.role }}</span>
+            <span class="ss-quote-card__year">{{ item.year }}</span>
+          </div>
+          <blockquote class="ss-quote-card__quote">
+            <p>"{{ item.quote }}"</p>
+          </blockquote>
+          <div class="ss-quote-card__footer">
+            <p class="ss-quote-card__context">{{ item.context }}</p>
+            <a href="{{ item.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="ss-quote-card__source">{{ item.sourceNote }} &rarr;</a>
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   CODED LANGUAGE
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-coded" data-chapter="The Code">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">How the Language Worked</span>
+      <h2 class="headline-chapter">The Code</h2>
+      <p class="subheadline">
+        The strategy required phrases that could appeal to racial resentment while maintaining plausible deniability. Atwater explained the mechanism directly. These are the phrases, and what they signaled.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="ss-code-grid">
+        {% for item in southernStrategyData.codedLanguage %}
+        <div class="ss-code-card reveal">
+          <div class="ss-code-card__phrase">"{{ item.phrase }}"</div>
+          <div class="ss-code-card__context">
+            <strong>Historical context:</strong>
+            <p>{{ item.context }}</p>
+          </div>
+          <div class="ss-code-card__meaning">
+            <strong>The signal:</strong>
+            <p>{{ item.what_it_means }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   THE VOTER SHIFT
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-shift" data-chapter="The Voter Shift">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Results</span>
+      <h2 class="headline-chapter">Where the Votes Went</h2>
+      <p class="subheadline">{{ southernStrategyData.voterShift.summary }}</p>
+    </div>
+    <div class="chapter__content chapter__content--narrow">
+      <div class="ss-elections">
+        {% for election in southernStrategyData.voterShift.elections %}
+        <div class="ss-election reveal">
+          <div class="ss-election__year">{{ election.year }}</div>
+          <div class="ss-election__body">
+            <p class="ss-election__result">{{ election.southernResult }}</p>
+            <p class="ss-election__note">{{ election.note }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="callout callout--dark reveal" style="margin-top: var(--space-md);">
+        <a href="{{ southernStrategyData.voterShift.sourceUrl }}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-gold); font-size: 0.9rem;">{{ southernStrategyData.voterShift.sourceNote }} &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   CONCLUSION
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-conclusion" data-chapter="Conclusion">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <span class="eyebrow">What the Evidence Shows</span>
+      <h2 class="headline-chapter">The Switch Was Engineered</h2>
+      <div class="callout callout--highlight">
+        <p style="font-size: 1.05rem; line-height: 1.8;">{{ southernStrategyData.conclusion }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# Reading Nav #}
+<section class="chapter chapter--dark" id="chapter-reading-nav" aria-label="Reading navigation">
+  <nav class="reading-nav">
+    <a href="/civil-rights/" class="reading-nav__link reading-nav__link--prev">
+      <span class="reading-nav__label">Previous Chapter</span>
+      <span class="reading-nav__title">The Civil Rights Movement</span>
+      <span class="reading-nav__arrow">&larr;</span>
+    </a>
+    <a href="/voting-access/" class="reading-nav__link reading-nav__link--next">
+      <span class="reading-nav__label">Next Chapter</span>
+      <span class="reading-nav__title">Voting Today</span>
+      <span class="reading-nav__arrow">&rarr;</span>
+    </a>
+  </nav>
+</section>
+
+{# ============================================
+   NAVIGATION
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-explore">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Continue Exploring</span>
+      <h2 class="headline-section">The Connected History</h2>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+        <a href="/voting-access/" class="btn btn--primary">Voting Today</a>
+        <a href="/party-realignment/" class="btn btn--secondary">Party Realignment Evidence</a>
+        <a href="/civil-rights/" class="btn btn--secondary">The Civil Rights Movement</a>
+        <a href="/bingo/" class="btn btn--secondary">Claims &amp; Responses</a>
+      </div>
+    </div>
+  </div>
+</section>

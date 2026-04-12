@@ -1,0 +1,228 @@
+---
+layout: layouts/base.njk
+title: Racial Terror — Lynching as Political Weapon
+description: Between 1877 and 1950, more than 4,000 Black Americans were lynched in the South. This was not random violence. It was a systematic political tool used to destroy Black political power, enforce economic subordination, and terrorize communities into submission.
+permalink: /lynching/
+---
+
+<section class="hero hero--short" id="chapter-intro" data-chapter="Lynching">
+  <div class="hero__content">
+    <span class="eyebrow">1877 – 1950</span>
+    <h1 class="headline-hero hero__title">Terror as Governance</h1>
+    <p class="subheadline hero__subtitle">
+      4,000+ documented murders. Not mob justice. Political policy.
+    </p>
+  </div>
+</section>
+
+{# ============================================
+   THE ARGUMENT
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-argument" data-chapter="The Argument">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <div class="callout callout--highlight">
+        <p style="font-size: 1.1rem; line-height: 1.8;">
+          Lynching is typically understood as mob violence — spontaneous, local, criminal. The record shows something different. Lynchings were announced in newspapers in advance. They drew crowds of hundreds or thousands. Participants posed for photographs. Local officials watched or participated. Perpetrators were almost never charged. This was not lawlessness. It was law enforcement — an extrajudicial system operating alongside the legal one, serving the same purpose: maintaining white political and economic dominance over Black Americans.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   SCALE
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-scale" data-chapter="Scale">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Numbers</span>
+      <h2 class="headline-chapter">What the Record Shows</h2>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="lynching-stats-grid">
+        {% for stat in lynchingData.scaleStats %}
+        <div class="lynching-stat reveal">
+          <span class="lynching-stat__figure">{{ stat.figure }}</span>
+          <span class="lynching-stat__label">{{ stat.label }}</span>
+          <span class="lynching-stat__detail">{{ stat.detail }}</span>
+          <span class="lynching-stat__source">{{ stat.source }}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   MYTHS AND FACTS
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-myths" data-chapter="The Record">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">What the Evidence Shows</span>
+      <h2 class="headline-chapter">Three Claims the Data Refutes</h2>
+    </div>
+    <div class="chapter__content chapter__content--narrow">
+      {% for item in lynchingData.mythsAndFacts %}
+      <div class="lynching-myth reveal">
+        <div class="lynching-myth__claim">
+          <span class="lynching-myth__label">The claim</span>
+          <p class="lynching-myth__text">{{ item.myth }}</p>
+        </div>
+        <div class="lynching-myth__fact">
+          <span class="lynching-myth__label lynching-myth__label--fact">The record</span>
+          <p class="lynching-myth__text">{{ item.fact }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   BY STATE
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-states" data-chapter="By State">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">1877 – 1950</span>
+      <h2 class="headline-chapter">Southern States — Documented Lynchings</h2>
+      <p class="subheadline">EJI count, 12 states. Not the national total.</p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="lynching-states-grid">
+        {% for state in lynchingData.byState %}
+        <div class="lynching-state reveal">
+          <div class="lynching-state__bar-wrap">
+            <div class="lynching-state__bar" style="width: {{ (state.count / 654 * 100) | round }}%"></div>
+          </div>
+          <div class="lynching-state__info">
+            <span class="lynching-state__name">{{ state.state }}</span>
+            <span class="lynching-state__count">{{ state.count }}</span>
+          </div>
+          {% if state.note %}<span class="lynching-state__note">{{ state.note }}</span>{% endif %}
+        </div>
+        {% endfor %}
+      </div>
+      <p class="caption" style="text-align: center; margin-top: 1.5rem;">
+        Source: Equal Justice Initiative, <em>Lynching in America</em> (2015). Data covers 12 Southern states; national totals are higher.
+      </p>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   POLITICAL CONTEXT TIMELINE
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-timeline" data-chapter="Timeline">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Political Pattern</span>
+      <h2 class="headline-chapter">Violence and Power Were Inseparable</h2>
+      <p class="subheadline">
+        Lynching peaked at moments of Black political and economic advancement — not randomly.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--narrow">
+      <div class="lynching-timeline">
+        {% for event in lynchingData.politicalContext %}
+        <div class="lynching-timeline__event reveal">
+          <div class="lynching-timeline__year">{{ event.period }}</div>
+          <div class="lynching-timeline__body">
+            <h3 class="lynching-timeline__title">{{ event.event }}</h3>
+            <p class="lynching-timeline__detail">{{ event.detail }}</p>
+            <span class="lynching-timeline__count">{{ event.lynchingCount }}</span>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   CASES
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-cases" data-chapter="Cases">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Three Names</span>
+      <h2 class="headline-chapter">From the Record</h2>
+    </div>
+    <div class="chapter__content chapter__content--narrow">
+      {% for case in lynchingData.cases %}
+      <div class="lynching-case reveal">
+        <div class="lynching-case__header">
+          <span class="lynching-case__name">{{ case.name }}</span>
+          <span class="lynching-case__year">{{ case.year }}</span>
+        </div>
+        <span class="lynching-case__role">{{ case.role }}</span>
+        <p class="lynching-case__story">{{ case.story }}</p>
+        <div class="lynching-case__significance">
+          <span class="lynching-case__significance-label">Why it matters</span>
+          {{ case.significance }}
+        </div>
+        <a href="{{ case.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="lynching-case__source">{{ case.sourceNote }} &rarr;</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   THE FEDERAL FAILURE
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-congress" data-chapter="Congress">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <span class="eyebrow">200+ Bills. One Law. 140 Years Later.</span>
+      <h2 class="headline-chapter">Congress Chose Not to Act</h2>
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9; margin-bottom: var(--space-md);">
+        Between 1882 and 1968, more than 200 anti-lynching bills were introduced in Congress. Each was blocked by a Senate filibuster, led by Southern Democrats who argued that lynching was a matter of states' rights and that federal intervention would constitute "tyranny." The same senators who used this argument also supported the Confederacy's memory and opposed civil rights legislation across the board.
+      </p>
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9; margin-bottom: var(--space-md);">
+        The Dyer Anti-Lynching Bill passed the House in 1922 by a vote of 230–119. It was killed in the Senate. The NAACP hung a banner from their New York headquarters after each lynching: "A man was lynched yesterday." They flew it for decades.
+      </p>
+      <div class="callout callout--highlight">
+        <p style="font-size: 1.05rem; line-height: 1.8;">
+          The Emmett Till Antilynching Act became federal law on March 29, 2022 — 67 years after Till's murder, and 140 years after the first anti-lynching bill was introduced. Three members of Congress voted against it.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# Reading Nav #}
+<section class="chapter chapter--dark" id="chapter-reading-nav" aria-label="Reading navigation">
+  <nav class="reading-nav">
+    <a href="/lost-cause/" class="reading-nav__link reading-nav__link--prev">
+      <span class="reading-nav__label">Previous Chapter</span>
+      <span class="reading-nav__title">The Lost Cause</span>
+      <span class="reading-nav__arrow">&larr;</span>
+    </a>
+    <a href="/tulsa/" class="reading-nav__link reading-nav__link--next">
+      <span class="reading-nav__label">Next Chapter</span>
+      <span class="reading-nav__title">Tulsa 1921</span>
+      <span class="reading-nav__arrow">&rarr;</span>
+    </a>
+  </nav>
+</section>
+
+{# ============================================
+   NAVIGATION
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-explore">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Continue Exploring</span>
+      <h2 class="headline-section">The Connected History</h2>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+        <a href="/redlining/" class="btn btn--primary">The Wealth Gap</a>
+        <a href="/monuments/" class="btn btn--secondary">Confederate Monuments</a>
+        <a href="/convict-leasing/" class="btn btn--secondary">Slavery by Another Name</a>
+        <a href="/reconstruction/" class="btn btn--secondary">Reconstruction</a>
+      </div>
+    </div>
+  </div>
+</section>

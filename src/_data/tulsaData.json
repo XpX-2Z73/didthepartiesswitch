@@ -1,0 +1,122 @@
+{
+  "introduction": "On the night of May 31–June 1, 1921, white mobs burned 35 square blocks of the Greenwood district in Tulsa, Oklahoma — the most prosperous Black community in the United States. At least 300 people were killed. Approximately 10,000 Black residents were left homeless. Private planes flew over the neighborhood as it burned. Government officials helped imprison the victims while the perpetrators faced no charges. The city buried the event for decades. The mass graves were not excavated until 2020.",
+
+  "greenwood": {
+    "description": "The Greenwood district of Tulsa — called 'Black Wall Street' by Booker T. Washington — was the product of forced segregation turned to advantage. Excluded from white businesses, Black Tulsa built its own. By 1921, Greenwood had 600 Black-owned businesses operating along 35 blocks: hotels, law offices, a hospital, two newspapers, a library, churches, and schools. Black residents circulated dollars within the community before they reached white businesses. Greenwood was not given to its residents. They built it under legal segregation, without access to capital markets or federal mortgage programs, and in spite of consistent legal and social hostility.",
+    "stats": [
+      {
+        "figure": "35",
+        "label": "Blocks of the Greenwood district",
+        "detail": "At its peak, Greenwood had 35 square blocks of Black-owned commercial and residential property",
+        "source": "Oklahoma Commission to Study the Tulsa Race Riot of 1921 (2001)"
+      },
+      {
+        "figure": "600+",
+        "label": "Black-owned businesses in Greenwood",
+        "detail": "Including hotels, law offices, a hospital, two newspapers, grocery stores, and professional offices",
+        "source": "Tulsa Historical Society; Oklahoma Commission Report (2001)"
+      },
+      {
+        "figure": "$1.5M",
+        "label": "Estimated property value destroyed (1921 dollars)",
+        "detail": "Equivalent to approximately $25–30 million today. No compensation was ever paid.",
+        "source": "Oklahoma Commission Report (2001)"
+      }
+    ]
+  },
+
+  "trigger": {
+    "summary": "On May 30, 1921, Dick Rowland — a 19-year-old Black shoeshine worker — entered an elevator at the Drexel Building operated by Sarah Page, a young white woman. What happened inside the elevator is unknown and contested. Page did not file charges. Rowland was arrested the next day. The Tulsa Tribune ran the headline 'Nab Negro for Attacking Girl in Elevator.' That evening, a white mob gathered outside the courthouse. When armed Black men arrived to protect Rowland from lynching, a confrontation erupted.",
+    "note": "Dick Rowland was never charged. The incident that triggered the massacre was almost certainly a misunderstanding or an accident — a stumble, a trip. The charges were dropped in June 1921. Sarah Page refused to press charges. The massacre that followed was not about Dick Rowland. It was about Greenwood."
+  },
+
+  "massacre": {
+    "timelineEvents": [
+      {
+        "time": "May 31, 1921 — Evening",
+        "event": "White mob gathers at courthouse",
+        "detail": "After the Tribune headline, hundreds of white men gather outside the Tulsa County Courthouse demanding that Rowland be turned over to them. Tulsa police chief does not disperse the crowd."
+      },
+      {
+        "time": "May 31, 1921 — Night",
+        "event": "Armed standoff",
+        "detail": "Approximately 75 armed Black men, many World War I veterans, arrive at the courthouse to prevent a lynching. Outnumbered by the white mob, they return to Greenwood. Whites follow. A shot is fired — by whom is disputed — and the massacre begins."
+      },
+      {
+        "time": "June 1, 1921 — Dawn",
+        "event": "Invasion of Greenwood",
+        "detail": "Before dawn, between 1,000 and 2,000 white rioters and deputized civilians invade Greenwood under the direction of Tulsa city officials. The Oklahoma National Guard is called — and participates in detaining Black residents rather than protecting them."
+      },
+      {
+        "time": "June 1, 1921 — Morning",
+        "event": "Aerial assault",
+        "detail": "Private aircraft fly over Greenwood. Eyewitnesses report gunfire from the planes. The Oklahoma Commission Report (2001) confirmed that planes were used and that 'law enforcement officers participated in the air assault.' Some researchers document reports of incendiary devices. This was the first aerial assault on an American city."
+      },
+      {
+        "time": "June 1, 1921 — Morning to Afternoon",
+        "event": "Greenwood destroyed",
+        "detail": "35 square blocks are burned to the ground. 1,256 houses, plus churches, schools, a hospital, hotels, and businesses. Every building in a 35-block area is either burned or looted."
+      },
+      {
+        "time": "June 1, 1921 — Afternoon",
+        "event": "Mass detention",
+        "detail": "Over 6,000 Black Tulsa residents are detained by the National Guard and held at Convention Hall and the fairgrounds — as victims, not perpetrators. White perpetrators are not detained. Black residents are held for days; some lose their jobs while imprisoned. To be released, they need a white employer to vouch for them."
+      }
+    ]
+  },
+
+  "deathToll": {
+    "officialAtTime": "36",
+    "historianEstimate": "100–300+",
+    "note": "Official records from 1921 listed 36 dead. The Oklahoma Commission Report (2001) concluded this was a severe undercount. Historians estimate between 100 and 300 people were killed, overwhelmingly Black residents. In 2020, the city of Tulsa excavated potential mass grave sites at Oaklawn Cemetery. Initial investigations confirmed at least 30 individuals; the search continues.",
+    "sourceUrl": "https://www.tulsahistory.org/exhibit/1921-tulsa-race-massacre/"
+  },
+
+  "government": {
+    "role": "Tulsa city officials and the Oklahoma National Guard did not protect Greenwood — they participated in its destruction. The county sheriff deputized members of the white mob. National Guard troops helped intern Black residents. The city's initial response was to imprison survivors.",
+    "aftermath": "The city quickly passed ordinances making it nearly impossible to rebuild on the original lots — a legal mechanism to prevent Greenwood's reconstruction. Insurance claims were denied on the grounds that the massacre was a 'riot,' making it uninsurable. When Black Tulsans rebuilt anyway, doing so at personal cost, the city eventually rezoned the area for industrial use decades later — completing the erasure the mob started."
+  },
+
+  "reparations": {
+    "summary": "In 1921, a Tulsa Race Riot Grand Jury was convened. It blamed Black residents for the massacre. No white perpetrator was ever charged. The city of Tulsa has never paid reparations. In 2001, the Oklahoma Commission formally recommended reparations to survivors and descendants. The state legislature declined to act. As of 2024, three centenarian survivors of the massacre are pursuing litigation.",
+    "commission": "The Oklahoma Commission to Study the Tulsa Race Riot of 1921, established by the Oklahoma Legislature, issued its final report in 2001 — 80 years after the massacre. It documented the scale of destruction, confirmed government complicity, and recommended reparations. The recommendation was not implemented.",
+    "sourceUrl": "https://www.okhistory.org/research/forms/freport.pdf"
+  },
+
+  "coverUp": {
+    "description": "For decades, the 1921 massacre was omitted from Oklahoma history textbooks. City newspapers largely stopped reporting on it. The phrase 'race riot' (implying mutual combat) displaced the more accurate 'massacre.' Local historical societies avoided the subject. The event did not appear in Oklahoma school curricula until after the Commission report in 2001.",
+    "rediscovery": "National attention returned during the 100th anniversary commemoration in 2021. President Biden visited Tulsa and acknowledged the massacre. Mass grave excavations at Oaklawn Cemetery, authorized by the city, began in 2020 and confirmed additional victims. In 2024, a Tulsa County judge allowed a reparations lawsuit filed by the last three known survivors to proceed."
+  },
+
+  "scaleStats": [
+    {
+      "figure": "300+",
+      "label": "People killed",
+      "detail": "Historians estimate 100–300+ dead, overwhelmingly Black residents. Official 1921 count was 36 — a severe undercount.",
+      "source": "Oklahoma Commission Report (2001)"
+    },
+    {
+      "figure": "10,000",
+      "label": "Black residents left homeless",
+      "detail": "The entire population of Greenwood was displaced in a single morning",
+      "source": "Oklahoma Commission Report (2001)"
+    },
+    {
+      "figure": "35",
+      "label": "Blocks burned to the ground",
+      "detail": "Every structure in a 35-square-block area destroyed by fire and looting in under 18 hours",
+      "source": "Tulsa Historical Society; Oklahoma Commission Report (2001)"
+    },
+    {
+      "figure": "0",
+      "label": "White perpetrators ever charged",
+      "detail": "The 1921 grand jury blamed Black residents for starting the conflict. No white participant in the massacre was ever prosecuted.",
+      "source": "Tulsa County court records (1921)"
+    }
+  ],
+
+  "significance": "The Tulsa Race Massacre was not an anomaly. It was the largest single episode in a pattern of organized destruction of Black wealth documented across the United States — from Rosewood, Florida (1923) to the Springfield Race Riot (1908) to the Red Summer of 1919. What made Tulsa distinctive was the scale, the aerial assault, the government participation, and the systematic cover-up that followed. The destruction of Greenwood was the destruction of an entire economy — not by market forces or individual failure, but by organized violence with official complicity. The wealth that was burned has never been recovered.",
+
+  "sourceUrl": "https://www.tulsahistory.org/exhibit/1921-tulsa-race-massacre/",
+  "sourceNote": "Tulsa Historical Society, 1921 Race Massacre"
+}

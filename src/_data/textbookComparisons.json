@@ -1,0 +1,42 @@
+[
+  {
+    "topic": "Why the South seceded",
+    "lostCauseVersion": "\"The Southern States seceded from the Union to defend the constitutional right of self-government and state sovereignty against federal tyranny.\"",
+    "lostCauseSource": "Typical framing in post-Reconstruction Southern textbooks; UDC-approved curricula, 1910s–1960s",
+    "historicalRecord": "Confederate leaders said explicitly in secession documents, the Confederate Constitution, and the Cornerstone Speech that secession was to preserve slavery. Mississippi's declaration (1861): 'Our position is thoroughly identified with the institution of slavery — the greatest material interest of the world.'",
+    "primarySourceUrl": "https://avalon.law.yale.edu/19th_century/csa_mstat.asp",
+    "primarySourceNote": "Mississippi Declaration of Secession, January 1861"
+  },
+  {
+    "topic": "Slavery",
+    "lostCauseVersion": "\"Though slavery was imperfect, enslaved people were generally treated kindly and lived as part of an extended family under the care of benevolent masters. Most slaves were content and loyal.\"",
+    "lostCauseSource": "\"A School History of the United States\" by Mary Tucker Magill (1873); numerous UDC-approved texts through the 1950s",
+    "historicalRecord": "Enslaved people escaped in the hundreds of thousands during the Civil War. 180,000 Black men fought in the Union Army against their 'benevolent masters.' Slave narratives and Freedmen's Bureau records document systematic violence, family separation, and rape as standard tools of the system.",
+    "primarySourceUrl": "https://www.loc.gov/collections/slave-narratives-from-the-federal-writers-project-1936-to-1938/",
+    "primarySourceNote": "Federal Writers' Project Slave Narratives, Library of Congress"
+  },
+  {
+    "topic": "Reconstruction",
+    "lostCauseVersion": "\"Reconstruction was a period of humiliation and corruption in which Northern carpetbaggers and ignorant freedmen, incapable of self-government, looted the South. The Ku Klux Klan arose to restore order and protect white women.\"",
+    "lostCauseSource": "William Archibald Dunning, \"Reconstruction, Political and Economic\" (1907); Claude Bowers, \"The Tragic Era\" (1929); used in American classrooms through the 1960s",
+    "historicalRecord": "Reconstruction governments built the South's first public schools, first public hospitals, and wrote some of the most democratic state constitutions in American history. Freedmen elected to Congress had higher educational attainment than their white Democratic counterparts. The Klan was a terrorist organization that murdered thousands of Black officeholders, voters, and witnesses.",
+    "primarySourceUrl": "https://www.loc.gov/collections/reconstruction/about-this-collection/",
+    "primarySourceNote": "Library of Congress, Reconstruction Collection"
+  },
+  {
+    "topic": "Confederate leaders",
+    "lostCauseVersion": "\"Robert E. Lee was a great American patriot who opposed slavery personally but felt he had no choice but to serve Virginia. He was a noble, Christian gentleman who fought honorably and accepted defeat with grace.\"",
+    "lostCauseSource": "Jubal Early and the Southern Historical Society, 1870s–onward; dominant in textbooks through the 20th century",
+    "historicalRecord": "Lee personally oversaw the whipping of enslaved people who tried to escape his estate. He fought against the United States — a treasonous act under the Constitution. After the war, he opposed Black suffrage, Black citizenship, and any formal reconciliation that acknowledged Confederate guilt. He was not pardoned during his lifetime.",
+    "primarySourceUrl": "https://www.theatlantic.com/magazine/archive/2017/06/robert-e-lee-was-not-a-hero/524513/",
+    "primarySourceNote": "Adam Serwer, The Atlantic (2017)"
+  },
+  {
+    "topic": "Black political participation",
+    "lostCauseVersion": "\"During Reconstruction, illiterate freedmen were manipulated by corrupt Northern politicians and thrust into offices they were not prepared to hold, resulting in chaos and corruption.\"",
+    "lostCauseSource": "Dunning School historians; widely repeated in state-adopted textbooks",
+    "historicalRecord": "Many Black Reconstruction legislators had been educated secretly at personal risk, or were educated freedmen and free Black citizens. Hiram Revels and Blanche Bruce (US Senators) were among the most educated people in Congress. Black legislators introduced the South's first public education bills. The 'chaos' argument was applied selectively — white corruption in the same era went largely unremarked.",
+    "primarySourceUrl": "https://www.blackpast.org/african-american-history/reconstruction-era-1865-1877/",
+    "primarySourceNote": "BlackPast Encyclopedia"
+  }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "decade": "1865–1874",
+    "label": "1865",
+    "count": 6,
+    "isPeak": false,
+    "context": "Mostly private cemetery markers and small battlefield memorials erected by Confederate veterans' groups",
+    "events": []
+  },
+  {
+    "decade": "1875–1884",
+    "label": "1875",
+    "count": 14,
+    "isPeak": false,
+    "context": "Slow growth as the UCV (United Confederate Veterans) begins organizing",
+    "events": ["Reconstruction ends (1877)", "Federal troops withdrawn from the South (1877)"]
+  },
+  {
+    "decade": "1885–1894",
+    "label": "1885",
+    "count": 43,
+    "isPeak": false,
+    "context": "The United Daughters of the Confederacy founded in 1894. Monument construction accelerates as Jim Crow laws begin spreading across the South.",
+    "events": ["UDC founded (1894)"]
+  },
+  {
+    "decade": "1895–1904",
+    "label": "1895",
+    "count": 78,
+    "isPeak": false,
+    "context": "Jim Crow laws now law across the South. The UDC launches organized campaigns to erect monuments at courthouses and public squares — deliberately in spaces of civic power, not cemeteries.",
+    "events": ["Plessy v. Ferguson — separate but equal (1896)", "Wilmington Massacre (1898)"]
+  },
+  {
+    "decade": "1905–1914",
+    "label": "1905",
+    "count": 108,
+    "isPeak": true,
+    "context": "Peak of the first Jim Crow wave. The NAACP is founded in direct response to escalating racial terror. Confederate monuments are being placed at courthouses — the centers of legal power over Black citizens.",
+    "events": ["NAACP founded (1909)", "Peak of lynching era"]
+  },
+  {
+    "decade": "1915–1924",
+    "label": "1915",
+    "count": 97,
+    "isPeak": true,
+    "context": "Birth of a Nation released (1915) sparks KKK revival — membership grows from ~5,000 to nearly 5 million. Monument construction remains at historic highs.",
+    "events": ["Birth of a Nation released (1915)", "KKK revival — membership peaks at ~5 million (1924)", "Red Summer race massacres (1919)"]
+  },
+  {
+    "decade": "1925–1934",
+    "label": "1925",
+    "count": 38,
+    "isPeak": false,
+    "context": "First wave slows as KKK influence recedes. Many monuments now established in place.",
+    "events": []
+  },
+  {
+    "decade": "1935–1944",
+    "label": "1935",
+    "count": 19,
+    "isPeak": false,
+    "context": "Depression and wartime reduce monument construction significantly.",
+    "events": ["Gone With the Wind released (1939) — 8 Oscars, seen by more Americans than any prior film"]
+  },
+  {
+    "decade": "1945–1954",
+    "label": "1945",
+    "count": 26,
+    "isPeak": false,
+    "context": "Post-war period sees modest uptick as Southern identity politics re-emerge. Dixiecrat walkout at 1948 Democratic convention.",
+    "events": ["Dixiecrat walkout (1948)", "Truman desegregates military (1948)", "Brown v. Board decided (1954)"]
+  },
+  {
+    "decade": "1955–1964",
+    "label": "1955",
+    "count": 134,
+    "isPeak": true,
+    "context": "The largest single-decade spike in the entire dataset. Monument construction surges in direct response to the Civil Rights movement. Schools, highways, and public buildings are named for Confederate figures as a message to Black citizens and the federal government.",
+    "events": ["Rosa Parks / Montgomery Bus Boycott (1955)", "Little Rock Central High School crisis (1957)", "Sit-ins begin (1960)", "March on Washington (1963)", "Civil Rights Act (1964)"]
+  },
+  {
+    "decade": "1965–1974",
+    "label": "1965",
+    "count": 53,
+    "isPeak": false,
+    "context": "Voting Rights Act passes. Construction declines but continues as backlash to federal enforcement.",
+    "events": ["Voting Rights Act (1965)", "MLK assassinated (1968)"]
+  },
+  {
+    "decade": "1975–1984",
+    "label": "1975",
+    "count": 19,
+    "isPeak": false,
+    "context": "Monument construction drops to historic lows as the Civil Rights era fades from direct political conflict.",
+    "events": []
+  },
+  {
+    "decade": "1985–1994",
+    "label": "1985",
+    "count": 14,
+    "isPeak": false,
+    "context": "Lowest sustained level since the 1870s.",
+    "events": []
+  },
+  {
+    "decade": "1995–2004",
+    "label": "1995",
+    "count": 20,
+    "isPeak": false,
+    "context": "Small uptick tied to Confederate flag and heritage debates in the South.",
+    "events": ["Confederate flag controversy intensifies across Southern state capitals"]
+  },
+  {
+    "decade": "2005–2014",
+    "label": "2005",
+    "count": 17,
+    "isPeak": false,
+    "context": "Modest construction continues. Growing counter-movement begins documenting and challenging monuments.",
+    "events": []
+  },
+  {
+    "decade": "2015–present",
+    "label": "2015",
+    "count": -1,
+    "isPeak": false,
+    "isRemoval": true,
+    "context": "Charlottesville (2017) accelerates removals that began after the Charleston church massacre. Over 100 monuments removed 2017–2021.",
+    "events": ["Charleston church massacre (2015)", "Charlottesville white nationalist rally — 1 killed (2017)", "George Floyd murder / nationwide removal wave (2020)"]
+  }
+]

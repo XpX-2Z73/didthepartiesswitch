@@ -1,0 +1,27 @@
+{# Voting Access by State - All 11 Former Confederate States #}
+<div class="impact-grid">
+  {% for card in impactCards %}
+    <article class="impact-card{% if card.expanded %} impact-card--expanded{% endif %}{% if card.postShelby %} impact-card--post-shelby{% endif %}">
+      <header class="impact-card__header">
+        <span class="impact-card__abbr">{{ card.abbr }}</span>
+        <h3 class="impact-card__title">{{ card.title }}</h3>
+        {% if card.postShelby %}
+          <span class="impact-card__badge">Post-Shelby</span>
+        {% endif %}
+        {% if card.expanded %}
+          <span class="impact-card__badge impact-card__badge--expanded">Expanded Access</span>
+        {% endif %}
+      </header>
+      <div class="impact-card__stat">{{ card.stat }}</div>
+      <p class="impact-card__content">{{ card.content }}</p>
+      <footer class="impact-card__footer">
+        <a href="{{ card.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="impact-card__source">
+          {{ card.source }} →
+        </a>
+      </footer>
+    </article>
+  {% endfor %}
+</div>
+<p class="impact-summary">
+  <strong>The pattern:</strong> Of the 11 former Confederate states, 8 enacted new voting restrictions after <em>Shelby County v. Holder</em> (2013) removed federal preclearance requirements. Only Virginia expanded access, and only Virginia voted Democratic in 2024.
+</p>

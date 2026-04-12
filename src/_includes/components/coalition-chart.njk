@@ -1,0 +1,39 @@
+{# Coalition Chart component - pre-rendered bar chart #}
+{# Data comes from coalition.json #}
+<div class="coalition-chart" id="coalition-chart" role="group" aria-labelledby="coalition-data-heading coalition-chart-note">
+  {% for point in coalition %}
+    <div class="chart-row{% if point.quotes %} chart-row--has-quotes{% endif %}"{% if point.quotes %} tabindex="0" role="button" aria-expanded="false"{% endif %}>
+      <span class="chart-year">{{ point.year }}</span>
+      <div class="chart-bar" role="img" aria-label="{{ point.share }}% of seceding states went Republican in {{ point.year }}">
+        <div class="chart-fill" style="width: {{ point.share }}%;" data-value="{{ point.share }}%"></div>
+      </div>
+      <div class="chart-annotation">
+        <strong>{{ point.label }}</strong>
+        {% if point.description %}
+          <span>{{ point.description }}</span>
+        {% endif %}
+        {% if point.quotes %}
+          <span class="chart-expand-hint">Click for quotes</span>
+        {% endif %}
+      </div>
+      {% if point.quotes %}
+        <div class="chart-quotes" aria-hidden="true">
+          {% for quote in point.quotes %}
+            <blockquote class="chart-quote">
+              <p>"{{ quote.text }}"</p>
+              <cite>— {{ quote.source }}</cite>
+            </blockquote>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+
+  {# Screen reader accessible summary #}
+  <dl class="sr-only">
+    {% for point in coalition %}
+      <dt>{{ point.year }}</dt>
+      <dd>{{ point.share }}% Republican share - {{ point.label }}. {{ point.description }}</dd>
+    {% endfor %}
+  </dl>
+</div>

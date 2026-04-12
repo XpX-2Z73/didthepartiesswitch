@@ -1,0 +1,298 @@
+---
+layout: layouts/base.njk
+title: The Lost Cause — The Myth Machine
+description: The Lost Cause mythology was not a natural evolution of Southern memory. It was a coordinated campaign, launched within months of Confederate defeat, to rewrite the war's causes, rehabilitate its leaders, and lay the groundwork for Jim Crow.
+permalink: /lost-cause/
+---
+
+<section class="hero hero--short" id="chapter-intro" data-chapter="Lost Cause">
+  <div class="hero__content">
+    <span class="eyebrow">Manufactured History</span>
+    <h1 class="headline-hero hero__title">The Myth Machine</h1>
+    <p class="subheadline hero__subtitle">
+      Not grief. A coordinated campaign to rewrite the war and lay the ground for Jim Crow.
+    </p>
+  </div>
+</section>
+
+{# ============================================
+   WHAT IT IS
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-definition" data-chapter="What It Claims">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Five Core Claims</span>
+      <h2 class="headline-chapter">What the Lost Cause Says</h2>
+      <p class="subheadline">
+        The mythology is not random. It is a coherent set of claims, each designed to serve a specific political purpose. Each is contradicted by the documentary record — including documents written by Confederate leaders themselves.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="lc-claims-grid">
+        <div class="lc-claim reveal">
+          <div class="lc-claim__myth">
+            <span class="lc-claim__label">The Claim</span>
+            <p class="lc-claim__text">The Civil War was fought over states' rights, not slavery.</p>
+          </div>
+          <div class="lc-claim__reality">
+            <span class="lc-claim__label lc-claim__label--reality">The Record</span>
+            <p class="lc-claim__text">Confederate secession documents name slavery as the cause explicitly. Mississippi (1861): "Our position is thoroughly identified with the institution of slavery — the greatest material interest of the world." The Confederate Constitution explicitly protected slavery. Confederate Vice President Alexander Stephens called slavery the "cornerstone" of the Confederacy.</p>
+          </div>
+        </div>
+
+        <div class="lc-claim reveal">
+          <div class="lc-claim__myth">
+            <span class="lc-claim__label">The Claim</span>
+            <p class="lc-claim__text">Enslaved people were treated well and were generally content.</p>
+          </div>
+          <div class="lc-claim__reality">
+            <span class="lc-claim__label lc-claim__label--reality">The Record</span>
+            <p class="lc-claim__text">When the Civil War began, 500,000 enslaved people escaped toward Union lines. 180,000 Black men enlisted in the Union Army to fight against the Confederacy. Enslaved people were not content; they recognized the war as an opportunity for liberation and acted on it at massive scale and personal risk.</p>
+          </div>
+        </div>
+
+        <div class="lc-claim reveal">
+          <div class="lc-claim__myth">
+            <span class="lc-claim__label">The Claim</span>
+            <p class="lc-claim__text">The South was outnumbered and outgunned — Confederate defeat was inevitable.</p>
+          </div>
+          <div class="lc-claim__reality">
+            <span class="lc-claim__label lc-claim__label--reality">The Record</span>
+            <p class="lc-claim__text">The Confederacy controlled its own territory and had significant strategic advantages — interior lines, defensive positioning, a population motivated to fight. Historians do not consider Confederate defeat inevitable. This claim exists to make surrender sound noble and to preempt the question of whether the cause itself was wrong.</p>
+          </div>
+        </div>
+
+        <div class="lc-claim reveal">
+          <div class="lc-claim__myth">
+            <span class="lc-claim__label">The Claim</span>
+            <p class="lc-claim__text">Reconstruction was a period of corruption and "negro misrule" imposed on a prostrate South.</p>
+          </div>
+          <div class="lc-claim__reality">
+            <span class="lc-claim__label lc-claim__label--reality">The Record</span>
+            <p class="lc-claim__text">Reconstruction governments built the South's first public schools and public hospitals. Black legislators were among the most educated in their chambers. The "corruption" was largely mythologized. What ended Reconstruction was organized terrorism: the Klan, the White League, and the Red Shirts murdered Black officeholders and voters until federal protection was withdrawn.</p>
+          </div>
+        </div>
+
+        <div class="lc-claim reveal">
+          <div class="lc-claim__myth">
+            <span class="lc-claim__label">The Claim</span>
+            <p class="lc-claim__text">Confederate leaders — especially Robert E. Lee — were noble, honorable men who personally opposed slavery.</p>
+          </div>
+          <div class="lc-claim__reality">
+            <span class="lc-claim__label lc-claim__label--reality">The Record</span>
+            <p class="lc-claim__text">Lee personally oversaw the whipping of enslaved people at his estate and opposed Black suffrage after the war. Jefferson Davis advocated for expanding slavery to the Western territories. The "personally opposed slavery" claim about Lee appears in no contemporaneous source; it originated in post-war mythology. These men took up arms against the United States government.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   THE ARCHITECTS
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-architects" data-chapter="The Architects">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The People Who Built It</span>
+      <h2 class="headline-chapter">This Was Organized</h2>
+      <p class="subheadline">
+        The Lost Cause did not arise organically from Southern grief. It was constructed deliberately, beginning in 1866, by identifiable people with identifiable purposes.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="architect-cards">
+        {% for architect in lostCauseArchitects %}
+        <article class="architect-card reveal">
+          <header class="architect-card__header">
+            <div>
+              <h3 class="architect-card__name">{{ architect.name }}</h3>
+              <span class="architect-card__role">{{ architect.role }}</span>
+              <span class="architect-card__years">{{ architect.years }}</span>
+            </div>
+          </header>
+
+          <p class="architect-card__contribution">{{ architect.contribution }}</p>
+          <p class="architect-card__description">{{ architect.description }}</p>
+
+          {% if architect.quotes and architect.quotes.length > 0 %}
+          <blockquote class="architect-card__quote">
+            <p>"{{ architect.quotes[0].text }}"</p>
+            <cite>— {{ architect.quotes[0].source }}</cite>
+          </blockquote>
+          {% endif %}
+
+          <div class="architect-card__tactics">
+            <strong>Methods:</strong>
+            <ul class="architect-card__tactics-list">
+              {% for tactic in architect.tactics %}
+              <li>{{ tactic }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+
+          <div class="architect-card__legacy">
+            <strong>Legacy:</strong> {{ architect.legacy }}
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   TEXTBOOKS
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-textbooks" data-chapter="The Textbooks">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">What Children Were Taught</span>
+      <h2 class="headline-chapter">The Classroom as Weapon</h2>
+      <p class="subheadline">
+        The UDC's most effective tool was the textbook. For generations, Southern children — and through the Dunning School, Northern children — were taught a version of history where slavery was benign, Confederate leaders were heroes, and Reconstruction was a disaster caused by Black political participation.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="textbook-comparisons">
+        {% for comparison in textbookComparisons %}
+        <div class="textbook-comparison reveal">
+          <div class="textbook-comparison__topic">{{ comparison.topic }}</div>
+          <div class="textbook-comparison__columns">
+            <div class="textbook-comparison__myth">
+              <div class="textbook-comparison__col-label">Lost Cause Version</div>
+              <blockquote class="textbook-comparison__quote">
+                <p>{{ comparison.lostCauseVersion }}</p>
+              </blockquote>
+              <span class="textbook-comparison__source">{{ comparison.lostCauseSource }}</span>
+            </div>
+            <div class="textbook-comparison__reality">
+              <div class="textbook-comparison__col-label textbook-comparison__col-label--reality">Historical Record</div>
+              <p class="textbook-comparison__text">{{ comparison.historicalRecord }}</p>
+              <a href="{{ comparison.primarySourceUrl }}" target="_blank" rel="noopener noreferrer" class="textbook-comparison__source-link">Source &rarr;</a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   MEDIA
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-media" data-chapter="The Media">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Beyond the Textbook</span>
+      <h2 class="headline-chapter">The Myth Goes to Hollywood</h2>
+      <p class="subheadline">
+        Film and television carried Lost Cause mythology to audiences that books never reached — and to people far outside the South.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="media-cards">
+        {% for media in lostCauseMedia %}
+        {% if media.type != "note" %}
+        <article class="media-card reveal">
+          <header class="media-card__header">
+            <div class="media-card__year-badge">{{ media.year }}</div>
+            <div>
+              <h3 class="media-card__title">{{ media.title }}</h3>
+              <span class="media-card__type">{{ media.type | replace("-", " ") | title }}</span>
+            </div>
+          </header>
+
+          <p class="media-card__creator">{{ media.creator }}</p>
+          <p class="media-card__description">{{ media.description }}</p>
+
+          <ul class="media-card__impact">
+            {% for item in media.impact %}
+            <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+
+          {% if media.wilsonQuote %}
+          <blockquote class="media-card__quote">
+            <p>"{{ media.wilsonQuote }}"</p>
+            <cite>— {{ media.wilsonSource }}</cite>
+          </blockquote>
+          {% endif %}
+
+          <a href="{{ media.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="media-card__source">{{ media.sourceNote }} &rarr;</a>
+        </article>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="chapter__content chapter__content--narrow reveal" style="margin-top: var(--space-lg);">
+      <div class="callout callout--highlight">
+        <p style="font-size: 1.05rem; line-height: 1.8;">
+          Lost Cause mythology also spread through a structural Hollywood pattern: civil rights films told from white protagonists' perspectives — making white characters the agents of Black liberation while Black Americans remained backdrop. <em>Mississippi Burning</em> (1988), <em>The Help</em> (2011), and <em>Green Book</em> (2018) all follow this template, which obscures the organized political agency of Black Americans who led the civil rights movement themselves.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   WHY IT PERSISTS
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-persistence" data-chapter="Why It Persists">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <span class="eyebrow">Why This Matters Now</span>
+      <h2 class="headline-chapter">The Myth Is Still Operational</h2>
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9; margin-bottom: var(--space-md);">
+        The Lost Cause is not a relic. Polling consistently shows that roughly 40% of Americans believe the Civil War was primarily about states' rights rather than slavery — a belief that has no support in primary sources and was not widely held until the Lost Cause mythology took hold. That belief was manufactured. It was put into textbooks, onto courthouse lawns, and onto film screens over the course of 80 years.
+      </p>
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9; margin-bottom: var(--space-md);">
+        Understanding the Lost Cause is not optional background knowledge for understanding American history. It is the prerequisite. Debates about Reconstruction, voting rights, policing, monuments, and Confederate symbolism all make a different kind of sense once you understand that one side of those debates has been operating from a coherent, constructed counter-narrative for 160 years.
+      </p>
+      <div class="callout callout--highlight" style="margin-top: var(--space-md);">
+        <p style="font-size: 1.05rem; line-height: 1.8;">
+          "The Lost Cause was not a retreat into the past. It was a blueprint for the future."
+        </p>
+        <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.5rem;">
+          — Karen Cox, <em>Dixie's Daughters: The United Daughters of the Confederacy and the Preservation of Confederate Culture</em> (2003)
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# Reading Nav #}
+<section class="chapter chapter--dark" id="chapter-reading-nav" aria-label="Reading navigation">
+  <nav class="reading-nav">
+    <a href="/convict-leasing/" class="reading-nav__link reading-nav__link--prev">
+      <span class="reading-nav__label">Previous Chapter</span>
+      <span class="reading-nav__title">Convict Leasing</span>
+      <span class="reading-nav__arrow">&larr;</span>
+    </a>
+    <a href="/lynching/" class="reading-nav__link reading-nav__link--next">
+      <span class="reading-nav__label">Next Chapter</span>
+      <span class="reading-nav__title">Racial Terror</span>
+      <span class="reading-nav__arrow">&rarr;</span>
+    </a>
+  </nav>
+</section>
+
+{# ============================================
+   NAVIGATION
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-explore">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Continue Exploring</span>
+      <h2 class="headline-section">The Connected History</h2>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+        <a href="/monuments/" class="btn btn--primary">Confederate Monuments</a>
+        <a href="/convict-leasing/" class="btn btn--secondary">Slavery by Another Name</a>
+        <a href="/reconstruction/" class="btn btn--secondary">Reconstruction</a>
+        <a href="/bingo/" class="btn btn--secondary">Claims &amp; Responses</a>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,127 @@
+{
+  "scaleStats": [
+    {
+      "figure": "239",
+      "label": "cities mapped by the HOLC",
+      "detail": "Between 1935 and 1940, the federal Home Owners' Loan Corporation graded neighborhoods in 239 American cities — creating the infrastructure for a generation of discriminatory lending.",
+      "source": "National Community Reinvestment Coalition (NCRC), 2018"
+    },
+    {
+      "figure": "98%",
+      "label": "of GI Bill home loans went to white veterans",
+      "detail": "The 1944 GI Bill offered low-interest mortgages to 16 million veterans. Banks and the FHA refused to underwrite loans in Black neighborhoods or to Black borrowers. In Mississippi, only 2 of 3,229 VA home loans went to Black veterans.",
+      "source": "Ira Katznelson, When Affirmative Action Was White (2005)"
+    },
+    {
+      "figure": "2x",
+      "label": "lower home values in redlined areas today",
+      "detail": "A 2018 NCRC analysis of 138 cities found that 74% of neighborhoods graded 'Hazardous' (red) in the 1930s are still low-to-moderate income today. Median home values remain roughly half those of formerly 'Best' (green) neighborhoods in the same cities.",
+      "source": "NCRC, 'Redlining and Neighborhood Health' (2020)"
+    },
+    {
+      "figure": "$212K",
+      "label": "median white family net worth vs. $26K for Black families",
+      "detail": "Homeownership is the primary wealth-building mechanism for American families. The 8:1 racial wealth gap today is structurally traceable to a generation of federally enforced exclusion from the postwar wealth boom.",
+      "source": "Federal Reserve Survey of Consumer Finances, 2022"
+    }
+  ],
+  "holcGrades": [
+    {
+      "grade": "A",
+      "color": "Green",
+      "label": "Best",
+      "description": "New, homogeneous, in-demand neighborhoods with no 'infiltration' of foreign-born residents or 'Negroes.' Banks would freely lend here.",
+      "who": "White, native-born, middle to upper class"
+    },
+    {
+      "grade": "B",
+      "color": "Blue",
+      "label": "Still Desirable",
+      "description": "Older but stable neighborhoods. Would receive loans, though with stricter terms than Grade A.",
+      "who": "White, mixed class"
+    },
+    {
+      "grade": "C",
+      "color": "Yellow",
+      "label": "Definitely Declining",
+      "description": "Neighborhoods noted for 'infiltration' of 'foreign-born families' or other groups deemed undesirable. Loans possible but expensive.",
+      "who": "Mixed, including recent immigrants"
+    },
+    {
+      "grade": "D",
+      "color": "Red",
+      "label": "Hazardous",
+      "description": "Any neighborhood with Black residents — regardless of income, home condition, or stability — was graded D. Banks would not lend. The word 'redlining' comes from the literal red lines drawn around these areas.",
+      "who": "Black residents, regardless of class or income"
+    }
+  ],
+  "mechanisms": [
+    {
+      "name": "HOLC Neighborhood Ratings (1935–1940)",
+      "actor": "Federal Home Owners' Loan Corporation",
+      "mechanism": "Federal agents surveyed 239 cities and created color-coded maps rating neighborhoods for lending risk. Any area with Black residents was graded D (Hazardous) by default — not because of housing quality, but because of race. Banks used these maps as the standard reference for decades.",
+      "impact": "Established the geographic architecture of segregation that still defines American cities."
+    },
+    {
+      "name": "FHA Underwriting Manual",
+      "actor": "Federal Housing Administration",
+      "mechanism": "The FHA's official underwriting manual explicitly warned against lending in 'inharmonious racial groups' and recommended deed restrictions barring Black buyers. The manual stated that 'incompatible racial elements' would lower property values. This was federal policy, not individual bank bias.",
+      "impact": "Locked Black families out of the postwar suburban expansion. Levittown (Long Island) had a contractual ban on non-white residents; the FHA insured its mortgages anyway."
+    },
+    {
+      "name": "GI Bill Exclusion (1944)",
+      "actor": "Veterans Administration and private banks",
+      "mechanism": "The Servicemen's Readjustment Act of 1944 (GI Bill) offered low-interest mortgages, college tuition, and business loans to 16 million veterans. The VA administered the program through private banks — which refused to extend loans to Black veterans or in Black neighborhoods. The federal government did not require nondiscrimination.",
+      "impact": "White veterans built equity in homes that tripled in value over 30 years. Black veterans were excluded. This single policy did more to create the racial wealth gap than any other postwar measure."
+    },
+    {
+      "name": "Racially Restrictive Covenants",
+      "actor": "Private developers, neighborhood associations, courts",
+      "mechanism": "Deed covenants contractually prohibited the sale of homes to Black buyers. Enforceable in court until Shelley v. Kraemer (1948), which ruled them unenforceable — but the FHA continued insuring subdivisions with covenants for years afterward. Many covenants remain in original deeds today.",
+      "impact": "Locked Black families out of new suburban developments during the critical postwar wealth-building era."
+    },
+    {
+      "name": "Contract Selling",
+      "actor": "Predatory real estate speculators",
+      "mechanism": "Black families desperate to buy in cities were sold homes on 'contract' — they paid monthly installments but held no equity and could be evicted for missing a single payment, at which point all prior payments were forfeit. Sellers often bought from white owners at market price and resold to Black buyers at 2–3x markup with no path to ownership.",
+      "impact": "Documented in Beryl Satter's 'Family Properties' (2009): Chicago's contract sellers extracted an estimated $500 million from Black families — roughly $3.2 billion in 2024 dollars."
+    }
+  ],
+  "cities": [
+    {
+      "city": "Chicago, Illinois",
+      "detail": "The South Side and West Side were comprehensively redlined. Between 1930 and 1960, Chicago's Black population grew from 233,000 to 813,000 — almost entirely contained within the redlined zone. By 1960, 25% of the city's population occupied 9% of the land. Contract selling extracted hundreds of millions of dollars. Public housing projects were deliberately sited in redlined areas to reinforce segregation.",
+      "presentDay": "Redlined neighborhoods on Chicago's South and West sides have median home values roughly half the citywide average. The same ZIP codes show up in maps of poverty, school underfunding, and health disparities.",
+      "sourceUrl": "https://www.npr.org/sections/codeswitch/2018/04/11/601494521/a-forgotten-history-of-how-the-u-s-government-segregated-america",
+      "sourceNote": "NPR Code Switch"
+    },
+    {
+      "city": "Baltimore, Maryland",
+      "detail": "Baltimore was one of the first cities to enact racial residential zoning (1910). The HOLC maps reinforced decades of existing segregation. Black residents were confined to a narrow band of the city, paying premium prices for substandard housing. The Interstate Highway System (I-95, I-83) was routed through Black neighborhoods in the 1950s–60s, destroying the communities that had survived redlining.",
+      "presentDay": "Life expectancy differences between Baltimore neighborhoods range up to 20 years — closely tracking the HOLC redlining maps from 1937.",
+      "sourceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0261028",
+      "sourceNote": "PLOS ONE — UMD Public Health Study (2022)"
+    },
+    {
+      "city": "Atlanta, Georgia",
+      "detail": "Atlanta's HOLC maps graded every Black neighborhood D regardless of income. Sweet Auburn — described in the HOLC's own documents as the \"best negro section in Atlanta\" — was graded Hazardous anyway, with instructions to sell properties \"as quickly as possible.\" Black families who had built wealth were excluded from the postwar mortgage market while white suburbanization was federally subsidized.",
+      "presentDay": "Atlanta has the highest income inequality of any major American city. The geographic split closely tracks the redlined/non-redlined boundary.",
+      "sourceUrl": "https://www.segregationbydesign.com/atlanta/redlining",
+      "sourceNote": "Segregation by Design (Georgia Tech)"
+    },
+    {
+      "city": "Detroit, Michigan",
+      "detail": "Detroit's auto industry employed hundreds of thousands of Black workers who migrated from the South. The HOLC mapped 200 Black neighborhoods as D, while the FHA insured all-white suburbs like Dearborn and Grosse Pointe. White workers built equity; Black workers paid rent. The 1967 uprising occurred in neighborhoods that had been redlined for 30 years.",
+      "presentDay": "Detroit is the most racially segregated major city in the United States. The redlined boundaries remain visible in present-day neighborhood demographics.",
+      "sourceUrl": "https://www.canr.msu.edu/redlining/detroit",
+      "sourceNote": "MSU Extension — Redlining in Detroit"
+    }
+  ],
+  "legacy": {
+    "presentDayCorrelation": "A 2020 study by the NCRC and three universities analyzed health and economic outcomes in 142 cities and found that formerly redlined neighborhoods have significantly higher rates of asthma, heart disease, diabetes, and premature death — outcomes that directly track 80-year-old lending maps.",
+    "wealthGap": "The Federal Reserve's 2022 Survey of Consumer Finances found the median white family holds $284,310 in wealth; the median Black family holds $44,890 — a 6:1 ratio. Homeownership accounts for the majority of American household wealth, and the homeownership gap traces directly to the federally enforced exclusion of the GI Bill era.",
+    "acknowledgment": "In 2021, Evanston, Illinois became the first American city to offer reparations for redlining — $400,000 in housing assistance funded by a tax on cannabis sales. No federal reparations program exists.",
+    "sourceUrl": "https://ncrc.org/holc-health/",
+    "sourceNote": "NCRC — HOLC and Health"
+  }
+}

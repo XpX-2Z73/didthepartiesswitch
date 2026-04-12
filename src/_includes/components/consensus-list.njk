@@ -1,0 +1,12 @@
+{# Historian Consensus List #}
+<div class="consensus-list">
+  {% for item in consensus %}
+    <article class="consensus-item">
+      <h3>{{ item.organization }}</h3>
+      <p>
+        {{ item.content | safe }}
+        <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.linkText }}</a>
+      </p>
+    </article>
+  {% endfor %}
+</div>

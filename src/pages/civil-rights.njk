@@ -1,0 +1,227 @@
+---
+layout: layouts/base.njk
+title: The Civil Rights Movement — How They Won
+description: The Civil Rights Movement was not a moral awakening. It was a disciplined political campaign that used economic disruption, legal challenges, and civil disobedience to make segregation too costly to sustain. They won the Civil Rights Act and the Voting Rights Act — and the vote that passed both proves why the parties switched.
+permalink: /civil-rights/
+---
+
+<section class="hero hero--short" id="chapter-intro" data-chapter="Civil Rights">
+  <div class="hero__content">
+    <span class="eyebrow">1954 – 1968</span>
+    <h1 class="headline-hero hero__title">How They Won</h1>
+    <p class="subheadline hero__subtitle">
+      Not waiting for justice. Organizing to extract it.
+    </p>
+  </div>
+</section>
+
+{# ============================================
+   THE ARGUMENT
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-argument" data-chapter="The Argument">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <div class="callout callout--highlight">
+        <p style="font-size: 1.1rem; line-height: 1.8;">{{ civilRightsData.introduction }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   SCALE
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-scale" data-chapter="Scale">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Numbers</span>
+      <h2 class="headline-chapter">The Scale of the Movement</h2>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="cr-stats-grid">
+        {% for stat in civilRightsData.scaleStats %}
+        <div class="cr-stat reveal">
+          <span class="cr-stat__figure">{{ stat.figure }}</span>
+          <span class="cr-stat__label">{{ stat.label }}</span>
+          <span class="cr-stat__detail">{{ stat.detail }}</span>
+          <span class="cr-stat__source">{{ stat.source }}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   TIMELINE
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-timeline" data-chapter="Timeline">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">1954 – 1968</span>
+      <h2 class="headline-chapter">Fourteen Years of Strategy</h2>
+    </div>
+    <div class="chapter__content chapter__content--narrow">
+      <div class="cr-timeline">
+        {% for event in civilRightsData.timeline %}
+        <div class="cr-timeline__event reveal">
+          <div class="cr-timeline__year">{{ event.year }}</div>
+          <div class="cr-timeline__body">
+            <h3 class="cr-timeline__title">{{ event.event }}</h3>
+            <p class="cr-timeline__detail">{{ event.detail }}</p>
+            <a href="{{ event.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="cr-timeline__source">{{ event.sourceNote }} &rarr;</a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   THE VOTE — KEY TO THE PARTY SWITCH
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-vote" data-chapter="The Vote">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Critical Evidence</span>
+      <h2 class="headline-chapter">{{ civilRightsData.civilRightsActVote.headline }}</h2>
+      <p class="subheadline">{{ civilRightsData.civilRightsActVote.explanation }}</p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="vote-breakdown-grid">
+        <div class="vote-breakdown reveal">
+          <h3 class="vote-breakdown__chamber">Senate Vote — Civil Rights Act (1964)</h3>
+          <div class="vote-breakdown__rows">
+            <div class="vote-breakdown__row">
+              <span class="vote-breakdown__group">Democrats (total)</span>
+              <span class="vote-breakdown__result">{{ civilRightsData.civilRightsActVote.senate.democratsTotal }}</span>
+            </div>
+            <div class="vote-breakdown__row">
+              <span class="vote-breakdown__group">Republicans (total)</span>
+              <span class="vote-breakdown__result">{{ civilRightsData.civilRightsActVote.senate.republicansTotal }}</span>
+            </div>
+            <div class="vote-breakdown__row vote-breakdown__row--divider"></div>
+            <div class="vote-breakdown__row vote-breakdown__row--key">
+              <span class="vote-breakdown__group">Northern Democrats</span>
+              <span class="vote-breakdown__result vote-breakdown__result--yes">{{ civilRightsData.civilRightsActVote.senate.northernDemocrats }}</span>
+            </div>
+            <div class="vote-breakdown__row vote-breakdown__row--key">
+              <span class="vote-breakdown__group">Southern Democrats</span>
+              <span class="vote-breakdown__result vote-breakdown__result--no">{{ civilRightsData.civilRightsActVote.senate.southernDemocrats }}</span>
+            </div>
+          </div>
+          <p class="vote-breakdown__note">{{ civilRightsData.civilRightsActVote.senate.note }}</p>
+        </div>
+        <div class="vote-breakdown reveal">
+          <h3 class="vote-breakdown__chamber">House Vote — Civil Rights Act (1964)</h3>
+          <div class="vote-breakdown__rows">
+            <div class="vote-breakdown__row">
+              <span class="vote-breakdown__group">Democrats (total)</span>
+              <span class="vote-breakdown__result">{{ civilRightsData.civilRightsActVote.house.democratsTotal }}</span>
+            </div>
+            <div class="vote-breakdown__row">
+              <span class="vote-breakdown__group">Republicans (total)</span>
+              <span class="vote-breakdown__result">{{ civilRightsData.civilRightsActVote.house.republicansTotal }}</span>
+            </div>
+            <div class="vote-breakdown__row vote-breakdown__row--divider"></div>
+            <div class="vote-breakdown__row vote-breakdown__row--key">
+              <span class="vote-breakdown__group">Northern Democrats</span>
+              <span class="vote-breakdown__result vote-breakdown__result--yes">{{ civilRightsData.civilRightsActVote.house.northernDemocrats }}</span>
+            </div>
+            <div class="vote-breakdown__row vote-breakdown__row--key">
+              <span class="vote-breakdown__group">Southern Democrats</span>
+              <span class="vote-breakdown__result vote-breakdown__result--no">{{ civilRightsData.civilRightsActVote.house.southernDemocrats }}</span>
+            </div>
+          </div>
+          <p class="vote-breakdown__note">{{ civilRightsData.civilRightsActVote.house.note }}</p>
+        </div>
+      </div>
+      <div class="chapter__content chapter__content--narrow reveal" style="margin-top: var(--space-md);">
+        <a href="{{ civilRightsData.civilRightsActVote.sourceUrl }}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-gold); font-size: 0.9rem;">{{ civilRightsData.civilRightsActVote.sourceNote }} &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   KEY FIGURES
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-figures" data-chapter="The Leaders">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Who Led It</span>
+      <h2 class="headline-chapter">Three People the Textbooks Shortchange</h2>
+      <p class="subheadline">
+        The movement had thousands of leaders. These three are among the most important and least fully represented in standard curricula.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="cr-figures-grid">
+        {% for figure in civilRightsData.keyFigures %}
+        <article class="cr-figure reveal">
+          <header class="cr-figure__header">
+            <h3 class="cr-figure__name">{{ figure.name }}</h3>
+            <span class="cr-figure__role">{{ figure.role }}</span>
+          </header>
+          <p class="cr-figure__significance">{{ figure.significance }}</p>
+          <blockquote class="cr-figure__quote">
+            <p>"{{ figure.quote }}"</p>
+            <cite>— {{ figure.quoteContext }}</cite>
+          </blockquote>
+          <a href="{{ figure.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="cr-figure__source">{{ figure.sourceNote }} &rarr;</a>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   CONCLUSION
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-conclusion" data-chapter="Legacy">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <span class="eyebrow">What It Means</span>
+      <h2 class="headline-chapter">The Movement as Strategy</h2>
+      <div class="callout callout--highlight">
+        <p style="font-size: 1.05rem; line-height: 1.8;">{{ civilRightsData.conclusion }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# Reading Nav #}
+<section class="chapter chapter--muted" id="chapter-reading-nav" aria-label="Reading navigation">
+  <nav class="reading-nav">
+    <a href="/great-migration/" class="reading-nav__link reading-nav__link--prev">
+      <span class="reading-nav__label">Previous Chapter</span>
+      <span class="reading-nav__title">The Great Migration</span>
+      <span class="reading-nav__arrow">&larr;</span>
+    </a>
+    <a href="/southern-strategy/" class="reading-nav__link reading-nav__link--next">
+      <span class="reading-nav__label">Next Chapter</span>
+      <span class="reading-nav__title">The Southern Strategy</span>
+      <span class="reading-nav__arrow">&rarr;</span>
+    </a>
+  </nav>
+</section>
+
+{# ============================================
+   NAVIGATION
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-explore">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Continue Exploring</span>
+      <h2 class="headline-section">The Connected History</h2>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+        <a href="/southern-strategy/" class="btn btn--primary">The Southern Strategy</a>
+        <a href="/party-realignment/" class="btn btn--secondary">Party Realignment Evidence</a>
+        <a href="/voting-access/" class="btn btn--secondary">Voting Today</a>
+        <a href="/lynching/" class="btn btn--secondary">Racial Terror</a>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,234 @@
+---
+layout: layouts/base.njk
+title: Tulsa 1921 — The Destruction of Black Wall Street
+description: On June 1, 1921, white mobs backed by government officials burned 35 blocks of the wealthiest Black community in America. At least 300 people were killed. No one was ever charged. The city buried the event for 80 years.
+permalink: /tulsa/
+---
+
+<section class="hero hero--short" id="chapter-intro" data-chapter="Tulsa">
+  <div class="hero__content">
+    <span class="eyebrow">June 1, 1921</span>
+    <h1 class="headline-hero hero__title">Black Wall Street</h1>
+    <p class="subheadline hero__subtitle">
+      35 blocks burned. 300 dead. 10,000 displaced. The city buried it for 80 years.
+    </p>
+  </div>
+</section>
+
+{# ============================================
+   THE ARGUMENT
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-argument" data-chapter="What Happened">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <div class="callout callout--highlight">
+        <p style="font-size: 1.1rem; line-height: 1.8;">{{ tulsaData.introduction }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   THE SCALE
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-scale" data-chapter="The Scale">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">What Was Destroyed</span>
+      <h2 class="headline-chapter">The Numbers</h2>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="tulsa-stats-grid">
+        {% for stat in tulsaData.scaleStats %}
+        <div class="tulsa-stat reveal">
+          <span class="tulsa-stat__figure">{{ stat.figure }}</span>
+          <span class="tulsa-stat__label">{{ stat.label }}</span>
+          <span class="tulsa-stat__detail">{{ stat.detail }}</span>
+          <span class="tulsa-stat__source">{{ stat.source }}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   GREENWOOD
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-greenwood" data-chapter="Greenwood">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Before the Massacre</span>
+      <h2 class="headline-chapter">Black Wall Street</h2>
+    </div>
+    <div class="chapter__content chapter__content--narrow reveal">
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9; margin-bottom: var(--space-md);">{{ tulsaData.greenwood.description }}</p>
+      <div class="greenwood-stats">
+        {% for stat in tulsaData.greenwood.stats %}
+        <div class="greenwood-stat reveal">
+          <span class="greenwood-stat__figure">{{ stat.figure }}</span>
+          <span class="greenwood-stat__label">{{ stat.label }}</span>
+          <span class="greenwood-stat__detail">{{ stat.detail }}</span>
+          <span class="greenwood-stat__source">{{ stat.source }}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   THE TRIGGER
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-trigger" data-chapter="The Trigger">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <span class="eyebrow">What Started It</span>
+      <h2 class="headline-chapter">Dick Rowland</h2>
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9; margin-bottom: var(--space-md);">{{ tulsaData.trigger.summary }}</p>
+      <div class="callout callout--dark">
+        <p style="font-size: 0.95rem; line-height: 1.8;">{{ tulsaData.trigger.note }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   THE MASSACRE — TIMELINE
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-massacre" data-chapter="The Massacre">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">May 31 – June 1, 1921</span>
+      <h2 class="headline-chapter">Eighteen Hours</h2>
+      <p class="subheadline">
+        What happened, in sequence, as documented by eyewitness testimony and the Oklahoma Commission Report.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--narrow">
+      <div class="tulsa-timeline">
+        {% for event in tulsaData.massacre.timelineEvents %}
+        <div class="tulsa-timeline__event reveal">
+          <div class="tulsa-timeline__time">{{ event.time }}</div>
+          <div class="tulsa-timeline__body">
+            <h3 class="tulsa-timeline__title">{{ event.event }}</h3>
+            <p class="tulsa-timeline__detail">{{ event.detail }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   DEATH TOLL
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-deaths" data-chapter="Death Toll">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <span class="eyebrow">The Count</span>
+      <h2 class="headline-chapter">How Many Died</h2>
+      <div class="tulsa-death-toll reveal">
+        <div class="tulsa-death-toll__row">
+          <span class="tulsa-death-toll__label">Official 1921 count:</span>
+          <span class="tulsa-death-toll__value">{{ tulsaData.deathToll.officialAtTime }}</span>
+        </div>
+        <div class="tulsa-death-toll__row">
+          <span class="tulsa-death-toll__label">Historian estimate:</span>
+          <span class="tulsa-death-toll__value">{{ tulsaData.deathToll.historianEstimate }}</span>
+        </div>
+      </div>
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9; margin-top: var(--space-md);">{{ tulsaData.deathToll.note }}</p>
+      <p style="margin-top: var(--space-sm);">
+        <a href="{{ tulsaData.deathToll.sourceUrl }}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-gold); font-size: 0.9rem;">Tulsa Historical Society, 1921 Race Massacre &rarr;</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   GOVERNMENT ROLE
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-government" data-chapter="Government Role">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <span class="eyebrow">Who Was Responsible</span>
+      <h2 class="headline-chapter">This Was Not a Riot</h2>
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9; margin-bottom: var(--space-md);">{{ tulsaData.government.role }}</p>
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9;">{{ tulsaData.government.aftermath }}</p>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   COVER-UP AND REPARATIONS
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-coverup" data-chapter="The Cover-Up">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <span class="eyebrow">80 Years of Silence</span>
+      <h2 class="headline-chapter">The Cover-Up</h2>
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9; margin-bottom: var(--space-md);">{{ tulsaData.coverUp.description }}</p>
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9; margin-bottom: var(--space-md);">{{ tulsaData.coverUp.rediscovery }}</p>
+    </div>
+    <div class="chapter__content chapter__content--narrow reveal" style="margin-top: var(--space-lg);">
+      <span class="eyebrow">The Commission Report</span>
+      <h2 class="headline-chapter" style="font-size: 1.5rem;">Reparations Recommended. Not Paid.</h2>
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9; margin-bottom: var(--space-md);">{{ tulsaData.reparations.summary }}</p>
+      <a href="{{ tulsaData.reparations.sourceUrl }}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-gold); font-size: 0.9rem;">Oklahoma Commission Report (2001) &rarr;</a>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   SIGNIFICANCE
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-significance" data-chapter="Significance">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <span class="eyebrow">Why It Matters</span>
+      <h2 class="headline-chapter">Not an Anomaly</h2>
+      <div class="callout callout--highlight">
+        <p style="font-size: 1.05rem; line-height: 1.8;">{{ tulsaData.significance }}</p>
+      </div>
+      <p style="margin-top: var(--space-md);">
+        <a href="{{ tulsaData.sourceUrl }}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-gold); font-size: 0.9rem;">{{ tulsaData.sourceNote }} &rarr;</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+{# Reading Nav #}
+<section class="chapter chapter--dark" id="chapter-reading-nav" aria-label="Reading navigation">
+  <nav class="reading-nav">
+    <a href="/lynching/" class="reading-nav__link reading-nav__link--prev">
+      <span class="reading-nav__label">Previous Chapter</span>
+      <span class="reading-nav__title">Racial Terror</span>
+      <span class="reading-nav__arrow">&larr;</span>
+    </a>
+    <a href="/redlining/" class="reading-nav__link reading-nav__link--next">
+      <span class="reading-nav__label">Next Chapter</span>
+      <span class="reading-nav__title">Redlining</span>
+      <span class="reading-nav__arrow">&rarr;</span>
+    </a>
+  </nav>
+</section>
+
+{# ============================================
+   NAVIGATION
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-explore">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Continue Exploring</span>
+      <h2 class="headline-section">The Connected History</h2>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+        <a href="/lynching/" class="btn btn--primary">Racial Terror</a>
+        <a href="/redlining/" class="btn btn--secondary">The Wealth Gap</a>
+        <a href="/great-migration/" class="btn btn--secondary">The Great Migration</a>
+        <a href="/reconstruction/" class="btn btn--secondary">Reconstruction</a>
+      </div>
+    </div>
+  </div>
+</section>

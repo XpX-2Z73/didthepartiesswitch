@@ -1,0 +1,92 @@
+[
+  {
+    "year": 1860,
+    "party": "Republican",
+    "quote": "The normal condition of all the territory of the United States is that of freedom... we deny the authority of Congress, of a territorial legislature, or of any individuals, to give legal existence to slavery in any territory.",
+    "translation": "Ban slavery in all territories.",
+    "source": "Republican Platform, 1860",
+    "sourceUrl": "https://www.presidency.ucsb.edu/documents/republican-party-platform-1860",
+    "archiveUrl": "https://web.archive.org/web/20240526141122/https://www.presidency.ucsb.edu/documents/republican-party-platform-1860",
+    "era": "anti-slavery"
+  },
+  {
+    "year": 1860,
+    "party": "Southern Democratic",
+    "quote": "It is the duty of the Federal Government to protect the rights of persons and property in the Territories.",
+    "translation": "Protect slavery.",
+    "source": "Southern Democratic Platform, 1860",
+    "sourceUrl": "https://www.presidency.ucsb.edu/documents/1860-democratic-party-platform",
+    "archiveUrl": "https://web.archive.org/web/20240526141040/https://www.presidency.ucsb.edu/documents/1860-democratic-party-platform",
+    "era": "pro-slavery"
+  },
+  {
+    "year": 1868,
+    "party": "Republican",
+    "quote": "The guaranty by Congress of equal suffrage to all loyal men at the South was demanded by every consideration of public safety, of gratitude, and of justice.",
+    "translation": "Black men must vote.",
+    "source": "Republican Platform, 1868",
+    "sourceUrl": "https://www.presidency.ucsb.edu/documents/republican-party-platform-1868",
+    "archiveUrl": "https://web.archive.org/web/20240603112828/https://www.presidency.ucsb.edu/documents/republican-party-platform-1868",
+    "era": "anti-slavery"
+  },
+  {
+    "year": 1948,
+    "party": "Dixiecrat",
+    "quote": "We stand for the segregation of the races and the racial integrity of each race.",
+    "translation": "Whites only.",
+    "source": "States' Rights Democratic Platform, 1948",
+    "sourceUrl": "https://www.presidency.ucsb.edu/documents/platform-the-states-rights-democratic-party",
+    "archiveUrl": "https://web.archive.org/web/20240526133208/https://www.presidency.ucsb.edu/documents/platform-the-states-rights-democratic-party",
+    "era": "segregation"
+  },
+  {
+    "year": 1956,
+    "party": "Republican",
+    "quote": "The Republican Party accepts the decision of the U.S. Supreme Court that racial discrimination in publicly supported schools must be progressively eliminated.",
+    "translation": "End school segregation.",
+    "source": "Republican Platform, 1956",
+    "sourceUrl": "https://www.presidency.ucsb.edu/documents/republican-party-platform-1956",
+    "archiveUrl": "https://web.archive.org/web/20240526132752/https://www.presidency.ucsb.edu/documents/republican-party-platform-1956",
+    "era": "civil-rights"
+  },
+  {
+    "year": 1964,
+    "party": "Republican",
+    "quote": "We oppose federally-sponsored 'inverse discrimination,' whether by the shifting of jobs, or the abandonment of neighborhood schools, for reasons of race.",
+    "translation": "No integration.",
+    "source": "Republican Platform, 1964",
+    "sourceUrl": "https://www.presidency.ucsb.edu/documents/republican-party-platform-1964",
+    "archiveUrl": "https://web.archive.org/web/20240526132437/https://www.presidency.ucsb.edu/documents/republican-party-platform-1964",
+    "era": "pivot"
+  },
+  {
+    "year": 1964,
+    "party": "Democratic",
+    "quote": "We support the Civil Rights Act of 1964 and the elimination of discrimination.",
+    "translation": "End segregation.",
+    "source": "Democratic Platform, 1964",
+    "sourceUrl": "https://www.presidency.ucsb.edu/documents/1964-democratic-party-platform",
+    "archiveUrl": "https://web.archive.org/web/20240526132341/https://www.presidency.ucsb.edu/documents/1964-democratic-party-platform",
+    "era": "civil-rights"
+  },
+  {
+    "year": 1968,
+    "party": "Republican",
+    "quote": "Lawlessness is crumbling the foundations of American society.",
+    "translation": "Crack down on protests.",
+    "source": "Republican Platform, 1968",
+    "sourceUrl": "https://www.presidency.ucsb.edu/documents/republican-party-platform-1968",
+    "archiveUrl": "https://web.archive.org/web/20240526132113/https://www.presidency.ucsb.edu/documents/republican-party-platform-1968",
+    "era": "southern-strategy"
+  },
+  {
+    "year": 1980,
+    "party": "Republican",
+    "quote": "We oppose quotas, busing, and other forms of social engineering... we support local control.",
+    "translation": "States' rights. No busing.",
+    "source": "Republican Platform, 1980",
+    "sourceUrl": "https://www.presidency.ucsb.edu/documents/republican-party-platform-1980",
+    "archiveUrl": "https://web.archive.org/web/20240526131717/https://www.presidency.ucsb.edu/documents/republican-party-platform-1980",
+    "era": "southern-strategy"
+  }
+]

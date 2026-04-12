@@ -1,0 +1,55 @@
+{
+  "introduction": "Reconstruction failed not because equality was impossible, but because America chose not to enforce it. Radical Republicans proposed a comprehensive program of accountability that, if enacted, might have prevented 150 years of racial terror. Here's what they demanded, and what we got instead.",
+  "measures": [
+    {
+      "proposal": "Treason Trials for Confederate Leaders",
+      "advocate": "Thaddeus Stevens, Charles Sumner",
+      "description": "Confederate leaders committed treason, the only crime defined in the Constitution. They should have been tried, and the guilty executed or imprisoned. This would have prevented them from returning to power and rewriting history.",
+      "whatHappened": "Andrew Johnson pardoned over 13,000 Confederate officials. Jefferson Davis was indicted but never tried. No Confederate leader was executed for treason. Most returned to power within years.",
+      "consequence": "The men who led the rebellion lived to found the Lost Cause mythology, lead Redemption governments, and pass Jim Crow laws. Every Confederate monument was placed by someone who should have been in prison.",
+      "comparison": "After World War II, Nazi leaders faced the Nuremberg Trials. Germany was denazified. Confederate leaders faced nothing."
+    },
+    {
+      "proposal": "Land Redistribution (40 Acres and a Mule)",
+      "advocate": "Thaddeus Stevens, General William T. Sherman",
+      "description": "Confiscate Confederate plantations and redistribute them to freed people. Give every freedman 40 acres of land and the means to work it. Economic independence is the foundation of political freedom.",
+      "whatHappened": "Sherman's Special Field Order No. 15 granted 400,000 acres to freed people in January 1865. Andrew Johnson reversed the order and returned the land to former slaveholders. Freed people were evicted from land they had already begun farming.",
+      "consequence": "Without land or capital, freed people became sharecroppers, working the same land, for the same masters, in conditions barely better than slavery. The racial wealth gap that began with this betrayal persists today.",
+      "comparison": "Land reform has been essential to post-conflict justice worldwide. Japan's land reform after WWII broke feudal power structures. America chose to preserve them."
+    },
+    {
+      "proposal": "Permanent Federal Voting Rights Enforcement",
+      "advocate": "Charles Sumner, Benjamin Butler",
+      "description": "Station federal troops in the South permanently to protect Black voters from terrorism. Make voting rights enforceable by federal courts, not dependent on Southern state governments.",
+      "whatHappened": "Federal troops were withdrawn in 1877 as part of the Hayes-Tilden compromise. The Supreme Court gutted enforcement in U.S. v. Cruikshank (1876). The Voting Rights Act of 1965 finally restored federal enforcement, 88 years later.",
+      "consequence": "Without federal protection, the Klan and Red Shirts terrorized Black voters into submission. Black voter registration in the South dropped from majorities to single digits. The 'Solid South' was built on murder.",
+      "comparison": "Germany has permanently banned Nazi symbols and parties. America withdrew troops and let white supremacists rebuild their power."
+    },
+    {
+      "proposal": "Permanent Exclusion of Confederate Leaders from Office",
+      "advocate": "14th Amendment (as originally enforced)",
+      "description": "The 14th Amendment barred Confederate officials from holding office. Enforce this permanently; never let traitors govern again.",
+      "whatHappened": "The Amnesty Act of 1872 restored voting and office-holding rights to nearly all former Confederates. By 1876, former Confederate officers held every Southern governorship.",
+      "consequence": "The men who led the rebellion became the men who wrote Jim Crow laws. Confederate General John Brown Gordon became Governor of Georgia. Confederate General Wade Hampton became Governor of South Carolina. Treason was rewarded with power.",
+      "comparison": "Denazification barred Nazi party members from government positions. America put Confederate generals back in charge of the states they had tried to destroy."
+    },
+    {
+      "proposal": "Reparations for Enslaved People",
+      "advocate": "Thaddeus Stevens, Frederick Douglass",
+      "description": "Compensate freed people for 250 years of unpaid labor. The Confederacy's wealth was built on stolen work; justice requires restoration.",
+      "whatHappened": "No reparations were ever paid. Instead, some slaveholders received compensation for their 'lost property.' Freed people received nothing for generations of stolen labor.",
+      "consequence": "The racial wealth gap created by slavery was never addressed. In 1860, enslaved people represented $3.5 billion in 'assets,' more than all railroads, factories, and banks combined. That wealth remained with white families.",
+      "comparison": "After World War II, Germany paid reparations to Holocaust survivors and Israel. Japanese Americans received reparations for internment. Enslaved people and their descendants received nothing."
+    },
+    {
+      "proposal": "Public Education Mandates",
+      "advocate": "Freedmen's Bureau, Radical Republicans",
+      "description": "Build public schools throughout the South. Educate freed people and poor whites together. Make education a federal guarantee.",
+      "whatHappened": "The Freedmen's Bureau built schools, but was defunded by 1872. Southern states created segregated school systems with vastly unequal funding. Many Black schools were burned by white mobs.",
+      "consequence": "Educational inequality persisted for a century. Brown v. Board (1954) found segregated schools 'inherently unequal,' but by then, generations had been denied education. Many communities are still fighting the same battle.",
+      "comparison": "Reconstruction briefly created interracial democracy and public education. Redemption destroyed both. We're still rebuilding what was stolen."
+    }
+  ],
+  "conclusion": "Every failure of Reconstruction was a choice. When Radical Republicans proposed accountability (trials, land, votes, exclusion, reparations, education), moderate Republicans and Democrats chose leniency. The result was a century of Jim Crow, a mythology of the Lost Cause, and a racial caste system that shapes America today. The question isn't whether Reconstruction was too radical. The question is whether it was radical enough.",
+  "theSame11States": "The 11 states that seceded in 1861 are the same 11 states that opposed civil rights in 1964. Ten of those 11 vote Republican today and have enacted the most restrictive voting laws since 2013. Virginia is the exception, having expanded voting access under Democratic leadership since 2008. But for the Deep South, this is not coincidence. This is inheritance. When Reconstruction failed, it failed specifically in these states, and for most, the failure was never corrected."
+}

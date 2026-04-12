@@ -1,0 +1,31 @@
+{# Coded Language Decoder - What they said vs what they meant #}
+<div class="decoder">
+  <div class="decoder__intro">
+    <p>
+      <strong>How to read this:</strong> After explicit racism became politically unacceptable,
+      strategists developed code words that communicated racial messages while maintaining
+      "plausible deniability." Lee Atwater explained this evolution in his 1981 interview.
+    </p>
+  </div>
+  <div class="decoder__grid">
+    {% for item in codedLanguage %}
+    <article class="decoder__card">
+      <header class="decoder__card-header">
+        <h4 class="decoder__term">"{{ item.term }}"</h4>
+        <span class="decoder__usage">{{ item.usage }}</span>
+      </header>
+      <div class="decoder__meaning">
+        <span class="decoder__label">Actually means:</span>
+        <p>{{ item.meaning }}</p>
+      </div>
+      <div class="decoder__example">
+        <span class="decoder__label">Example:</span>
+        <p>{{ item.example }}</p>
+      </div>
+      <footer class="decoder__note">
+        {{ item.note }}
+      </footer>
+    </article>
+    {% endfor %}
+  </div>
+</div>

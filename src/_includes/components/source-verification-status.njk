@@ -1,0 +1,122 @@
+{# Source Verification Status Component #}
+{# Shows the current verification status of primary sources #}
+
+{% set verifiedCount = 0 %}
+{% set tamperedCount = 0 %}
+{% set totalCount = sourceVerification.sources | length %}
+
+{% for source in sourceVerification.sources %}
+  {% if source.verified === true %}
+    {% set verifiedCount = verifiedCount + 1 %}
+  {% elif source.verified === false %}
+    {% set tamperedCount = tamperedCount + 1 %}
+  {% endif %}
+{% endfor %}
+
+<div class="verification-status verification-status--{{ sourceVerification.status }}">
+  <div class="verification-status__header">
+    {% if sourceVerification.status == 'verified' %}
+      <span class="verification-status__icon verification-status__icon--verified" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+          <polyline points="22 4 12 14.01 9 11.01"/>
+        </svg>
+      </span>
+      <h3 class="verification-status__title">Sources Verified</h3>
+    {% elif sourceVerification.status == 'tampering_detected' %}
+      <span class="verification-status__icon verification-status__icon--warning" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+          <line x1="12" y1="9" x2="12" y2="13"/>
+          <line x1="12" y1="17" x2="12.01" y2="17"/>
+        </svg>
+      </span>
+      <h3 class="verification-status__title">Tampering Detected</h3>
+    {% else %}
+      <span class="verification-status__icon verification-status__icon--pending" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/>
+          <polyline points="12 6 12 12 16 14"/>
+        </svg>
+      </span>
+      <h3 class="verification-status__title">Verification Status</h3>
+    {% endif %}
+  </div>
+
+  <div class="verification-status__content">
+    <p class="verification-status__summary">
+      {% if sourceVerification.status == 'verified' %}
+        All {{ totalCount }} primary source documents have been verified against their archived versions.
+        The quotes cited on this website match the original documents.
+      {% elif sourceVerification.status == 'tampering_detected' %}
+        <strong>Warning:</strong> {{ tamperedCount }} of {{ totalCount }} primary sources have been modified.
+        See details below.
+      {% else %}
+        {{ verifiedCount }} of {{ totalCount }} sources verified.
+      {% endif %}
+    </p>
+
+    {% if sourceVerification.lastVerified %}
+      <p class="verification-status__timestamp">
+        Last verified: <time datetime="{{ sourceVerification.lastVerified }}">
+          {{ sourceVerification.lastVerified | dateFormat }}
+        </time>
+      </p>
+    {% endif %}
+
+    {% if sourceVerification.status == 'verified' %}
+      <details class="verification-status__details">
+        <summary>View verified sources ({{ totalCount }})</summary>
+        <ul class="verification-status__list">
+          {% for source in sourceVerification.sources %}
+            {% if source.verified === true %}
+              <li class="verification-status__item verification-status__item--verified">
+                <span class="verification-status__check" aria-hidden="true">&#10003;</span>
+                <span class="verification-status__name">{{ source.name }}</span>
+                <span class="verification-status__links">
+                  <a href="{{ source.liveUrl }}" target="_blank" rel="noopener noreferrer">Live</a>
+                  <a href="{{ source.archiveUrl }}" target="_blank" rel="noopener noreferrer">Archive</a>
+                </span>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </details>
+    {% endif %}
+  </div>
+</div>
+
+{# Display tampering warnings if any #}
+{% if sourceVerification.warnings and sourceVerification.warnings.length > 0 %}
+  <div class="tampering-warnings">
+    <h3 class="tampering-warnings__title">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+        <line x1="12" y1="9" x2="12" y2="13"/>
+        <line x1="12" y1="17" x2="12.01" y2="17"/>
+      </svg>
+      Historical Record Under Attack
+    </h3>
+    <p class="tampering-warnings__intro">
+      The following primary sources have been modified from their original archived versions.
+      This may represent an attempt to rewrite history.
+    </p>
+    {% for warning in sourceVerification.warnings %}
+      <article class="tampering-warning">
+        <h4 class="tampering-warning__name">{{ warning.sourceName }}</h4>
+        <p class="tampering-warning__message">{{ warning.warning }}</p>
+        <div class="tampering-warning__links">
+          <a href="{{ warning.liveUrl }}" target="_blank" rel="noopener noreferrer" class="tampering-warning__link tampering-warning__link--live">
+            View current version
+          </a>
+          <a href="{{ warning.archiveUrl }}" target="_blank" rel="noopener noreferrer" class="tampering-warning__link tampering-warning__link--archive">
+            View archived original
+          </a>
+        </div>
+        <p class="tampering-warning__detected">
+          Detected: <time datetime="{{ warning.detectedAt }}">{{ warning.detectedAt | dateFormat }}</time>
+        </p>
+      </article>
+    {% endfor %}
+  </div>
+{% endif %}

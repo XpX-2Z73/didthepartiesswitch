@@ -1,0 +1,307 @@
+---
+layout: layouts/base.njk
+title: Slavery by Another Name
+description: The 13th Amendment abolished slavery — except as punishment for crime. Within months, Southern states passed laws designed to fill that exception. Convict leasing was slavery with paperwork.
+permalink: /convict-leasing/
+---
+
+<section class="hero hero--short" id="chapter-intro" data-chapter="Convict Leasing">
+  <div class="hero__content">
+    <span class="eyebrow">The 13th Amendment's Exception</span>
+    <h1 class="headline-hero hero__title">Slavery by Another Name</h1>
+    <p class="subheadline hero__subtitle">
+      The 13th Amendment created an exception. The South exploited it for 80 years.
+    </p>
+  </div>
+</section>
+
+{# ============================================
+   THE EXCEPTION CLAUSE
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-amendment" data-chapter="The Exception">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <span class="eyebrow">Amendment XIII, Section 1 — 1865</span>
+      <div class="amendment-block">
+        <p class="amendment-text">
+          "Neither slavery nor involuntary servitude, <span class="amendment-exception">except as a punishment for crime whereof the party shall have been duly convicted</span>, shall exist within the United States, or any place subject to their jurisdiction."
+        </p>
+      </div>
+      <p class="body-text" style="margin-top: var(--space-md); font-size: 1.05rem; line-height: 1.9;">
+        Four words: <em>except as a punishment</em>. Southern legislatures read that clause and immediately understood what it meant. If you could convict someone of a crime, you could legally enslave them. All you had to do was make Black life itself criminal.
+      </p>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   BLACK CODES
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-codes" data-chapter="Black Codes">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">1865–1866</span>
+      <h2 class="headline-chapter">Making Freedom a Crime</h2>
+      <p class="subheadline">
+        Within months of the 13th Amendment's ratification, Southern states passed laws targeting Black citizens specifically — laws designed not to punish wrongdoing, but to create a criminal population.
+      </p>
+    </div>
+
+    <div class="chapter__content chapter__content--wide">
+      <div class="black-codes-grid">
+        {% for state in blackCodes %}
+        <article class="black-code-card reveal">
+          <header class="black-code-card__header">
+            <span class="black-code-card__state">{{ state.state }}</span>
+            <span class="black-code-card__passed">{{ state.passed }}</span>
+          </header>
+          {% for law in state.laws %}
+          <div class="black-code-law">
+            <h3 class="black-code-law__name">{{ law.name }}</h3>
+            <blockquote class="black-code-law__text">
+              <p>"{{ law.text }}"</p>
+            </blockquote>
+            <div class="black-code-law__meta">
+              <div class="black-code-law__meta-row">
+                <span class="black-code-law__label">Criminalized:</span>
+                <span class="black-code-law__value">{{ law.criminalized }}</span>
+              </div>
+              <div class="black-code-law__meta-row">
+                <span class="black-code-law__label">Penalty:</span>
+                <span class="black-code-law__value">{{ law.penalty }}</span>
+              </div>
+            </div>
+            <a href="{{ law.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="black-code-law__source">Source &rarr;</a>
+          </div>
+          {% endfor %}
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   HOW IT WORKED
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-mechanism" data-chapter="How It Worked">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Machinery</span>
+      <h2 class="headline-chapter">From Arrest to Auction in 72 Hours</h2>
+      <p class="subheadline">
+        The legal process was designed to be fast, cheap, and impossible to escape.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--narrow">
+      <div class="mechanism-steps">
+        <div class="mechanism-step reveal">
+          <div class="mechanism-step__number">1</div>
+          <div class="mechanism-step__content">
+            <h3 class="mechanism-step__title">Arrest for a non-crime</h3>
+            <p class="mechanism-step__body">A Black man is arrested for "vagrancy" — meaning he has no written labor contract. Or for "impudence." Or for being in a white neighborhood after dark. The offense exists in the law specifically because it applies only to Black people's circumstances.</p>
+          </div>
+        </div>
+        <div class="mechanism-step reveal">
+          <div class="mechanism-step__number">2</div>
+          <div class="mechanism-step__content">
+            <h3 class="mechanism-step__title">Tried without counsel</h3>
+            <p class="mechanism-step__body">The hearing takes minutes. There is no jury of peers — all-white juries were guaranteed by the same laws that stripped Black voting rights. There is no meaningful right to counsel. The fine is set at an amount the defendant cannot possibly pay: $10, $15, $25. Court costs are added on top.</p>
+          </div>
+        </div>
+        <div class="mechanism-step reveal">
+          <div class="mechanism-step__number">3</div>
+          <div class="mechanism-step__content">
+            <h3 class="mechanism-step__title">Sentenced to labor</h3>
+            <p class="mechanism-step__body">Unable to pay, the man is sentenced to a term of hard labor. The county sheriff then auctions his labor to the highest corporate bidder — a mine company, a railroad, a turpentine camp, a plantation. The company pays the county. The man receives nothing.</p>
+          </div>
+        </div>
+        <div class="mechanism-step reveal">
+          <div class="mechanism-step__number">4</div>
+          <div class="mechanism-step__content">
+            <h3 class="mechanism-step__title">The sentence never ends</h3>
+            <p class="mechanism-step__body">While working, additional charges are fabricated: insubordination, attempted escape, failing to meet quotas. Each new charge generates new fines. The man cannot pay. New time is added. Men sentenced to 30 days served years. Some served until they died. The company faced no legal liability for their deaths.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   SCALE
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-scale" data-chapter="Scale">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Numbers</span>
+      <h2 class="headline-chapter">Industrial Scale</h2>
+      <p class="subheadline">This was not an aberration. It was state policy, budgeted and audited.</p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="leasing-stats-grid">
+        {% for stat in convictLeasingData.scaleStats %}
+        <div class="leasing-stat reveal">
+          <span class="leasing-stat__figure">{{ stat.figure }}</span>
+          <span class="leasing-stat__label">{{ stat.label }}</span>
+          <span class="leasing-stat__detail">{{ stat.detail }}</span>
+          <span class="leasing-stat__source">{{ stat.source }}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   COMPANIES
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-companies" data-chapter="Who Profited">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Corporate Beneficiaries</span>
+      <h2 class="headline-chapter">Who Profited</h2>
+      <p class="subheadline">
+        These were not fringe operations. The companies that used convict labor built the industrial foundation of the New South.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="company-cards">
+        {% for company in convictLeasingData.companies %}
+        <article class="company-card reveal">
+          <header class="company-card__header">
+            <h3 class="company-card__name">{{ company.name }}</h3>
+            {% if company.later %}
+            <span class="company-card__later">{{ company.later }}</span>
+            {% endif %}
+            <div class="company-card__meta">
+              <span class="company-card__location">{{ company.location }}</span>
+              <span class="company-card__years">{{ company.years }}</span>
+            </div>
+          </header>
+          <p class="company-card__role">{{ company.role }}</p>
+          <div class="company-card__deaths">
+            <strong>Deaths & accountability:</strong> {{ company.deaths }}
+          </div>
+          <a href="{{ company.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="company-card__source">Source &rarr;</a>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   INDIVIDUAL STORIES
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-stories" data-chapter="Faces">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Individual Lives</span>
+      <h2 class="headline-chapter">Not Statistics. People.</h2>
+      <p class="subheadline">
+        The system processed thousands. These are two of the names attached to a face.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--narrow">
+      {% for story in convictLeasingData.individualStories %}
+      <div class="individual-story reveal">
+        <div class="individual-story__header">
+          <span class="individual-story__name">{{ story.name }}</span>
+          <span class="individual-story__year">{{ story.year }}</span>
+        </div>
+        <p class="individual-story__text">{{ story.story }}</p>
+        <a href="{{ story.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="individual-story__source">{{ story.source }} &rarr;</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   TIMELINE
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-timeline" data-chapter="Timeline">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">1865 – Present</span>
+      <h2 class="headline-chapter">It Didn't End in 1942</h2>
+      <p class="subheadline">
+        Convict leasing ended. The 13th Amendment exception did not.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--narrow">
+      <div class="leasing-timeline">
+        {% for event in convictLeasingData.timeline %}
+        <div class="leasing-timeline__event leasing-timeline__event--{{ event.type }} reveal">
+          <div class="leasing-timeline__year">{{ event.year }}</div>
+          <div class="leasing-timeline__body">
+            <h3 class="leasing-timeline__event-title">{{ event.event }}</h3>
+            <p class="leasing-timeline__event-detail">{{ event.detail }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   THE LEGACY
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-legacy" data-chapter="Legacy">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <span class="eyebrow">The Unbroken Thread</span>
+      <h2 class="headline-chapter">The Same Clause. Still in the Constitution.</h2>
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9; margin-bottom: var(--space-md);">
+        The infrastructure of the American South — its railroads, its coal industry, its lumber industry, its early steel industry — was built substantially on forced convict labor. The companies that profited were not outlaws. They were the pillars of their states' economies. The men whose labor built that infrastructure are mostly unnamed.
+      </p>
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9; margin-bottom: var(--space-md);">
+        When Alabama abolished convict leasing in 1942, chain gangs replaced it. When chain gangs became politically untenable, prison labor under the PIECP replaced them. Today an estimated 800,000 incarcerated people work daily in the United States — most earning less than $1 per hour, some earning nothing — under the explicit authorization of the same constitutional exception clause Southern legislatures weaponized in 1865. In 2022, Oregon and Alabama voters approved state ballot measures removing slavery exception language from their state constitutions. No federal amendment has been proposed.
+      </p>
+      <div class="callout callout--highlight" style="margin-top: var(--space-md);">
+        <p style="font-size: 1.05rem; line-height: 1.8;">
+          "The practice was so common and the abuse so flagrant that it was nearly impossible to distinguish convict leasing from the slavery it had replaced."
+        </p>
+        <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.5rem;">
+          — Douglas Blackmon, <em>Slavery by Another Name</em> (2008), Pulitzer Prize for General Nonfiction
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# Reading Nav #}
+<section class="chapter chapter--muted" id="chapter-reading-nav" aria-label="Reading navigation">
+  <nav class="reading-nav">
+    <a href="/monuments/" class="reading-nav__link reading-nav__link--prev">
+      <span class="reading-nav__label">Previous Chapter</span>
+      <span class="reading-nav__title">Monuments</span>
+      <span class="reading-nav__arrow">&larr;</span>
+    </a>
+    <a href="/lost-cause/" class="reading-nav__link reading-nav__link--next">
+      <span class="reading-nav__label">Next Chapter</span>
+      <span class="reading-nav__title">The Lost Cause</span>
+      <span class="reading-nav__arrow">&rarr;</span>
+    </a>
+  </nav>
+</section>
+
+{# ============================================
+   NAVIGATION
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-explore">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Continue Exploring</span>
+      <h2 class="headline-section">The Connected History</h2>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+        <a href="/monuments/" class="btn btn--primary">Confederate Monuments</a>
+        <a href="/lost-cause/" class="btn btn--secondary">The Myth Machine</a>
+        <a href="/reconstruction/" class="btn btn--secondary">Reconstruction</a>
+        <a href="/bingo/" class="btn btn--secondary">Claims &amp; Responses</a>
+      </div>
+    </div>
+  </div>
+</section>

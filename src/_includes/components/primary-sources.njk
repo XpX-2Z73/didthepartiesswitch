@@ -1,0 +1,23 @@
+{# Primary Sources Cards #}
+<div class="primary-carousel">
+  {% for source in primarySources %}
+    <article class="primary-card">
+      <header>
+        <span>{{ source.date }}</span>
+        <h3>{{ source.title }}</h3>
+      </header>
+      <blockquote>
+        "{{ source.quote }}"
+      </blockquote>
+      <footer>{{ source.attribution }}</footer>
+      <a href="{{ source.link }}" target="_blank" rel="noopener noreferrer">
+        {{ source.linkText }}
+      </a>
+      {% if source.link2 %}
+      <a href="{{ source.link2 }}" target="_blank" rel="noopener noreferrer">
+        {{ source.linkText2 }}
+      </a>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>

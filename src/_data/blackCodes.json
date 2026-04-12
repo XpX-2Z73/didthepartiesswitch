@@ -1,0 +1,86 @@
+[
+  {
+    "state": "Mississippi",
+    "year": 1865,
+    "passed": "November 1865 — two months after the 13th Amendment was ratified",
+    "laws": [
+      {
+        "name": "Vagrancy Act",
+        "text": "All freedmen, free negroes and mulattoes in this State, over the age of eighteen years, found on the second Monday in January, 1866, or thereafter, with no lawful employment or business, or found unlawfully assembling themselves together... shall be deemed vagrants.",
+        "criminalized": "Unemployment, assembling in groups, 'insulting gestures or language'",
+        "penalty": "Fined up to $50. If unable to pay — which freedmen almost never could — the county sheriff could hire them out to any white person who paid the fine, for up to one year.",
+        "sourceUrl": "https://www.loc.gov/item/llsl-v14/",
+        "sourceNote": "Mississippi Laws, 1865"
+      },
+      {
+        "name": "Civil Rights of Freedmen Act",
+        "text": "Every freedman, free negro, and mulatto shall... have a lawful home or employment... Every civil officer shall... arrest and carry back to his or her legal employer any freedman, free negro, or mulatto who shall have quit the service of his or her employer before the expiration of his or her term of service.",
+        "criminalized": "Leaving an employer before the contract ended. Officers were legally required to capture and return escaped workers.",
+        "penalty": "Forfeiture of all wages earned; returned to employer under police escort",
+        "sourceUrl": "https://www.loc.gov/item/llsl-v14/",
+        "sourceNote": "Mississippi Laws, 1865"
+      },
+      {
+        "name": "Apprenticeship Law",
+        "text": "It shall be the duty of all sheriffs, justices of the peace, and other civil officers of the several counties in this State, to report to the probate courts of their respective counties semi-annually... all freedmen, free negroes, and mulattoes, under the age of eighteen, in their respective counties.",
+        "criminalized": "Children of 'vagrants' or 'unemployed' parents could be legally seized and 'apprenticed' to white employers",
+        "penalty": "Child labor without pay, under the legal authority of the county",
+        "sourceUrl": "https://www.loc.gov/item/llsl-v14/",
+        "sourceNote": "Mississippi Laws, 1865"
+      }
+    ]
+  },
+  {
+    "state": "South Carolina",
+    "year": 1865,
+    "passed": "December 1865",
+    "laws": [
+      {
+        "name": "Labor Contract Act",
+        "text": "Servants shall not be absent from the premises without the permission of the master... Servants shall be quiet and orderly in their quarters, at their work, and on the premises; shall extinguish their lights and fires, and retire to rest at reasonable hours.",
+        "criminalized": "Leaving work without permission, being 'disorderly', having a fire or light after hours",
+        "penalty": "Forfeiture of wages; arrest and return to employer",
+        "sourceUrl": "https://constitutioncenter.org/the-constitution/historic-document-library/detail/mississippi-south-carolina-black-codes-1865",
+        "sourceNote": "National Constitution Center — Mississippi & South Carolina Black Codes, 1865"
+      },
+      {
+        "name": "Vagrancy Act",
+        "text": "All persons who have not some fixed and known place of abode, and some lawful and reputable employment... shall be deemed vagrants.",
+        "criminalized": "Unemployment, lack of permanent housing — conditions that described the situation of virtually all newly freed people",
+        "penalty": "Twelve months hard labor on public works or hired out to private employers",
+        "sourceUrl": "https://constitutioncenter.org/the-constitution/historic-document-library/detail/mississippi-south-carolina-black-codes-1865",
+        "sourceNote": "National Constitution Center — Mississippi & South Carolina Black Codes, 1865"
+      }
+    ]
+  },
+  {
+    "state": "Alabama",
+    "year": 1865,
+    "passed": "December 1865",
+    "laws": [
+      {
+        "name": "Vagrancy and Labor Act",
+        "text": "Any person who, having entered into a contract for labor, shall abandon the same before the expiration thereof, and any person who shall be engaged in the violation of any of the provisions of this act... shall be liable to arrest and return to the employer.",
+        "criminalized": "Leaving a job before the contract ended; 'impudence'; 'swearing'",
+        "penalty": "Arrested by any white citizen; fined; if unable to pay, hired out",
+        "sourceUrl": "https://www.archives.alabama.gov/",
+        "sourceNote": "Alabama Laws, 1865-66"
+      }
+    ]
+  },
+  {
+    "state": "Virginia",
+    "year": 1866,
+    "passed": "1866",
+    "laws": [
+      {
+        "name": "Act Providing for the Punishment of Vagrants",
+        "text": "Every person who shall be found loitering or strolling about, frequenting public places... or leading an idle, immoral, or profligate course of life... shall be deemed a vagrant.",
+        "criminalized": "'Loitering', 'frequenting public places', 'idle' behavior — behavior indistinguishable from ordinary daily life",
+        "penalty": "Hired out to labor for up to three months",
+        "sourceUrl": "https://www.encyclopediavirginia.org/entries/black-codes/",
+        "sourceNote": "Virginia Acts of Assembly, 1866"
+      }
+    ]
+  }
+]

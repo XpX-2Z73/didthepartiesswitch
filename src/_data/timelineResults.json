@@ -1,0 +1,137 @@
+{
+  "years": [1860, 1932, 1948, 1964, 1980, 2000, 2024],
+  "results": [
+    {
+      "state": "Alabama",
+      "values": [
+        { "year": 1860, "winner": "Breckinridge", "party": "Southern Democrat" },
+        { "year": 1932, "winner": "Roosevelt", "party": "Democrat" },
+        { "year": 1948, "winner": "Thurmond", "party": "States' Rights Democrat" },
+        { "year": 1964, "winner": "Goldwater", "party": "Republican" },
+        { "year": 1980, "winner": "Reagan", "party": "Republican" },
+        { "year": 2000, "winner": "Bush", "party": "Republican" },
+        { "year": 2024, "winner": "Republican Ticket", "party": "Republican" }
+      ]
+    },
+    {
+      "state": "Arkansas",
+      "values": [
+        { "year": 1860, "winner": "Breckinridge", "party": "Southern Democrat" },
+        { "year": 1932, "winner": "Roosevelt", "party": "Democrat" },
+        { "year": 1948, "winner": "Truman", "party": "Democrat" },
+        { "year": 1964, "winner": "Johnson", "party": "Democrat" },
+        { "year": 1980, "winner": "Reagan", "party": "Republican" },
+        { "year": 2000, "winner": "Bush", "party": "Republican" },
+        { "year": 2024, "winner": "Republican Ticket", "party": "Republican" }
+      ]
+    },
+    {
+      "state": "Florida",
+      "values": [
+        { "year": 1860, "winner": "Breckinridge", "party": "Southern Democrat" },
+        { "year": 1932, "winner": "Roosevelt", "party": "Democrat" },
+        { "year": 1948, "winner": "Truman", "party": "Democrat" },
+        { "year": 1964, "winner": "Johnson", "party": "Democrat" },
+        { "year": 1980, "winner": "Reagan", "party": "Republican" },
+        { "year": 2000, "winner": "Bush", "party": "Republican" },
+        { "year": 2024, "winner": "Republican Ticket", "party": "Republican" }
+      ]
+    },
+    {
+      "state": "Georgia",
+      "values": [
+        { "year": 1860, "winner": "Breckinridge", "party": "Southern Democrat" },
+        { "year": 1932, "winner": "Roosevelt", "party": "Democrat" },
+        { "year": 1948, "winner": "Truman", "party": "Democrat" },
+        { "year": 1964, "winner": "Goldwater", "party": "Republican" },
+        { "year": 1980, "winner": "Carter", "party": "Democrat" },
+        { "year": 2000, "winner": "Bush", "party": "Republican" },
+        { "year": 2024, "winner": "Republican Ticket", "party": "Republican" }
+      ]
+    },
+    {
+      "state": "Louisiana",
+      "values": [
+        { "year": 1860, "winner": "Breckinridge", "party": "Southern Democrat" },
+        { "year": 1932, "winner": "Roosevelt", "party": "Democrat" },
+        { "year": 1948, "winner": "Thurmond", "party": "States' Rights Democrat" },
+        { "year": 1964, "winner": "Goldwater", "party": "Republican" },
+        { "year": 1980, "winner": "Reagan", "party": "Republican" },
+        { "year": 2000, "winner": "Bush", "party": "Republican" },
+        { "year": 2024, "winner": "Republican Ticket", "party": "Republican" }
+      ]
+    },
+    {
+      "state": "Mississippi",
+      "values": [
+        { "year": 1860, "winner": "Breckinridge", "party": "Southern Democrat" },
+        { "year": 1932, "winner": "Roosevelt", "party": "Democrat" },
+        { "year": 1948, "winner": "Thurmond", "party": "States' Rights Democrat" },
+        { "year": 1964, "winner": "Goldwater", "party": "Republican" },
+        { "year": 1980, "winner": "Reagan", "party": "Republican" },
+        { "year": 2000, "winner": "Bush", "party": "Republican" },
+        { "year": 2024, "winner": "Republican Ticket", "party": "Republican" }
+      ]
+    },
+    {
+      "state": "North Carolina",
+      "values": [
+        { "year": 1860, "winner": "Breckinridge", "party": "Southern Democrat" },
+        { "year": 1932, "winner": "Roosevelt", "party": "Democrat" },
+        { "year": 1948, "winner": "Truman", "party": "Democrat" },
+        { "year": 1964, "winner": "Johnson", "party": "Democrat" },
+        { "year": 1980, "winner": "Reagan", "party": "Republican" },
+        { "year": 2000, "winner": "Bush", "party": "Republican" },
+        { "year": 2024, "winner": "Republican Ticket", "party": "Republican" }
+      ]
+    },
+    {
+      "state": "South Carolina",
+      "values": [
+        { "year": 1860, "winner": "Breckinridge", "party": "Southern Democrat", "note": "No popular vote; legislature chose electors." },
+        { "year": 1932, "winner": "Roosevelt", "party": "Democrat" },
+        { "year": 1948, "winner": "Thurmond", "party": "States' Rights Democrat" },
+        { "year": 1964, "winner": "Goldwater", "party": "Republican" },
+        { "year": 1980, "winner": "Reagan", "party": "Republican" },
+        { "year": 2000, "winner": "Bush", "party": "Republican" },
+        { "year": 2024, "winner": "Republican Ticket", "party": "Republican" }
+      ]
+    },
+    {
+      "state": "Tennessee",
+      "values": [
+        { "year": 1860, "winner": "Bell", "party": "Constitutional Union" },
+        { "year": 1932, "winner": "Roosevelt", "party": "Democrat" },
+        { "year": 1948, "winner": "Truman", "party": "Democrat" },
+        { "year": 1964, "winner": "Johnson", "party": "Democrat" },
+        { "year": 1980, "winner": "Reagan", "party": "Republican" },
+        { "year": 2000, "winner": "Bush", "party": "Republican" },
+        { "year": 2024, "winner": "Republican Ticket", "party": "Republican" }
+      ]
+    },
+    {
+      "state": "Texas",
+      "values": [
+        { "year": 1860, "winner": "Breckinridge", "party": "Southern Democrat" },
+        { "year": 1932, "winner": "Roosevelt", "party": "Democrat" },
+        { "year": 1948, "winner": "Truman", "party": "Democrat" },
+        { "year": 1964, "winner": "Johnson", "party": "Democrat" },
+        { "year": 1980, "winner": "Reagan", "party": "Republican" },
+        { "year": 2000, "winner": "Bush", "party": "Republican" },
+        { "year": 2024, "winner": "Republican Ticket", "party": "Republican" }
+      ]
+    },
+    {
+      "state": "Virginia",
+      "values": [
+        { "year": 1860, "winner": "Bell", "party": "Constitutional Union" },
+        { "year": 1932, "winner": "Roosevelt", "party": "Democrat" },
+        { "year": 1948, "winner": "Truman", "party": "Democrat" },
+        { "year": 1964, "winner": "Johnson", "party": "Democrat" },
+        { "year": 1980, "winner": "Reagan", "party": "Republican" },
+        { "year": 2000, "winner": "Bush", "party": "Republican" },
+        { "year": 2024, "winner": "Democratic Ticket", "party": "Democrat" }
+      ]
+    }
+  ]
+}

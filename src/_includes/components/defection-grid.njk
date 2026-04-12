@@ -1,0 +1,17 @@
+{# Party Defection Cards #}
+<div class="defection-grid">
+  {% for person in defections %}
+    <article class="defection-card">
+      <h3>
+        <span>{{ person.state }}</span>
+        {{ person.name }}
+      </h3>
+      <p>{{ person.description }}</p>
+      <ul>
+        {% for event in person.timeline %}
+          <li><strong>{{ event.year }}:</strong> {{ event.event }}</li>
+        {% endfor %}
+      </ul>
+    </article>
+  {% endfor %}
+</div>

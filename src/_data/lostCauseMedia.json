@@ -1,0 +1,72 @@
+[
+  {
+    "title": "The Birth of a Nation",
+    "year": 1915,
+    "type": "film",
+    "creator": "D.W. Griffith",
+    "description": "Based on Thomas Dixon Jr.'s novel 'The Clansman,' this film portrayed the Ku Klux Klan as heroes defending white civilization against Black 'rapists' and corrupt Reconstruction governments. It was the first film ever screened at the White House.",
+    "audience": "Millions of Americans, including President Woodrow Wilson and Congress",
+    "impact": [
+      "Directly triggered the 20th-century revival of the Ku Klux Klan",
+      "Klan membership surged from a few thousand to an estimated 4 million by 1924",
+      "Sparked race riots in multiple cities",
+      "Became the highest-grossing film of its era"
+    ],
+    "wilsonQuote": "It is like writing history with lightning. And my only regret is that it is all so terribly true.",
+    "wilsonSource": "Attributed to President Wilson after the White House screening, February 1915",
+    "sourceUrl": "https://www.loc.gov/item/93504288/",
+    "sourceNote": "Library of Congress"
+  },
+  {
+    "title": "Gone with the Wind",
+    "year": 1939,
+    "type": "film",
+    "creator": "Victor Fleming (dir.), based on Margaret Mitchell's 1936 novel",
+    "description": "The most successful romantic portrayal of the antebellum South ever produced. The film presented enslaved people as contented 'servants,' plantations as gracious estates, and the Confederacy as a noble lost civilization. It won 8 Academy Awards and remains one of the highest-grossing films of all time.",
+    "audience": "Over 200 million viewers in its initial releases; still broadcast widely",
+    "impact": [
+      "Reached a generation that had not lived through Birth of a Nation",
+      "The phrase 'Gone with the Wind' became shorthand for the antebellum South itself",
+      "Elevated Scarlett O'Hara and Rhett Butler as American cultural archetypes",
+      "Presented enslaved people — particularly 'Mammy' — as loyal and satisfied"
+    ],
+    "wilsonQuote": null,
+    "wilsonSource": null,
+    "sourceUrl": "https://encyclopediavirginia.org/entries/lost-cause-the/",
+    "sourceNote": "Encyclopedia Virginia — The Lost Cause"
+  },
+  {
+    "title": "The Dukes of Hazzard",
+    "year": 1979,
+    "type": "television",
+    "creator": "CBS",
+    "description": "A primetime network sitcom that featured the Confederate battle flag on the roof of the 'General Lee' car, treating the flag as a regional symbol of fun and rebellion rather than white supremacy. Ran for 7 seasons and was syndicated nationally, introducing the Confederate flag as 'heritage' to suburban and Northern audiences.",
+    "audience": "Approximately 25 million viewers per episode at peak",
+    "impact": [
+      "Normalized the Confederate battle flag as a Southern 'pride' symbol for post-Civil Rights generation",
+      "Confederate flag merchandise and stickers proliferated through the 1980s–90s",
+      "Separated the flag's visual brand from its historical context for a generation of viewers"
+    ],
+    "wilsonQuote": null,
+    "wilsonSource": null,
+    "sourceUrl": "https://www.splcenter.org/20150622/whose-heritage-public-symbols-confederacy",
+    "sourceNote": "SPLC"
+  },
+  {
+    "title": "The Ku Klux Klan — A History of Racism and Violence (but also: Invisible Empire (1987), Mississippi Burning (1988))",
+    "year": 1988,
+    "type": "note",
+    "creator": null,
+    "description": "Hollywood films about civil rights frequently centered white protagonists (FBI agents, lawyers, journalists) rather than Black activists — a pattern that replicated Lost Cause dynamics by making white characters the agents of Black liberation. This structural choice persisted from 'Mississippi Burning' through 'The Help' (2011) and 'Green Book' (2018).",
+    "audience": "Mass audiences through the late 20th century",
+    "impact": [
+      "Civil rights history told through white saviors rather than Black agency",
+      "Black suffering as backdrop for white character development",
+      "Obscures the organized, sustained political activism of Black Americans"
+    ],
+    "wilsonQuote": null,
+    "wilsonSource": null,
+    "sourceUrl": "https://www.theatlantic.com/entertainment/archive/2011/08/the-help-and-the-tradition-of-the-white-savior/243925/",
+    "sourceNote": "The Atlantic"
+  }
+]

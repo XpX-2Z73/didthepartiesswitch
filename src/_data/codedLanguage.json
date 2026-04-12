@@ -1,0 +1,86 @@
+[
+  {
+    "term": "States' rights",
+    "meaning": "Opposition to federal civil rights enforcement",
+    "usage": "1948-present",
+    "example": "Thurmond's 1948 Dixiecrat platform and every Southern Strategy speech since",
+    "note": "Ask: 'The right to do what?' The answer is always: discriminate."
+  },
+  {
+    "term": "Law and order",
+    "meaning": "Crackdown on civil rights protests and Black communities",
+    "usage": "1968-present",
+    "example": "Nixon 1968: 'Lawlessness is crumbling the foundations of American society'",
+    "note": "Emerged specifically in response to civil rights demonstrations"
+  },
+  {
+    "term": "Neighborhood schools",
+    "meaning": "Opposition to desegregation and busing",
+    "usage": "1964-present",
+    "example": "1964 GOP platform opposed 'abandonment of neighborhood schools'",
+    "note": "Segregated neighborhoods meant segregated schools without saying so"
+  },
+  {
+    "term": "Forced busing",
+    "meaning": "Opposition to school integration",
+    "usage": "1970s-present",
+    "example": "Lee Atwater cited this as example of coded racial language",
+    "note": "'Voluntary' segregation was acceptable; 'forced' integration was not"
+  },
+  {
+    "term": "Welfare queen",
+    "meaning": "Black single mothers (racist stereotype)",
+    "usage": "1976-present",
+    "example": "Reagan's 1976 campaign speeches about a Chicago woman",
+    "note": "Majority of welfare recipients were white, but imagery was always Black"
+  },
+  {
+    "term": "Inner cities",
+    "meaning": "Black communities",
+    "usage": "1960s-present",
+    "example": "Reagan: 'Urban crime' and 'inner city decay'",
+    "note": "Geographic term that became racial shorthand"
+  },
+  {
+    "term": "Silent majority",
+    "meaning": "White voters uncomfortable with civil rights",
+    "usage": "1969-present",
+    "example": "Nixon's 1969 speech appealing to those opposed to protests",
+    "note": "The 'silent' ones were those who couldn't say what they really thought"
+  },
+  {
+    "term": "Quotas",
+    "meaning": "Affirmative action (presented negatively)",
+    "usage": "1970s-present",
+    "example": "1980 GOP platform: 'We oppose quotas'",
+    "note": "Framed racial remedies as discrimination against whites"
+  },
+  {
+    "term": "Special interests",
+    "meaning": "Civil rights organizations, minorities",
+    "usage": "1980s-present",
+    "example": "Reagan criticizing 'special interest groups'",
+    "note": "White interests were 'American'; minority interests were 'special'"
+  },
+  {
+    "term": "Personal responsibility",
+    "meaning": "Blaming poverty on Black culture rather than systemic racism",
+    "usage": "1980s-present",
+    "example": "Welfare reform rhetoric",
+    "note": "Implied minorities lacked values rather than facing barriers"
+  },
+  {
+    "term": "Cutting taxes",
+    "meaning": "Defunding programs that disproportionately help minorities",
+    "usage": "1980-present",
+    "example": "Atwater: 'Now you're talking about cutting taxes... blacks get hurt worse than whites'",
+    "note": "Economic policy as racial policy in disguise"
+  },
+  {
+    "term": "Voter fraud",
+    "meaning": "Justification for suppressing minority votes",
+    "usage": "2000s-present",
+    "example": "Voter ID laws, purging voter rolls",
+    "note": "Fraud is statistically almost nonexistent; suppression is the goal"
+  }
+]

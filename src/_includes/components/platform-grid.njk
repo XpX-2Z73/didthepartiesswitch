@@ -1,0 +1,17 @@
+{# Party Platform Cards #}
+<div class="platform-grid">
+  {% for platform in platforms %}
+    <article class="platform-card">
+      <div class="platform-meta">
+        <span>{{ platform.year }}</span>
+        <span>{{ platform.party }}</span>
+        <span class="has-tooltip" data-tooltip="{{ platform.locationNote }}">{{ platform.location }}</span>
+      </div>
+      <p class="platform-translation">{{ platform.translation }}</p>
+      <blockquote>
+        "{{ platform.quote }}"
+      </blockquote>
+      <footer>{{ platform.source }}</footer>
+    </article>
+  {% endfor %}
+</div>

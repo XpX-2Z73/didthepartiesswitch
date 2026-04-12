@@ -1,0 +1,247 @@
+---
+layout: layouts/base.njk
+title: The Great Migration — Six Million Choose to Leave
+description: Between 1910 and 1970, six million Black Americans left the South. They were not fleeing randomly. They were escaping a documented system of racial terror, legal subjugation, and economic exploitation — and building something new in the cities they chose.
+permalink: /great-migration/
+---
+
+<section class="hero hero--short" id="chapter-intro" data-chapter="Great Migration">
+  <div class="hero__content">
+    <span class="eyebrow">1910 – 1970</span>
+    <h1 class="headline-hero hero__title">The Great Migration</h1>
+    <p class="subheadline hero__subtitle">
+      6 million people left the South. They were choosing, not fleeing.
+    </p>
+  </div>
+</section>
+
+{# ============================================
+   THE ARGUMENT
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-argument" data-chapter="The Argument">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <div class="callout callout--highlight">
+        <p style="font-size: 1.1rem; line-height: 1.8;">
+          Between 1910 and 1970, approximately six million Black Americans left the South in what became known as the Great Migration — the largest domestic migration in American history. They did not leave randomly. They left because of a specific, documented system: racial terror, Jim Crow law, debt peonage, and deliberate economic exclusion. When they arrived in Northern and Western cities, they found a different system waiting — redlining, restrictive covenants, and segregation enforced not by state law but by federal policy. They built communities, culture, and political power anyway. The Great Migration is not just a story of escape. It is a story of agency against systemic opposition.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   SCALE
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-scale" data-chapter="Scale">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Numbers</span>
+      <h2 class="headline-chapter">The Size of the Movement</h2>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="migration-stats-grid">
+        {% for stat in greatMigrationData.scaleStats %}
+        <div class="migration-stat reveal">
+          <span class="migration-stat__figure">{{ stat.figure }}</span>
+          <span class="migration-stat__label">{{ stat.label }}</span>
+          <span class="migration-stat__detail">{{ stat.detail }}</span>
+          <span class="migration-stat__source">{{ stat.source }}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   WHY THEY LEFT
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-push" data-chapter="Why They Left">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Push Factors</span>
+      <h2 class="headline-chapter">Why They Left</h2>
+      <p class="subheadline">
+        The Great Migration was not spontaneous. It was a response to specific, documented conditions — each of which had been deliberately constructed.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="migration-push-cards">
+        {% for item in greatMigrationData.pushFactors %}
+        <article class="migration-push-card reveal">
+          <header class="migration-push-card__header">
+            <h3 class="migration-push-card__factor">{{ item.factor }}</h3>
+          </header>
+          <p class="migration-push-card__detail">{{ item.detail }}</p>
+          <a href="{{ item.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="migration-push-card__source">{{ item.sourceNote }} &rarr;</a>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   THE CHICAGO DEFENDER
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-defender" data-chapter="The Defender">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <span class="eyebrow">The Recruiter</span>
+      <h2 class="headline-chapter">The Chicago Defender</h2>
+      <div class="callout callout--highlight">
+        <p style="font-size: 1.05rem; line-height: 1.85;">
+          {{ greatMigrationData.chicagoDefender.description }}
+        </p>
+        <p style="margin-top: 1rem;">
+          <a href="{{ greatMigrationData.chicagoDefender.sourceUrl }}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-gold); font-size: 0.9rem;">{{ greatMigrationData.chicagoDefender.sourceNote }} &rarr;</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   WHERE THEY WENT — AND WHAT THEY FOUND
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-cities" data-chapter="Destinations">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Destinations</span>
+      <h2 class="headline-chapter">Where They Went — and What They Found</h2>
+      <p class="subheadline">
+        The North promised escape from Jim Crow. What it delivered was a different architecture of exclusion — built not by state law but by federal policy.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="city-cards">
+        {% for city in greatMigrationData.destinationCities %}
+        <article class="city-card reveal">
+          <header class="city-card__header">
+            <h3 class="city-card__name">{{ city.city }}</h3>
+          </header>
+          <p class="city-card__detail">{{ city.detail }}</p>
+          <div class="city-card__present">
+            <span class="city-card__present-label">What they found</span>
+            {{ city.whatTheyFound }}
+          </div>
+          <a href="{{ city.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="city-card__source">{{ city.sourceNote }} &rarr;</a>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   TIMELINE
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-timeline" data-chapter="Timeline">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">1905 – 1970</span>
+      <h2 class="headline-chapter">Six Decades of Movement</h2>
+    </div>
+    <div class="chapter__content chapter__content--narrow">
+      <div class="migration-timeline">
+        {% for event in greatMigrationData.timeline %}
+        <div class="migration-timeline__event reveal">
+          <div class="migration-timeline__year">{{ event.period }}</div>
+          <div class="migration-timeline__body">
+            <h3 class="migration-timeline__title">{{ event.event }}</h3>
+            <p class="migration-timeline__detail">{{ event.detail }}</p>
+            {% if event.sourceUrl %}
+            <a href="{{ event.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="migration-timeline__source">Source &rarr;</a>
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   POLITICAL IMPACT
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-politics" data-chapter="Political Impact">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <span class="eyebrow">The Political Consequences</span>
+      <h2 class="headline-chapter">Six Million New Voters</h2>
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9; margin-bottom: var(--space-md);">
+        {{ greatMigrationData.politicalImpact.partyShift }}
+      </p>
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9; margin-bottom: var(--space-md);">
+        {{ greatMigrationData.politicalImpact.congress }}
+      </p>
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9; margin-bottom: var(--space-md);">
+        {{ greatMigrationData.politicalImpact.civilRights }}
+      </p>
+      <p style="margin-top: var(--space-sm);">
+        <a href="{{ greatMigrationData.politicalImpact.sourceUrl }}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-gold); font-size: 0.9rem;">{{ greatMigrationData.politicalImpact.sourceNote }} &rarr;</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   WILKERSON / LEGACY
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-legacy" data-chapter="Legacy">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <span class="eyebrow">Further Reading</span>
+      <h2 class="headline-chapter">The Definitive Account</h2>
+      <div class="callout callout--highlight">
+        <p style="font-size: 1.1rem; line-height: 1.85; font-style: italic;">
+          "{{ greatMigrationData.wilkerson.quote }}"
+        </p>
+        <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.75rem;">
+          — {{ greatMigrationData.wilkerson.citation }}
+        </p>
+      </div>
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9; margin-top: var(--space-md);">
+        Isabel Wilkerson's <em>The Warmth of Other Suns</em> (2010) is the definitive account of the Great Migration — built from 15 years of research and 1,200 interviews, and told through the lives of three individuals who made the journey. It won the National Book Critics Circle Award. It is the starting point for anyone who wants to understand this period in depth.
+      </p>
+      <p style="margin-top: var(--space-sm);">
+        <a href="{{ greatMigrationData.wilkerson.sourceUrl }}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-gold); font-size: 0.9rem;">{{ greatMigrationData.wilkerson.sourceNote }} &rarr;</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+{# Reading Nav #}
+<section class="chapter chapter--muted" id="chapter-reading-nav" aria-label="Reading navigation">
+  <nav class="reading-nav">
+    <a href="/redlining/" class="reading-nav__link reading-nav__link--prev">
+      <span class="reading-nav__label">Previous Chapter</span>
+      <span class="reading-nav__title">Redlining</span>
+      <span class="reading-nav__arrow">&larr;</span>
+    </a>
+    <a href="/civil-rights/" class="reading-nav__link reading-nav__link--next">
+      <span class="reading-nav__label">Next Chapter</span>
+      <span class="reading-nav__title">The Civil Rights Movement</span>
+      <span class="reading-nav__arrow">&rarr;</span>
+    </a>
+  </nav>
+</section>
+
+{# ============================================
+   NAVIGATION
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-explore">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Continue Exploring</span>
+      <h2 class="headline-section">The Connected History</h2>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+        <a href="/lynching/" class="btn btn--primary">Racial Terror</a>
+        <a href="/redlining/" class="btn btn--secondary">The Wealth Gap</a>
+        <a href="/convict-leasing/" class="btn btn--secondary">Slavery by Another Name</a>
+        <a href="/reconstruction/" class="btn btn--secondary">Reconstruction</a>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,206 @@
+---
+layout: layouts/base.njk
+title: Jim Crow — The Architecture of Apartheid
+description: After Reconstruction ended in 1877, the white South built a comprehensive legal system of racial caste — poll taxes, literacy tests, white primaries, and 'separate but equal.' It lasted 88 years. It was not an accident.
+permalink: /jim-crow/
+---
+
+<section class="hero hero--short" id="chapter-intro" data-chapter="Jim Crow">
+  <div class="hero__content">
+    <span class="eyebrow">1877 – 1965</span>
+    <h1 class="headline-hero hero__title">The Architecture of Apartheid</h1>
+    <p class="subheadline hero__subtitle">
+      Not random discrimination. A legal system, built deliberately, sustained by courts for 88 years.
+    </p>
+  </div>
+</section>
+
+{# ============================================
+   THE ARGUMENT
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-argument" data-chapter="The Argument">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <div class="callout callout--highlight">
+        <p style="font-size: 1.1rem; line-height: 1.8;">{{ jimCrowData.introduction }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   THE NUMBERS
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-scale" data-chapter="The Scale">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Numbers</span>
+      <h2 class="headline-chapter">What 88 Years Produced</h2>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="jc-stats-grid">
+        {% for stat in jimCrowData.theNumbers %}
+        <div class="jc-stat reveal">
+          <span class="jc-stat__figure">{{ stat.figure }}</span>
+          <span class="jc-stat__label">{{ stat.label }}</span>
+          <span class="jc-stat__detail">{{ stat.detail }}</span>
+          <span class="jc-stat__source">{{ stat.source }}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   THE MECHANISMS
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-mechanisms" data-chapter="The Mechanisms">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Six Tools of Disenfranchisement</span>
+      <h2 class="headline-chapter">How It Worked</h2>
+      <p class="subheadline">
+        Jim Crow was not one law. It was an interlocking system of tools, each designed to accomplish what the last could not after courts or Congress intervened.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="jc-mechanisms">
+        {% for item in jimCrowData.mechanisms %}
+        <article class="jc-mechanism reveal">
+          <header class="jc-mechanism__header">
+            <h3 class="jc-mechanism__name">{{ item.name }}</h3>
+            <span class="jc-mechanism__years">{{ item.years }}</span>
+          </header>
+          <p class="jc-mechanism__mechanism">{{ item.mechanism }}</p>
+          <div class="jc-mechanism__details">
+            <div class="jc-mechanism__detail-row">
+              <span class="jc-mechanism__label">Target:</span>
+              <span class="jc-mechanism__value">{{ item.target }}</span>
+            </div>
+            <div class="jc-mechanism__detail-row">
+              <span class="jc-mechanism__label">Scale:</span>
+              <span class="jc-mechanism__value">{{ item.scale }}</span>
+            </div>
+            <div class="jc-mechanism__detail-row">
+              <span class="jc-mechanism__label">Ended by:</span>
+              <span class="jc-mechanism__value">{{ item.abolishedBy }}</span>
+            </div>
+          </div>
+          <a href="{{ item.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="jc-mechanism__source">{{ item.sourceNote }} &rarr;</a>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   PLESSY V FERGUSON
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-plessy" data-chapter="Plessy v. Ferguson">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Legal Foundation</span>
+      <h2 class="headline-chapter">Plessy v. Ferguson ({{ jimCrowData.plessyCase.year }})</h2>
+      <p class="subheadline">{{ jimCrowData.plessyCase.citation }}</p>
+    </div>
+    <div class="chapter__content chapter__content--narrow">
+      <div class="plessy-card reveal">
+        <div class="plessy-card__background">
+          <h3>Background</h3>
+          <p>{{ jimCrowData.plessyCase.background }}</p>
+        </div>
+        <div class="plessy-card__ruling">
+          <h3>The Ruling</h3>
+          <p>{{ jimCrowData.plessyCase.ruling }}</p>
+        </div>
+        <div class="plessy-card__dissent">
+          <h3>The Dissent That Won — 58 Years Later</h3>
+          <blockquote>
+            <p>"{{ jimCrowData.plessyCase.dissent }}"</p>
+            <cite>— Justice John Marshall Harlan, dissenting, Plessy v. Ferguson (1896)</cite>
+          </blockquote>
+        </div>
+        <div class="plessy-card__footer">
+          <p><strong>Overturned by:</strong> {{ jimCrowData.plessyCase.overturned }}</p>
+          <a href="{{ jimCrowData.plessyCase.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="jc-mechanism__source">Read the opinion at the Library of Congress &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   TIMELINE
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-timeline" data-chapter="Timeline">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">1877 – 1965</span>
+      <h2 class="headline-chapter">Eighty-Eight Years of Law</h2>
+    </div>
+    <div class="chapter__content chapter__content--narrow">
+      <div class="jc-timeline">
+        {% for event in jimCrowData.timeline %}
+        <div class="jc-timeline__event reveal">
+          <div class="jc-timeline__year">{{ event.year }}</div>
+          <div class="jc-timeline__body">
+            <h3 class="jc-timeline__title">{{ event.event }}</h3>
+            <p class="jc-timeline__detail">{{ event.detail }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   CONCLUSION
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-conclusion" data-chapter="Legacy">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <span class="eyebrow">The Unbroken Thread</span>
+      <h2 class="headline-chapter">The Structure Outlasted the Laws</h2>
+      <div class="callout callout--highlight">
+        <p style="font-size: 1.05rem; line-height: 1.8;">{{ jimCrowData.conclusion }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# Reading Nav #}
+<section class="chapter chapter--muted" id="chapter-reading-nav" aria-label="Reading navigation">
+  <nav class="reading-nav">
+    <a href="/reconstruction/" class="reading-nav__link reading-nav__link--prev">
+      <span class="reading-nav__label">Previous Chapter</span>
+      <span class="reading-nav__title">Reconstruction</span>
+      <span class="reading-nav__arrow">&larr;</span>
+    </a>
+    <a href="/monuments/" class="reading-nav__link reading-nav__link--next">
+      <span class="reading-nav__label">Next Chapter</span>
+      <span class="reading-nav__title">Monuments</span>
+      <span class="reading-nav__arrow">&rarr;</span>
+    </a>
+  </nav>
+</section>
+
+{# ============================================
+   NAVIGATION
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-explore">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Continue Exploring</span>
+      <h2 class="headline-section">The Connected History</h2>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+        <a href="/reconstruction/" class="btn btn--primary">Reconstruction</a>
+        <a href="/monuments/" class="btn btn--secondary">Confederate Monuments</a>
+        <a href="/convict-leasing/" class="btn btn--secondary">Slavery by Another Name</a>
+        <a href="/lynching/" class="btn btn--secondary">Racial Terror</a>
+      </div>
+    </div>
+  </div>
+</section>

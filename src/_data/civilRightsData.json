@@ -1,0 +1,158 @@
+{
+  "introduction": "The Civil Rights Movement is often taught as a story about speeches and marches — as if segregation ended because enough people asked nicely. The documentary record shows something different: a disciplined, strategic, multi-organization political movement that used economic pressure, legal challenges, and civil disobedience to force the federal government to act. The leaders were not naive idealists. They were tacticians. They won.",
+
+  "argument": "Between 1954 and 1968, Black Americans and their allies dismantled a legal system of racial subordination that had survived 58 years of court challenges and 89 years of post-Reconstruction politics. They did it by making the cost of maintaining segregation — in political embarrassment, economic disruption, and international Cold War optics — higher than the cost of ending it. The Civil Rights Act and Voting Rights Act were not gifts from white moderates. They were extracted through sustained, organized pressure.",
+
+  "timeline": [
+    {
+      "year": "1954",
+      "event": "Brown v. Board of Education",
+      "detail": "Supreme Court unanimously overturns Plessy v. Ferguson. Chief Justice Earl Warren: 'Separate educational facilities are inherently unequal.' The ruling is the legal foundation. Southern states respond with 'Massive Resistance' — Virginia closes public schools rather than integrate them.",
+      "sourceUrl": "https://www.archives.gov/milestone-documents/brown-v-board",
+      "sourceNote": "National Archives, Brown v. Board primary documents"
+    },
+    {
+      "year": "1955",
+      "event": "Emmett Till Murdered",
+      "detail": "14-year-old Emmett Till is kidnapped, tortured, and murdered in Mississippi by two white men. His mother, Mamie Till-Mobley, insists on an open casket: 'I wanted the world to see what they did to my baby.' The two men confess to the murder in a magazine interview after being acquitted by an all-white jury. The case galvanizes the movement.",
+      "sourceUrl": "https://www.nps.gov/places/emmett-till-murder-site.htm",
+      "sourceNote": "National Park Service, Emmett Till sites"
+    },
+    {
+      "year": "1955–1956",
+      "event": "Montgomery Bus Boycott",
+      "detail": "Rosa Parks is arrested on December 1, 1955 for refusing to give up her seat. The Montgomery Improvement Association, led by a 26-year-old minister named Martin Luther King Jr., organizes a citywide boycott of the bus system that lasts 381 days. The Supreme Court rules Montgomery's bus segregation unconstitutional. The boycott demonstrates that economic disruption works.",
+      "sourceUrl": "https://www.loc.gov/collections/civil-rights-history-project/",
+      "sourceNote": "Library of Congress, Civil Rights History Project"
+    },
+    {
+      "year": "1960",
+      "event": "Greensboro Sit-Ins and SNCC",
+      "detail": "On February 1, four Black college students sit at the whites-only Woolworth's lunch counter in Greensboro, North Carolina and refuse to leave when denied service. The tactic spreads to 55 cities in two months. In April, student organizers found the Student Nonviolent Coordinating Committee (SNCC) at Shaw University. The sit-in movement desegregates lunch counters through sustained economic pressure.",
+      "sourceUrl": "https://www.nps.gov/subjects/africanamericanheritage/greensboro-sit-ins.htm",
+      "sourceNote": "National Park Service, Greensboro Sit-ins"
+    },
+    {
+      "year": "1961",
+      "event": "Freedom Riders",
+      "detail": "Interracial groups of activists board interstate buses to challenge segregation in Southern bus terminals — facilities the Supreme Court had already ruled must be desegregated. They are met with mob violence in Anniston and Birmingham, Alabama. The Kennedy administration is forced to act when photographs of burning buses reach international media. The Interstate Commerce Commission orders desegregation of interstate travel facilities.",
+      "sourceUrl": "https://www.nps.gov/articles/freedom-riders.htm",
+      "sourceNote": "National Park Service, Freedom Riders"
+    },
+    {
+      "year": "1963",
+      "event": "Birmingham Campaign",
+      "detail": "SCLC and SNCC launch Project C (for Confrontation) in Birmingham — the most segregated large city in the South. Public Safety Commissioner Bull Connor uses fire hoses and police dogs on peaceful marchers, including children. The images are broadcast nationally and internationally. President Kennedy calls Birmingham a source of 'national shame' and begins drafting what becomes the Civil Rights Act.",
+      "sourceUrl": "https://www.nps.gov/bham/learn/historyculture/the-birmingham-campaign.htm",
+      "sourceNote": "National Park Service, Birmingham Campaign"
+    },
+    {
+      "year": "1963",
+      "event": "March on Washington",
+      "detail": "250,000 people gather at the Lincoln Memorial on August 28, 1963. John Lewis's SNCC speech is so confrontational that organizers pressure him to soften it. King's 'I Have a Dream' remarks are largely improvised from prepared remarks he had previously delivered. The march is not a celebration. It is a demand.",
+      "sourceUrl": "https://www.archives.gov/exhibits/documented-rights/exhibit/section4/",
+      "sourceNote": "National Archives, March on Washington documents"
+    },
+    {
+      "year": "1964",
+      "event": "Civil Rights Act",
+      "detail": "Signed July 2, 1964. Prohibited discrimination in public accommodations and employment on the basis of race, color, religion, sex, or national origin. The Southern filibuster in the Senate lasted 60 days — the longest in Senate history. The vote breakdown was regional, not partisan: Northern Democrats voted 98% yes; Southern Democrats voted 7% yes.",
+      "sourceUrl": "https://www.archives.gov/milestone-documents/civil-rights-act",
+      "sourceNote": "National Archives, Civil Rights Act (1964)"
+    },
+    {
+      "year": "1965",
+      "event": "Bloody Sunday and the Voting Rights Act",
+      "detail": "On March 7, 1965, 600 peaceful marchers cross the Edmund Pettus Bridge in Selma, Alabama headed for Montgomery. State troopers attack them with clubs and tear gas on national television. The footage is broadcast during prime time, interrupting a showing of 'Judgment at Nuremberg.' Lyndon Johnson addresses Congress 8 days later: 'We shall overcome.' The Voting Rights Act is signed August 6, 1965.",
+      "sourceUrl": "https://www.archives.gov/milestone-documents/voting-rights-act",
+      "sourceNote": "National Archives, Voting Rights Act (1965)"
+    },
+    {
+      "year": "1968",
+      "event": "King Assassination and Fair Housing Act",
+      "detail": "Martin Luther King Jr. is assassinated April 4, 1968 at the Lorraine Motel in Memphis, where he was supporting a sanitation workers' strike. Urban uprisings follow in over 100 cities. The Fair Housing Act, which Johnson had been unable to pass, is signed 7 days later.",
+      "sourceUrl": "https://www.nps.gov/malu/index.htm",
+      "sourceNote": "National Park Service, Martin Luther King Jr. National Historical Park"
+    }
+  ],
+
+  "civilRightsActVote": {
+    "headline": "The Vote Was Regional, Not Partisan",
+    "explanation": "The Civil Rights Act of 1964 is often cited as evidence that parties did not switch — more Republicans voted yes than Democrats. This is true in total numbers and misleading in context. The divide was not between the parties. It was between the North and the South.",
+    "senate": {
+      "democratsTotal": "46 yes, 21 no (69%)",
+      "republicansTotal": "27 yes, 6 no (82%)",
+      "northernDemocrats": "45 yes, 1 no (98%)",
+      "southernDemocrats": "1 yes, 20 no (5%)",
+      "note": "Southern Democrats voted 1-20 against the bill. Every one of those Southern Democratic senators who voted no represented a state that would, within two decades, become reliably Republican. The voters who opposed civil rights did not disappear. They changed parties."
+    },
+    "house": {
+      "democratsTotal": "152 yes, 96 no",
+      "republicansTotal": "136 yes, 35 no",
+      "northernDemocrats": "141 yes, 4 no",
+      "southernDemocrats": "11 yes, 92 no",
+      "note": "House Southern Democrats voted 11-92 against. Their constituents became the Republican base of the modern South."
+    },
+    "sourceUrl": "https://www.govtrack.us/congress/votes/88-1964/s409",
+    "sourceNote": "GovTrack.us, Senate vote on Civil Rights Act, 1964"
+  },
+
+  "keyFigures": [
+    {
+      "name": "Fannie Lou Hamer",
+      "role": "SNCC field organizer, Mississippi Freedom Democratic Party delegate",
+      "significance": "Evicted from her sharecropper farm after attempting to register to vote in 1962, Hamer became one of the movement's most powerful voices. Her 1964 Democratic National Convention testimony — televised nationwide — described the beatings she received for trying to vote. President Johnson called an emergency press conference to prevent cameras from showing her testimony live.",
+      "quote": "I'm sick and tired of being sick and tired.",
+      "quoteContext": "Fannie Lou Hamer, speech at the SNCC conference, Washington, D.C. (1964)",
+      "sourceUrl": "https://www.snccdigitalgateway.org/people/fannie-lou-hamer/",
+      "sourceNote": "SNCC Digital Gateway, Fannie Lou Hamer"
+    },
+    {
+      "name": "John Lewis",
+      "role": "SNCC chairman, 'Big Six' leader of the March on Washington",
+      "significance": "John Lewis was beaten on Bloody Sunday on the Edmund Pettus Bridge in Selma. As a congressman, he marched again across the same bridge on the 45th anniversary. His prepared speech at the March on Washington, which organizers pressured him to soften, included: 'We will march through the heart of Dixie the way Sherman did. We shall pursue our own scorched earth policy and burn Jim Crow to the ground — nonviolently.'",
+      "quote": "Do not get lost in a sea of despair. Be hopeful, be optimistic. Our struggle is not the struggle of a day, a week, a month, or a year, it is the struggle of a lifetime.",
+      "quoteContext": "Congressman John Lewis, in his final public statement (2020)",
+      "sourceUrl": "https://www.snccdigitalgateway.org/people/john-lewis/",
+      "sourceNote": "SNCC Digital Gateway, John Lewis"
+    },
+    {
+      "name": "Bayard Rustin",
+      "role": "Chief organizer of the March on Washington, strategic architect",
+      "significance": "Bayard Rustin organized the March on Washington logistics from scratch in under two months — coordinating transportation for 250,000 people, 21 trains, and 2,000 buses from 30 states. He was kept in the background by movement leadership because he was gay, and because J. Edgar Hoover threatened to use his sexuality to discredit the march. Rustin designed the march's strategic framework.",
+      "quote": "The only weapon we have is our bodies, and we need to tuck them in places so wheels don't turn.",
+      "quoteContext": "Bayard Rustin, speech (1947)",
+      "sourceUrl": "https://www.loc.gov/collections/civil-rights-history-project/",
+      "sourceNote": "Library of Congress, Civil Rights History Project"
+    }
+  ],
+
+  "scaleStats": [
+    {
+      "figure": "381",
+      "label": "Days of the Montgomery Bus Boycott",
+      "detail": "December 5, 1955 to December 20, 1956. The entire Black community of Montgomery walked, carpooled, and organized for over a year rather than ride segregated buses.",
+      "source": "Montgomery Advertiser archives; King Center"
+    },
+    {
+      "figure": "250,000",
+      "label": "People at the March on Washington, 1963",
+      "detail": "The largest demonstration in American history at that time. Organized in under two months by Bayard Rustin.",
+      "source": "National Park Service"
+    },
+    {
+      "figure": "60",
+      "label": "Days Southern senators filibustered the Civil Rights Act",
+      "detail": "The longest filibuster in Senate history. Led by Senators from the same states that seceded in 1861.",
+      "source": "Congressional Record, 1964"
+    },
+    {
+      "figure": "7",
+      "label": "Days after King's assassination before the Fair Housing Act passed",
+      "detail": "The bill had stalled for years. His death — and the urban uprisings that followed — finally moved Congress to act.",
+      "source": "Congressional Record, April 1968"
+    }
+  ],
+
+  "conclusion": "The Civil Rights Movement was not a moral awakening that swept through white America. It was a political campaign conducted by Black Americans who had been denied political power, using every tool available: economic boycotts, legal challenges, civil disobedience, coalition-building, and the strategic use of media. They won the Civil Rights Act and Voting Rights Act not because the system wanted to grant them rights — but because they made the system's failure to do so too costly to sustain. Understanding the movement as strategy, rather than sentiment, is the only way to understand both how it succeeded and why its gains required constant defense."
+}

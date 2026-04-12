@@ -1,0 +1,221 @@
+---
+layout: layouts/base.njk
+title: Redlining — The Wealth Gap by Design
+description: The racial wealth gap did not emerge naturally. It was engineered — by federal policy, enforced by federal maps, and locked in during the one postwar decade when American home values tripled.
+permalink: /redlining/
+---
+
+<section class="hero hero--short" id="chapter-intro" data-chapter="Redlining">
+  <div class="hero__content">
+    <span class="eyebrow">Federal Policy, 1935–1968</span>
+    <h1 class="headline-hero hero__title">The Wealth Gap by Design</h1>
+    <p class="subheadline hero__subtitle">
+      The government didn't just allow discrimination. It mapped it, funded it, and enforced it.
+    </p>
+  </div>
+</section>
+
+{# ============================================
+   THE ARGUMENT
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-argument" data-chapter="The Argument">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <div class="callout callout--highlight">
+        <p style="font-size: 1.1rem; line-height: 1.8;">
+          Between 1935 and 1968, the federal government systematically excluded Black Americans from the greatest wealth-building program in American history. While white families used federally subsidized mortgages to buy homes that tripled in value, Black families were locked out by federal policy, not individual prejudice. The racial wealth gap today is the predictable result.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   THE GRADING SYSTEM
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-grades" data-chapter="The Maps">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Home Owners' Loan Corporation, 1935</span>
+      <h2 class="headline-chapter">The Government Drew the Lines</h2>
+      <p class="subheadline">
+        Federal agents graded every neighborhood in 239 American cities. The grading criteria were explicit about race.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="holc-grades">
+        {% for grade in redliningData.holcGrades %}
+        <div class="holc-grade holc-grade--{{ grade.color | lower }} reveal">
+          <div class="holc-grade__badge">{{ grade.grade }}</div>
+          <div class="holc-grade__content">
+            <span class="holc-grade__color-name">{{ grade.color }}</span>
+            <h3 class="holc-grade__label">{{ grade.label }}</h3>
+            <p class="holc-grade__description">{{ grade.description }}</p>
+            <span class="holc-grade__who">Typical resident: {{ grade.who }}</span>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="callout callout--dark reveal" style="margin-top: var(--space-md);">
+        <p style="font-size: 0.95rem; line-height: 1.8;">
+          The HOLC maps are now publicly available through the University of Richmond's Mapping Inequality project. You can look up your city and see exactly how your neighborhood was graded in 1935 — and compare it to income and health outcomes today.
+        </p>
+        <a href="https://dsl.richmond.edu/panorama/redlining/" target="_blank" rel="noopener noreferrer" style="color: var(--accent-gold); font-size: 0.9rem;">Mapping Inequality — Browse the original HOLC maps &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   SCALE
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-scale" data-chapter="Scale">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Numbers</span>
+      <h2 class="headline-chapter">The Size of the Exclusion</h2>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="redlining-stats-grid">
+        {% for stat in redliningData.scaleStats %}
+        <div class="redlining-stat reveal">
+          <span class="redlining-stat__figure">{{ stat.figure }}</span>
+          <span class="redlining-stat__label">{{ stat.label }}</span>
+          <span class="redlining-stat__detail">{{ stat.detail }}</span>
+          <span class="redlining-stat__source">{{ stat.source }}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   MECHANISMS
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-mechanisms" data-chapter="How It Worked">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">The Machinery</span>
+      <h2 class="headline-chapter">Five Ways the Government Excluded Black Families</h2>
+      <p class="subheadline">
+        Redlining was not one policy. It was a system of interlocking federal and private mechanisms that reinforced each other.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="mechanism-cards">
+        {% for item in redliningData.mechanisms %}
+        <article class="mechanism-card reveal">
+          <header class="mechanism-card__header">
+            <h3 class="mechanism-card__name">{{ item.name }}</h3>
+            <span class="mechanism-card__actor">{{ item.actor }}</span>
+          </header>
+          <p class="mechanism-card__mechanism">{{ item.mechanism }}</p>
+          <div class="mechanism-card__impact">
+            <span class="mechanism-card__impact-label">Impact</span>
+            {{ item.impact }}
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   CITIES
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-cities" data-chapter="Cities">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Case Studies</span>
+      <h2 class="headline-chapter">The Same Pattern, Every City</h2>
+      <p class="subheadline">
+        Redlining was not a Southern phenomenon. It shaped every major American city.
+      </p>
+    </div>
+    <div class="chapter__content chapter__content--wide">
+      <div class="city-cards">
+        {% for city in redliningData.cities %}
+        <article class="city-card reveal">
+          <header class="city-card__header">
+            <h3 class="city-card__name">{{ city.city }}</h3>
+          </header>
+          <p class="city-card__detail">{{ city.detail }}</p>
+          <div class="city-card__present">
+            <span class="city-card__present-label">Today</span>
+            {{ city.presentDay }}
+          </div>
+          <a href="{{ city.sourceUrl }}" target="_blank" rel="noopener noreferrer" class="city-card__source">{{ city.sourceNote }} &rarr;</a>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ============================================
+   LEGACY
+   ============================================ #}
+<section class="chapter chapter--muted" id="chapter-legacy" data-chapter="Legacy">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--narrow reveal">
+      <span class="eyebrow">The Unbroken Thread</span>
+      <h2 class="headline-chapter">The Maps Are Still Working</h2>
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9; margin-bottom: var(--space-md);">
+        {{ redliningData.legacy.presentDayCorrelation }}
+      </p>
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9; margin-bottom: var(--space-md);">
+        {{ redliningData.legacy.wealthGap }}
+      </p>
+      <p class="body-text" style="font-size: 1.05rem; line-height: 1.9; margin-bottom: var(--space-md);">
+        {{ redliningData.legacy.acknowledgment }}
+      </p>
+      <div class="callout callout--highlight" style="margin-top: var(--space-md);">
+        <p style="font-size: 1.05rem; line-height: 1.8;">
+          "The Fair Housing Act of 1968 outlawed redlining. But it did not undo it. A family locked out of the postwar wealth boom had no mechanism to recover the equity that was never built."
+        </p>
+        <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.5rem;">
+          — Richard Rothstein, <em>The Color of Law</em> (2017)
+        </p>
+      </div>
+      <p style="margin-top: var(--space-md);">
+        <a href="{{ redliningData.legacy.sourceUrl }}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-gold); font-size: 0.9rem;">{{ redliningData.legacy.sourceNote }} &rarr;</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+{# Reading Nav #}
+<section class="chapter chapter--muted" id="chapter-reading-nav" aria-label="Reading navigation">
+  <nav class="reading-nav">
+    <a href="/tulsa/" class="reading-nav__link reading-nav__link--prev">
+      <span class="reading-nav__label">Previous Chapter</span>
+      <span class="reading-nav__title">Tulsa 1921</span>
+      <span class="reading-nav__arrow">&larr;</span>
+    </a>
+    <a href="/great-migration/" class="reading-nav__link reading-nav__link--next">
+      <span class="reading-nav__label">Next Chapter</span>
+      <span class="reading-nav__title">The Great Migration</span>
+      <span class="reading-nav__arrow">&rarr;</span>
+    </a>
+  </nav>
+</section>
+
+{# ============================================
+   NAVIGATION
+   ============================================ #}
+<section class="chapter chapter--dark" id="chapter-explore">
+  <div class="chapter__inner">
+    <div class="chapter__content chapter__content--center reveal">
+      <span class="eyebrow">Continue Exploring</span>
+      <h2 class="headline-section">The Connected History</h2>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+        <a href="/lynching/" class="btn btn--primary">Racial Terror</a>
+        <a href="/convict-leasing/" class="btn btn--secondary">Slavery by Another Name</a>
+        <a href="/reconstruction/" class="btn btn--secondary">Reconstruction</a>
+        <a href="/voting-access/" class="btn btn--secondary">Voting Access Today</a>
+      </div>
+    </div>
+  </div>
+</section>
