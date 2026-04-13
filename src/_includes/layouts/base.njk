@@ -34,6 +34,9 @@
     <meta name="msvalidate.01" content="3B97EE84031C016207C8AFF26DCDCA3C" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+
     <!-- Theme Color -->
     <meta name="theme-color" content="#0a0a0c" />
     <meta name="msapplication-TileColor" content="#0a0a0c" />
@@ -62,7 +65,7 @@
       "url": "{{ site.url }}"
     }
     </script>
-    {% if page.url != '/bingo/' %}
+    {% if page.url in ['/', '/party-realignment/'] %}
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -128,7 +131,7 @@
       "name": "Did the Parties Switch?",
       "url": "{{ site.url }}",
       "description": "{{ site.description }}",
-      "sameAs": []
+      "sameAs": ["https://didthepartiesswitch.com"]
     }
     </script>
     <!-- Article Schema for main content -->

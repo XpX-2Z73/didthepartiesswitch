@@ -11,12 +11,17 @@ export default function(eleventyConfig) {
 
   // Content hash filter — generates a short hash from file contents so
   // asset URLs auto-bust the cache whenever the file changes.
+  // Memoized: each unique path is read only once per build.
   // Usage in templates: href="/assets/css/site.css?v={{ 'src/assets/css/site.css' | assetHash }}"
+  const assetHashCache = new Map();
   eleventyConfig.addFilter('assetHash', function(relativePath) {
+    if (assetHashCache.has(relativePath)) return assetHashCache.get(relativePath);
     try {
       const fullPath = join(process.cwd(), relativePath);
       const content = readFileSync(fullPath);
-      return createHash('sha256').update(content).digest('hex').slice(0, 8);
+      const hash = createHash('sha256').update(content).digest('hex').slice(0, 8);
+      assetHashCache.set(relativePath, hash);
+      return hash;
     } catch {
       return 'dev';
     }
@@ -30,6 +35,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/bingsiteauth.xml": "bingsiteauth.xml" });
   eleventyConfig.addPassthroughCopy({ "src/llms.txt": "llms.txt" });
   eleventyConfig.addPassthroughCopy({ "src/llms-full.txt": "llms-full.txt" });
+  eleventyConfig.addPassthroughCopy({ "src/manifest.webmanifest": "manifest.webmanifest" });
 
   // Watch for changes in assets
   eleventyConfig.addWatchTarget("src/assets/");

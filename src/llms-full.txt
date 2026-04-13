@@ -29,7 +29,7 @@ Source: https://avalon.law.yale.edu/19th_century/csa_missec.asp
 
 **Cornerstone Speech by Confederate VP Alexander Stephens (March 21, 1861):**
 "Our new government is founded upon... the great truth that the negro is not equal to the white man; that slavery subordination to the superior race is his natural and normal condition."
-Source: https://teachingamericanhistory.org/document/cornerstone-speech/
+Source: https://teachingamericanhistory.org/document/the-corner-stone-speech/
 
 **Document Analysis:**
 - Four secession declarations analyzed
@@ -216,7 +216,7 @@ The Southern Strategy used coded language to appeal to racial resentment without
 
 ### Myth: "It wasn't about slavery"
 **Fact:** The people who seceded disagreed. They wrote it down. Mississippi: "Our position is thoroughly identified with the institution of slavery." Stephens: The Confederacy's cornerstone was white supremacy.
-**Source:** Cornerstone Speech, https://teachingamericanhistory.org/document/cornerstone-speech/
+**Source:** Cornerstone Speech, https://teachingamericanhistory.org/document/the-corner-stone-speech/
 
 ### Myth: "Tariffs caused the Civil War"
 **Fact:** Mississippi's declaration mentions slavery repeatedly, tariffs zero times. Georgia mentions slavery-related terms 80+ times. The tariff argument was invented decades later.

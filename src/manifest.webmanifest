@@ -1,0 +1,17 @@
+{
+  "name": "Did the Parties Switch?",
+  "short_name": "Parties Switch?",
+  "description": "Primary sources from 1861 to 2024 proving the party realignment.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0c",
+  "theme_color": "#0a0a0c",
+  "icons": [
+    {
+      "src": "/assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

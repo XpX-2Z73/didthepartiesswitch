@@ -18,6 +18,14 @@
         {{ source.linkText2 }}
       </a>
       {% endif %}
+      {% if source.archiveLink %}
+      <a href="{{ source.archiveLink }}" target="_blank" rel="noopener noreferrer" class="primary-card__archive">
+        Archived copy
+      </a>
+      {% endif %}
+      {% if source.removedByGovernment %}
+      <p class="primary-card__removed">&#9888; Government source removed in 2025. {{ source.removalNote }}</p>
+      {% endif %}
     </article>
   {% endfor %}
 </div>

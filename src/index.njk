@@ -172,7 +172,9 @@ description: Yes. Here's the proof. Primary sources from 1861 to 2024 tracking t
               </a>
               {% endif %}
             </div>
-            {% if source.isGovernment %}
+            {% if source.removedByGovernment %}
+            <p class="source-card__removed">&#9888; Government source removed in 2025. {{ source.removalNote }} Use the archived copy above.</p>
+            {% elif source.isGovernment %}
             <p class="source-card__warning">Government source - verified intact Dec 2025</p>
             {% endif %}
           </footer>

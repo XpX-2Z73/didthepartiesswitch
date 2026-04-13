@@ -92,6 +92,12 @@ permalink: /party-realignment/
             {% if source.link %}
               <a href="{{ source.link }}" target="_blank" rel="noopener noreferrer">{{ source.linkText }} →</a>
             {% endif %}
+            {% if source.archiveLink %}
+              <a href="{{ source.archiveLink }}" target="_blank" rel="noopener noreferrer" class="source-item__archive">Archived copy →</a>
+            {% endif %}
+            {% if source.removedByGovernment %}
+            <p class="source-item__removed">&#9888; Government source removed in 2025. {{ source.removalNote }}</p>
+            {% endif %}
           </footer>
         </article>
         {% endfor %}
@@ -306,7 +312,7 @@ permalink: /party-realignment/
           <h3>Primary Documents</h3>
           <ul class="bibliography">
             <li><a href="https://avalon.law.yale.edu/19th_century/csa_missec.asp" target="_blank">Mississippi Declaration of Secession</a> - Yale Law School</li>
-            <li><a href="https://teachingamericanhistory.org/document/cornerstone-speech/" target="_blank">Stephens' Cornerstone Speech</a> - Teaching American History</li>
+            <li><a href="https://teachingamericanhistory.org/document/the-corner-stone-speech/" target="_blank">Stephens' Cornerstone Speech</a> - Teaching American History</li>
             <li><a href="https://www.presidency.ucsb.edu/documents/platform-the-states-rights-democratic-party" target="_blank">Dixiecrat Platform, 1948</a> - American Presidency Project</li>
           </ul>
         </div>
@@ -341,6 +347,22 @@ permalink: /party-realignment/
       </div>
     </div>
   </div>
+</section>
+
+{# Reading Nav #}
+<section class="chapter chapter--dark" id="chapter-reading-nav" aria-label="Reading navigation">
+  <nav class="reading-nav">
+    <a href="/voting-access/" class="reading-nav__link reading-nav__link--prev">
+      <span class="reading-nav__label">Previous Chapter</span>
+      <span class="reading-nav__title">Voting Access</span>
+      <span class="reading-nav__arrow">&larr;</span>
+    </a>
+    <a href="/quiz/" class="reading-nav__link reading-nav__link--next">
+      <span class="reading-nav__label">Test Your Knowledge</span>
+      <span class="reading-nav__title">Take the Quiz</span>
+      <span class="reading-nav__arrow">&rarr;</span>
+    </a>
+  </nav>
 </section>
 
 <section class="chapter chapter--muted">
