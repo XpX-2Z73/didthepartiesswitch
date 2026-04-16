@@ -7769,13 +7769,13 @@ footer {
 
 .nav-dropdown__menu {
   position: absolute;
-  top: calc(100% + 10px);
+  top: 100%;
   right: 0;
   background: rgba(14, 14, 20, 0.98);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-  padding: 6px;
+  padding: 16px 6px 6px; /* top padding bridges the visual gap without dead space */
   min-width: 190px;
   max-height: 70vh;
   overflow-y: auto;
