@@ -1215,6 +1215,25 @@
       const trigger = dropdown.querySelector('.nav-dropdown__trigger');
       const menu = dropdown.querySelector('.nav-dropdown__menu');
       const items = Array.from(menu.querySelectorAll('.nav-dropdown__item'));
+      let closeTimer = null;
+
+      function open() {
+        clearTimeout(closeTimer);
+        closeAll();
+        dropdown.classList.add('is-open');
+        trigger.setAttribute('aria-expanded', 'true');
+      }
+
+      function scheduleClose() {
+        closeTimer = setTimeout(() => {
+          dropdown.classList.remove('is-open');
+          trigger.setAttribute('aria-expanded', 'false');
+        }, 150);
+      }
+
+      // Hover — JS-managed so there's no dead zone between trigger and menu
+      dropdown.addEventListener('mouseenter', open);
+      dropdown.addEventListener('mouseleave', scheduleClose);
 
       trigger.addEventListener('click', () => {
         const isOpen = dropdown.classList.contains('is-open');

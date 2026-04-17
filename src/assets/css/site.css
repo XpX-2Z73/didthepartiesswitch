@@ -7790,7 +7790,6 @@ footer {
 }
 
 .nav-dropdown.is-open .nav-dropdown__menu,
-.nav-dropdown:hover .nav-dropdown__menu,
 .nav-dropdown:focus-within .nav-dropdown__menu {
   opacity: 1;
   visibility: visible;
@@ -7798,7 +7797,6 @@ footer {
 }
 
 .nav-dropdown.is-open .nav-dropdown__chevron,
-.nav-dropdown:hover .nav-dropdown__chevron,
 .nav-dropdown:focus-within .nav-dropdown__chevron {
   transform: rotate(180deg);
 }
