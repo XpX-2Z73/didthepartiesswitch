@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-09-13T01:34:52.040Z",
+  "lastVerified": "2026-09-20T01:51:27.266Z",
   "status": "verified",
   "sources": [
     {
@@ -9,8 +9,8 @@
       "archiveUrl": "https://web.archive.org/web/20230601/https://avalon.law.yale.edu/19th_century/csa_missec.asp",
       "searchText": "Our position is thoroughly identified with the institution of slavery",
       "verified": true,
-      "lastChecked": "2026-09-13T01:34:17.385Z",
-      "warning": null
+      "lastChecked": "2026-09-20T01:50:46.790Z",
+      "warning": "Note: Quote found in live version but archive fetch may have failed."
     },
     {
       "id": "cornerstone-speech",
@@ -19,7 +19,7 @@
       "archiveUrl": "https://web.archive.org/web/20230601/https://teachingamericanhistory.org/document/the-corner-stone-speech/",
       "searchText": "the negro is not equal to the white man",
       "verified": true,
-      "lastChecked": "2026-09-13T01:34:21.616Z",
+      "lastChecked": "2026-09-20T01:50:53.635Z",
       "warning": null
     },
     {
@@ -29,7 +29,7 @@
       "archiveUrl": "https://web.archive.org/web/20240526/https://www.presidency.ucsb.edu/documents/platform-the-states-rights-democratic-party",
       "searchText": "We stand for the segregation of the races",
       "verified": true,
-      "lastChecked": "2026-09-13T01:34:26.199Z",
+      "lastChecked": "2026-09-20T01:51:00.985Z",
       "warning": null
     },
     {
@@ -39,7 +39,7 @@
       "archiveUrl": "https://web.archive.org/web/20230601/https://www.thenation.com/article/archive/exclusive-lee-atwaters-infamous-1981-interview-southern-strategy/",
       "searchText": "you say stuff like, uh, forced busing",
       "verified": true,
-      "lastChecked": "2026-09-13T01:34:31.770Z",
+      "lastChecked": "2026-09-20T01:51:05.043Z",
       "warning": null
     },
     {
@@ -49,7 +49,7 @@
       "archiveUrl": "https://web.archive.org/web/20230601/https://www.npr.org/2005/08/22/4810209/republicans-seek-to-increase-african-american-support",
       "searchText": "I come here as Republican chairman to tell you we were wrong",
       "verified": true,
-      "lastChecked": "2026-09-13T01:34:35.646Z",
+      "lastChecked": "2026-09-20T01:51:08.717Z",
       "warning": null
     },
     {
@@ -59,8 +59,8 @@
       "archiveUrl": "https://web.archive.org/web/20230601/https://avalon.law.yale.edu/19th_century/csa_csa.asp",
       "searchText": "right of property in negro slaves",
       "verified": true,
-      "lastChecked": "2026-09-13T01:34:40.421Z",
-      "warning": null
+      "lastChecked": "2026-09-20T01:51:12.569Z",
+      "warning": "Note: Quote found in live version but archive fetch may have failed."
     },
     {
       "id": "republican-platform-1860",
@@ -69,7 +69,7 @@
       "archiveUrl": "https://web.archive.org/web/20230601/https://www.presidency.ucsb.edu/documents/republican-party-platform-1860",
       "searchText": "normal condition of all the territory of the United States is that of freedom",
       "verified": true,
-      "lastChecked": "2026-09-13T01:34:44.334Z",
+      "lastChecked": "2026-09-20T01:51:19.156Z",
       "warning": null
     },
     {
@@ -79,7 +79,7 @@
       "archiveUrl": "https://web.archive.org/web/20230601/https://www.law.cornell.edu/supremecourt/text/74/700",
       "searchText": "indestructible Union, composed of indestructible States",
       "verified": true,
-      "lastChecked": "2026-09-13T01:34:48.317Z",
+      "lastChecked": "2026-09-20T01:51:23.908Z",
       "warning": null
     }
   ],
